@@ -259,6 +259,9 @@ const PAOLO = {
           url: "https://shine.shift101.solutions/archive/bulacan-high-school-antolohiya-ng-alaala/"
         }
       ],
+      // Default source for the records below; each record deep-links to its
+      // page via #page=<pdfPage>. A record may override with its own `url`.
+      recordsSource: "https://shine.shift101.solutions/archive/bulacan-high-school-antolohiya-ng-alaala/",
       records: [
         {
           date: "1926–1927",

@@ -7,6 +7,13 @@ function lifespan(p) {
   return p.died ? `${b}–${p.died}` : `${b}–`;
 }
 
+/* Append a PDF page anchor (#page=N) to a source URL for deep-linking.
+   Harmless if the target isn't a PDF — the browser just opens the page. */
+function pageUrl(url, page) {
+  if (!page) return url;
+  return url.indexOf("#") === -1 ? url + "#page=" + page : url;
+}
+
 function initials(name) {
   return name
     .split(/\s+/)
@@ -154,6 +161,16 @@ function openBio(person) {
         n.className = "rec-note";
         n.textContent = r.notes;
         li.appendChild(n);
+      }
+      const base = r.url || person.recordsSource;
+      if (base) {
+        const a = document.createElement("a");
+        a.className = "rec-source";
+        a.href = pageUrl(base, r.pdfPage);
+        a.target = "_blank";
+        a.rel = "noopener noreferrer";
+        a.textContent = r.printedPage ? "View source · p. " + r.printedPage : "View source";
+        li.appendChild(a);
       }
       ul.appendChild(li);
     });

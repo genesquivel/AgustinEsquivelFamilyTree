@@ -430,6 +430,16 @@ body {
   line-height: 1.4;
 }
 .rec-note { font-size: 11.5px; color: var(--muted); margin-top: 4px; }
+.rec-source {
+  display: inline-block;
+  margin-top: 6px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--accent);
+  text-decoration: none;
+}
+.rec-source::before { content: "↗ "; }
+.rec-source:hover { text-decoration: underline; }
 
 /* ---------- Footer ---------- */
 .site-footer {
