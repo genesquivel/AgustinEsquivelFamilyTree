@@ -1,10 +1,35 @@
 /*
- * Family tree data — two pedigrees for the couple Paolo & Gen.
- * Each person: { name, born, died, sex ('m'|'f'), relation, notes, spouse, father, mother }
- * "father"/"mother" are nested ancestor objects.
- * Edit this file to add or correct people — no build step needed.
+ * ============================================================================
+ *  FAMILY TREE DATA  —  this is the one file you edit to grow the tree.
+ *  No build step: change it, save, commit/push (or re-drag to Netlify).
+ * ============================================================================
  *
- * A "?" or missing born/died just means we don't have the date yet.
+ *  Every person can have these fields (all optional except name):
+ *
+ *    {
+ *      name:  "Segundo Agustin",
+ *      born:  "1899",                 // leave "" if unknown
+ *      died:  "",                     // "" if unknown, "Living" for living people
+ *      sex:   "m",                    // "m" or "f"  (sets the blue / rose color)
+ *      relation: "Great-grandfather", // how they relate to you
+ *
+ *      // --- the "living archive" fields — add these as you find things ---
+ *      photo: "images/segundo-agustin.jpg",   // drop the file in the images/ folder
+ *      notes: "Farmer from Nueva Ecija. Loved to sing.",
+ *      links: [
+ *        { label: "FamilySearch record", url: "https://www.familysearch.org/..." },
+ *        { label: "Baptism certificate (Drive)", url: "https://drive.google.com/..." },
+ *        { label: "Old news article", url: "https://..." }
+ *      ],
+ *
+ *      father: { ...another person... },
+ *      mother: { ...another person... }
+ *    }
+ *
+ *  A card shows a small dot when it has notes or links; click any card to see
+ *  its photo, notes, and links. To add a photo: put the image in the images/
+ *  folder and point "photo" at it, e.g. photo: "images/lolita.jpg".
+ * ============================================================================
  */
 
 /* ---------------- GEN's side (the Agustin / Catelo line) ---------------- */
@@ -16,6 +41,10 @@ const GEN = {
   relation: "Root of this tree",
   notes: "Married to Paolo Esquivel.",
   spouse: { name: "Paolo Esquivel", sex: "m" },
+  // Photo slot ready — drop images/gen-agustin.jpg in and it shows automatically.
+  // Add links here too, e.g.
+  //   links: [{ label: "Wedding album", url: "https://..." }],
+  photo: "images/gen-agustin.jpg",
   father: {
     name: "Renato N Agustin",
     born: "1950",
@@ -192,6 +221,8 @@ const PAOLO = {
   relation: "Root of this tree",
   notes: "Married to Gen Agustin.",
   spouse: { name: "Gen Agustin", sex: "f" },
+  // Photo slot ready — drop images/paolo-esquivel.jpg in and it shows automatically.
+  photo: "images/paolo-esquivel.jpg",
   father: {
     name: "Chris Pineda Esquivel",
     born: "1944",

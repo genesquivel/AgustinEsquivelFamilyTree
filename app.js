@@ -25,13 +25,19 @@ function buildNode(person) {
   const card = document.createElement("button");
   card.type = "button";
   card.className = `card sex-${person.sex || "u"}`;
+  const avatar = person.photo
+    ? `<span class="avatar"><img src="${person.photo}" alt="" loading="lazy"
+         onerror="this.parentNode.textContent='${initials(person.name)}'"></span>`
+    : `<span class="avatar">${initials(person.name)}</span>`;
+  const hasExtra = person.notes || (person.links && person.links.length);
   card.innerHTML = `
-    <span class="avatar">${initials(person.name)}</span>
+    ${avatar}
     <span class="card-text">
       <span class="name">${person.name}</span>
       <span class="dates">${lifespan(person)}</span>
       ${person.spouse ? `<span class="spouse">⚭ ${person.spouse.name}</span>` : ""}
-    </span>`;
+    </span>
+    ${hasExtra ? '<span class="dot" title="Has notes or links"></span>' : ""}`;
   card.addEventListener("click", () => openBio(person));
   node.appendChild(card);
 
@@ -65,10 +71,38 @@ function openBio(person) {
   document.getElementById("bioName").textContent = person.name;
   document.getElementById("bioDates").textContent = lifespan(person) || "Dates unknown";
   document.getElementById("bioRelation").textContent = person.relation || "";
+
+  // Photo
+  const photoEl = document.getElementById("bioPhoto");
+  if (person.photo) {
+    photoEl.innerHTML = `<img src="${person.photo}" alt="Photo of ${person.name}"
+      onerror="this.closest('.bio-photo').style.display='none'">`;
+    photoEl.style.display = "";
+  } else {
+    photoEl.innerHTML = "";
+    photoEl.style.display = "none";
+  }
+
+  // Notes
   const notes = [];
   if (person.spouse) notes.push(`Married to ${person.spouse.name}.`);
   if (person.notes) notes.push(person.notes);
   document.getElementById("bioNotes").textContent = notes.join(" ");
+
+  // Links
+  const linksEl = document.getElementById("bioLinks");
+  linksEl.innerHTML = "";
+  (person.links || []).forEach((l) => {
+    const li = document.createElement("li");
+    const a = document.createElement("a");
+    a.href = l.url;
+    a.target = "_blank";
+    a.rel = "noopener noreferrer";
+    a.textContent = l.label || l.url;
+    li.appendChild(a);
+    linksEl.appendChild(li);
+  });
+
   bio.hidden = false;
 }
 function closeBio() {

@@ -171,9 +171,23 @@ body {
   font-weight: 600;
   color: #fff;
   background: var(--muted);
+  overflow: hidden;
 }
+.avatar img { width: 100%; height: 100%; object-fit: cover; }
 .sex-m .avatar { background: var(--male); }
 .sex-f .avatar { background: var(--female); }
+
+/* little dot marking a card that has notes or links */
+.dot {
+  flex: none;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--accent);
+  margin-left: auto;
+  align-self: flex-start;
+  margin-top: 2px;
+}
 
 .card-text { display: flex; flex-direction: column; line-height: 1.25; }
 .name { font-weight: 600; font-size: 14px; }
@@ -298,6 +312,35 @@ body {
 }
 .bio-notes { color: var(--ink); margin: 0; }
 .bio-notes:empty { display: none; }
+
+.bio-photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 14px;
+  overflow: hidden;
+  margin: 4px 0 14px;
+  box-shadow: var(--shadow);
+}
+.bio-photo img { width: 100%; height: 100%; object-fit: cover; display: block; }
+
+.bio-links {
+  list-style: none;
+  margin: 14px 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.bio-links:empty { display: none; }
+.bio-links a {
+  display: inline-block;
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+}
+.bio-links a::before { content: "🔗 "; }
+.bio-links a:hover { text-decoration: underline; }
 
 /* ---------- Footer ---------- */
 .site-footer {

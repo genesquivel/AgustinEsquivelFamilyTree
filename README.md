@@ -29,6 +29,34 @@ All the people live in **`tree-data.js`**. Each person looks like this:
 
 To add or correct someone, edit the file and commit — there is **no build step**.
 
+### Adding photos, notes, and links (the "living archive")
+
+This site is meant to grow over time. Any person can carry three extra fields:
+
+```js
+{
+  name: "Lolita Pineda Esquivel",
+  // ...
+  photo: "images/lolita.jpg",          // see the images/ folder
+  notes: "Teacher in Batangas. Made the best suman.",
+  links: [
+    { label: "FamilySearch record", url: "https://www.familysearch.org/..." },
+    { label: "Baptism cert (Drive)", url: "https://drive.google.com/..." }
+  ]
+}
+```
+
+- **Photos** — drop the image file into the **`images/`** folder, then point
+  `photo` at it. If the file isn't there yet, the card just shows initials, so
+  it's always safe to add the path first. (Paolo and Gen already have photo
+  slots waiting — add `images/gen-agustin.jpg` and `images/paolo-esquivel.jpg`.)
+- **Notes** — any free text; shows in the popup.
+- **Links** — as many as you like, to records, articles, Google Drive/Photos,
+  news clippings, anything. They open in a new tab.
+
+A small dot appears on any card that has notes or links. Click a card to see
+everything.
+
 > A couple of entries from the original charts were left out because their
 > place in the tree was unclear (e.g. an extra "Doroteo O Calica" card and a
 > duplicate "Juliana Sering"). Add them back in `tree-data.js` once confirmed.
@@ -57,4 +85,5 @@ You can rename the site and add a custom domain later under **Site settings → 
 | `styles.css` | Look and feel |
 | `tree-data.js` | **The family data — edit this** |
 | `app.js` | Renders the tree and the info panel |
+| `images/` | **Drop family photos here** |
 | `netlify.toml` | Netlify publish settings |
