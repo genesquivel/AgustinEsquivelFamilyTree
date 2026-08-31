@@ -29,7 +29,7 @@ body {
 /* ---------- Header ---------- */
 .site-header {
   text-align: center;
-  padding: 40px 20px 12px;
+  padding: clamp(24px, 6vw, 40px) 18px 12px;
 }
 .eyebrow {
   text-transform: uppercase;
@@ -104,49 +104,63 @@ body {
 .btn:hover { background: #fbf7ef; transform: translateY(-1px); }
 .hint { color: var(--muted); font-size: 12px; }
 
-/* ---------- Tree layout ---------- */
+/* ==========================================================================
+   Tree layout — MOBILE FIRST.
+   Base styles below are the phone layout: a vertical, indented, tappable tree.
+   The @media (min-width: 900px) block near the bottom upgrades it into the
+   horizontal pedigree chart for wide screens.
+   ========================================================================== */
 .tree-scroll {
-  overflow-x: auto;
-  overflow-y: hidden;
-  padding: 30px 24px 50px;
+  padding: 16px 14px 44px;
+  overflow-x: auto;               /* safety net for very deep indentation */
   -webkit-overflow-scrolling: touch;
 }
-.tree {
-  display: inline-flex;
-  min-width: 100%;
-  padding-right: 30px;
-}
+.tree { display: block; }
 
-.node {
-  position: relative;
+.node { position: relative; }
+
+.row {
   display: flex;
   align-items: center;
+  gap: 8px;
 }
 
+/* parents nested below the card, joined by a vertical line */
 .branch {
   position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: var(--stackgap);
-  margin-left: var(--gap-b);
+  margin: 6px 0 0 15px;
+  padding-left: 16px;
+  border-left: 2px solid var(--line);
 }
+.branch > .node { margin-top: 8px; }
 .node.collapsed > .branch { display: none; }
+
+/* short tick joining the vertical line to each card */
+.branch > .node > .row::before {
+  content: "";
+  position: absolute;
+  left: -16px;
+  top: 27px;
+  width: 12px;
+  height: 2px;
+  background: var(--line);
+}
 
 /* ---------- Cards ---------- */
 .card {
   position: relative;
   z-index: 1;
+  flex: 1 1 auto;           /* fill the row on mobile */
+  min-width: 0;
   display: flex;
   align-items: center;
   gap: 10px;
-  min-width: 172px;
   text-align: left;
   background: var(--panel);
   border: 1px solid #e7ddca;
   border-left: 4px solid var(--muted);
   border-radius: 12px;
-  padding: 9px 12px;
+  padding: 10px 12px;
   box-shadow: var(--shadow);
   cursor: pointer;
   font: inherit;
@@ -156,6 +170,10 @@ body {
 .card:hover {
   transform: translateY(-1px);
   box-shadow: 0 6px 16px rgba(60, 45, 25, 0.16);
+}
+.card:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
 }
 .card.sex-m { border-left-color: var(--male); }
 .card.sex-f { border-left-color: var(--female); }
@@ -189,79 +207,105 @@ body {
   margin-top: 2px;
 }
 
-.card-text { display: flex; flex-direction: column; line-height: 1.25; }
-.name { font-weight: 600; font-size: 14px; }
-.dates { font-size: 12px; color: var(--muted); }
-.spouse { font-size: 11px; color: var(--accent); margin-top: 2px; }
+.card-text { display: flex; flex-direction: column; line-height: 1.25; min-width: 0; }
+.name { font-weight: 600; font-size: 15px; overflow-wrap: anywhere; }
+.dates { font-size: 12.5px; color: var(--muted); }
+.spouse { font-size: 11.5px; color: var(--accent); margin-top: 2px; }
 
-/* ---------- Connectors ---------- */
-/* card -> toggle */
+/* ---------- Expand / collapse toggle ---------- */
 .toggle {
   position: relative;
   z-index: 1;
   flex: none;
-  width: 20px;
-  height: 20px;
-  margin-left: var(--gap-h);
+  width: 30px;               /* comfortable tap target on phones */
+  height: 30px;
   border-radius: 50%;
   border: 1px solid var(--line);
   background: var(--panel);
   color: var(--accent);
-  font-size: 14px;
+  font-size: 18px;
   line-height: 1;
   cursor: pointer;
   display: grid;
   place-items: center;
   box-shadow: var(--shadow);
 }
-.toggle::before {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: calc(-1 * var(--gap-h));
-  width: var(--gap-h);
-  height: 2px;
-  background: var(--line);
-}
 
-/* toggle -> bus (horizontal), hidden when collapsed */
-.branch::before {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: calc(-1 * var(--gap-b));
-  width: var(--bus);
-  height: 2px;
-  background: var(--line);
-}
-.node.collapsed > .branch,
-.node.collapsed > .branch::before { display: none; }
+/* ==========================================================================
+   WIDE SCREENS — upgrade the vertical tree into the horizontal pedigree.
+   ========================================================================== */
+@media (min-width: 900px) {
+  .tree-scroll { padding: 30px 24px 50px; overflow-x: auto; }
+  .tree { display: inline-flex; min-width: 100%; padding-right: 30px; }
 
-/* bus -> child (horizontal) */
-.branch > .node::before {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: calc(-1 * var(--bus));
-  width: var(--bus);
-  height: 2px;
-  background: var(--line);
-}
-/* vertical bus, built in two halves that meet at the parent's center */
-.branch > .node::after {
-  content: "";
-  position: absolute;
-  left: calc(-1 * var(--bus));
-  width: 2px;
-  background: var(--line);
-}
-.branch > .node:first-child::after {
-  top: 50%;
-  bottom: calc(-1 * var(--stackgap) / 2);
-}
-.branch > .node:last-child::after {
-  top: calc(-1 * var(--stackgap) / 2);
-  bottom: 50%;
+  .node { display: flex; flex-direction: row; align-items: center; }
+  .row { gap: 0; }
+
+  .card { flex: none; min-width: 172px; }
+
+  .branch {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: var(--stackgap);
+    margin: 0 0 0 var(--gap-b);
+    padding-left: 0;
+    border-left: 0;
+  }
+
+  /* drop the mobile tick */
+  .branch > .node > .row::before { display: none; }
+
+  /* card -> toggle line */
+  .toggle { width: 20px; height: 20px; font-size: 14px; margin-left: var(--gap-h); }
+  .toggle::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: calc(-1 * var(--gap-h));
+    width: var(--gap-h);
+    height: 2px;
+    background: var(--line);
+  }
+  .node.collapsed > .row > .toggle::before { display: none; }
+
+  /* row -> bus (horizontal) */
+  .branch::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: calc(-1 * var(--gap-b));
+    width: var(--bus);
+    height: 2px;
+    background: var(--line);
+  }
+
+  /* bus -> child (horizontal) */
+  .branch > .node::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: calc(-1 * var(--bus));
+    width: var(--bus);
+    height: 2px;
+    background: var(--line);
+  }
+  /* vertical bus, built in two halves that meet at the parent's center */
+  .branch > .node::after {
+    content: "";
+    position: absolute;
+    left: calc(-1 * var(--bus));
+    width: 2px;
+    background: var(--line);
+  }
+  .branch > .node:first-child::after {
+    top: 50%;
+    bottom: calc(-1 * var(--stackgap) / 2);
+  }
+  .branch > .node:last-child::after {
+    top: calc(-1 * var(--stackgap) / 2);
+    bottom: 50%;
+  }
 }
 
 /* ---------- Bio panel ---------- */
@@ -350,7 +394,8 @@ body {
   padding: 10px 20px 40px;
 }
 
-@media (max-width: 600px) {
-  .card { min-width: 150px; }
+/* On phones the "drag sideways" hint doesn't apply — the tree is vertical. */
+@media (max-width: 620px) {
   .hint { display: none; }
+  .bio-card { padding: 22px 20px 20px; }
 }

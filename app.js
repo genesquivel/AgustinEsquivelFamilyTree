@@ -17,14 +17,19 @@ function initials(name) {
     .toUpperCase();
 }
 
-/* Recursively builds a node: a card, plus its parents stacked to the right. */
+/* Recursively builds a node: a tappable card row, plus its parents nested
+   below (mobile) or stacked to the right (wide screens). */
 function buildNode(person) {
   const node = document.createElement("div");
   node.className = "node";
 
-  const card = document.createElement("button");
-  card.type = "button";
+  const row = document.createElement("div");
+  row.className = "row";
+
+  const card = document.createElement("div");
   card.className = `card sex-${person.sex || "u"}`;
+  card.tabIndex = 0;
+  card.setAttribute("role", "button");
   const avatar = person.photo
     ? `<span class="avatar"><img src="${person.photo}" alt="" loading="lazy"
          onerror="this.parentNode.textContent='${initials(person.name)}'"></span>`
@@ -38,15 +43,25 @@ function buildNode(person) {
       ${person.spouse ? `<span class="spouse">⚭ ${person.spouse.name}</span>` : ""}
     </span>
     ${hasExtra ? '<span class="dot" title="Has notes or links"></span>' : ""}`;
-  card.addEventListener("click", () => openBio(person));
-  node.appendChild(card);
+  const open = () => openBio(person);
+  card.addEventListener("click", open);
+  card.addEventListener("keydown", (e) => {
+    if (e.key === "Enter" || e.key === " ") {
+      e.preventDefault();
+      open();
+    }
+  });
+  row.appendChild(card);
+  node.appendChild(row);
 
   if (person.father || person.mother) {
     const toggle = document.createElement("button");
     toggle.type = "button";
     toggle.className = "toggle";
-    toggle.setAttribute("aria-label", "Toggle ancestors");
-    toggle.textContent = "−";
+    toggle.setAttribute("aria-label", "Show or hide parents");
+    toggle.setAttribute("aria-expanded", "true");
+    setToggle(toggle, false);
+    row.appendChild(toggle);
 
     const branch = document.createElement("div");
     branch.className = "branch";
@@ -56,13 +71,18 @@ function buildNode(person) {
     toggle.addEventListener("click", (e) => {
       e.stopPropagation();
       const collapsed = node.classList.toggle("collapsed");
-      toggle.textContent = collapsed ? "+" : "−";
+      setToggle(toggle, collapsed);
     });
 
-    node.appendChild(toggle);
     node.appendChild(branch);
   }
   return node;
+}
+
+/* Keep the toggle glyph and aria state in sync. */
+function setToggle(toggle, collapsed) {
+  toggle.textContent = collapsed ? "+" : "−";
+  toggle.setAttribute("aria-expanded", collapsed ? "false" : "true");
 }
 
 /* Bio panel */
@@ -144,15 +164,15 @@ Object.keys(FAMILIES).forEach((key) => {
 document.getElementById("expandAll").addEventListener("click", () => {
   treeEl.querySelectorAll(".node.collapsed").forEach((n) => {
     n.classList.remove("collapsed");
-    const t = n.querySelector(":scope > .toggle");
-    if (t) t.textContent = "−";
+    const t = n.querySelector(":scope > .row > .toggle");
+    if (t) setToggle(t, false);
   });
 });
 document.getElementById("collapseAll").addEventListener("click", () => {
   treeEl.querySelectorAll("#tree > .node > .branch > .node").forEach((n) => {
     n.classList.add("collapsed");
-    const t = n.querySelector(":scope > .toggle");
-    if (t) t.textContent = "+";
+    const t = n.querySelector(":scope > .row > .toggle");
+    if (t) setToggle(t, true);
   });
 });
 
