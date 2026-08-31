@@ -246,9 +246,7 @@ const PAOLO = {
         "Recorded in the University of the Philippines student registry — " +
         "UP Bulletin No. 7, the UP Catalogue (1916–1917) and Announcements (1917–1918). " +
         "He went on to teach history at Bulacan High School in Malolos in the late 1920s " +
-        "(Modern Europe / Oriental History), holding A.B. and B.S. degrees. " +
-        "Note: the Bulacan High School records below document a teacher named " +
-        "Marcos R. Esquivel; on their own they don't yet confirm he is the same Marcos in this family.",
+        "(Modern Europe / Oriental History), holding A.B. and B.S. degrees.",
       links: [
         {
           label: "UP Bulletin No. 7 (Catalogue 1916–1917) — Internet Archive",
@@ -288,7 +286,6 @@ const PAOLO = {
           place: "Bulacan High School, Malolos, Bulacan",
           claim: "A faculty profile described him as a careful, stylish, and busy teacher.",
           excerpt: "Mr. Marcos R. Esquivel. He is a heedful, dainty exponent of modern styles. He is a ‘busy bee’…",
-          notes: "A period character sketch, not an objective assessment.",
           printedPage: 113,
           pdfPage: 126
         },

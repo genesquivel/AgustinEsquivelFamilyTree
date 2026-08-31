@@ -57,9 +57,9 @@ This site is meant to grow over time. Any person can carry three extra fields:
 A small dot appears on any card that has notes or links. Click a card to see
 everything.
 
-> A couple of entries from the original charts were left out because their
-> place in the tree was unclear (e.g. an extra "Doroteo O Calica" card and a
-> duplicate "Juliana Sering"). Add them back in `tree-data.js` once confirmed.
+> A couple of cards from the original charts aren't included yet (an extra
+> "Doroteo O Calica" and a duplicate "Juliana Sering"). Add them in
+> `tree-data.js` whenever you'd like.
 
 ## Publishing on Netlify
 
