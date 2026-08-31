@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Esquivel Family Tree</title>
+<meta name="description" content="A family tree for the Esquivel and Albano families." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header class="site-header">
+  <p class="eyebrow">The family of Paolo &amp; Gen</p>
+  <h1>Our Family Tree</h1>
+  <p class="subtitle">Two family lines meeting in one home — several generations back to the Philippines.</p>
+</header>
+
+<main>
+  <div id="tabs" class="tabs" role="tablist" aria-label="Which side of the family"></div>
+
+  <section class="controls" aria-label="Tree controls">
+    <button id="expandAll" class="btn" type="button">Expand all</button>
+    <button id="collapseAll" class="btn" type="button">Collapse ancestors</button>
+    <span class="hint">Tap a card to read more · drag sideways to explore</span>
+  </section>
+
+  <div class="tree-scroll">
+    <div id="tree" class="tree"></div>
+  </div>
+</main>
+
+<div id="bio" class="bio-panel" hidden>
+  <div class="bio-card" role="dialog" aria-modal="true" aria-labelledby="bioName">
+    <button class="bio-close" id="bioClose" aria-label="Close">&times;</button>
+    <h2 id="bioName"></h2>
+    <p id="bioDates" class="bio-dates"></p>
+    <p id="bioRelation" class="bio-relation"></p>
+    <p id="bioNotes" class="bio-notes"></p>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <p>Made with love for the Esquivel &amp; Albano families. Names and dates are a work in progress — corrections welcome.</p>
+</footer>
+
+<script src="tree-data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
