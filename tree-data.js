@@ -235,11 +235,30 @@ const PAOLO = {
       died: "1968",
       sex: "m",
       relation: "Grandfather",
+      notes:
+        "Recorded in the University of the Philippines student registry — " +
+        "UP Bulletin No. 7, the UP Catalogue (1916–1917) and Announcements (1917–1918).",
+      links: [
+        {
+          label: "UP Bulletin No. 7 (Catalogue 1916–1917) — Internet Archive",
+          url: "https://archive.org/details/acc6284.0001.007.umich.edu"
+        }
+      ],
       father: {
         name: "Apolinario Esquivel",
         born: "1871",
         sex: "m",
         relation: "Great-grandfather",
+        notes:
+          "Served as Municipal President of Jaen, Nueva Ecija from 1902 to 1907. " +
+          "The town's history also records Lt. Col. Delfin Esquivel leading forces " +
+          "in a battle at Jaen on September 4, 1896.",
+        links: [
+          {
+            label: "Jaen, Nueva Ecija — Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Jaen,_Nueva_Ecija"
+          }
+        ],
         father: { name: "Prudencio Esquivel", sex: "m", relation: "2nd great-grandfather" },
         mother: { name: "Apolonia Domingo", sex: "f", relation: "2nd great-grandmother" }
       },
