@@ -24,6 +24,67 @@ function initials(name) {
     .toUpperCase();
 }
 
+/* ---- Shareable per-person IDs & deep links ----
+   Each person gets a URL slug (from an explicit `id` in the data, or derived
+   from their name). Links look like  …/#p/alejandro-ver-albano  and open
+   straight to that card. */
+function slugify(s) {
+  return s
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "") // strip accents (á, é, ñ, …)
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
+const personIndex = {}; // id -> { key, person }
+function assignIds() {
+  const used = new Set();
+  Object.keys(FAMILIES).forEach((key) => {
+    (function walk(p) {
+      if (!p) return;
+      const base = p.id || slugify(p.name);
+      let id = base;
+      let i = 2;
+      while (used.has(id)) id = base + "-" + i++;
+      used.add(id);
+      p.__id = id;
+      personIndex[id] = { key, person: p };
+      walk(p.father);
+      walk(p.mother);
+    })(FAMILIES[key].root);
+  });
+}
+assignIds();
+
+function linkFor(id) {
+  return location.origin + location.pathname + "#p/" + id;
+}
+function parseHash() {
+  const m = location.hash.match(/^#p\/(.+)$/);
+  return m ? decodeURIComponent(m[1]) : null;
+}
+async function copyText(text) {
+  try {
+    await navigator.clipboard.writeText(text);
+    return true;
+  } catch (e) {
+    try {
+      const ta = document.createElement("textarea");
+      ta.value = text;
+      ta.style.position = "fixed";
+      ta.style.opacity = "0";
+      document.body.appendChild(ta);
+      ta.select();
+      const ok = document.execCommand("copy");
+      ta.remove();
+      return ok;
+    } catch (e2) {
+      return false;
+    }
+  }
+}
+
 /* Recursively builds a node: a tappable card row, plus its parents nested
    below (mobile) or stacked to the right (wide screens). */
 function buildNode(person) {
@@ -37,6 +98,7 @@ function buildNode(person) {
   card.className = `card sex-${person.sex || "u"}`;
   card.tabIndex = 0;
   card.setAttribute("role", "button");
+  if (person.__id) card.dataset.id = person.__id;
   const avatar = person.photo
     ? `<span class="avatar"><img src="${person.photo}" alt="" loading="lazy"
          onerror="this.parentNode.textContent='${initials(person.name)}'"></span>`
@@ -98,6 +160,12 @@ function setToggle(toggle, collapsed) {
 /* Bio panel */
 const bio = document.getElementById("bio");
 function openBio(person) {
+  bio.dataset.personId = person.__id || "";
+  bio.dataset.personName = person.name || "";
+  resetShareButton();
+  // Reflect this person in the URL so it can be copied from the address bar.
+  if (person.__id) history.replaceState(null, "", "#p/" + person.__id);
+
   document.getElementById("bioName").textContent = person.name;
   document.getElementById("bioDates").textContent = lifespan(person) || "Dates unknown";
   document.getElementById("bioRelation").textContent = person.relation || "";
@@ -195,8 +263,36 @@ function openBio(person) {
 }
 function closeBio() {
   bio.hidden = true;
+  // Return the URL to a clean state (no person hash).
+  if (parseHash()) history.replaceState(null, "", location.pathname + location.search);
 }
 document.getElementById("bioClose").addEventListener("click", closeBio);
+
+/* Share / copy-link button */
+const shareBtn = document.getElementById("bioShare");
+const SHARE_LABEL = "Copy link to this person";
+function resetShareButton() {
+  shareBtn.textContent = SHARE_LABEL;
+  shareBtn.classList.remove("done");
+}
+shareBtn.addEventListener("click", async () => {
+  const id = bio.dataset.personId;
+  if (!id) return;
+  const url = linkFor(id);
+  const onPhone = window.matchMedia("(max-width: 900px)").matches;
+  if (navigator.share && onPhone) {
+    try {
+      await navigator.share({ title: bio.dataset.personName || "Family tree", url });
+    } catch (e) {
+      /* user dismissed the share sheet */
+    }
+    return;
+  }
+  const ok = await copyText(url);
+  shareBtn.textContent = ok ? "Link copied!" : "Press Ctrl/Cmd+C to copy";
+  shareBtn.classList.toggle("done", ok);
+  setTimeout(resetShareButton, 2200);
+});
 bio.addEventListener("click", (e) => {
   if (e.target === bio) closeBio();
 });
@@ -209,22 +305,39 @@ const treeEl = document.getElementById("tree");
 const scroller = document.querySelector(".tree-scroll");
 const isDesktop = () => window.matchMedia("(min-width: 900px)").matches;
 
-function renderFamily(key) {
+function renderFamily(key, focusId) {
   treeEl.innerHTML = "";
   treeEl.appendChild(buildNode(FAMILIES[key].root));
   document.querySelectorAll(".tab").forEach((t) => {
     t.classList.toggle("active", t.dataset.family === key);
     t.setAttribute("aria-selected", t.dataset.family === key ? "true" : "false");
   });
-  // Center the pannable canvas on the root person (wide screens only).
   requestAnimationFrame(() => {
-    if (isDesktop()) {
+    if (focusId) {
+      const card = treeEl.querySelector('[data-id="' + (window.CSS ? CSS.escape(focusId) : focusId) + '"]');
+      if (card) {
+        card.scrollIntoView({ block: "center", inline: "center", behavior: "smooth" });
+        card.classList.add("highlight");
+        setTimeout(() => card.classList.remove("highlight"), 2000);
+      }
+    } else if (isDesktop()) {
+      // Center the pannable canvas on the root person (wide screens only).
       scroller.scrollLeft = 0;
       scroller.scrollTop = (scroller.scrollHeight - scroller.clientHeight) / 2;
     } else {
       scroller.scrollTop = 0;
     }
   });
+}
+
+/* Open a person by their share id: switch to the right tree, reveal and
+   highlight their card, and open their info panel. */
+function openPerson(id) {
+  const entry = personIndex[id];
+  if (!entry) return false;
+  renderFamily(entry.key, id);
+  openBio(entry.person);
+  return true;
 }
 
 /* ---- Grab-and-drag panning (wide screens) ---- */
@@ -307,5 +420,17 @@ document.getElementById("collapseAll").addEventListener("click", () => {
   });
 });
 
-/* Initial render */
-renderFamily("gen");
+/* Open a person from a shared link (back/forward or a pasted URL). */
+window.addEventListener("hashchange", () => {
+  const id = parseHash();
+  if (id && personIndex[id]) openPerson(id);
+  else if (!id && !bio.hidden) closeBio();
+});
+
+/* Initial render — honor a #p/<id> deep link if present. */
+const startId = parseHash();
+if (startId && personIndex[startId]) {
+  openPerson(startId);
+} else {
+  renderFamily("gen");
+}

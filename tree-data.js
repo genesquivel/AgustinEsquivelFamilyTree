@@ -238,6 +238,7 @@ const PAOLO = {
     relation: "Father",
     father: {
       name: "Marcos R Esquivel",
+      id: "marcos-esquivel",
       born: "1898",
       died: "1968",
       sex: "m",
@@ -332,6 +333,7 @@ const PAOLO = {
       ],
       father: {
         name: "Apolinario Esquivel",
+        id: "apolinario-esquivel",
         born: "1871",
         sex: "m",
         relation: "Great-grandfather",
@@ -386,6 +388,7 @@ const PAOLO = {
     relation: "Mother",
     father: {
       name: "Alejandro Ver Albano",
+      id: "alejandro-ver-albano",
       born: "1925",
       sex: "m",
       relation: "Grandfather",
