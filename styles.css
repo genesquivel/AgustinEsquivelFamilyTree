@@ -235,7 +235,17 @@ body {
    WIDE SCREENS — upgrade the vertical tree into the horizontal pedigree.
    ========================================================================== */
 @media (min-width: 900px) {
-  .tree-scroll { padding: 30px 24px 50px; overflow-x: auto; }
+  .tree-scroll {
+    padding: 30px 24px 50px;
+    overflow: auto;                 /* pan in both directions */
+    height: min(74vh, 780px);
+    overscroll-behavior: contain;
+    cursor: grab;
+  }
+  .tree-scroll.dragging {
+    cursor: grabbing;
+    user-select: none;
+  }
   .tree { display: inline-flex; min-width: 100%; padding-right: 30px; }
 
   .node { display: flex; flex-direction: row; align-items: center; }

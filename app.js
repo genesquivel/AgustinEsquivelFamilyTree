@@ -138,6 +138,9 @@ document.addEventListener("keydown", (e) => {
 
 /* Render one family's tree into the #tree container */
 const treeEl = document.getElementById("tree");
+const scroller = document.querySelector(".tree-scroll");
+const isDesktop = () => window.matchMedia("(min-width: 900px)").matches;
+
 function renderFamily(key) {
   treeEl.innerHTML = "";
   treeEl.appendChild(buildNode(FAMILIES[key].root));
@@ -145,7 +148,67 @@ function renderFamily(key) {
     t.classList.toggle("active", t.dataset.family === key);
     t.setAttribute("aria-selected", t.dataset.family === key ? "true" : "false");
   });
+  // Center the pannable canvas on the root person (wide screens only).
+  requestAnimationFrame(() => {
+    if (isDesktop()) {
+      scroller.scrollLeft = 0;
+      scroller.scrollTop = (scroller.scrollHeight - scroller.clientHeight) / 2;
+    } else {
+      scroller.scrollTop = 0;
+    }
+  });
 }
+
+/* ---- Grab-and-drag panning (wide screens) ---- */
+let down = false, moved = false, startX = 0, startY = 0, startL = 0, startT = 0;
+
+scroller.addEventListener("pointerdown", (e) => {
+  if (e.button !== 0 || !isDesktop()) return;
+  down = true;
+  moved = false;
+  startX = e.clientX;
+  startY = e.clientY;
+  startL = scroller.scrollLeft;
+  startT = scroller.scrollTop;
+});
+scroller.addEventListener("pointermove", (e) => {
+  if (!down) return;
+  const dx = e.clientX - startX;
+  const dy = e.clientY - startY;
+  if (!moved && Math.hypot(dx, dy) > 6) {
+    moved = true;
+    scroller.classList.add("dragging");
+    scroller.setPointerCapture(e.pointerId);
+  }
+  if (moved) {
+    scroller.scrollLeft = startL - dx;
+    scroller.scrollTop = startT - dy;
+    e.preventDefault();
+  }
+});
+function endPan() {
+  if (moved) {
+    // Swallow the click that follows a drag so a card doesn't open.
+    scroller.dataset.suppress = "1";
+    setTimeout(() => delete scroller.dataset.suppress, 0);
+  }
+  down = false;
+  moved = false;
+  scroller.classList.remove("dragging");
+}
+scroller.addEventListener("pointerup", endPan);
+scroller.addEventListener("pointercancel", endPan);
+// If a drag just happened, cancel the resulting click (cards and toggles).
+scroller.addEventListener(
+  "click",
+  (e) => {
+    if (scroller.dataset.suppress) {
+      e.stopPropagation();
+      e.preventDefault();
+    }
+  },
+  true
+);
 
 /* Build tabs */
 const tabsEl = document.getElementById("tabs");
