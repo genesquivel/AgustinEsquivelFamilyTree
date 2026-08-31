@@ -284,6 +284,25 @@ const PAOLO = {
       born: "1925",
       sex: "m",
       relation: "Grandfather",
+      notes:
+        "Worked with the Philippine Atomic Energy Commission (PAEC). The PAEC's " +
+        "1986 annual report lists him in charge of the Department of Nuclear " +
+        "Technology and Engineering during the Bataan Nuclear Power Plant era, " +
+        "and other PAEC records note his coordination work with Atlas Mining.",
+      links: [
+        {
+          label: "PAEC Annual Report, 1986 (IAEA archive)",
+          url: "https://inis.iaea.org/records/dkey9-vkz48/files/55056178.pdf"
+        },
+        {
+          label: "Supreme Court case on the Bataan plant & PAEC, 1986",
+          url: "https://lawphil.net/judjuris/juri1986/feb1986/gr_l-68474_1986.html"
+        },
+        {
+          label: "PAEC records — Atlas Mining coordination (IAEA archive)",
+          url: "https://inis.iaea.org/records/1nbd7-06693/files/6215892.pdf?download=1"
+        }
+      ],
       father: {
         name: "Vicente Albano",
         sex: "m",
