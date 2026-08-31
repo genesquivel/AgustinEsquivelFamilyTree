@@ -257,6 +257,10 @@ const PAOLO = {
         {
           label: "Bulacan High School — Antolohiya ng Alaala (archive)",
           url: "https://shine.shift101.solutions/archive/bulacan-high-school-antolohiya-ng-alaala/"
+        },
+        {
+          label: "Columbia University Libraries record — mentions Marcos Esquivel (archive.org)",
+          url: "https://archive.org/details/ldpd_11382183_000/page/n31/mode/2up?q=Marcos+Esquivel"
         }
       ],
       // Default source for the records below; each record deep-links to its
