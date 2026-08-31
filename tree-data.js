@@ -22,6 +22,13 @@
  *        { label: "Old news article", url: "https://..." }
  *      ],
  *
+ *      // cited historical records show in a "Records & sources" list:
+ *      records: [
+ *        { claim: "What the record shows.", date: "1926–1927",
+ *          place: "Where", excerpt: "Quoted text from the source.",
+ *          printedPage: 106, pdfPage: 119, notes: "Optional caveat." }
+ *      ],
+ *
  *      father: { ...another person... },
  *      mother: { ...another person... }
  *    }
@@ -237,11 +244,86 @@ const PAOLO = {
       relation: "Grandfather",
       notes:
         "Recorded in the University of the Philippines student registry — " +
-        "UP Bulletin No. 7, the UP Catalogue (1916–1917) and Announcements (1917–1918).",
+        "UP Bulletin No. 7, the UP Catalogue (1916–1917) and Announcements (1917–1918). " +
+        "He went on to teach history at Bulacan High School in Malolos in the late 1920s " +
+        "(Modern Europe / Oriental History), holding A.B. and B.S. degrees. " +
+        "Note: the Bulacan High School records below document a teacher named " +
+        "Marcos R. Esquivel; on their own they don't yet confirm he is the same Marcos in this family.",
       links: [
         {
           label: "UP Bulletin No. 7 (Catalogue 1916–1917) — Internet Archive",
           url: "https://archive.org/details/acc6284.0001.007.umich.edu"
+        },
+        {
+          label: "Bulacan High School — Antolohiya ng Alaala (archive)",
+          url: "https://shine.shift101.solutions/archive/bulacan-high-school-antolohiya-ng-alaala/"
+        }
+      ],
+      records: [
+        {
+          date: "1926–1927",
+          place: "Bulacan High School, Malolos, Bulacan",
+          claim: "Member of the Bulacan High School faculty for school year 1926–1927.",
+          excerpt: "The high school faculty for the school year 1926-27 is the following: … Mr. Marcos R. Esquivel …",
+          printedPage: 106,
+          pdfPage: 119
+        },
+        {
+          date: "1926–1927",
+          place: "Bulacan High School, Malolos, Bulacan",
+          claim: "Held A.B. and B.S. credentials and taught Modern Europe and Oriental History.",
+          excerpt: "Marcos R. Esquivel, A.B., B.S. — Modern Europe and Oriental History",
+          printedPage: 112,
+          pdfPage: 125
+        },
+        {
+          date: "1926–1927",
+          place: "Bulacan High School, Malolos, Bulacan",
+          claim: "A faculty profile described him as a careful, stylish, and busy teacher.",
+          excerpt: "Mr. Marcos R. Esquivel. He is a heedful, dainty exponent of modern styles. He is a ‘busy bee’…",
+          notes: "A period character sketch, not an objective assessment.",
+          printedPage: 113,
+          pdfPage: 126
+        },
+        {
+          date: "1927",
+          place: "Bulacan Provincial Fair, Malolos, Bulacan",
+          claim: "Appeared as Miss Josefa P. de Leon's consort at the Malolos booth of the 1927 Bulacan Provincial Fair.",
+          excerpt: "From left, Miss Josefa P. de Leon as Miss Malolos; with her consort and fellow teacher, Mr. Marcos R. Esquivel; and the Malolos booth at the 1927 Bulacan Provincial Fair",
+          printedPage: 130,
+          pdfPage: 143
+        },
+        {
+          date: "circa 1927–1928",
+          place: "Bulacan High School, Malolos, Bulacan",
+          claim: "Identified in a faculty photograph as the Modern and Oriental History teacher.",
+          excerpt: "OUR TEACHERS, circa 1927-1928 … Marcos Esquivel (Modern and Oriental History).",
+          printedPage: 156,
+          pdfPage: 169
+        },
+        {
+          date: "1926–1930",
+          place: "Bulacan High School, Malolos, Bulacan",
+          claim: "A former student recalled his pronunciation and word-meaning drills in History class.",
+          excerpt: "We wrote themes every month, read and submitted book reports, had drills in pronunciation and word meanings, even in History by Mr. Esquivel.",
+          printedPage: 157,
+          pdfPage: 170
+        },
+        {
+          date: "1926–1927",
+          place: "Bulacan High School, Malolos, Bulacan",
+          claim: "A student memoir praised his classroom system, naming his subjects as Modern Times and the Living Past, and Oriental History.",
+          excerpt: "May magandang sistema si Mr. [Marcos] Esquivel bagamat Modern Times and the Living Past at Oriental History ang subjects niya…",
+          printedPage: 161,
+          pdfPage: 174
+        },
+        {
+          date: "1928–1932",
+          place: "Bulacan High School, Malolos, Bulacan",
+          claim: "A Class of 1932 recollection named him among the school's Filipino faculty.",
+          excerpt: "We recall with pride the Filipino members of that faculty … Mr. Marcos Esquivel …",
+          printedPage: 177,
+          pdfPage: 190
         }
       ],
       father: {

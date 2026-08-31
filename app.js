@@ -34,7 +34,10 @@ function buildNode(person) {
     ? `<span class="avatar"><img src="${person.photo}" alt="" loading="lazy"
          onerror="this.parentNode.textContent='${initials(person.name)}'"></span>`
     : `<span class="avatar">${initials(person.name)}</span>`;
-  const hasExtra = person.notes || (person.links && person.links.length);
+  const hasExtra =
+    person.notes ||
+    (person.links && person.links.length) ||
+    (person.records && person.records.length);
   card.innerHTML = `
     ${avatar}
     <span class="card-text">
@@ -108,6 +111,54 @@ function openBio(person) {
   if (person.spouse) notes.push(`Married to ${person.spouse.name}.`);
   if (person.notes) notes.push(person.notes);
   document.getElementById("bioNotes").textContent = notes.join(" ");
+
+  // Records (structured, cited historical records)
+  const recEl = document.getElementById("bioRecords");
+  recEl.innerHTML = "";
+  if (person.records && person.records.length) {
+    const head = document.createElement("h3");
+    head.className = "rec-head";
+    head.textContent = "Records & sources";
+    recEl.appendChild(head);
+
+    const ul = document.createElement("ul");
+    ul.className = "rec-list";
+    person.records.forEach((r) => {
+      const li = document.createElement("li");
+      li.className = "rec";
+      const meta = [r.date, r.place].filter(Boolean).join(" · ");
+      const pages = [];
+      if (r.printedPage) pages.push("printed p. " + r.printedPage);
+      if (r.pdfPage) pages.push("PDF p. " + r.pdfPage);
+      const metaLine = [meta, pages.join(", ")].filter(Boolean).join(" · ");
+
+      const claim = document.createElement("div");
+      claim.className = "rec-claim";
+      claim.textContent = r.claim || "";
+      li.appendChild(claim);
+
+      if (metaLine) {
+        const m = document.createElement("div");
+        m.className = "rec-meta";
+        m.textContent = metaLine;
+        li.appendChild(m);
+      }
+      if (r.excerpt) {
+        const ex = document.createElement("div");
+        ex.className = "rec-excerpt";
+        ex.textContent = "“" + r.excerpt + "”";
+        li.appendChild(ex);
+      }
+      if (r.notes) {
+        const n = document.createElement("div");
+        n.className = "rec-note";
+        n.textContent = r.notes;
+        li.appendChild(n);
+      }
+      ul.appendChild(li);
+    });
+    recEl.appendChild(ul);
+  }
 
   // Links
   const linksEl = document.getElementById("bioLinks");
