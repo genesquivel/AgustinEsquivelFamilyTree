@@ -177,20 +177,20 @@ const GEN = {
       }
     },
     mother: {
-      name: "Experia Arnza",
+      name: "Experia Arreza",
       born: "1919",
       died: "1965",
       sex: "f",
       relation: "Grandmother",
       father: {
-        name: "Roman Arnza",
+        name: "Roman Arreza",
         sex: "m",
         relation: "Great-grandfather",
         father: {
-          name: "Wenceslao Arnza",
+          name: "Wenceslao Arreza",
           sex: "m",
           relation: "2nd great-grandfather",
-          father: { name: "Santiago Arnza", sex: "m", relation: "3rd great-grandfather" },
+          father: { name: "Santiago Arreza", sex: "m", relation: "3rd great-grandfather" },
           mother: { name: "Guillen", sex: "f", relation: "3rd great-grandmother" }
         },
         mother: {
