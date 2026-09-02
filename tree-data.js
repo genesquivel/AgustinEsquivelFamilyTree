@@ -286,12 +286,24 @@ const PAOLO = {
       died: "1968",
       sex: "m",
       relation: "Grandfather",
+      photo: "images/marcos-esquivel.jpg",
       notes:
-        "Recorded in the University of the Philippines student registry — " +
-        "UP Bulletin No. 7, the UP Catalogue (1916–1917) and Announcements (1917–1918). " +
-        "He went on to teach history at Bulacan High School in Malolos in the late 1920s " +
-        "(Modern Europe / Oriental History), holding A.B. and B.S. degrees.",
+        "Born in Jaen, Nueva Ecija. In 1919, as a young student, he sailed from Manila " +
+        "aboard the Tenyo Maru bound for the United States (by way of Hong Kong, China, " +
+        "and Japan). He is recorded in the University of the Philippines student registry " +
+        "(UP Bulletin No. 7, the Catalogue of 1916–1917), and by the late 1920s was teaching " +
+        "history — Modern Europe and Oriental History — at Bulacan High School in Malolos, " +
+        "holding A.B. and B.S. degrees. In 1935 he married Lolita Pineda in Manila. " +
+        "His 1919 passport photograph is shown here.",
       links: [
+        {
+          label: "Passport application, 1919 (scan, page 1)",
+          url: "docs/marcos-esquivel-passport-1919-p1.pdf"
+        },
+        {
+          label: "Passport application, 1919 (scan, page 2)",
+          url: "docs/marcos-esquivel-passport-1919-p2.pdf"
+        },
         {
           label: "UP Bulletin No. 7 (Catalogue 1916–1917) — Internet Archive",
           url: "https://archive.org/details/acc6284.0001.007.umich.edu"
@@ -303,12 +315,36 @@ const PAOLO = {
         {
           label: "Columbia University Libraries record — mentions Marcos Esquivel (archive.org)",
           url: "https://archive.org/details/ldpd_11382183_000/page/n31/mode/2up?q=Marcos+Esquivel"
+        },
+        {
+          label: "Marriage contract with Lolita Pineda, 1935 — FamilySearch",
+          url: "https://www.familysearch.org/ark:/61903/1:1:8BNH-W1N2?lang=en"
         }
       ],
       // Default source for the records below; each record deep-links to its
       // page via #page=<pdfPage>. A record may override with its own `url`.
       recordsSource: "https://shine.shift101.solutions/archive/bulacan-high-school-antolohiya-ng-alaala/",
       records: [
+        {
+          date: "1919",
+          place: "Jaen, Nueva Ecija / Manila",
+          claim: "1919 passport application — a student traveling to the United States.",
+          excerpt:
+            "I, Marcos R. Esquivel, a Citizen of the Philippine Islands … I solemnly swear that " +
+            "I was born at Jaen, in the Province of Nueva Ecija, on or about the 28 day of April, 1896 … " +
+            "occupation Student … I intend to leave the Philippine Islands from the port of Manila … " +
+            "on board the Tenyo Maru on July 12, 1919 … Hongkong, China, Japan — en route to USA.",
+          url: "https://www.familysearch.org/ark:/61903/3:1:3QHK-4QCK-X8YH?view=index&cc=5000417&lang=en"
+        },
+        {
+          date: "1919",
+          place: "Jaen, Nueva Ecija",
+          claim: "Passport description, witness affidavits, and photograph (age 23).",
+          excerpt:
+            "DESCRIPTION OF APPLICANT. Age 23 years. Stature 5 feet 5 inches … Hair black … " +
+            "Supporting affidavits sworn June 28, 1919.",
+          url: "https://www.familysearch.org/ark:/61903/3:1:3QHK-7QCK-XD57?view=index&cc=5000417&lang=en"
+        },
         {
           date: "1926–1927",
           place: "Bulacan High School, Malolos, Bulacan",
@@ -372,6 +408,17 @@ const PAOLO = {
           excerpt: "We recall with pride the Filipino members of that faculty … Mr. Marcos Esquivel …",
           printedPage: 177,
           pdfPage: 190
+        },
+        {
+          date: "1935",
+          place: "Iglesia del Espíritu Santo, Manila",
+          claim: "Married Lolita Pineda on 10 June 1935 in Manila.",
+          excerpt:
+            "MARRIAGE CONTRACT … Husband: Marcos R. Esquivel, 34 yrs, filipino, of San Fernando, " +
+            "Pampanga; father Apolinario Esquivel, mother Bibiana Ramos. Wife: Lolita Pineda, " +
+            "18 yrs 8 months; father Narciso Pineda, mother Leonarda Umali. Married by Rev. P. " +
+            "Antonio Ubrecht at the Church of Espíritu Santo, filed 19 June 1935.",
+          url: "https://www.familysearch.org/ark:/61903/1:1:8BNH-W1N2?lang=en"
         }
       ],
       father: {
@@ -404,10 +451,33 @@ const PAOLO = {
     },
     mother: {
       name: "Lolita Pineda Esquivel",
+      id: "lolita-pineda-esquivel",
       born: "1916",
       died: "2006",
       sex: "f",
       relation: "Grandmother",
+      notes:
+        "Born in San Fernando, Pampanga, daughter of Narciso Pineda and Leonarda Umali. " +
+        "On 10 June 1935 she married Marcos R. Esquivel at the Church of Espíritu Santo in Manila.",
+      records: [
+        {
+          date: "1935",
+          place: "Iglesia del Espíritu Santo, Manila",
+          claim: "Married Marcos R. Esquivel on 10 June 1935 in Manila.",
+          excerpt:
+            "MARRIAGE CONTRACT … Wife: Lolita Pineda, 18 yrs 8 months, filipina, of San Fernando, " +
+            "Pampanga; father Narciso Pineda, mother Leonarda Umali. Husband: Marcos R. Esquivel, " +
+            "34 yrs; father Apolinario Esquivel, mother Bibiana Ramos. Married by Rev. P. Antonio " +
+            "Ubrecht, filed 19 June 1935.",
+          url: "https://www.familysearch.org/ark:/61903/1:1:8BNH-W1N2?lang=en"
+        }
+      ],
+      links: [
+        {
+          label: "Marriage contract with Marcos Esquivel, 1935 — FamilySearch",
+          url: "https://www.familysearch.org/ark:/61903/1:1:8BNH-W1N2?lang=en"
+        }
+      ],
       father: {
         name: "Narciso Dicon Pineda",
         died: "1978",
