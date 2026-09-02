@@ -112,6 +112,49 @@ const GEN = {
         born: "1897",
         sex: "m",
         relation: "Great-grandfather",
+        id: "quintin-navarro",
+        photo: "images/quintin-navarro.jpg",
+        notes:
+          "A merchant from Pulilan, Bulacan, born 31 October. In 1923 he was " +
+          "issued a passport by the Governor-General of the Philippine Islands " +
+          "to travel to Hong Kong on business, sailing from Manila aboard the " +
+          "SS President McKinley. His passport photograph is shown here.",
+        records: [
+          {
+            date: "1923",
+            place: "Pulilan, Bulacan / Manila",
+            claim: "1923 passport application — sworn a merchant of Pulilan, Bulacan, traveling to Hong Kong.",
+            excerpt:
+              "I, Quintin Navarro, a Citizen of the Philippine Islands, hereby apply … " +
+              "I solemnly swear that I was born at Pulilan, in the Province of Bulacan, " +
+              "on or about the 31 day of October … occupation Merchant … to leave the " +
+              "Philippine Islands from the port of Manila … on board the President McKinley.",
+            url: "https://www.familysearch.org/ark:/61903/3:1:3QHK-7QCK-XXNZ?view=index&cc=5000417&lang=en"
+          },
+          {
+            date: "1923",
+            place: "Pulilan, Bulacan",
+            claim: "Passport description, witness affidavits, and photograph.",
+            excerpt:
+              "DESCRIPTION OF APPLICANT. Age 25 years … Hair: black … I, Manuel de los Santos, " +
+              "solemnly swear … I have known the above-named Quintin Navarro personally for 10 years …",
+            url: "https://www.familysearch.org/ark:/61903/3:1:3QHK-3QCK-XX2H?view=index&cc=5000417&lang=en"
+          }
+        ],
+        links: [
+          {
+            label: "FamilySearch — 1923 passport record",
+            url: "https://www.familysearch.org/ark:/61903/3:1:3QHK-3QCK-XX2H?view=index&cc=5000417&lang=en"
+          },
+          {
+            label: "Passport application, 1923 (scan, page 1)",
+            url: "docs/quintin-navarro-passport-1923-p1.pdf"
+          },
+          {
+            label: "Passport description & photo, 1923 (scan, page 2)",
+            url: "docs/quintin-navarro-passport-1923-p2.pdf"
+          }
+        ],
         father: {
           name: "Reducindo Navarro",
           sex: "m",
@@ -393,18 +436,24 @@ const PAOLO = {
       sex: "m",
       relation: "Grandfather",
       notes:
-        "Worked with the Philippine Atomic Energy Commission (PAEC). The PAEC's " +
-        "1986 annual report lists him in charge of the Department of Nuclear " +
-        "Technology and Engineering during the Bataan Nuclear Power Plant era, " +
-        "and other PAEC records note his coordination work with Atlas Mining.",
+        "Worked with the Philippine Atomic Energy Commission (PAEC): he authored a " +
+        "technical paper for the PAEC Research & Development Division in 1973, served " +
+        "as PAEC Deputy Commissioner from March 1980 to September 1984 and was then " +
+        "appointed Commissioner, and headed the Department of Nuclear Technology and " +
+        "Engineering as listed in the PAEC's 1986 annual report — through the Bataan " +
+        "Nuclear Power Plant era. Other PAEC records note his coordination work with Atlas Mining.",
       links: [
+        {
+          label: "Technical paper PAEC(D)7333, 1973 — R&D Division (IAEA archive)",
+          url: "https://inis.iaea.org/collection/NCLCollectionStore/_Public/06/160/6160946.pdf"
+        },
+        {
+          label: "PAEC Deputy Commissioner & Commissioner — Supreme Court G.R. No. L-68474, 1986",
+          url: "https://lawphil.net/judjuris/juri1986/feb1986/gr_l-68474_1986.html"
+        },
         {
           label: "PAEC Annual Report, 1986 (IAEA archive)",
           url: "https://inis.iaea.org/records/dkey9-vkz48/files/55056178.pdf"
-        },
-        {
-          label: "Supreme Court case on the Bataan plant & PAEC, 1986",
-          url: "https://lawphil.net/judjuris/juri1986/feb1986/gr_l-68474_1986.html"
         },
         {
           label: "PAEC records — Atlas Mining coordination (IAEA archive)",
