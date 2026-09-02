@@ -188,6 +188,12 @@ function renderRelatives(container, heading, list) {
       s.textContent = r.life;
       li.appendChild(s);
     }
+    if (r.note) {
+      const n = document.createElement("div");
+      n.className = "rel-note";
+      n.textContent = r.note;
+      li.appendChild(n);
+    }
     ul.appendChild(li);
   });
   container.appendChild(ul);

@@ -454,6 +454,7 @@ a.rel-name { color: var(--accent); }
 a.rel-name:hover { text-decoration: underline; }
 span.rel-name { color: var(--ink); }
 .rel-life { font-size: 12px; color: var(--muted); }
+.rel-note { width: 100%; font-size: 12.5px; color: var(--ink); line-height: 1.45; margin-top: 2px; }
 
 /* ---------- Records ---------- */
 .bio-records:empty { display: none; }

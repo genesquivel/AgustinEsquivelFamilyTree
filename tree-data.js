@@ -522,6 +522,17 @@ const PAOLO = {
           "Served as Municipal President of Jaen, Nueva Ecija from 1902 to 1907. " +
           "The town's history also records Lt. Col. Delfin Esquivel leading forces " +
           "in a battle at Jaen on September 4, 1896.",
+        siblings: [
+          {
+            name: "Hilarion Esquivel",
+            life: "b. 1862",
+            pid: "9J7B-7DY",
+            note:
+              "Don Hilarion Esquivel was a prominent principalía leader in Jaén, Nueva Ecija. " +
+              "He built the historic ancestral mansion \"Casa Jaen I\" around 1890, preserved " +
+              "today as a heritage structure at Las Casas Filipinas de Acúzar."
+          }
+        ],
         links: [
           {
             label: "Jaen, Nueva Ecija — Wikipedia",
