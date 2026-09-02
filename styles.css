@@ -400,7 +400,7 @@ body {
   color: #fff;
 }
 
-.bio-notes { color: var(--ink); margin: 0; }
+.bio-notes { color: var(--ink); margin: 0; line-height: 1.55; }
 .bio-notes:empty { display: none; }
 
 .bio-photo {
@@ -415,11 +415,11 @@ body {
 
 .bio-links {
   list-style: none;
-  margin: 14px 0 0;
+  margin: 8px 0 0;
   padding: 0;
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: 9px;
 }
 .bio-links:empty { display: none; }
 .bio-links a {
@@ -428,6 +428,7 @@ body {
   text-decoration: none;
   font-weight: 600;
   font-size: 14px;
+  line-height: 1.35;
 }
 .bio-links a::before { content: "🔗 "; }
 .bio-links a:hover { text-decoration: underline; }

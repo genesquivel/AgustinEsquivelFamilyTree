@@ -193,7 +193,7 @@ function openBio(person) {
   if (person.records && person.records.length) {
     const head = document.createElement("h3");
     head.className = "rec-head";
-    head.textContent = "Records & sources";
+    head.textContent = "Records";
     recEl.appendChild(head);
 
     const ul = document.createElement("ul");
@@ -247,6 +247,7 @@ function openBio(person) {
 
   // Links
   const linksEl = document.getElementById("bioLinks");
+  document.getElementById("bioLinksHead").hidden = !(person.links && person.links.length);
   linksEl.innerHTML = "";
   (person.links || []).forEach((l) => {
     const li = document.createElement("li");
