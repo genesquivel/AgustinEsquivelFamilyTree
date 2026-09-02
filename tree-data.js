@@ -717,7 +717,19 @@ const PAOLO = {
         name: "Vicente Albano",
         sex: "m",
         relation: "Great-grandfather",
-        father: { name: "Blas Albano", sex: "m", relation: "2nd great-grandfather" },
+        father: {
+          name: "Blas Albano",
+          id: "blas-albano",
+          sex: "m",
+          relation: "2nd great-grandfather",
+          photo: "images/blas-albano.jpg",
+          links: [
+            {
+              label: "Photograph — FamilySearch memory",
+              url: "https://www.familysearch.org/memories/memory/197697332"
+            }
+          ]
+        },
         mother: { name: "Barbara Pacis", sex: "f", relation: "2nd great-grandmother" }
       },
       mother: {
