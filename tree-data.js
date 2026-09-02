@@ -113,7 +113,12 @@ const GEN = {
               name: "Agustín Tangco",
               sex: "m",
               relation: "4th great-grandfather",
-              notes: "A Chinese immigrant (\"chino\"), recorded as Agustín Tangco Tangley."
+              notes:
+                "A Chinese immigrant (\"chino\"). In the record his name reads \"Agustín Tangco " +
+                "Tangley\": Agustín was the Christian name given at his baptism, while \"Tangco " +
+                "Tangley\" was his original Chinese name. The Hokkien ending \"-co\" (哥, an " +
+                "honorific) is the root of many Filipino-Chinese surnames, and here it carried " +
+                "down as the family name Tiangco."
             },
             mother: {
               name: "María Flores",
