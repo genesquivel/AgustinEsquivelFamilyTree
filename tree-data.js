@@ -648,8 +648,17 @@ const PAOLO = {
       ],
       father: {
         name: "Thomas Cadiz Maloyo",
+        born: "1886",
+        died: "1983",
         sex: "m",
         relation: "Great-grandfather",
+        notes: "Born 26 December 1886 in Bacarra, Ilocos Norte; died 23 January 1983.",
+        links: [
+          {
+            label: "Social Security (NUMIDENT) record — FamilySearch",
+            url: "https://www.familysearch.org/ark:/61903/1:1:6K48-FMRV"
+          }
+        ],
         father: { name: "Tomas Maloyo", sex: "m", relation: "2nd great-grandfather" },
         mother: { name: "Casimira Cadiz", sex: "f", relation: "2nd great-grandmother" }
       },
