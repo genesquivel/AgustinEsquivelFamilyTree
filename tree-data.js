@@ -458,7 +458,12 @@ const PAOLO = {
           }
         ],
         father: { name: "Prudencio Esquivel", sex: "m", relation: "2nd great-grandfather" },
-        mother: { name: "Apolonia Domingo", sex: "f", relation: "2nd great-grandmother" }
+        mother: {
+          name: "Antonia Santiago",
+          sex: "f",
+          relation: "2nd great-grandmother",
+          notes: "Recorded as Doña Antonia Santiago in her grandson Marcos's 1885 baptism."
+        }
       },
       mother: {
         name: "Bibiana Ramos",
@@ -466,7 +471,12 @@ const PAOLO = {
         sex: "f",
         relation: "Great-grandmother",
         father: { name: "Ciriaco Ramos", sex: "m", relation: "2nd great-grandfather" },
-        mother: { name: "Joaquina Guzmán", sex: "f", relation: "2nd great-grandmother" }
+        mother: {
+          name: "Joaquina Guzmán",
+          sex: "f",
+          relation: "2nd great-grandmother",
+          notes: "Recorded as Doña Joaquina in her grandson Marcos's 1885 baptism; the surname written there reads like \"Cimanan\" (also readable as \"Simanan\"), differing from \"Guzmán\"."
+        }
       }
     },
     mother: {
