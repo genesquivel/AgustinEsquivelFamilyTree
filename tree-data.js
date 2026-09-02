@@ -331,6 +331,10 @@ const PAOLO = {
         {
           label: "Marriage contract with Lolita Pineda, 1935 — FamilySearch",
           url: "https://www.familysearch.org/ark:/61903/1:1:8BNH-W1N2?lang=en"
+        },
+        {
+          label: "Certificate of death, 1968 — FamilySearch",
+          url: "https://www.familysearch.org/ark:/61903/3:1:33S7-9RTF-96G4?view=index&action=view&cc=1852584&lang=en&groupId=M9C2-P9D"
         }
       ],
       // Default source for the records below; each record deep-links to its
@@ -447,6 +451,19 @@ const PAOLO = {
             "18 yrs 8 months; father Narciso Pineda, mother Leonarda Umali. Married by Rev. P. " +
             "Antonio Ubrecht at the Church of Espíritu Santo, filed 19 June 1935.",
           url: "https://www.familysearch.org/ark:/61903/1:1:8BNH-W1N2?lang=en"
+        },
+        {
+          date: "1968",
+          place: "San Fernando, Pampanga",
+          claim: "Certificate of death — died 22 February 1968 at San Fernando, Pampanga.",
+          excerpt:
+            "REPUBLIC OF THE PHILIPPINES — CERTIFICATE OF DEATH … Marcos R. Esquivel, born " +
+            "April 28, 1898 … father Apolinario Esquivel, mother Bibiana Ramos; wife Lolita P. " +
+            "Esquivel … cause of death: vascular accident, arteriosclerosis.",
+          notes:
+            "The death certificate gives his birth as 28 April 1898, matching the year shown here; " +
+            "the 1919 passport instead gave 1896 and the 1885 baptism a still earlier date.",
+          url: "https://www.familysearch.org/ark:/61903/3:1:33S7-9RTF-96G4?view=index&action=view&cc=1852584&lang=en&groupId=M9C2-P9D"
         }
       ],
       father: {
@@ -551,6 +568,7 @@ const PAOLO = {
       sex: "m",
       relation: "Grandfather",
       notes:
+        "From Bacarra, Ilocos Norte; married Josefina Maloyo. " +
         "Worked with the Philippine Atomic Energy Commission (PAEC): he authored a " +
         "technical paper for the PAEC Research & Development Division in 1973, served " +
         "as PAEC Deputy Commissioner from March 1980 to September 1984 and was then " +
@@ -573,6 +591,22 @@ const PAOLO = {
         {
           label: "PAEC records — Atlas Mining coordination (IAEA archive)",
           url: "https://inis.iaea.org/records/1nbd7-06693/files/6215892.pdf?download=1"
+        },
+        {
+          label: "Marriage to Josefina Maloyo — FamilySearch",
+          url: "https://www.familysearch.org/ark:/61903/3:1:3QS7-8923-79LY-W?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A6B3P-54H9&action=view&cc=1410394&lang=en"
+        }
+      ],
+      records: [
+        {
+          date: "c. 1943",
+          place: "Bacarra, Ilocos Norte",
+          claim: "Marriage of Alejandro Albano and Josefina Maloyo, both aged 18.",
+          excerpt:
+            "Husband: Alejandro Albano, 18, Filipino, of Bacarra, Ilocos Norte; father Vicente " +
+            "Albano, mother Ambrocia Ver. Wife: Josefina Maloyo, 18; father Tomas Maloyo, mother " +
+            "Agapita Andres.",
+          url: "https://www.familysearch.org/ark:/61903/3:1:3QS7-8923-79LY-W?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A6B3P-54H9&action=view&cc=1410394&lang=en"
         }
       ],
       father: {
@@ -590,8 +624,28 @@ const PAOLO = {
     },
     mother: {
       name: "Josefina Maloyo",
+      id: "josefina-maloyo",
       sex: "f",
       relation: "Grandmother",
+      notes: "From Bacarra, Ilocos Norte; married Alejandro Ver Albano.",
+      records: [
+        {
+          date: "c. 1943",
+          place: "Bacarra, Ilocos Norte",
+          claim: "Marriage of Josefina Maloyo and Alejandro Albano, both aged 18.",
+          excerpt:
+            "Wife: Josefina Maloyo, 18; father Tomas Maloyo, mother Agapita Andres. Husband: " +
+            "Alejandro Albano, 18, Filipino, of Bacarra, Ilocos Norte; father Vicente Albano, " +
+            "mother Ambrocia Ver.",
+          url: "https://www.familysearch.org/ark:/61903/3:1:3QS7-8923-79LY-W?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A6B3P-54H9&action=view&cc=1410394&lang=en"
+        }
+      ],
+      links: [
+        {
+          label: "Marriage to Alejandro Albano — FamilySearch",
+          url: "https://www.familysearch.org/ark:/61903/3:1:3QS7-8923-79LY-W?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A6B3P-54H9&action=view&cc=1410394&lang=en"
+        }
+      ],
       father: {
         name: "Thomas Cadiz Maloyo",
         sex: "m",
