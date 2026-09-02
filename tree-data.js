@@ -544,7 +544,54 @@ const PAOLO = {
         died: "1978",
         sex: "m",
         relation: "Great-grandfather",
-        father: { name: "Lucas Pineda", sex: "m", relation: "2nd great-grandfather" },
+        father: {
+          name: "Lucas Pineda",
+          born: "1876",
+          sex: "m",
+          relation: "2nd great-grandfather",
+          notes:
+            "Born 14 October 1876 in Cabiao, Nueva Ecija, and baptized there on 19 October 1876, " +
+            "five days old. Son of Dionisio Pineda and Maria Juana, both widowed and natives of " +
+            "Cabiao (Barangay of Don Venancio Guevarra).",
+          records: [
+            {
+              date: "1876",
+              place: "Cabiao, Nueva Ecija",
+              claim: "Baptized on 19 October 1876 in Cabiao — son of Dionisio Pineda and Maria Juana.",
+              excerpt:
+                "En diez y nueve de Octubre de mil ochocientos setenta y seis … bauticé solemnemente … " +
+                "á Lucas Pineda, niño de cinco días nacido, hijo de Dionisio y de María Juana, ambos " +
+                "viudos y naturales de este pueblo … abuelos paternos Agustín Pineda … y maternos " +
+                "Guillermo y Eulalia de Castro.",
+              notes:
+                "The record gives his birth as Saturday 14 October 1876, with baptism the following " +
+                "Thursday. His parents were both widowed at the time.",
+              url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSM8-339V-T?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A666G-Q2DK&action=view&cc=2861657&lang=en&groupId=M9LR-K3X"
+            }
+          ],
+          links: [
+            {
+              label: "Baptismal record, 1876 (Cabiao) — FamilySearch",
+              url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSM8-339V-T?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A666G-Q2DK&action=view&cc=2861657&lang=en&groupId=M9LR-K3X"
+            }
+          ],
+          father: {
+            name: "Dionisio Pineda",
+            sex: "m",
+            relation: "3rd great-grandfather",
+            notes:
+              "Of Cabiao, Nueva Ecija; widowed at the time of Lucas's 1876 baptism. His father " +
+              "(Lucas's paternal grandfather) was Agustín Pineda."
+          },
+          mother: {
+            name: "Maria Juana",
+            sex: "f",
+            relation: "3rd great-grandmother",
+            notes:
+              "Of Cabiao, Nueva Ecija; widowed at the time of Lucas's 1876 baptism. Her parents " +
+              "(Lucas's maternal grandparents) were Guillermo and Eulalia de Castro."
+          }
+        },
         mother: { name: "Filomena Dizon", sex: "f", relation: "2nd great-grandmother" }
       },
       mother: {
