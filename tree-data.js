@@ -297,6 +297,10 @@ const PAOLO = {
         "His 1919 passport photograph is shown here.",
       links: [
         {
+          label: "Baptismal record, 1885 (Jaen) — FamilySearch",
+          url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSMD-B4YL?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A666G-31M8&action=view&cc=2861657&lang=en&groupId=M98M-4PN"
+        },
+        {
           label: "Passport application, 1919 (scan, page 1)",
           url: "docs/marcos-esquivel-passport-1919-p1.pdf"
         },
@@ -325,6 +329,22 @@ const PAOLO = {
       // page via #page=<pdfPage>. A record may override with its own `url`.
       recordsSource: "https://shine.shift101.solutions/archive/bulacan-high-school-antolohiya-ng-alaala/",
       records: [
+        {
+          date: "1885",
+          place: "Jaen, Nueva Ecija",
+          claim: "Baptized on 1 April 1885 in Jaen — legitimate son of Apolinario Esquivel and Bibiana Ramos.",
+          excerpt:
+            "En primero de Abril de mil ochocientos ochenta y cinco años … bauticé solemnemente … " +
+            "a un niño de dos días nacido, a quien se le ha puesto por nombre Marcos, hijo legítimo " +
+            "y de legítimo matrimonio de Apolinario Esquivel y Bibiana Ramos … Abuelos paternos " +
+            "D. Prudencio Esquivel y Da. Antonia Santiago, y maternos D. Ciriaco Ramos y Da. Joaquina …",
+          notes:
+            "The baptism places his birth about 30 March 1885 (two days before baptism), which " +
+            "differs from the 28 April 1896 birth given on his 1919 passport application. His " +
+            "grandparents carry the honorifics Don and Doña — Don Prudencio Esquivel and Doña " +
+            "Antonia Santiago (paternal), Don Ciriaco Ramos and Doña Joaquina (maternal).",
+          url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSMD-B4YL?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A666G-31M8&action=view&cc=2861657&lang=en&groupId=M98M-4PN"
+        },
         {
           date: "1919",
           place: "Jaen, Nueva Ecija / Manila",
