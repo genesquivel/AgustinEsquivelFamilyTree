@@ -83,7 +83,48 @@ const GEN = {
           name: "Estafania Tiangco",
           sex: "f",
           relation: "2nd great-grandmother",
-          father: { name: "Tomas Tiangco", sex: "m", relation: "3rd great-grandfather" },
+          father: {
+            name: "Tomas Tiangco",
+            born: "1822",
+            sex: "m",
+            relation: "3rd great-grandfather",
+            notes:
+              "Baptized on 25 December 1822, five days old (born about 20 December 1822), " +
+              "legitimate son of Agustín Tangco, a Chinese immigrant, and María Flores, a " +
+              "mestiza of the town. The surname is written \"Tangco\" in this record.",
+            records: [
+              {
+                date: "1822",
+                claim: "Baptized on 25 December 1822 — legitimate son of Agustín Tangco and María Flores.",
+                excerpt:
+                  "En veinte y cinco de Diciembre de mil ochocientos veinte y dos años … bautizó " +
+                  "solemnemente y puso los santos óleos á Tomás Tangco, niño de cinco días nacido, " +
+                  "hijo legítimo de Agustín Tangco Tangley, chino, y de María Flores, mestiza de este pueblo …",
+                url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSMJ-HSQN-R?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A66XK-D6HZ&action=view&cc=2861657&lang=en&groupId=M9C1-ZDM"
+              }
+            ],
+            links: [
+              {
+                label: "Baptismal record, 1822 — FamilySearch",
+                url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSMJ-HSQN-R?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A66XK-D6HZ&action=view&cc=2861657&lang=en&groupId=M9C1-ZDM"
+              }
+            ],
+            father: {
+              name: "Agustín Tangco",
+              sex: "m",
+              relation: "4th great-grandfather",
+              notes: "A Chinese immigrant (\"chino\"), recorded as Agustín Tangco Tangley."
+            },
+            mother: {
+              name: "María Flores",
+              sex: "f",
+              relation: "4th great-grandmother",
+              notes:
+                "Recorded as a mestiza of the town. In Spanish-colonial Philippine records, " +
+                "\"mestiza/mestizo\" marked a person of mixed ancestry — most often Chinese-Filipino " +
+                "(mestizo de sangley) or Spanish-Filipino — a recognized legal and tax class of the era."
+            }
+          },
           mother: { name: "Cecilia Lapuz", sex: "f", relation: "3rd great-grandmother" }
         }
       },
