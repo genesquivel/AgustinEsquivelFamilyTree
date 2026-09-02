@@ -433,6 +433,28 @@ body {
 .bio-links a::before { content: "🔗 "; }
 .bio-links a:hover { text-decoration: underline; }
 
+/* ---------- Family (siblings / children) ---------- */
+.bio-family:empty { display: none; }
+.rel-list {
+  list-style: none;
+  margin: 6px 0 4px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.rel {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.rel-name { font-weight: 600; font-size: 14px; text-decoration: none; }
+a.rel-name { color: var(--accent); }
+a.rel-name:hover { text-decoration: underline; }
+span.rel-name { color: var(--ink); }
+.rel-life { font-size: 12px; color: var(--muted); }
+
 /* ---------- Records ---------- */
 .bio-records:empty { display: none; }
 .rec-head {

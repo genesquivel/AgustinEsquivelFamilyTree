@@ -106,7 +106,9 @@ function buildNode(person) {
   const hasExtra =
     person.notes ||
     (person.links && person.links.length) ||
-    (person.records && person.records.length);
+    (person.records && person.records.length) ||
+    (person.siblings && person.siblings.length) ||
+    (person.children && person.children.length);
   card.innerHTML = `
     ${avatar}
     <span class="card-text">
@@ -157,6 +159,40 @@ function setToggle(toggle, collapsed) {
   toggle.setAttribute("aria-expanded", collapsed ? "false" : "true");
 }
 
+/* Render a "Siblings"/"Children" list of relatives who aren't on the pedigree.
+   Each entry: { name, life, pid (FamilySearch id) or url }. */
+function renderRelatives(container, heading, list) {
+  if (!list || !list.length) return;
+  const h = document.createElement("h3");
+  h.className = "rec-head";
+  h.textContent = heading;
+  container.appendChild(h);
+  const ul = document.createElement("ul");
+  ul.className = "rel-list";
+  list.forEach((r) => {
+    const li = document.createElement("li");
+    li.className = "rel";
+    const href = r.url || (r.pid ? "https://www.familysearch.org/tree/person/details/" + r.pid : "");
+    const nameEl = document.createElement(href ? "a" : "span");
+    nameEl.className = "rel-name";
+    nameEl.textContent = r.name;
+    if (href) {
+      nameEl.href = href;
+      nameEl.target = "_blank";
+      nameEl.rel = "noopener noreferrer";
+    }
+    li.appendChild(nameEl);
+    if (r.life) {
+      const s = document.createElement("span");
+      s.className = "rel-life";
+      s.textContent = r.life;
+      li.appendChild(s);
+    }
+    ul.appendChild(li);
+  });
+  container.appendChild(ul);
+}
+
 /* Bio panel */
 const bio = document.getElementById("bio");
 function openBio(person) {
@@ -186,6 +222,12 @@ function openBio(person) {
   if (person.spouse) notes.push(`Married to ${person.spouse.name}.`);
   if (person.notes) notes.push(person.notes);
   document.getElementById("bioNotes").textContent = notes.join(" ");
+
+  // Family (siblings and other children — people not on the pedigree)
+  const famEl = document.getElementById("bioFamily");
+  famEl.innerHTML = "";
+  renderRelatives(famEl, "Children", person.children);
+  renderRelatives(famEl, "Siblings", person.siblings);
 
   // Records (structured, cited historical records)
   const recEl = document.getElementById("bioRecords");

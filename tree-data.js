@@ -22,7 +22,12 @@
  *        { label: "Old news article", url: "https://..." }
  *      ],
  *
- *      // cited historical records show in a "Records & sources" list:
+ *      // siblings and other children (people NOT on the pedigree) show as
+ *      // lists in the info panel; pid links to their FamilySearch person page:
+ *      siblings: [{ name: "Rogelio P. Esquivel", life: "b. 1937", pid: "PSDC-GC2" }],
+ *      children: [{ name: "…", life: "1940–2000", pid: "XXXX-XXX" }],
+ *
+ *      // cited historical records show in a "Records" list:
  *      records: [
  *        { claim: "What the record shows.", date: "1926–1927",
  *          place: "Where", excerpt: "Quoted text from the source.",
@@ -279,6 +284,9 @@ const PAOLO = {
     died: "2017",
     sex: "m",
     relation: "Father",
+    siblings: [
+      { name: "Rogelio P. Esquivel", life: "b. 1937", pid: "PSDC-GC2" }
+    ],
     father: {
       name: "Marcos R Esquivel",
       id: "marcos-esquivel",
@@ -489,6 +497,11 @@ const PAOLO = {
       notes:
         "Born in San Fernando, Pampanga, daughter of Narciso Pineda and Leonarda Umali. " +
         "On 10 June 1935 she married Marcos R. Esquivel at the Church of Espíritu Santo in Manila.",
+      siblings: [
+        { name: "Marcial Umali Pineda", life: "1911–1967", pid: "PSDZ-JHW" },
+        { name: "Manuel Pineda", life: "b. 1911", pid: "PSDL-87H" },
+        { name: "Blanca Pineda", life: "b. 1913", pid: "PSZP-74J" }
+      ],
       records: [
         {
           date: "1935",
@@ -510,6 +523,7 @@ const PAOLO = {
       ],
       father: {
         name: "Narciso Dicon Pineda",
+        born: "1889",
         died: "1978",
         sex: "m",
         relation: "Great-grandfather",
@@ -518,6 +532,7 @@ const PAOLO = {
       },
       mother: {
         name: "Leonarda Umali",
+        born: "1890",
         sex: "f",
         relation: "Great-grandmother"
       }
