@@ -73,7 +73,12 @@ const GEN = {
         sex: "m",
         relation: "Great-grandfather",
         siblings: [
-          { name: "Venancio Agustin", life: "b. 1899", pid: "PS44-R23" }
+          { name: "Venancio Agustin", life: "b. 1899", pid: "PS44-R23" },
+          {
+            name: "Exenelio Agustin",
+            life: "b. 1896",
+            note: "Christened 2 February 1896 in Cabiao, Nueva Ecija (born 25 January 1896)."
+          }
         ],
         father: {
           name: "Apolonio Agustin",
