@@ -72,17 +72,35 @@ const GEN = {
         born: "1899",
         sex: "m",
         relation: "Great-grandfather",
+        siblings: [
+          { name: "Venancio Agustin", life: "b. 1899", pid: "PS44-R23" }
+        ],
         father: {
           name: "Apolonio Agustin",
+          born: "1874",
           sex: "m",
           relation: "2nd great-grandfather",
+          links: [
+            {
+              label: "FamilySearch profile",
+              url: "https://www.familysearch.org/tree/person/details/PS4H-Q66"
+            }
+          ],
           father: { name: "Domingo Agustin", sex: "m", relation: "3rd great-grandfather" },
           mother: { name: "Tomasa Caedo", sex: "f", relation: "3rd great-grandmother" }
         },
         mother: {
           name: "Estafania Tiangco",
+          born: "1878",
           sex: "f",
           relation: "2nd great-grandmother",
+          notes: "Recorded on FamilySearch as \"Epifania Tiangco\" (1878).",
+          links: [
+            {
+              label: "FamilySearch profile",
+              url: "https://www.familysearch.org/tree/person/details/PS44-T47"
+            }
+          ],
           father: {
             name: "Tomas Tiangco",
             born: "1822",
