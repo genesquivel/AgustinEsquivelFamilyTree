@@ -106,24 +106,15 @@ const GEN = {
               url: "https://www.familysearch.org/tree/person/details/PS44-T47"
             }
           ],
-          siblings: [
-            { name: "Fermina Tiangco", life: "b. 1849", pid: "P6QK-JCQ" },
-            { name: "Dionicio Tiangco", life: "1855–1925", pid: "LHF9-T9G" },
-            { name: "Perfecto Tiangco", life: "b. 1861", pid: "P6QV-B8Y" },
-            { name: "Valeriana Tiangco", life: "b. 1862", pid: "P6H3-Q4B" },
-            { name: "Nicolas Tiangco", pid: "P6QK-4T4" }
-          ],
           father: {
             name: "Tomas Tiangco",
             born: "1822",
-            died: "1905",
             sex: "m",
             relation: "3rd great-grandfather",
             notes:
               "Baptized on 25 December 1822, five days old (born about 20 December 1822), " +
               "legitimate son of Agustín Tangco, a Chinese immigrant, and María Flores, a " +
-              "mestiza of the town. The surname is written \"Tangco\" in this record. " +
-              "He married Cecilia Lapuz; FamilySearch lists him as 1820–1905.",
+              "mestiza of the town. The surname is written \"Tangco\" in this record.",
             records: [
               {
                 date: "1822",
@@ -139,10 +130,6 @@ const GEN = {
               {
                 label: "Baptismal record, 1822 — FamilySearch",
                 url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSMJ-HSQN-R?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A66XK-D6HZ&action=view&cc=2861657&lang=en&groupId=M9C1-ZDM"
-              },
-              {
-                label: "FamilySearch profile",
-                url: "https://www.familysearch.org/tree/person/details/LHF9-5LF"
               }
             ],
             father: {
@@ -166,19 +153,7 @@ const GEN = {
                 "(mestizo de sangley) or Spanish-Filipino — a recognized legal and tax class of the era."
             }
           },
-          mother: {
-            name: "Cecilia Lapuz",
-            born: "1822",
-            died: "1910",
-            sex: "f",
-            relation: "3rd great-grandmother",
-            links: [
-              {
-                label: "FamilySearch profile",
-                url: "https://www.familysearch.org/tree/person/details/LHF9-5LL"
-              }
-            ]
-          }
+          mother: { name: "Cecilia Lapuz", sex: "f", relation: "3rd great-grandmother" }
         }
       },
       mother: {
