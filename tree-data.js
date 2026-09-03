@@ -720,15 +720,48 @@ const PAOLO = {
         father: {
           name: "Blas Albano",
           id: "blas-albano",
+          born: "1885",
           sex: "m",
           relation: "2nd great-grandfather",
           photo: "images/blas-albano.jpg",
+          notes: "Full name Blas Duque Albano — \"Duque\" from his mother, Rosa Duque.",
           links: [
             {
               label: "Photograph — FamilySearch memory",
               url: "https://www.familysearch.org/memories/memory/197697332"
             }
-          ]
+          ],
+          siblings: [
+            { name: "Estefania Duque Albano", life: "1877–1957", pid: "GWS4-474" },
+            { name: "Antonio Duque Albano", pid: "LXV3-WWB" },
+            { name: "Aurelio Duque Albano", pid: "LXJR-FMK" },
+            { name: "Mariano Duque Albano", pid: "LXJR-GPZ" },
+            { name: "Victorino Duque Albano", pid: "LXJR-YKR" }
+          ],
+          father: {
+            name: "Mariano Pacis Albano",
+            born: "1860",
+            sex: "m",
+            relation: "3rd great-grandfather",
+            links: [
+              {
+                label: "FamilySearch profile",
+                url: "https://www.familysearch.org/tree/person/details/LCPZ-J3Z"
+              }
+            ]
+          },
+          mother: {
+            name: "Rosa Duque",
+            born: "1862",
+            sex: "f",
+            relation: "3rd great-grandmother",
+            links: [
+              {
+                label: "FamilySearch profile",
+                url: "https://www.familysearch.org/tree/person/details/LCPZ-J3J"
+              }
+            ]
+          }
         },
         mother: { name: "Barbara Pacis", sex: "f", relation: "2nd great-grandmother" }
       },
