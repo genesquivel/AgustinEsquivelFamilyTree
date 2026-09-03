@@ -73,12 +73,20 @@ const GEN = {
         sex: "m",
         relation: "Great-grandfather",
         siblings: [
-          { name: "Venancio Agustin", life: "b. 1899", pid: "PS44-R23" },
+          { name: "Andrés Agustin", life: "b. 1882", pid: "PXDJ-LV1" },
+          { name: "Jacinto Agustin", life: "b. 1887", pid: "PXDK-7J6" },
+          { name: "Carlos Agustin", life: "b. 1888", pid: "PXDV-QC4" },
+          { name: "Vito Agustin", life: "b. 1889", pid: "PXDV-KKR" },
+          { name: "María Encarnación Agustin", life: "b. 1894", pid: "PXDV-BDF" },
           {
             name: "Exenelio Agustin",
             life: "b. 1896",
             note: "Christened 2 February 1896 in Cabiao, Nueva Ecija (born 25 January 1896)."
-          }
+          },
+          { name: "Cornelio Agustin", life: "b. 1896", pid: "PXDV-L5F" },
+          { name: "Cornelia Agustin", life: "b. 1896", pid: "PXDV-R38" },
+          { name: "Venancio Agustin", life: "b. 1899", pid: "PS44-R23" },
+          { name: "Lazaro Agustin", life: "b. 1899", pid: "PXDV-ZRF" }
         ],
         father: {
           name: "Apolonio Agustin",
