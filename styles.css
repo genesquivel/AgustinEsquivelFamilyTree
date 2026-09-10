@@ -369,6 +369,13 @@ body {
   margin: 0 4px 2px 0;
 }
 .bio-dates { color: var(--accent); font-weight: 600; margin: 0 0 10px; }
+.bio-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  margin: 0 0 12px;
+}
 .bio-relation {
   display: inline-block;
   background: #f3ecdd;
@@ -376,8 +383,24 @@ body {
   padding: 3px 10px;
   border-radius: 999px;
   font-size: 12px;
-  margin: 0 0 12px;
 }
+
+/* Evidence / confidence badges */
+.evidence {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-size: 11.5px;
+  font-weight: 600;
+  border: 1px solid transparent;
+  line-height: 1.3;
+}
+.ev-record   { background: #e6f0e2; color: #3f6b3a; border-color: #cadfc2; }
+.ev-family   { background: #ece4d3; color: #7a6a4c; border-color: #ddd0b6; }
+.ev-estimated{ background: #f6eccf; color: #8a6d2b; border-color: #e9d7a6; }
+.ev-lead     { background: #f6ddd8; color: #9a4b39; border-color: #ecc4ba; }
+/* smaller inside relative lists */
+.rel .evidence { font-size: 10.5px; padding: 2px 8px; }
 .bio-share {
   display: inline-block;
   border: 1px solid var(--line);

@@ -159,8 +159,27 @@ function setToggle(toggle, collapsed) {
   toggle.setAttribute("aria-expanded", collapsed ? "false" : "true");
 }
 
+/* Evidence labels: a small confidence badge on a person or relative entry. */
+const EVIDENCE_CLASS = {
+  "Record-supported": "ev-record",
+  "Family-tree supplied": "ev-family",
+  "Estimated": "ev-estimated",
+  "Possible lead requiring verification": "ev-lead"
+};
+function applyEvidence(el, label) {
+  el.className = "evidence";
+  if (label) {
+    el.textContent = label;
+    el.classList.add(EVIDENCE_CLASS[label] || "ev-family");
+    el.hidden = false;
+  } else {
+    el.textContent = "";
+    el.hidden = true;
+  }
+}
+
 /* Render a "Siblings"/"Children" list of relatives who aren't on the pedigree.
-   Each entry: { name, life, pid (FamilySearch id) or url }. */
+   Each entry: { name, life, pid (FamilySearch id) or url, note, evidence }. */
 function renderRelatives(container, heading, list) {
   if (!list || !list.length) return;
   const h = document.createElement("h3");
@@ -188,6 +207,12 @@ function renderRelatives(container, heading, list) {
       s.textContent = r.life;
       li.appendChild(s);
     }
+    if (r.evidence) {
+      const ev = document.createElement("span");
+      ev.className = "evidence " + (EVIDENCE_CLASS[r.evidence] || "ev-family");
+      ev.textContent = r.evidence;
+      li.appendChild(ev);
+    }
     if (r.note) {
       const n = document.createElement("div");
       n.className = "rel-note";
@@ -211,6 +236,7 @@ function openBio(person) {
   document.getElementById("bioName").textContent = person.name;
   document.getElementById("bioDates").textContent = lifespan(person) || "Dates unknown";
   document.getElementById("bioRelation").textContent = person.relation || "";
+  applyEvidence(document.getElementById("bioEvidence"), person.evidence);
 
   // Photo
   const photoEl = document.getElementById("bioPhoto");

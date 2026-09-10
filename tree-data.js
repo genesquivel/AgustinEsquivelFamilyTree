@@ -12,6 +12,9 @@
  *      died:  "",                     // "" if unknown, "Living" for living people
  *      sex:   "m",                    // "m" or "f"  (sets the blue / rose color)
  *      relation: "Great-grandfather", // how they relate to you
+ *      evidence: "Record-supported",  // optional confidence badge — one of:
+ *          // "Record-supported" | "Family-tree supplied" | "Estimated" |
+ *          // "Possible lead requiring verification"  (works on siblings too)
  *
  *      // --- the "living archive" fields — add these as you find things ---
  *      photo: "images/segundo-agustin.jpg",   // drop the file in the images/ folder
@@ -265,8 +268,105 @@ const GEN = {
           name: "Reducindo Navarro",
           sex: "m",
           relation: "2nd great-grandfather",
-          father: { name: "Froilan Navarro", sex: "m", relation: "3rd great-grandfather" },
-          mother: { name: "Justina Santos", sex: "f", relation: "3rd great-grandmother" }
+          siblings: [
+            {
+              name: "Eulogio Navarro",
+              life: "b. 1875",
+              evidence: "Record-supported",
+              url: "https://www.familysearch.org/ark:/61903/1:1:66XS-ZYG1?lang=en&cid=fs_copy",
+              note:
+                "Born 12 December 1875, baptized 15 December 1875. The parish name is only partly " +
+                "legible (\"Pan…\", possibly Pandan, Antique — unconfirmed). Priest: Fr. José " +
+                "Rodríguez. This baptism is indexed on FamilySearch under the name \"Segundo Navarro\"."
+            },
+            {
+              name: "Bernardo Navarro",
+              life: "b. 1872",
+              evidence: "Record-supported",
+              url: "https://www.familysearch.org/ark:/61903/1:1:XWML-FJXR?lang=en&cid=fs_copy",
+              note:
+                "Mestizo; married Patricia Carreon in June 1893 (the record spells her \"Patricla " +
+                "Carreon\"), daughter of Doroteo Carreon and María [surname illegible]. The record " +
+                "names him a single mestizo, son of Froylan Navarro and Justina Santos."
+            },
+            {
+              name: "Segundo Navarro",
+              evidence: "Possible lead requiring verification",
+              url: "https://www.familysearch.org/ark:/61903/1:1:66XS-ZYG1?lang=en&cid=fs_copy",
+              note:
+                "A record first thought to be Segundo's baptism proved to be his brother Eulogio's; " +
+                "Segundo's own baptism has not yet been found."
+            }
+          ],
+          father: {
+            name: "Froilan Navarro",
+            sex: "m",
+            relation: "3rd great-grandfather",
+            evidence: "Record-supported",
+            notes:
+              "Named as a parent in two church records — the 1875 baptism of his son Eulogio and " +
+              "the 1893 marriage of his son Bernardo. The records spell him \"Froylan Navarro\". " +
+              "The 1875 baptism lists the family as \"del gremio de mestizos de este pueblo\" — the " +
+              "town's officially registered Chinese-mestizo (mestizo de sangley) guild.",
+            links: [
+              {
+                label: "Son Eulogio's baptism, 1875 — FamilySearch",
+                url: "https://www.familysearch.org/ark:/61903/1:1:66XS-ZYG1?lang=en&cid=fs_copy"
+              },
+              {
+                label: "Son Bernardo's baptism — FamilySearch",
+                url: "https://www.familysearch.org/ark:/61903/1:1:XWML-FJXR?lang=en&cid=fs_copy"
+              }
+            ],
+            father: {
+              name: "Sabino Navarro",
+              sex: "m",
+              relation: "4th great-grandfather",
+              evidence: "Record-supported",
+              notes: "Named in the 1875 baptism of his grandson Eulogio Navarro."
+            },
+            mother: {
+              name: "Maria",
+              sex: "f",
+              relation: "4th great-grandmother",
+              evidence: "Record-supported",
+              notes: "Wife of Sabino Navarro; her surname is illegible in the 1875 baptism record."
+            }
+          },
+          mother: {
+            name: "Justina Santos",
+            sex: "f",
+            relation: "3rd great-grandmother",
+            evidence: "Record-supported",
+            notes:
+              "Named as a parent in the 1875 baptism of her son Eulogio and the 1893 marriage of " +
+              "her son Bernardo. Records give her name variously as \"Justina Santos\", " +
+              "\"Justimana de los Santos\", and (FamilySearch) \"Justina de los Santos y Sebastián\".",
+            links: [
+              {
+                label: "Son Eulogio's baptism, 1875 — FamilySearch",
+                url: "https://www.familysearch.org/ark:/61903/1:1:66XS-ZYG1?lang=en&cid=fs_copy"
+              },
+              {
+                label: "Son Bernardo's baptism — FamilySearch",
+                url: "https://www.familysearch.org/ark:/61903/1:1:XWML-FJXR?lang=en&cid=fs_copy"
+              }
+            ],
+            father: {
+              name: "Miguel de los Santos",
+              sex: "m",
+              relation: "4th great-grandfather",
+              evidence: "Record-supported",
+              notes: "Named in the 1875 baptism of his grandson Eulogio Navarro."
+            },
+            mother: {
+              name: "Dominga",
+              sex: "f",
+              relation: "4th great-grandmother",
+              evidence: "Record-supported",
+              notes: "Wife of Miguel de los Santos; her surname is illegible in the 1875 baptism record."
+            }
+          }
         },
         mother: {
           name: "Silvestra Santos",
@@ -315,6 +415,17 @@ const GEN = {
         born: "1895",
         sex: "m",
         relation: "Great-grandfather",
+        evidence: "Record-supported",
+        notes:
+          "A civil marriage register entry names Ignacio Catelo (Filipino) and Valentina Dedal " +
+          "(Filipina) as the parents of the marrying couple, confirming his link to Vicente Catelo. " +
+          "Note: his birth year appears as 1895 in one view and 1896 in another; both are recorded.",
+        links: [
+          {
+            label: "Ignacio Catelo record — FamilySearch",
+            url: "https://www.familysearch.org/ark:/61903/1:1:6B7V-H7FS?lang=en&cid=fs_copy"
+          }
+        ],
         father: {
           name: "Perfecto Catelo",
           sex: "m",
@@ -329,7 +440,17 @@ const GEN = {
       mother: {
         name: "Valentina Dedal",
         sex: "f",
-        relation: "Great-grandmother"
+        relation: "Great-grandmother",
+        evidence: "Record-supported",
+        notes:
+          "Named with Ignacio Catelo as a parent of the marrying couple in a civil marriage " +
+          "register entry, confirming the tree's Ignacio + Valentina → Vicente Catelo link.",
+        links: [
+          {
+            label: "Ignacio Catelo record — FamilySearch",
+            url: "https://www.familysearch.org/ark:/61903/1:1:6B7V-H7FS?lang=en&cid=fs_copy"
+          }
+        ]
       }
     },
     mother: {
