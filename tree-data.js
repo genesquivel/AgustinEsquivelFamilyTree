@@ -353,7 +353,8 @@ const GEN = {
               "Named as a parent in the 1875 baptism of her son Eulogio and the 1893 marriage of " +
               "her son Bernardo. Records give her name variously as \"Justina Santos\", " +
               "\"Justimana de los Santos\", \"Justiniana de los Santos\", and (FamilySearch) " +
-              "\"Justina de los Santos y Sebastián\".",
+              "\"Justina de los Santos y Sebastián\" — in that last form the \"y Sebastián\" is her " +
+              "mother's maiden surname.",
             links: [
               {
                 label: "Son Eulogio's baptism, 1875 — scan",
@@ -386,7 +387,10 @@ const GEN = {
               evidence: "Record-supported",
               notes:
                 "Wife of Miguel de los Santos; her surname is illegible in the 1875 baptism record. " +
-                "In the clearer scan her first name appears to read \"Remigia\" rather than Dominga."
+                "In the clearer scan her first name appears to read \"Remigia\" rather than Dominga. " +
+                "FamilySearch renders her daughter as \"Justina de los Santos y Sebastián\"; by Spanish " +
+                "naming convention the second surname is the mother's, suggesting her family surname was " +
+                "Sebastián — a possible lead requiring verification."
             }
           }
         },
