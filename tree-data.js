@@ -275,9 +275,11 @@ const GEN = {
               evidence: "Record-supported",
               url: "https://www.familysearch.org/ark:/61903/1:1:66XS-ZYG1?lang=en&cid=fs_copy",
               note:
-                "Born 12 December 1875, baptized 15 December 1875. The parish name is only partly " +
-                "legible (\"Pan…\", possibly Pandan, Antique — unconfirmed). Priest: Fr. José " +
-                "Rodríguez. This baptism is indexed on FamilySearch under the name \"Segundo Navarro\"."
+                "Born about 12 September 1875 and baptized 15 September 1875 (three days old) at " +
+                "the San Isidro parish of Pulilan, Bulacan. Son of Froilan Navarro and Justiniana " +
+                "de los Santos, of the town's mestizo guild; barangay of Don Tranquilino del Rosario. " +
+                "Godfather: Don Julián Santiago; priest: Fr. José Rodríguez. This baptism is indexed " +
+                "on FamilySearch under the name \"Segundo Navarro\"."
             },
             {
               name: "Bernardo Navarro",
@@ -307,8 +309,12 @@ const GEN = {
               "Named as a parent in two church records — the 1875 baptism of his son Eulogio and " +
               "the 1893 marriage of his son Bernardo. The records spell him \"Froylan Navarro\". " +
               "The 1875 baptism lists the family as \"del gremio de mestizos de este pueblo\" — the " +
-              "town's officially registered Chinese-mestizo (mestizo de sangley) guild.",
+              "officially registered Chinese-mestizo (mestizo de sangley) guild of Pulilan, Bulacan.",
             links: [
+              {
+                label: "Son Eulogio's baptism, 1875 — scan",
+                url: "docs/eulogio-navarro-baptism-1875.jpg"
+              },
               {
                 label: "Son Eulogio's baptism, 1875 — FamilySearch",
                 url: "https://www.familysearch.org/ark:/61903/1:1:66XS-ZYG1?lang=en&cid=fs_copy"
@@ -341,8 +347,13 @@ const GEN = {
             notes:
               "Named as a parent in the 1875 baptism of her son Eulogio and the 1893 marriage of " +
               "her son Bernardo. Records give her name variously as \"Justina Santos\", " +
-              "\"Justimana de los Santos\", and (FamilySearch) \"Justina de los Santos y Sebastián\".",
+              "\"Justimana de los Santos\", \"Justiniana de los Santos\", and (FamilySearch) " +
+              "\"Justina de los Santos y Sebastián\".",
             links: [
+              {
+                label: "Son Eulogio's baptism, 1875 — scan",
+                url: "docs/eulogio-navarro-baptism-1875.jpg"
+              },
               {
                 label: "Son Eulogio's baptism, 1875 — FamilySearch",
                 url: "https://www.familysearch.org/ark:/61903/1:1:66XS-ZYG1?lang=en&cid=fs_copy"
@@ -364,7 +375,9 @@ const GEN = {
               sex: "f",
               relation: "4th great-grandmother",
               evidence: "Record-supported",
-              notes: "Wife of Miguel de los Santos; her surname is illegible in the 1875 baptism record."
+              notes:
+                "Wife of Miguel de los Santos; her surname is illegible in the 1875 baptism record. " +
+                "In the clearer scan her first name appears to read \"Remigia\" rather than Dominga."
             }
           }
         },
