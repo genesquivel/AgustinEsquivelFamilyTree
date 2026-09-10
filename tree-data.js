@@ -446,6 +446,10 @@ const GEN = {
           {
             label: "Ignacio Catelo record — FamilySearch",
             url: "https://www.familysearch.org/ark:/61903/1:1:6B7V-H7FS?lang=en&cid=fs_copy"
+          },
+          {
+            label: "Civil marriage register — parents entry (scan)",
+            url: "docs/ignacio-catelo-valentina-dedal-civil-register.jpg"
           }
         ],
         father: {
@@ -471,6 +475,10 @@ const GEN = {
           {
             label: "Ignacio Catelo record — FamilySearch",
             url: "https://www.familysearch.org/ark:/61903/1:1:6B7V-H7FS?lang=en&cid=fs_copy"
+          },
+          {
+            label: "Civil marriage register — parents entry (scan)",
+            url: "docs/ignacio-catelo-valentina-dedal-civil-register.jpg"
           }
         ]
       }
