@@ -287,9 +287,10 @@ const GEN = {
               evidence: "Record-supported",
               url: "https://www.familysearch.org/ark:/61903/1:1:XWML-FJXR?lang=en&cid=fs_copy",
               note:
-                "Mestizo; married Patricia Carreon in June 1893 (the record spells her \"Patricla " +
-                "Carreon\"), daughter of Doroteo Carreon and María [surname illegible]. The record " +
-                "names him a single mestizo, son of Froylan Navarro and Justina Santos."
+                "A single mestizo of Pulilan, Bulacan; married Patricia Carreon there in June 1893 " +
+                "(the record spells her \"Patricla\"). She was a single mestiza, daughter of Doroteo " +
+                "Carreon and María Sayo. The record names him son of Froilan Navarro and Justina " +
+                "Santos; the witnesses were Pedro Sayo and Paula Espino."
             },
             {
               name: "Segundo Navarro",
@@ -322,6 +323,10 @@ const GEN = {
               {
                 label: "Son Bernardo's baptism — FamilySearch",
                 url: "https://www.familysearch.org/ark:/61903/1:1:XWML-FJXR?lang=en&cid=fs_copy"
+              },
+              {
+                label: "Son Bernardo's marriage, 1893 — scan",
+                url: "docs/bernardo-navarro-marriage-1893.jpg"
               }
             ],
             father: {
@@ -361,6 +366,10 @@ const GEN = {
               {
                 label: "Son Bernardo's baptism — FamilySearch",
                 url: "https://www.familysearch.org/ark:/61903/1:1:XWML-FJXR?lang=en&cid=fs_copy"
+              },
+              {
+                label: "Son Bernardo's marriage, 1893 — scan",
+                url: "docs/bernardo-navarro-marriage-1893.jpg"
               }
             ],
             father: {
