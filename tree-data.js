@@ -12,6 +12,7 @@
  *      died:  "",                     // "" if unknown, "Living" for living people
  *      sex:   "m",                    // "m" or "f"  (sets the blue / rose color)
  *      relation: "Great-grandfather", // how they relate to you
+ *      place: "Jaen, Nueva Ecija",    // optional home town — shows with a 📍
  *      evidence: "Record-supported",  // optional confidence badge — one of:
  *          // "Record-supported" | "Family-tree supplied" | "Estimated" |
  *          // "Possible lead requiring verification"  (works on siblings too)
@@ -218,6 +219,7 @@ const GEN = {
       relation: "Grandmother",
       father: {
         name: "Quintin Navarro",
+        place: "Pulilan, Bulacan",
         born: "1897",
         sex: "m",
         relation: "Great-grandfather",
@@ -266,6 +268,7 @@ const GEN = {
         ],
         father: {
           name: "Reducindo Navarro",
+          place: "Pulilan, Bulacan",
           sex: "m",
           relation: "2nd great-grandfather",
           siblings: [
@@ -303,6 +306,7 @@ const GEN = {
           ],
           father: {
             name: "Froilan Navarro",
+            place: "Pulilan, Bulacan",
             sex: "m",
             relation: "3rd great-grandfather",
             evidence: "Record-supported",
@@ -331,6 +335,7 @@ const GEN = {
             ],
             father: {
               name: "Sabino Navarro",
+              place: "Pulilan, Bulacan",
               sex: "m",
               relation: "4th great-grandfather",
               evidence: "Record-supported",
@@ -338,6 +343,7 @@ const GEN = {
             },
             mother: {
               name: "Maria",
+              place: "Pulilan, Bulacan",
               sex: "f",
               relation: "4th great-grandmother",
               evidence: "Record-supported",
@@ -346,6 +352,7 @@ const GEN = {
           },
           mother: {
             name: "Justina Santos",
+            place: "Pulilan, Bulacan",
             sex: "f",
             relation: "3rd great-grandmother",
             evidence: "Record-supported",
@@ -375,6 +382,7 @@ const GEN = {
             ],
             father: {
               name: "Miguel de los Santos",
+              place: "Pulilan, Bulacan",
               sex: "m",
               relation: "4th great-grandfather",
               evidence: "Record-supported",
@@ -382,6 +390,7 @@ const GEN = {
             },
             mother: {
               name: "Dominga",
+              place: "Pulilan, Bulacan",
               sex: "f",
               relation: "4th great-grandmother",
               evidence: "Record-supported",
@@ -545,6 +554,7 @@ const PAOLO = {
     ],
     father: {
       name: "Marcos R Esquivel",
+      place: "Jaen, Nueva Ecija",
       id: "marcos-esquivel",
       born: "1898",
       died: "1968",
@@ -724,6 +734,7 @@ const PAOLO = {
       ],
       father: {
         name: "Apolinario Esquivel",
+        place: "Jaen, Nueva Ecija",
         id: "apolinario-esquivel",
         born: "1871",
         sex: "m",
@@ -749,9 +760,10 @@ const PAOLO = {
             url: "https://en.wikipedia.org/wiki/Jaen,_Nueva_Ecija"
           }
         ],
-        father: { name: "Prudencio Esquivel", sex: "m", relation: "2nd great-grandfather" },
+        father: { name: "Prudencio Esquivel", place: "Jaen, Nueva Ecija", sex: "m", relation: "2nd great-grandfather" },
         mother: {
           name: "Antonia Santiago",
+          place: "Jaen, Nueva Ecija",
           sex: "f",
           relation: "2nd great-grandmother",
           notes: "Recorded as Doña Antonia Santiago in her grandson Marcos's 1885 baptism."
@@ -759,12 +771,14 @@ const PAOLO = {
       },
       mother: {
         name: "Bibiana Ramos",
+        place: "Jaen, Nueva Ecija",
         born: "1875",
         sex: "f",
         relation: "Great-grandmother",
-        father: { name: "Ciriaco Ramos", sex: "m", relation: "2nd great-grandfather" },
+        father: { name: "Ciriaco Ramos", place: "Jaen, Nueva Ecija", sex: "m", relation: "2nd great-grandfather" },
         mother: {
           name: "Joaquina Guzmán",
+          place: "Jaen, Nueva Ecija",
           sex: "f",
           relation: "2nd great-grandmother",
           notes: "Recorded as Doña Joaquina in her grandson Marcos's 1885 baptism; the surname written there reads like \"Cimanan\" (also readable as \"Simanan\"), differing from \"Guzmán\"."
@@ -813,6 +827,7 @@ const PAOLO = {
         relation: "Great-grandfather",
         father: {
           name: "Lucas Pineda",
+          place: "Cabiao, Nueva Ecija",
           born: "1876",
           sex: "m",
           relation: "2nd great-grandfather",
@@ -844,6 +859,7 @@ const PAOLO = {
           ],
           father: {
             name: "Dionisio Pineda",
+            place: "Cabiao, Nueva Ecija",
             sex: "m",
             relation: "3rd great-grandfather",
             notes:
@@ -852,6 +868,7 @@ const PAOLO = {
           },
           mother: {
             name: "Maria Juana",
+            place: "Cabiao, Nueva Ecija",
             sex: "f",
             relation: "3rd great-grandmother",
             notes:
@@ -877,6 +894,7 @@ const PAOLO = {
     relation: "Mother",
     father: {
       name: "Alejandro Ver Albano",
+      place: "Bacarra, Ilocos Norte",
       id: "alejandro-ver-albano",
       born: "1925",
       sex: "m",
@@ -983,6 +1001,7 @@ const PAOLO = {
     },
     mother: {
       name: "Josefina Maloyo",
+      place: "Bacarra, Ilocos Norte",
       id: "josefina-maloyo",
       sex: "f",
       relation: "Grandmother",
@@ -1007,6 +1026,7 @@ const PAOLO = {
       ],
       father: {
         name: "Thomas Cadiz Maloyo",
+        place: "Bacarra, Ilocos Norte",
         born: "1886",
         died: "1983",
         sex: "m",

@@ -114,6 +114,7 @@ function buildNode(person) {
     <span class="card-text">
       <span class="name">${person.name}</span>
       <span class="dates">${lifespan(person)}</span>
+      ${person.place ? `<span class="place">📍 ${person.place}</span>` : ""}
       ${person.spouse ? `<span class="spouse">⚭ ${person.spouse.name}</span>` : ""}
     </span>
     ${hasExtra ? '<span class="dot" title="Has notes or links"></span>' : ""}`;
@@ -235,6 +236,9 @@ function openBio(person) {
 
   document.getElementById("bioName").textContent = person.name;
   document.getElementById("bioDates").textContent = lifespan(person) || "Dates unknown";
+  const placeEl = document.getElementById("bioPlace");
+  placeEl.textContent = person.place ? "📍 " + person.place : "";
+  placeEl.hidden = !person.place;
   document.getElementById("bioRelation").textContent = person.relation || "";
   applyEvidence(document.getElementById("bioEvidence"), person.evidence);
 
