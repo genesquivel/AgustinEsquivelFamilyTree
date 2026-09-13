@@ -865,13 +865,16 @@ const PAOLO = {
         mother: {
           name: "Antonia Santiago",
           place: "Jaen, Nueva Ecija",
+          born: "1856",
           sex: "f",
           relation: "2nd great-grandmother",
           evidence: "Record-supported",
           notes:
-            "Recorded as Doña Antonia Santiago, confirmed as paternal grandmother in the baptisms " +
-            "of grandchildren through all three of her sons (Odon, Apolinario, Hilario), " +
-            "1884–1901. Her own burial record also survives.",
+            "Baptized 9 January 1856, about seven days old — so born about 2 January 1856; her " +
+            "record gives the name as Antonia de Santiago, wife of Don Prudencio Esquivel. " +
+            "Recorded elsewhere as Doña Antonia Santiago, confirmed as paternal grandmother in " +
+            "the baptisms of grandchildren through all three of her sons (Odon, Apolinario, " +
+            "Hilario), 1884–1901. Her own burial record also survives.",
           links: [
             {
               label: "Burial record — FamilySearch",
