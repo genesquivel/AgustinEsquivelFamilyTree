@@ -569,6 +569,28 @@ const PAOLO = {
         "history — Modern Europe and Oriental History — at Bulacan High School in Malolos, " +
         "holding A.B. and B.S. degrees. In 1935 he married Lolita Pineda in Manila. " +
         "His 1919 passport photograph is shown here.",
+      siblings: [
+        {
+          name: "Francisca Esquivel",
+          life: "b. 1887",
+          evidence: "Record-supported",
+          url: "https://www.familysearch.org/ark:/61903/1:1:666G-WS4P?lang=en&cid=fs_copy",
+          note:
+            "Twin of Radegundes; born about 28 January 1887, baptized 30 January 1887 in Jaen. " +
+            "Daughter of Apolinario Esquivel and Bibiana Ramos. Godmother: Felipa Ramos; priest: " +
+            "Fr. Florencio Rodríguez."
+        },
+        {
+          name: "Radegundes Esquivel",
+          life: "b. 1887",
+          evidence: "Record-supported",
+          note:
+            "Francisca's twin; born about 28 January 1887, baptized 30 January 1887 in Jaen " +
+            "(godmother María Ramos). A later margin note records her marriage to Felicisimo " +
+            "Rolando on 27 August (year unclear); his parents' names are provisional. Image " +
+            "transcription only — no FamilySearch link yet."
+        }
+      ],
       links: [
         {
           label: "Baptismal record, 1885 (Jaen) — FamilySearch",
@@ -739,19 +761,37 @@ const PAOLO = {
         born: "1871",
         sex: "m",
         relation: "Great-grandfather",
+        evidence: "Record-supported",
         notes:
           "Served as Municipal President of Jaen, Nueva Ecija from 1902 to 1907. " +
           "The town's history also records Lt. Col. Delfin Esquivel leading forces " +
-          "in a battle at Jaen on September 4, 1896.",
+          "in a battle at Jaen on September 4, 1896. One of three sons of Prudencio " +
+          "Esquivel and Antonia Santiago (with Odon and Hilario/Hilarion).",
         siblings: [
+          {
+            name: "Odon Esquivel",
+            evidence: "Record-supported",
+            url: "https://www.familysearch.org/ark:/61903/1:1:666G-KPZG?lang=en&cid=fs_copy",
+            note:
+              "Brother of Apolinario; married Casiana Maningas. Their daughter Mercedes Carolina " +
+              "Emilia Esquivel was baptized 27 March 1884 in San Antonio, Nueva Ecija (born about " +
+              "21 March 1884) — that record names Prudencio Esquivel and Antonia Santiago as her " +
+              "paternal grandparents, and Alejandro Maningas and Concepción de Guzmán as maternal."
+          },
           {
             name: "Hilarion Esquivel",
             life: "b. 1862",
             pid: "9J7B-7DY",
+            evidence: "Record-supported",
             note:
-              "Don Hilarion Esquivel was a prominent principalía leader in Jaén, Nueva Ecija. " +
-              "He built the historic ancestral mansion \"Casa Jaen I\" around 1890, preserved " +
-              "today as a heritage structure at Las Casas Filipinas de Acúzar."
+              "Don Hilarion Esquivel (also spelled \"Hilario\" in the records) was a prominent " +
+              "principalía leader in Jaén, Nueva Ecija and a cabeza de barangay who headed " +
+              "Barangay No. 18. He built the historic ancestral mansion \"Casa Jaen I\" around 1890, " +
+              "preserved today as a heritage structure at Las Casas Filipinas de Acúzar. He married " +
+              "Leoncia Frias; their son Enrique Esquivel was baptized 2 June 1901 in Jaen (born about " +
+              "29 May 1901), with his uncle Apolinario Esquivel as godfather; Enrique later married in " +
+              "the Jaen church on 14 May 1927. (Some spouse and grandparent given names in these " +
+              "records are provisional.)"
           }
         ],
         links: [
@@ -760,13 +800,46 @@ const PAOLO = {
             url: "https://en.wikipedia.org/wiki/Jaen,_Nueva_Ecija"
           }
         ],
-        father: { name: "Prudencio Esquivel", place: "Jaen, Nueva Ecija", sex: "m", relation: "2nd great-grandfather" },
+        father: {
+          name: "Prudencio Esquivel",
+          place: "Jaen, Nueva Ecija",
+          sex: "m",
+          relation: "2nd great-grandfather",
+          evidence: "Record-supported",
+          notes:
+            "Don Prudencio Esquivel and Doña Antonia Santiago had three sons — Odon, Apolinario, " +
+            "and Hilario — each proven by baptism records that name Prudencio and Antonia as the " +
+            "children's paternal grandparents (1884–1901, Jaen and San Antonio, Nueva Ecija).",
+          links: [
+            {
+              label: "Granddaughter Mercedes Esquivel's baptism, 1884 — FamilySearch",
+              url: "https://www.familysearch.org/ark:/61903/1:1:666G-KPZG?lang=en&cid=fs_copy"
+            },
+            {
+              label: "Granddaughter Francisca Esquivel's baptism, 1887 — FamilySearch",
+              url: "https://www.familysearch.org/ark:/61903/1:1:666G-WS4P?lang=en&cid=fs_copy"
+            }
+          ]
+        },
         mother: {
           name: "Antonia Santiago",
           place: "Jaen, Nueva Ecija",
           sex: "f",
           relation: "2nd great-grandmother",
-          notes: "Recorded as Doña Antonia Santiago in her grandson Marcos's 1885 baptism."
+          evidence: "Record-supported",
+          notes:
+            "Recorded as Doña Antonia Santiago, confirmed as paternal grandmother in the baptisms " +
+            "of grandchildren through all three of her sons (Odon, Apolinario, Hilario), 1884–1901.",
+          links: [
+            {
+              label: "Granddaughter Mercedes Esquivel's baptism, 1884 — FamilySearch",
+              url: "https://www.familysearch.org/ark:/61903/1:1:666G-KPZG?lang=en&cid=fs_copy"
+            },
+            {
+              label: "Granddaughter Francisca Esquivel's baptism, 1887 — FamilySearch",
+              url: "https://www.familysearch.org/ark:/61903/1:1:666G-WS4P?lang=en&cid=fs_copy"
+            }
+          ]
         }
       },
       mother: {
