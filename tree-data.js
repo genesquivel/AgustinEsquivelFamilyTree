@@ -1075,6 +1075,7 @@ const PAOLO = {
     mother: {
       name: "Lolita Pineda Esquivel",
       id: "lolita-pineda-esquivel",
+      place: "San Fernando, Pampanga",
       born: "1916",
       died: "2006",
       sex: "f",
