@@ -254,7 +254,9 @@ body {
     height: min(74vh, 780px);
     overscroll-behavior: contain;
     cursor: grab;
+    user-select: none;              /* a text-selection drag must not abort a pan */
   }
+  .tree-scroll img { -webkit-user-drag: none; user-select: none; }
   .tree-scroll.dragging {
     cursor: grabbing;
     user-select: none;

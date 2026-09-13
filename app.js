@@ -100,7 +100,7 @@ function buildNode(person) {
   card.setAttribute("role", "button");
   if (person.__id) card.dataset.id = person.__id;
   const avatar = person.photo
-    ? `<span class="avatar"><img src="${person.photo}" alt="" loading="lazy"
+    ? `<span class="avatar"><img src="${person.photo}" alt="" loading="lazy" draggable="false"
          onerror="this.parentNode.textContent='${initials(person.name)}'"></span>`
     : `<span class="avatar">${initials(person.name)}</span>`;
   const hasExtra =
@@ -421,6 +421,11 @@ function openPerson(id) {
 
 /* ---- Grab-and-drag panning (wide screens) ---- */
 let down = false, moved = false, startX = 0, startY = 0, startL = 0, startT = 0;
+
+// A native image/text drag starting on a card fires pointercancel, which used
+// to abort the pan mid-drag (most noticeable on the long vertical pan to the
+// bottom). Suppressing dragstart keeps the pan alive.
+scroller.addEventListener("dragstart", (e) => e.preventDefault());
 
 scroller.addEventListener("pointerdown", (e) => {
   if (e.button !== 0 || !isDesktop()) return;
