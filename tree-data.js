@@ -556,13 +556,16 @@ const PAOLO = {
       name: "Marcos R Esquivel",
       place: "Jaen, Nueva Ecija",
       id: "marcos-esquivel",
-      born: "1898",
+      born: "1896",
       died: "1968",
       sex: "m",
       relation: "Grandfather",
       photo: "images/marcos-esquivel.jpg",
       notes:
-        "Born in Jaen, Nueva Ecija. In 1919, as a young student, he sailed from Manila " +
+        "Born about 27 April 1896 in Jaen, Nueva Ecija and baptized 4 May 1896 — the same date " +
+        "of birth (28 April 1896) given on his 1919 passport; his 1968 death certificate later " +
+        "misstated the year as 1898. An older brother, also named Marcos, had been baptized in " +
+        "1885 and died young, so the name was reused for him. In 1919, as a young student, he sailed from Manila " +
         "aboard the Tenyo Maru bound for the United States (by way of Hong Kong, China, " +
         "and Japan). He is recorded in the University of the Philippines student registry " +
         "(UP Bulletin No. 7, the Catalogue of 1916–1917), and by the late 1920s was teaching " +
@@ -571,30 +574,64 @@ const PAOLO = {
         "His 1919 passport photograph is shown here.",
       siblings: [
         {
-          name: "Francisca Esquivel",
+          name: "Marcos Esquivel (I)",
+          life: "1885 – died young",
+          evidence: "Record-supported",
+          url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSMD-B4YL?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A666G-31M8&action=view&cc=2861657&lang=en&groupId=M98M-4PN",
+          note:
+            "An older brother baptized 1 April 1885 in Jaen (born about 30 March 1885), legitimate " +
+            "son of Apolinario Esquivel and Bibiana Ramos; his paternal grandparents are named as " +
+            "Don Prudencio Esquivel and Doña Antonia Santiago, maternal as Don Ciriaco Ramos and " +
+            "Doña Joaquina. He is believed to have died young, and the name was reused for our " +
+            "Marcos (baptized 1896)."
+        },
+        {
+          name: "Francisca de Paula Esquivel",
           life: "b. 1887",
           evidence: "Record-supported",
           url: "https://www.familysearch.org/ark:/61903/1:1:666G-WS4P?lang=en&cid=fs_copy",
           note:
-            "Twin of Radegundes; born about 28 January 1887, baptized 30 January 1887 in Jaen. " +
-            "Daughter of Apolinario Esquivel and Bibiana Ramos. Godmother: Felipa Ramos; priest: " +
-            "Fr. Florencio Rodríguez."
+            "Twin of Radegundes; baptized 15 November 1887 in Jaen — daughter of Apolinario " +
+            "Esquivel and Bibiana Ramos. Godmother: Felipa Ramos; priest: Fr. Florencio Rodríguez. " +
+            "(An earlier reading of the entry had given a late-January 1887 baptism; the record " +
+            "date is 15 November 1887.)"
         },
         {
           name: "Radegundes Esquivel",
           life: "b. 1887",
           evidence: "Record-supported",
+          url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSM8-W7MW-8?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A6JCB-WMBP&action=view&cc=2861657&lang=en&groupId=M9LT-72S",
           note:
-            "Francisca's twin; born about 28 January 1887, baptized 30 January 1887 in Jaen " +
-            "(godmother María Ramos). A later margin note records her marriage to Felicisimo " +
-            "Rolando on 27 August (year unclear); his parents' names are provisional. Image " +
-            "transcription only — no FamilySearch link yet."
+            "Francisca's twin; baptized 15 November 1887 in Jaen (godmother María Ramos). She " +
+            "married Celedonio Velarde; their son Eliseo Velarde was baptized 31 December 1916 in " +
+            "Jaen (born about 7 July 1916) and married Candelaria Juez (surname uncertain) on " +
+            "17 June 1946. An earlier margin reading had tentatively given her husband as " +
+            "\"Felicisimo Rolando,\" now superseded by the record naming Celedonio Velarde."
+        },
+        {
+          name: "Cecilio Apolinario Esquivel",
+          life: "b. 1892",
+          evidence: "Record-supported",
+          url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSMD-B4JY?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A666G-PKVL&action=view&lang=en&groupId=M98M-4PJ",
+          note:
+            "Baptized 26 November 1892 in Jaen (born about 22 November 1892), son of Apolinario " +
+            "Esquivel and Bibiana Ramos. In this record Apolinario is noted as the sitting Cabeza " +
+            "de Barangay."
+        },
+        {
+          name: "Julio Esquivel",
+          evidence: "Record-supported",
+          url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSM8-W7M3-N?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A6JCB-J7H7&action=view&cc=2861657&lang=en&groupId=M9LT-72S",
+          note:
+            "Confirmed son of Apolinario Esquivel and Bibiana Ramos; birth date not yet found. He " +
+            "married Anastasia Frias; their son Jose Trinidad Esquivel was baptized 26 June 1917 " +
+            "in Jaen (born about 3 June 1917)."
         }
       ],
       links: [
         {
-          label: "Baptismal record, 1885 (Jaen) — FamilySearch",
-          url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSMD-B4YL?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A666G-31M8&action=view&cc=2861657&lang=en&groupId=M98M-4PN"
+          label: "Baptismal record, 1896 (Jaen) — FamilySearch",
+          url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSMD-BHSJ?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A666G-DNSB&action=view&cc=2861657&lang=en&groupId=M98M-4PJ"
         },
         {
           label: "Passport application, 1919 (scan, page 1)",
@@ -630,20 +667,21 @@ const PAOLO = {
       recordsSource: "https://shine.shift101.solutions/archive/bulacan-high-school-antolohiya-ng-alaala/",
       records: [
         {
-          date: "1885",
+          date: "1896",
           place: "Jaen, Nueva Ecija",
-          claim: "Baptized on 1 April 1885 in Jaen — legitimate son of Apolinario Esquivel and Bibiana Ramos.",
+          claim: "Baptized on 4 May 1896 in Jaen — legitimate son of Apolinario Esquivel and Bibiana Ramos.",
           excerpt:
-            "En primero de Abril de mil ochocientos ochenta y cinco años … bauticé solemnemente … " +
-            "a un niño de dos días nacido, a quien se le ha puesto por nombre Marcos, hijo legítimo " +
-            "y de legítimo matrimonio de Apolinario Esquivel y Bibiana Ramos … Abuelos paternos " +
-            "D. Prudencio Esquivel y Da. Antonia Santiago, y maternos D. Ciriaco Ramos y Da. Joaquina …",
+            "Baptism of Marcos, born about 27 April 1896, legitimate son of Apolinario Esquivel " +
+            "and Bibiana Ramos of Jaen. His godfather was Don Gonzalo Esquivel (possibly a " +
+            "relative), and the father is recorded as employed in the Provincial Public Treasury " +
+            "of Nueva Ecija.",
           notes:
-            "The baptism places his birth about 30 March 1885 (two days before baptism), which " +
-            "differs from the 28 April 1896 birth given on his 1919 passport application. His " +
-            "grandparents carry the honorifics Don and Doña — Don Prudencio Esquivel and Doña " +
-            "Antonia Santiago (paternal), Don Ciriaco Ramos and Doña Joaquina (maternal).",
-          url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSMD-B4YL?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A666G-31M8&action=view&cc=2861657&lang=en&groupId=M98M-4PN"
+            "This baptism places his birth about 27 April 1896, matching the 28 April 1896 birth " +
+            "on his 1919 passport application. An older brother, also named Marcos, had been " +
+            "baptized 1 April 1885 (born about 30 March 1885) and died young — that earlier record " +
+            "belongs to him, and the name was reused for our Marcos. His 1968 death certificate " +
+            "later gave the year as 1898.",
+          url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSMD-BHSJ?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A666G-DNSB&action=view&cc=2861657&lang=en&groupId=M98M-4PJ"
         },
         {
           date: "1919",
@@ -749,8 +787,9 @@ const PAOLO = {
             "April 28, 1898 … father Apolinario Esquivel, mother Bibiana Ramos; wife Lolita P. " +
             "Esquivel … cause of death: vascular accident, arteriosclerosis.",
           notes:
-            "The death certificate gives his birth as 28 April 1898, matching the year shown here; " +
-            "the 1919 passport instead gave 1896 and the 1885 baptism a still earlier date.",
+            "The death certificate gives his birth as 28 April 1898 — two years later than the " +
+            "27 April 1896 shown here, which is supported by both his 1896 baptism and his 1919 " +
+            "passport. Such small year discrepancies are common in later civil records.",
           url: "https://www.familysearch.org/ark:/61903/3:1:33S7-9RTF-96G4?view=index&action=view&cc=1852584&lang=en&groupId=M9C2-P9D"
         }
       ],
@@ -763,10 +802,12 @@ const PAOLO = {
         relation: "Great-grandfather",
         evidence: "Record-supported",
         notes:
-          "Served as Municipal President of Jaen, Nueva Ecija from 1902 to 1907. " +
-          "The town's history also records Lt. Col. Delfin Esquivel leading forces " +
-          "in a battle at Jaen on September 4, 1896. One of three sons of Prudencio " +
-          "Esquivel and Antonia Santiago (with Odon and Hilario/Hilarion).",
+          "His children's baptisms trace a rising public career: he was the sitting Cabeza de " +
+          "Barangay when his son Cecilio was baptized in 1892, and was employed in the Provincial " +
+          "Public Treasury of Nueva Ecija by 1896. He later served as Municipal President of " +
+          "Jaen, Nueva Ecija from 1902 to 1907. The town's history also records Lt. Col. Delfin " +
+          "Esquivel leading forces in a battle at Jaen on September 4, 1896. One of three sons of " +
+          "Prudencio Esquivel and Antonia Santiago (with Odon and Hilario/Hilarion).",
         siblings: [
           {
             name: "Odon Esquivel",
@@ -829,8 +870,13 @@ const PAOLO = {
           evidence: "Record-supported",
           notes:
             "Recorded as Doña Antonia Santiago, confirmed as paternal grandmother in the baptisms " +
-            "of grandchildren through all three of her sons (Odon, Apolinario, Hilario), 1884–1901.",
+            "of grandchildren through all three of her sons (Odon, Apolinario, Hilario), " +
+            "1884–1901. Her own burial record also survives.",
           links: [
+            {
+              label: "Burial record — FamilySearch",
+              url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSM8-7Q6Z-B?view=explore&action=view&cc=5000340&lang=en&groupId=M9ZB-XPG"
+            },
             {
               label: "Granddaughter Mercedes Esquivel's baptism, 1884 — FamilySearch",
               url: "https://www.familysearch.org/ark:/61903/1:1:666G-KPZG?lang=en&cid=fs_copy"
@@ -855,11 +901,37 @@ const PAOLO = {
           "Cunanan, of the barangay of Don Tranquilino Rosario. Godmother: Teodora Livag; " +
           "officiating priest: Fr. Heliodoro Chico, Coadjutor of Gapan. Her mother, Doña Joaquina " +
           "(Cunanan) Guzmán, was buried at Gapan on 2–3 December 1874 — within days of Bibiana's " +
-          "birth — indicating she died in childbirth.",
+          "birth — indicating she died in childbirth. Note: FamilySearch's index for this baptism " +
+          "mis-reads the mother as \"Guzman\" and the godmother as \"Petra Suarez\"; the original " +
+          "entry transcribed here plainly reads Joaquina Cunanan and Teodora Livag, so the index " +
+          "should be treated as suspect for this record. A separately indexed 1835 Gapan " +
+          "confirmation of a \"Bibiana Ramos, daughter of Ciriaco Ramos and Joaquina Cunanan\" is " +
+          "an older generation carrying the same names — not this Bibiana; the two are kept apart.",
         links: [
           {
             label: "Baptism record, 1874 (Gapan) — FamilySearch",
             url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSM8-M3SQ-Z?lang=en&i=224&cc=2861657&groupId=2861657"
+          }
+        ],
+        siblings: [
+          {
+            name: "Mariano Ramos",
+            evidence: "Record-supported",
+            note:
+              "Bibiana's brother. On 4–5 July 1869 at Gapan he married Mauricia Francisco; the " +
+              "marriage record names him as the son of Don Ciriaco Ramos and Doña Joaquina Cunanan. " +
+              "Transcribed from image; no FamilySearch link yet."
+          },
+          {
+            name: "Leoncia Ramos",
+            life: "b. 1852",
+            evidence: "Record-supported",
+            url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSM8-MSVX-C?view=explore&action=view&lang=en&groupId=M9ZT-ZQH",
+            note:
+              "Bibiana's older sister. Baptized 6 January 1853 at Gapan, about eight days old — so " +
+              "born about 29 December 1852 — daughter of Ciriaco Ramos and Joaquina Guzman. Here " +
+              "the mother's surname is written \"Guzman\" (her father's surname) rather than " +
+              "\"Cunanan,\" one of the records showing the two names were used for the same woman."
           }
         ],
         father: {
@@ -886,10 +958,17 @@ const PAOLO = {
           relation: "2nd great-grandmother",
           evidence: "Record-supported",
           notes:
-            "Her burial record (Gapan, Nueva Ecija, 2–3 December 1874) names her \"Da. Joaquina " +
-            "Cunanan,\" india, wife of Don Ciriaco Ramos and daughter of Don Alvaro de Guzman — " +
-            "confirming that the surname read as \"Cimanan/Simanan\" in Marcos's 1885 baptism is " +
-            "\"Cunanan.\" The tree's \"Guzmán\" is her father's surname. Priest: Fr. Antonio Cornejo.",
+            "Her burial record (Gapan, Nueva Ecija — interred the 2nd, entry dated the 3rd of " +
+            "December 1874) names her \"Da. Joaquina Cunanan,\" wife of Don Ciriaco Ramos and " +
+            "daughter of Don Alvaro de Guzman — confirming that the surname read as " +
+            "\"Cimanan/Simanan\" in Marcos's 1885 baptism is \"Cunanan.\" She had received the " +
+            "sacraments and was given a sung burial with attendance; priest: Fr. Antonio Cornejo. " +
+            "The same woman appears as \"Joaquina Guzman\" in her daughter Leoncia's 1853 baptism " +
+            "and in Francisca's 1887 baptism, and as \"Joaquina Cunanan\" in Bibiana's 1874 " +
+            "baptism and the 1885, 1892 and 1896 Jaen baptisms — Cunanan and Guzman being used " +
+            "interchangeably by the priests for this one woman (Guzman being her father's " +
+            "surname). She died in or just after childbirth with Bibiana, whose baptism falls only " +
+            "days after this burial.",
           links: [
             {
               label: "Burial record, 1874 (Gapan) — FamilySearch",
