@@ -844,10 +844,24 @@ const PAOLO = {
       },
       mother: {
         name: "Bibiana Ramos",
-        place: "Jaen, Nueva Ecija",
-        born: "1875",
+        place: "Gapan, Nueva Ecija",
+        born: "1874",
         sex: "f",
         relation: "Great-grandmother",
+        evidence: "Record-supported",
+        notes:
+          "Baptized 6 December 1874 at Gapan, Nueva Ecija, four days old — so born about 2 December " +
+          "1874. Recorded as a mestiza (de sangley), daughter of Ciriaco Ramos and Joaquina " +
+          "Cunanan, of the barangay of Don Tranquilino Rosario. Godmother: Teodora Livag; " +
+          "officiating priest: Fr. Heliodoro Chico, Coadjutor of Gapan. Her mother, Doña Joaquina " +
+          "(Cunanan) Guzmán, was buried at Gapan on 2–3 December 1874 — within days of Bibiana's " +
+          "birth — indicating she died in childbirth.",
+        links: [
+          {
+            label: "Baptism record, 1874 (Gapan) — FamilySearch",
+            url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSM8-M3SQ-Z?lang=en&i=224&cc=2861657&groupId=2861657"
+          }
+        ],
         father: {
           name: "Ciriaco Ramos",
           place: "Gapan, Nueva Ecija",
