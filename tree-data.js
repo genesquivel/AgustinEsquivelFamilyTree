@@ -73,6 +73,7 @@ const GEN = {
       relation: "Grandfather",
       father: {
         name: "Segundo Agustin",
+        place: "Cabiao, Nueva Ecija",
         born: "1899",
         sex: "m",
         relation: "Great-grandfather",
@@ -94,6 +95,7 @@ const GEN = {
         ],
         father: {
           name: "Apolonio Agustin",
+          place: "Cabiao, Nueva Ecija",
           born: "1874",
           sex: "m",
           relation: "2nd great-grandfather",
@@ -108,6 +110,7 @@ const GEN = {
         },
         mother: {
           name: "Estafania Tiangco",
+          place: "Cabiao, Nueva Ecija",
           sex: "f",
           relation: "2nd great-grandmother",
           notes: "Also recorded on FamilySearch as \"Epifania Tiangco\".",
@@ -441,6 +444,7 @@ const GEN = {
     relation: "Mother",
     father: {
       name: "Vicente Catelo",
+      place: "Surigao City",
       born: "1915",
       died: "1980",
       sex: "m",
