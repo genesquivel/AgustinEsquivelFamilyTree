@@ -848,13 +848,56 @@ const PAOLO = {
         born: "1875",
         sex: "f",
         relation: "Great-grandmother",
-        father: { name: "Ciriaco Ramos", place: "Jaen, Nueva Ecija", sex: "m", relation: "2nd great-grandfather" },
+        father: {
+          name: "Ciriaco Ramos",
+          place: "Gapan, Nueva Ecija",
+          sex: "m",
+          relation: "2nd great-grandfather",
+          evidence: "Record-supported",
+          notes:
+            "Of Gapan, Nueva Ecija; named as the living husband of Doña Joaquina (Cunanan) in her " +
+            "1874 burial record there.",
+          links: [
+            {
+              label: "Wife Joaquina's burial, 1874 (Gapan) — FamilySearch",
+              url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSM8-7JF1?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3AX71V-6S2H&action=view&lang=en&groupId=M9ZR-2LG"
+            }
+          ]
+        },
         mother: {
           name: "Joaquina Guzmán",
-          place: "Jaen, Nueva Ecija",
+          place: "Gapan, Nueva Ecija",
+          died: "1874",
           sex: "f",
           relation: "2nd great-grandmother",
-          notes: "Recorded as Doña Joaquina in her grandson Marcos's 1885 baptism; the surname written there reads like \"Cimanan\" (also readable as \"Simanan\"), differing from \"Guzmán\"."
+          evidence: "Record-supported",
+          notes:
+            "Her burial record (Gapan, Nueva Ecija, 2–3 December 1874) names her \"Da. Joaquina " +
+            "Cunanan,\" india, wife of Don Ciriaco Ramos and daughter of Don Alvaro de Guzman — " +
+            "confirming that the surname read as \"Cimanan/Simanan\" in Marcos's 1885 baptism is " +
+            "\"Cunanan.\" The tree's \"Guzmán\" is her father's surname. Priest: Fr. Antonio Cornejo.",
+          links: [
+            {
+              label: "Burial record, 1874 (Gapan) — FamilySearch",
+              url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSM8-7JF1?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3AX71V-6S2H&action=view&lang=en&groupId=M9ZR-2LG"
+            }
+          ],
+          father: {
+            name: "Alvaro de Guzman",
+            place: "Gapan, Nueva Ecija",
+            sex: "m",
+            relation: "3rd great-grandfather",
+            evidence: "Record-supported",
+            notes:
+              "Recorded as Don Alvaro de Guzman, named as Doña Joaquina's father in her 1874 burial " +
+              "at Gapan, Nueva Ecija.",
+            links: [
+              {
+                label: "Daughter Joaquina's burial, 1874 — FamilySearch",
+                url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSM8-7JF1?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3AX71V-6S2H&action=view&lang=en&groupId=M9ZR-2LG"
+              }
+            ]
+          }
         }
       }
     },
