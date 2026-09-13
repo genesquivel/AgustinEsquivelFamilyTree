@@ -445,17 +445,43 @@ const GEN = {
       died: "1980",
       sex: "m",
       relation: "Grandfather",
+      siblings: [
+        {
+          name: "Perfecto Catelo",
+          evidence: "Record-supported",
+          url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS4L-63M2-L?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A6B7V-W4XJ&action=view&cc=1410394&lang=en&groupId=M9MP-WQD",
+          note:
+            "Vicente's brother (Gen's grand-uncle) — a voter list names him as the son of Ignacio " +
+            "Catelo and Valentina Dedal. He married Estrella Bonilla at Surigao (marriage register " +
+            "entry 104, registered 1943–46); he was 25 and she 20, both of Surigao. He was named " +
+            "for his grandfather, Ignacio's father Perfecto Catelo."
+        }
+      ],
       father: {
         name: "Ignacio Catelo",
-        born: "1895",
+        place: "Surigao City",
+        born: "1878",
+        died: "1955",
         sex: "m",
         relation: "Great-grandfather",
         evidence: "Record-supported",
         notes:
-          "A civil marriage register entry names Ignacio Catelo (Filipino) and Valentina Dedal " +
-          "(Filipina) as the parents of the marrying couple, confirming his link to Vicente Catelo. " +
-          "Note: his birth year appears as 1895 in one view and 1896 in another; both are recorded.",
+          "Ignacio L. Catelo (31 July 1878 – 9 February 1955, Surigao City). He was the weather " +
+          "observer at the official Surigao station of the Philippine Weather Bureau from about " +
+          "1902 to 1905 — a third-class station — filing the local crop and rainfall reports. In " +
+          "1904 he also accepted an appointment as inspector of customs; this was found to be " +
+          "\"directly in violation of the law,\" his salary was withheld for months, and after he " +
+          "relinquished the customs post his back pay was released. A civil marriage register " +
+          "later names Ignacio Catelo and Valentina Dedal as the parents of the marrying couple, " +
+          "confirming his link to Vicente Catelo. His birth and death dates come from his " +
+          "FamilySearch profile (9N3L-8V3); they are unsourced there but fit his 1902–05 career, " +
+          "when he would have been aged 24–27 — so the tree's earlier ~1896 birth year has been " +
+          "corrected to 1878.",
         links: [
+          {
+            label: "FamilySearch profile (9N3L-8V3)",
+            url: "https://www.familysearch.org/tree/person/details/9N3L-8V3"
+          },
           {
             label: "Ignacio Catelo record — FamilySearch",
             url: "https://www.familysearch.org/ark:/61903/1:1:6B7V-H7FS?lang=en&cid=fs_copy"
@@ -465,10 +491,51 @@ const GEN = {
             url: "docs/ignacio-catelo-valentina-dedal-civil-register.jpg"
           }
         ],
+        records: [
+          {
+            date: "1902",
+            place: "Surigao, Mindanao",
+            claim: "Listed as the Surigao weather observer in the first annual report of the Philippine Weather Bureau.",
+            excerpt: "First Annual Report of the Philippine Weather Bureau — Ignacio Catelo listed as the observer at the Surigao station.",
+            url: "https://babel.hathitrust.org/cgi/pt?id=nyp.33433034025902&seq=68&q1=ignacio+catelo&start=1"
+          },
+          {
+            date: "1902",
+            place: "Surigao, Mindanao",
+            claim: "Filed the local crop and weather report as the Surigao observer.",
+            excerpt:
+              "Report of the observer of Surigao, Ignacio L. Catelo: The principal articles " +
+              "cultivated at present are yams, corn, and ube. There has been plenty of rain, and " +
+              "as a consequence the actual condition of the crops is above the average.",
+            url: "https://babel.hathitrust.org/cgi/pt?id=nyp.33433034025902&seq=97&q1=ignacio+catelo&start=1"
+          },
+          {
+            date: "1904–1905",
+            place: "Surigao, Mindanao",
+            claim: "Cited in the Report to the Secretary of War for accepting an inspector-of-customs appointment held to violate the law.",
+            excerpt:
+              "Report to the Secretary of War (pt. 2, p. 410) — Ignacio Catelo cited by name for " +
+              "accepting an inspector-of-customs appointment \"directly in violation of the law\"; " +
+              "his salary was withheld for months, he relinquished the post, and his back pay was " +
+              "then released.",
+            url: "https://babel.hathitrust.org/cgi/pt?id=mdp.35112203989399&seq=434&q1=ignacio+catelo&start=1"
+          },
+          {
+            date: "1905",
+            place: "Surigao, Mindanao",
+            claim: "Named as the Surigao observer in the Weather Bureau station list of 31 August 1905.",
+            excerpt: "Surigao … Surigao, Mindanao … 9 47 125 29 … Third … Ignacio Catelo.",
+            url: "https://babel.hathitrust.org/cgi/pt?id=mdp.35112203989399&seq=424&q1=ignacio+catelo&start=1"
+          }
+        ],
         father: {
           name: "Perfecto Catelo",
           sex: "m",
-          relation: "2nd great-grandfather"
+          relation: "2nd great-grandfather",
+          notes:
+            "Ignacio's father — a tentative, as-yet unsourced entry. He is distinct from his " +
+            "grandson Perfecto Catelo (Vicente's brother), who was named after him and who married " +
+            "Estrella Bonilla."
         },
         mother: {
           name: "Genoveva",
@@ -478,13 +545,21 @@ const GEN = {
       },
       mother: {
         name: "Valentina Dedal",
+        place: "Surigao",
         sex: "f",
         relation: "Great-grandmother",
         evidence: "Record-supported",
         notes:
-          "Named with Ignacio Catelo as a parent of the marrying couple in a civil marriage " +
-          "register entry, confirming the tree's Ignacio + Valentina → Vicente Catelo link.",
+          "A schoolteacher: the 1904 Bureau of Education roster lists \"Valentina Dedal, teacher, " +
+          "third grade, Central School\" in the Division of Surigao. Vicente Catelo's death " +
+          "certificate names her as his mother, and a civil marriage register names her with " +
+          "Ignacio Catelo as parents of the marrying couple — together confirming the tree's " +
+          "Ignacio + Valentina → Vicente Catelo link.",
         links: [
+          {
+            label: "1904 Bureau of Education roster — MyHeritage",
+            url: "https://www.myheritage.com/research/record-90100-65432029/philippines-bureau-of-education-bulletin?snippet=9e1a445c2ac37778f5750bb5d6241064#fullscreen"
+          },
           {
             label: "Ignacio Catelo record — FamilySearch",
             url: "https://www.familysearch.org/ark:/61903/1:1:6B7V-H7FS?lang=en&cid=fs_copy"
