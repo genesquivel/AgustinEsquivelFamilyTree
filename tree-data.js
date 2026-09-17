@@ -79,7 +79,19 @@ const GEN = {
         relation: "Great-grandfather",
         siblings: [
           { name: "Andrés Agustin", life: "b. 1882", pid: "PXDJ-LV1" },
-          { name: "Jacinto Agustin", life: "b. 1887", pid: "PXDK-7J6" },
+          {
+            name: "Jacinto Agustin",
+            life: "b. 1887",
+            pid: "PXDK-7J6",
+            evidence: "Record-supported",
+            url: "https://www.familysearch.org/ark:/61903/1:1:6666-2C6P",
+            note:
+              "Baptized 30 January 1887 in Cabiao — the first record confirming all three parent " +
+              "couples on this line: parents Apolonio Agustin and Estefania Tiangco, paternal " +
+              "grandparents Domingo Agustin and Tomasa Caedo, maternal grandparents Tomas Tiangco " +
+              "and Cecilia Lapuz. All are classed \"indios.\" (A \"25 de Agosto\" margin annotation " +
+              "is unresolved.)"
+          },
           { name: "Carlos Agustin", life: "b. 1888", pid: "PXDV-QC4" },
           { name: "Vito Agustin", life: "b. 1889", pid: "PXDV-KKR" },
           { name: "María Encarnación Agustin", life: "b. 1894", pid: "PXDV-BDF" },
@@ -129,23 +141,32 @@ const GEN = {
           ],
           father: {
             name: "Tomas Tiangco",
+            place: "Cabiao, Nueva Ecija",
             born: "1822",
             died: "1905",
             sex: "m",
             relation: "3rd great-grandfather",
+            evidence: "Record-supported",
             notes:
-              "Baptized on 25 December 1822, five days old (born about 20 December 1822), " +
-              "legitimate son of Agustín Tangco, a Chinese immigrant, and María Flores, a " +
-              "mestiza of the town. The surname is written \"Tangco\" in this record. " +
-              "He married Cecilia Lapuz; FamilySearch lists him as 1820–1905.",
+              "Of Cabiao, Nueva Ecija; husband of Cecilia Lapuz and father of their six children, " +
+              "among them Estefania. His existence and this parentage are record-supported by his " +
+              "grandson Jacinto's 1887 Cabiao baptism, which names him as maternal grandfather. " +
+              "A baptism of a \"Tomas Tangco\" on 25 December 1822 in Taguig — legitimate son of " +
+              "Agustín Tangco and María Flores — is only a POSSIBLE LEAD for him: the shared 1822 " +
+              "birth year and the Tangco/Tiangco name variant are suggestive, but it has not been " +
+              "proven to be the same man, so the two are kept separate. FamilySearch lists him as " +
+              "1820–1905.",
             records: [
               {
                 date: "1822",
-                claim: "Baptized on 25 December 1822 — legitimate son of Agustín Tangco and María Flores.",
+                place: "Taguig",
+                claim:
+                  "Possible-lead baptism (Taguig, 25 December 1822) of a \"Tomas Tangco,\" son of " +
+                  "Agustín Tangco and María Flores — not proven to be this Tomas Tiangco of Cabiao.",
                 excerpt:
                   "En veinte y cinco de Diciembre de mil ochocientos veinte y dos años … bautizó " +
                   "solemnemente y puso los santos óleos á Tomás Tangco, niño de cinco días nacido, " +
-                  "hijo legítimo de Agustín Tangco Tangley, chino, y de María Flores, mestiza de este pueblo …",
+                  "hijo legítimo de Agustín Tangco Tangley, chino, y de María Flores, mestiza de este Arzobispado …",
                 url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSMJ-HSQN-R?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A66XK-D6HZ&action=view&cc=2861657&lang=en&groupId=M9C1-ZDM"
               }
             ],
@@ -163,8 +184,11 @@ const GEN = {
               name: "Agustín Tangco",
               sex: "m",
               relation: "4th great-grandfather",
+              evidence: "Possible lead requiring verification",
               notes:
-                "A Chinese immigrant (\"chino\"). In the record his name reads \"Agustín Tangco " +
+                "Named only in the 1822 Taguig baptism above, which is a possible lead rather than " +
+                "a proven link to this family. Recorded as a Chinese immigrant (\"chino\"). In the " +
+                "record his name reads \"Agustín Tangco " +
                 "Tangley\": Agustín was the Christian name given at his baptism, while \"Tangco " +
                 "Tangley\" was his original Chinese name. The Hokkien ending \"-co\" (哥, an " +
                 "honorific) is the root of many Filipino-Chinese surnames, and here it carried " +
@@ -174,18 +198,26 @@ const GEN = {
               name: "María Flores",
               sex: "f",
               relation: "4th great-grandmother",
+              evidence: "Possible lead requiring verification",
               notes:
-                "Recorded as a mestiza of the town. In Spanish-colonial Philippine records, " +
-                "\"mestiza/mestizo\" marked a person of mixed ancestry — most often Chinese-Filipino " +
-                "(mestizo de sangley) or Spanish-Filipino — a recognized legal and tax class of the era."
+                "Named only in the 1822 Taguig baptism above, a possible lead rather than a proven " +
+                "link to this family. The record calls her a \"mestiza de este Arzobispado.\" In " +
+                "Spanish-colonial Philippine records \"mestiza/mestizo\" marked mixed ancestry — a " +
+                "recognized legal and tax class — and is not by itself evidence of Chinese descent."
             }
           },
           mother: {
             name: "Cecilia Lapuz",
+            place: "Cabiao, Nueva Ecija",
             born: "1822",
             died: "1910",
             sex: "f",
             relation: "3rd great-grandmother",
+            evidence: "Family-tree supplied",
+            notes:
+              "Wife of Tomas Tiangco, of Cabiao, Nueva Ecija (3 June 1822 – 6 May 1910 per her " +
+              "FamilySearch profile). The couple had six children — three sons and three daughters " +
+              "— all born in Cabiao.",
             links: [
               {
                 label: "FamilySearch profile",
@@ -197,22 +229,109 @@ const GEN = {
       },
       mother: {
         name: "Maxima Obra",
+        place: "Bauang, La Union",
         born: "1897",
         sex: "f",
         relation: "Great-grandmother",
+        evidence: "Record-supported",
+        notes:
+          "Of Bauang, La Union, daughter of Fidel Obra and Monica Calica; she appears as a witness " +
+          "in her parents' 28 January 1936 mortgage.",
+        siblings: [
+          {
+            name: "Ildefonso Obra",
+            life: "b. 1899",
+            evidence: "Record-supported",
+            url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSMJ-PSHC-4?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A663G-V69M&action=view&lang=en&groupId=M9ZW-9QJ",
+            note:
+              "Maxima's brother — the keystone record for this line. Baptized 11 February 1899 in " +
+              "Bauang (born about 6 February 1899), son of Fidel Obra and Monica Ordoña; paternal " +
+              "grandparents Dionisio Obra (deceased) and Fructuosa Jangreas; maternal grandparents " +
+              "Alfonso Calica (deceased) and Pascuala Ordoña; godmother Veronica Wenceslao of Caba. " +
+              "The record establishes that both grandfathers had died by February 1899."
+          }
+        ],
         father: {
           name: "Fidel Obra",
+          place: "Bauang, La Union",
           sex: "m",
           relation: "2nd great-grandfather",
-          father: { name: "Dionisio Obra", sex: "m", relation: "3rd great-grandfather" },
-          mother: { name: "Enestosa Jangaas", sex: "f", relation: "3rd great-grandmother" }
+          evidence: "Record-supported",
+          notes:
+            "Of Bauang, La Union; husband of Monica Calica (Ordoña). Named as father in his son " +
+            "Ildefonso's 1899 baptism and in a 28 January 1936 San Fernando mortgage with Monica, " +
+            "which also lists their daughter Maxima (b. 1897) as a witness.",
+          links: [
+            {
+              label: "Son Ildefonso's baptism, 1899 — FamilySearch",
+              url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSMJ-PSHC-4?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A663G-V69M&action=view&lang=en&groupId=M9ZW-9QJ"
+            },
+            {
+              label: "Mortgage with Monica Calica, 1936 — FamilySearch",
+              url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSCY-4HZF?view=fullText&keywords=MONICA+CALICA&searchForm=simple&lang=en&groupId=M9MR-1SH"
+            }
+          ],
+          father: {
+            name: "Dionisio Obra",
+            place: "Bauang, La Union",
+            sex: "m",
+            relation: "3rd great-grandfather",
+            evidence: "Record-supported",
+            notes: "Named as Fidel's father in Ildefonso's 1899 baptism, where he is already recorded as deceased."
+          },
+          mother: {
+            name: "Fructuosa Jangreas",
+            place: "Bauang, La Union",
+            sex: "f",
+            relation: "3rd great-grandmother",
+            evidence: "Record-supported",
+            notes:
+              "Named as Fidel's mother in Ildefonso's 1899 baptism; the surname reading is " +
+              "uncertain (an earlier reading gave \"Enestosa Jangaas\")."
+          }
         },
         mother: {
           name: "Monica Calica",
+          place: "Bauang, La Union",
           sex: "f",
           relation: "2nd great-grandmother",
-          father: { name: "Alfonso Calica", sex: "m", relation: "3rd great-grandfather" },
-          mother: { name: "Pascuala Ordoña", sex: "f", relation: "3rd great-grandmother" }
+          evidence: "Record-supported",
+          notes:
+            "Wife of Fidel Obra. Her son Ildefonso's 1899 baptism writes her surname \"Ordoña,\" " +
+            "while the 1936 mortgage (a legal record, she a living party) gives \"Calica\" — the " +
+            "same woman; Calica is kept as the primary surname with Ordoña as a documented variant.",
+          father: {
+            name: "Alfonso Calica",
+            place: "Bauang, La Union",
+            sex: "m",
+            relation: "3rd great-grandfather",
+            evidence: "Record-supported",
+            notes:
+              "Named as Monica's father in Ildefonso's 1899 baptism, where he is already recorded " +
+              "as deceased. (A younger Alfonso Calica on an 1890 San Fernando draft list, born " +
+              "about 1870–71, is more likely Monica's brother than her father.)"
+          },
+          mother: {
+            name: "Pascuala Ordoña",
+            place: "Bauang, La Union",
+            sex: "f",
+            relation: "3rd great-grandmother",
+            evidence: "Record-supported",
+            notes:
+              "Named as Monica's mother in Ildefonso's 1899 baptism. A retail-alcohol vendor in " +
+              "Bauang — license filings survive from 4 June 1894 and 25 January 1895 — matched to " +
+              "her by that baptism.",
+            links: [
+              {
+                label: "Alcohol-vendor license, 1894 — FamilySearch",
+                url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS4H-YHB3?view=fullText&keywords=Pascuala+Ordo%C3%B1a&searchForm=simple&lang=en&groupId=M98C-G5G"
+              },
+              {
+                label: "Alcohol-vendor license, 1895 — FamilySearch",
+                url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS4C-714L?view=fullText&keywords=Pascuala+Ordo%C3%B1a&searchForm=simple&lang=en&groupId=M984-GGG"
+              }
+            ]
+          }
         }
       }
     },
@@ -229,11 +348,55 @@ const GEN = {
         id: "quintin-navarro",
         photo: "images/quintin-navarro.jpg",
         notes:
-          "A merchant from Pulilan, Bulacan, born 31 October. In 1923 he was " +
-          "issued a passport by the Governor-General of the Philippine Islands " +
-          "to travel to Hong Kong on business, sailing from Manila aboard the " +
-          "SS President McKinley. His passport photograph is shown here.",
+          "A merchant from Pulilan, Bulacan. He was baptized there on 31 October 1897 (born about " +
+          "30 October 1897), son of Reducindo Navarro and Silvestra Santos; his godfather was " +
+          "Pedro Reyes, and the baptism names all four grandparents (Froilan Navarro & Justina " +
+          "Santos; Basilio Santos & Quintina Villena). On 29 December 1925 he married Engracia " +
+          "Tayao (Gen's great-grandmother) at Pulilan — a marriage-dispensation petition of " +
+          "December 1926 gives him as 28 and her as 21, daughter of Isidoro Tayao and Felipa S. " +
+          "Pedro. In 1923 he was issued a passport by the Governor-General of the Philippine " +
+          "Islands to travel to Hong Kong on business, sailing from Manila aboard the SS President " +
+          "McKinley. His passport photograph is shown here.",
+        siblings: [
+          {
+            name: "Priscila Navarro",
+            life: "1890–1891",
+            evidence: "Record-supported",
+            note:
+              "Elder sister who died in infancy — buried 16 September 1891, daughter of Reducindo " +
+              "Navarro and Silvestra Santos, recorded mestiza sangley, died of alferecía aged about 1."
+          },
+          {
+            name: "Vicente Navarro",
+            life: "1895",
+            evidence: "Record-supported",
+            note:
+              "Elder brother who died an infant — born about 18 January 1895, buried 7 February " +
+              "1895, son of Reducindo Navarro and Silvestra Santos, recorded mestizo sangley, died " +
+              "of alferecía aged 20 days."
+          }
+        ],
         records: [
+          {
+            date: "1897",
+            place: "Pulilan, Bulacan",
+            claim: "Baptized 31 October 1897 in Pulilan — son of Reducindo Navarro and Silvestra Santos.",
+            excerpt:
+              "Baptism of Quintin Navarro, born about 30 October 1897; parents Reducindo Navarro " +
+              "and Silvestra Santos; paternal grandparents Froilan Navarro and Justina Santos; " +
+              "maternal grandparents Basilio Santos and Quintina Villena; godfather Pedro Reyes. " +
+              "Margin: married in Pulilan 29 December 1925.",
+            url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSMN-MSC9-5?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A66XF-DPXM&action=view&lang=en&groupId=M9LD-N8N"
+          },
+          {
+            date: "1926",
+            place: "Pulilan, Bulacan",
+            claim: "Marriage-dispensation petition — Quintin Navarro (28) and Engracia Tayao (21).",
+            excerpt:
+              "Marriage-dispensation petition, 23 December 1926: Quintin Navarro, 28, and Engracia " +
+              "Tayao, 21, daughter of Isidoro Tayao and Felipa S. Pedro.",
+            url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSMN-3SNS-D?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3AX7JT-Y2RC&lang=en&groupId=M9ZX-LY4"
+          },
           {
             date: "1923",
             place: "Pulilan, Bulacan / Manila",
@@ -257,6 +420,14 @@ const GEN = {
         ],
         links: [
           {
+            label: "Baptism, 1897 (Pulilan) — FamilySearch",
+            url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSMN-MSC9-5?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A66XF-DPXM&action=view&lang=en&groupId=M9LD-N8N"
+          },
+          {
+            label: "Marriage dispensation, 1926 (Engracia Tayao) — FamilySearch",
+            url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSMN-3SNS-D?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3AX7JT-Y2RC&lang=en&groupId=M9ZX-LY4"
+          },
+          {
             label: "FamilySearch — 1923 passport record",
             url: "https://www.familysearch.org/ark:/61903/3:1:3QHK-3QCK-XX2H?view=index&cc=5000417&lang=en"
           },
@@ -274,6 +445,20 @@ const GEN = {
           place: "Pulilan, Bulacan",
           sex: "m",
           relation: "2nd great-grandfather",
+          evidence: "Record-supported",
+          notes:
+            "A single mestizo sangley of Pulilan, Bulacan (barangay No. 25 of D. Segundo Navarro), " +
+            "son of Froilan Navarro and Justina Santos. On 10 January 1889 he married Silvestra " +
+            "Santos at Pulilan — the first record confirming both his parents and hers. He is " +
+            "classed \"mestizo sangley\" and Silvestra \"india,\" so the Chinese-mestizo classification " +
+            "carried by their grandchildren came down the Navarro line. (Labels shifted between " +
+            "records: Quintin's 1897 baptism calls both parents \"indios.\")",
+          links: [
+            {
+              label: "Marriage to Silvestra Santos, 1889 — FamilySearch",
+              url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSMN-JSCH-H?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3AXWML-VRCQ&action=view&lang=en&groupId=M9LD-DRL"
+            }
+          ],
           siblings: [
             {
               name: "Eulogio Navarro",
@@ -408,17 +593,134 @@ const GEN = {
         },
         mother: {
           name: "Silvestra Santos",
+          place: "Pulilan, Bulacan",
           sex: "f",
           relation: "2nd great-grandmother",
-          father: { name: "Basilio Santos", sex: "m", relation: "3rd great-grandfather" },
-          mother: { name: "Quintina Villena", sex: "f", relation: "3rd great-grandmother" }
+          evidence: "Record-supported",
+          notes:
+            "An india of Pulilan, Bulacan, daughter of Basilio Santos and Quintina Villena. On " +
+            "10 January 1889 she married Reducindo Navarro at Pulilan (of the barangay of " +
+            "D. Tiburcio Santos); witnesses D. Fabiano Salvador and Da. Valeriana Aguilar. The " +
+            "record classes her \"india\" and Reducindo \"mestizo sangley\" — so the Chinese-mestizo " +
+            "line reached her children through the Navarro side, not the Santos side.",
+          links: [
+            {
+              label: "Marriage to Reducindo Navarro, 1889 — FamilySearch",
+              url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSMN-JSCH-H?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3AXWML-VRCQ&action=view&lang=en&groupId=M9LD-DRL"
+            }
+          ],
+          siblings: [
+            {
+              name: "Hilario de los Santos",
+              evidence: "Record-supported",
+              note:
+                "Silvestra's brother. Married Eusebia de la Cruz at Pulilan on 7 January 1892 " +
+                "(daughter of Atanasio Cruz and Baldomera Ramos). Their children include Ricardo " +
+                "(bapt. 8 Oct 1899), Cecilio (bapt. 24 Nov 1907), and Faustino (bapt. 19 Apr 1914). " +
+                "Eusebia's mother is recorded as both \"Baldomera Ramos\" (1892, 1899) and " +
+                "\"Baldomera Torres\" (1907, 1914) — unresolved."
+            },
+            {
+              name: "Santiago de los Santos",
+              evidence: "Record-supported",
+              note:
+                "Silvestra's brother. Married Amanda Manalili (marriage not yet found). Their son " +
+                "Damaso was baptized 11 December 1904 in Pulilan (born about 8 December 1904); that " +
+                "record names Basilio de los Santos and Quintina Villena as paternal grandparents."
+            },
+            {
+              name: "Magdalena de los Santos",
+              life: "b. 1874",
+              evidence: "Record-supported",
+              url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSMN-3373-Q?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A66X9-NMLJ&action=view&lang=en&groupId=M9LD-FC2",
+              note:
+                "Silvestra's sister. Born about 6 May 1874, baptized 9 May 1874 in Pulilan; married " +
+                "in Pulilan on 30 January 1912 (husband not yet identified). Her baptism is the " +
+                "record that names the family's grandparents on both sides."
+            }
+          ],
+          father: {
+            name: "Basilio de los Santos",
+            place: "Pulilan, Bulacan",
+            born: "1845",
+            died: "1905",
+            sex: "m",
+            relation: "3rd great-grandfather",
+            evidence: "Record-supported",
+            notes:
+              "Of Pulilan, Bulacan; the surname appears as both \"Santos\" and \"de los Santos\" " +
+              "for the same family. His daughter Magdalena's 9 May 1874 baptism names his parents " +
+              "as Martin de los Santos and Romana Requinto. A probable burial match (parish " +
+              "confirmation pending) has him dying 26 June 1905 of pulmonary tuberculosis, buried " +
+              "27 June 1905 at Pulilan, aged 60 (hence a birth about 1845), a widower of barrio " +
+              "San Nicolas — his wife Quintina having died before him. (A second Basilio Santos, " +
+              "died aged 85 in the Pulilan civil register, is an alternative not yet ruled out.)",
+            links: [
+              {
+                label: "Daughter Magdalena's baptism, 1874 — FamilySearch",
+                url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSMN-3373-Q?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A66X9-NMLJ&action=view&lang=en&groupId=M9LD-FC2"
+              }
+            ],
+            father: {
+              name: "Martin de los Santos",
+              place: "Pulilan, Bulacan",
+              sex: "m",
+              relation: "4th great-grandfather",
+              evidence: "Record-supported",
+              notes: "Named as Basilio's father (paternal grandfather) in Magdalena's 1874 baptism."
+            },
+            mother: {
+              name: "Romana Requinto",
+              place: "Pulilan, Bulacan",
+              sex: "f",
+              relation: "4th great-grandmother",
+              evidence: "Record-supported",
+              notes: "Named as Basilio's mother (paternal grandmother) in Magdalena's 1874 baptism."
+            }
+          },
+          mother: {
+            name: "Quintina Villena",
+            place: "Pulilan, Bulacan",
+            sex: "f",
+            relation: "3rd great-grandmother",
+            evidence: "Record-supported",
+            notes:
+              "Wife of Basilio de los Santos. Magdalena's 1874 baptism names her parents as " +
+              "Guillermo Villena and Jeronima Batumbacal — the mother's surname a tentative reading " +
+              "of flourishy handwriting. She died before Basilio (he was a widower at his 1905 " +
+              "burial); her own burial has not yet been found.",
+            father: {
+              name: "Guillermo Villena",
+              place: "Pulilan, Bulacan",
+              sex: "m",
+              relation: "4th great-grandfather",
+              evidence: "Record-supported",
+              notes: "Named as Quintina's father (maternal grandfather) in Magdalena's 1874 baptism."
+            },
+            mother: {
+              name: "Jeronima Batumbacal",
+              place: "Pulilan, Bulacan",
+              sex: "f",
+              relation: "4th great-grandmother",
+              evidence: "Possible lead requiring verification",
+              notes:
+                "Named as Quintina's mother in Magdalena's 1874 baptism; the surname " +
+                "\"Batumbacal\" is a tentative reading of flourishy handwriting."
+            }
+          }
         }
       },
       mother: {
         name: "Engracia Tayao",
+        place: "Pulilan, Bulacan",
         born: "1902",
         sex: "f",
         relation: "Great-grandmother",
+        evidence: "Record-supported",
+        notes:
+          "Gen's great-grandmother; wife of Quintin Navarro. A 23 December 1926 marriage-" +
+          "dispensation petition names her parents as Isidoro Tayao and Felipa S. Pedro, gives her " +
+          "age as 21, and records her 29 December 1925 marriage to Quintin at Pulilan.",
         father: {
           name: "Isidoro Tayao",
           sex: "m",
@@ -581,10 +883,27 @@ const GEN = {
       died: "1965",
       sex: "f",
       relation: "Grandmother",
+      siblings: [
+        {
+          name: "Priscela Arreza",
+          life: "b. 1923",
+          evidence: "Record-supported",
+          url: "https://www.familysearch.org/ark:/61903/1:1:6ZFV-LC9J?lang=en&cid=fs_copy",
+          note:
+            "Married Simon Cedro on 27 May 1950 at the Cathedral of Surigao; that record names her " +
+            "(aged 26) as daughter of Roman Arreza and Juliana Sering, confirming the couple. She " +
+            "is Experia's sister — and a grand-aunt — if the tree's Experia → Roman + Juliana " +
+            "parentage (family-tree supplied) holds, which awaits a record naming Experia's parents."
+        }
+      ],
       father: {
         name: "Roman Arreza",
         sex: "m",
         relation: "Great-grandfather",
+        evidence: "Record-supported",
+        notes:
+          "Confirmed as the husband of Juliana Sering by their daughter Priscela's 1950 Surigao " +
+          "marriage record.",
         father: {
           name: "Wenceslao Arreza",
           sex: "m",
@@ -605,7 +924,11 @@ const GEN = {
         born: "1866",
         died: "1955",
         sex: "f",
-        relation: "Great-grandmother"
+        relation: "Great-grandmother",
+        evidence: "Record-supported",
+        notes:
+          "Confirmed as the wife of Roman Arreza by their daughter Priscela's 1950 Surigao " +
+          "marriage record."
       }
     }
   }
@@ -889,6 +1212,16 @@ const PAOLO = {
           "Prudencio Esquivel and Antonia Santiago (with Odon and Hilario/Hilarion).",
         siblings: [
           {
+            name: "Maria Salome Esquibel",
+            life: "b. 1856",
+            evidence: "Record-supported",
+            url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSM8-3V94?view=explore&action=view&cc=2861657&lang=en&groupId=M9ZT-B5H",
+            note:
+              "Sister of Apolinario — a daughter of Prudencio Esquivel and Antonia Santiago. " +
+              "Baptized 9 January 1856 in Jaen (born about 2 January 1856). This is the record " +
+              "earlier mistaken for Antonia's own baptism."
+          },
+          {
             name: "Odon Esquivel",
             evidence: "Record-supported",
             url: "https://www.familysearch.org/ark:/61903/1:1:666G-KPZG?lang=en&cid=fs_copy",
@@ -928,8 +1261,10 @@ const PAOLO = {
           evidence: "Record-supported",
           notes:
             "Don Prudencio Esquivel and Doña Antonia Santiago had three sons — Odon, Apolinario, " +
-            "and Hilario — each proven by baptism records that name Prudencio and Antonia as the " +
-            "children's paternal grandparents (1884–1901, Jaen and San Antonio, Nueva Ecija).",
+            "and Hilario — plus a daughter, Maria Salome (baptized 1856); the sons are each proven " +
+            "by baptism records naming Prudencio and Antonia as the children's paternal " +
+            "grandparents (1884–1901, Jaen and San Antonio, Nueva Ecija). He had died by " +
+            "5 January 1903, when Antonia was buried at Jaen as his widow.",
           links: [
             {
               label: "Granddaughter Mercedes Esquivel's baptism, 1884 — FamilySearch",
@@ -944,16 +1279,19 @@ const PAOLO = {
         mother: {
           name: "Antonia Santiago",
           place: "Jaen, Nueva Ecija",
-          born: "1856",
+          died: "1903",
           sex: "f",
           relation: "2nd great-grandmother",
           evidence: "Record-supported",
           notes:
-            "Baptized 9 January 1856, about seven days old — so born about 2 January 1856; her " +
-            "record gives the name as Antonia de Santiago, wife of Don Prudencio Esquivel. " +
-            "Recorded elsewhere as Doña Antonia Santiago, confirmed as paternal grandmother in " +
-            "the baptisms of grandchildren through all three of her sons (Odon, Apolinario, " +
-            "Hilario), 1884–1901. Her own burial record also survives.",
+            "Doña Antonia Santiago, a native of Jaen, Nueva Ecija. She was buried there on " +
+            "5 January 1903 as the widow of Don Prudencio Esquivel — which both proves Prudencio " +
+            "had died by then and, since she was a Jaen native, rules out the Magsingal, Malolos, " +
+            "and Manila baptism candidates once considered for her. She is confirmed as paternal " +
+            "grandmother in the baptisms of grandchildren through all three of her sons (Odon, " +
+            "Apolinario, Hilario), 1884–1901. Note: a 9 January 1856 Jaen baptism earlier taken to " +
+            "be hers is now identified as her daughter Maria Salome's, so Antonia's own birth date " +
+            "is not yet established.",
           links: [
             {
               label: "Burial record — FamilySearch",
@@ -1120,26 +1458,31 @@ const PAOLO = {
         father: {
           name: "Lucas Pineda",
           place: "Cabiao, Nueva Ecija",
-          born: "1876",
+          born: "1872",
           sex: "m",
           relation: "2nd great-grandfather",
           notes:
-            "Born 14 October 1876 in Cabiao, Nueva Ecija, and baptized there on 19 October 1876, " +
-            "five days old. Son of Dionisio Pineda and Maria Juana, both widowed and natives of " +
-            "Cabiao (Barangay of Don Venancio Guevarra).",
+            "Born about 14 October 1872 in Cabiao, Nueva Ecija, and baptized there on 19 October " +
+            "1872, five days old — correcting an earlier reading of 1876. A hijo natural (born " +
+            "out of wedlock) of Dionisio and María Juana, both widowed and natives of Cabiao. The " +
+            "baptism names the paternal grandparents as Agustín and María de Ocampo and the " +
+            "maternal grandparents as Guillermo and Eulalia del Castro. Note: the record gives no " +
+            "surname for either grandfather (Agustín, Guillermo), and the surname \"Pineda\" for " +
+            "Dionisio is inferred from Lucas — it is not written in the record.",
           records: [
             {
-              date: "1876",
+              date: "1872",
               place: "Cabiao, Nueva Ecija",
-              claim: "Baptized on 19 October 1876 in Cabiao — son of Dionisio Pineda and Maria Juana.",
+              claim: "Baptized on 19 October 1872 in Cabiao — hijo natural of Dionisio and María Juana.",
               excerpt:
-                "En diez y nueve de Octubre de mil ochocientos setenta y seis … bauticé solemnemente … " +
-                "á Lucas Pineda, niño de cinco días nacido, hijo de Dionisio y de María Juana, ambos " +
-                "viudos y naturales de este pueblo … abuelos paternos Agustín Pineda … y maternos " +
-                "Guillermo y Eulalia de Castro.",
+                "En diez y nueve de Octubre de mil ochocientos setenta y dos … bauticé solemnemente … " +
+                "á Lucas Pineda, niño de cinco días nacido, hijo natural de Dionisio y de María Juana, " +
+                "ambos viudos y naturales de este pueblo … abuelos paternos Agustín y María de Ocampo, " +
+                "y maternos Guillermo y Eulalia del Castro.",
               notes:
-                "The record gives his birth as Saturday 14 October 1876, with baptism the following " +
-                "Thursday. His parents were both widowed at the time.",
+                "The record gives his birth as about 14 October 1872, with baptism five days later. " +
+                "Both parents were widowed. No surnames are recorded for the grandfathers Agustín " +
+                "and Guillermo.",
               url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSM8-339V-T?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A666G-Q2DK&action=view&cc=2861657&lang=en&groupId=M9LR-K3X"
             }
           ],
@@ -1154,9 +1497,12 @@ const PAOLO = {
             place: "Cabiao, Nueva Ecija",
             sex: "m",
             relation: "3rd great-grandfather",
+            evidence: "Possible lead requiring verification",
             notes:
-              "Of Cabiao, Nueva Ecija; widowed at the time of Lucas's 1876 baptism. His father " +
-              "(Lucas's paternal grandfather) was Agustín Pineda."
+              "Of Cabiao, Nueva Ecija; widowed at the time of Lucas's 1872 baptism, which records " +
+              "him only as \"Dionisio\" — the surname \"Pineda\" is inferred from his son Lucas and " +
+              "is not in the record. His parents (Lucas's paternal grandparents) are named as " +
+              "Agustín (no surname recorded) and María de Ocampo."
           },
           mother: {
             name: "Maria Juana",
@@ -1164,8 +1510,10 @@ const PAOLO = {
             sex: "f",
             relation: "3rd great-grandmother",
             notes:
-              "Of Cabiao, Nueva Ecija; widowed at the time of Lucas's 1876 baptism. Her parents " +
-              "(Lucas's maternal grandparents) were Guillermo and Eulalia de Castro."
+              "Of Cabiao, Nueva Ecija; widowed at the time of Lucas's 1872 baptism. Her parents " +
+              "(Lucas's maternal grandparents) are named as Guillermo (no surname recorded) and " +
+              "Eulalia del Castro. A possible baptism of an \"Eulalia del Castro\" on 14 December " +
+              "1823 (parish association Gapan) is an unverified lead needing a full read."
           }
         },
         mother: { name: "Filomena Dizon", sex: "f", relation: "2nd great-grandmother" }
@@ -1323,15 +1671,46 @@ const PAOLO = {
         died: "1983",
         sex: "m",
         relation: "Great-grandfather",
-        notes: "Born 26 December 1886 in Bacarra, Ilocos Norte; died 23 January 1983.",
+        notes:
+          "Born 26 December 1886 in Bacarra, Ilocos Norte; died 23 January 1983. A candidate 1895 " +
+          "Bauang marriage of his named parents (see Tomas Maloyo) conflicts with this 1886 birth " +
+          "and is unresolved pending his baptism.",
         links: [
           {
             label: "Social Security (NUMIDENT) record — FamilySearch",
             url: "https://www.familysearch.org/ark:/61903/1:1:6K48-FMRV"
           }
         ],
-        father: { name: "Tomas Maloyo", sex: "m", relation: "2nd great-grandfather" },
-        mother: { name: "Casimira Cadiz", sex: "f", relation: "2nd great-grandmother" }
+        father: {
+          name: "Tomas Maloyo",
+          sex: "m",
+          relation: "2nd great-grandfather",
+          evidence: "Possible lead requiring verification",
+          notes:
+            "A candidate marriage record — Tomas Maloyo (17) to Casimira Cadiz (17), 23 November " +
+            "1895 at Bauang — names his parents as Hipolito Maloyo and Benigna Eder, with a second " +
+            "Tomas Maloyo and Marta Eder among the witnesses. It is flagged, not merged: both " +
+            "spouses are given as 17 in 1895 (births about 1878), which cannot be reconciled with " +
+            "their supposed son Thomas Cadiz Maloyo's 1886 birth, and the marriage is at Bauang " +
+            "(La Union) rather than the family's Bacarra (Ilocos Norte). Either the ages are " +
+            "understated or a date is wrong — to be resolved by Thomas Cadiz Maloyo's baptism.",
+          links: [
+            {
+              label: "Marriage to Casimira Cadiz, 1895 (Bauang) — FamilySearch",
+              url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSMV-H96D-9?lang=en&i=788&cc=5000330&groupId=5000330"
+            }
+          ]
+        },
+        mother: {
+          name: "Casimira Cadiz",
+          sex: "f",
+          relation: "2nd great-grandmother",
+          evidence: "Possible lead requiring verification",
+          notes:
+            "In the flagged 1895 Bauang marriage she is given as 17 and daughter of Anastasia " +
+            "Cadiz (wife of the absent Ruperto Luis). See the chronological caution on Tomas " +
+            "Maloyo — the identification with this family is not yet verified."
+        }
       },
       mother: {
         name: "Agapita Andres",
