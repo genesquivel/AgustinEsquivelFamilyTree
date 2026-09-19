@@ -197,9 +197,9 @@ function cardClassPill(person) {
   const list = classList(person);
   if (!list.length) return "";
   const rep = repClassification(list);
+  // The card shows just the term; the full list (and any conflicts) is in the panel.
   const title = rep.source ? rep.term + " — " + rep.source : rep.term;
-  const more = list.length > 1 ? ` <span class="tag-more">+${list.length - 1}</span>` : "";
-  return `<span class="tag-class" title="${title.replace(/"/g, "&quot;")}">${rep.term}${more}</span>`;
+  return `<span class="tag-class" title="${title.replace(/"/g, "&quot;")}">${rep.term}</span>`;
 }
 /* Detail view: list every recorded classification with its source + year. */
 function renderClassification(person) {
