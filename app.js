@@ -115,6 +115,7 @@ function buildNode(person) {
       <span class="name">${person.name}</span>
       <span class="dates">${lifespan(person)}</span>
       ${person.place ? `<span class="place">📍 ${person.place}</span>` : ""}
+      ${cardClassPill(person)}
       ${person.spouse ? `<span class="spouse">⚭ ${person.spouse.name}</span>` : ""}
     </span>
     ${hasExtra ? '<span class="dot" title="Has notes or links"></span>' : ""}`;
@@ -179,6 +180,76 @@ function applyEvidence(el, label) {
   }
 }
 
+/* Colonial-era record classifications (indio, mestizo de sangley, chino, …).
+   A person carries `classification: [{ term, source, year }]` ONLY when a
+   record explicitly classifies them. `term` is the record's exact wording;
+   `source` is a short citation shown on tap; `year` orders conflicting entries.
+   No colour-coding — one neutral style — so the site never ranks the terms. */
+function classList(person) {
+  const list = person && person.classification;
+  return Array.isArray(list) ? list.filter((c) => c && c.term) : [];
+}
+/* The card shows one representative: the earliest recorded (else the first). */
+function repClassification(list) {
+  return list.slice().sort((a, b) => (a.year || 9999) - (b.year || 9999))[0];
+}
+function cardClassPill(person) {
+  const list = classList(person);
+  if (!list.length) return "";
+  const rep = repClassification(list);
+  const title = rep.source ? rep.term + " — " + rep.source : rep.term;
+  const more = list.length > 1 ? ` <span class="tag-more">+${list.length - 1}</span>` : "";
+  return `<span class="tag-class" title="${title.replace(/"/g, "&quot;")}">${rep.term}${more}</span>`;
+}
+/* Detail view: list every recorded classification with its source + year. */
+function renderClassification(person) {
+  const el = document.getElementById("bioClass");
+  el.innerHTML = "";
+  const list = classList(person);
+  if (!list.length) { el.hidden = true; return; }
+  el.hidden = false;
+
+  const h = document.createElement("h3");
+  h.className = "rec-head";
+  h.textContent = list.length > 1 ? "Recorded classifications" : "Recorded classification";
+  el.appendChild(h);
+
+  const ul = document.createElement("ul");
+  ul.className = "class-list";
+  list.slice().sort((a, b) => (a.year || 9999) - (b.year || 9999)).forEach((c) => {
+    const li = document.createElement("li");
+    li.className = "class-item";
+    const pill = document.createElement("span");
+    pill.className = "tag-class";
+    pill.textContent = c.term;
+    li.appendChild(pill);
+    if (c.source) {
+      const s = document.createElement("span");
+      s.className = "class-src";
+      s.textContent = c.source;
+      li.appendChild(s);
+    }
+    ul.appendChild(li);
+  });
+  el.appendChild(ul);
+
+  const det = document.createElement("details");
+  det.className = "class-legend";
+  det.innerHTML =
+    "<summary>What do these terms mean?</summary>" +
+    "<p>A classification is what the priest or clerk wrote in the record — a legal and tax " +
+    "category of the Spanish-colonial era, <strong>not proof of ancestry</strong>. The same " +
+    "person was often labelled differently from one record to the next.</p>" +
+    "<ul>" +
+    "<li><em>indio / india</em> — the record's term for a native Filipino.</li>" +
+    "<li><em>mestizo / mestiza de sangley</em> — recorded as of mixed Chinese-Filipino descent, " +
+    "often through the mestizo guild (<em>gremio de mestizos</em>).</li>" +
+    "<li><em>chino</em> — recorded as Chinese.</li>" +
+    "<li><em>mestizo / mestiza</em> — recorded as of mixed ancestry.</li>" +
+    "</ul>";
+  el.appendChild(det);
+}
+
 /* Render a "Siblings"/"Children" list of relatives who aren't on the pedigree.
    Each entry: { name, life, pid (FamilySearch id) or url, note, evidence }. */
 function renderRelatives(container, heading, list) {
@@ -241,6 +312,7 @@ function openBio(person) {
   placeEl.hidden = !person.place;
   document.getElementById("bioRelation").textContent = person.relation || "";
   applyEvidence(document.getElementById("bioEvidence"), person.evidence);
+  renderClassification(person);
 
   // Photo
   const photoEl = document.getElementById("bioPhoto");

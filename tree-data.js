@@ -17,6 +17,15 @@
  *          // "Record-supported" | "Family-tree supplied" | "Estimated" |
  *          // "Possible lead requiring verification"  (works on siblings too)
  *
+ *      // colonial-era record classification — ONLY when a record explicitly
+ *      // classifies this person. `term` is the record's exact wording; it shows
+ *      // as a neutral pill (never colour-coded). List every recorded term; the
+ *      // card shows the earliest and the panel lists them all with their source:
+ *      classification: [
+ *        { term: "mestizo de sangley", source: "marriage, Pulilan, 1889", year: 1889 },
+ *        { term: "indio",              source: "son's baptism, Pulilan, 1897", year: 1897 }
+ *      ],
+ *
  *      // --- the "living archive" fields — add these as you find things ---
  *      photo: "images/segundo-agustin.jpg",   // drop the file in the images/ folder
  *      notes: "Farmer from Nueva Ecija. Loved to sing.",
@@ -111,6 +120,9 @@ const GEN = {
           born: "1874",
           sex: "m",
           relation: "2nd great-grandfather",
+          classification: [
+            { term: "indio", source: "per son Jacinto's baptism, Cabiao, 1887", year: 1887 }
+          ],
           links: [
             {
               label: "FamilySearch profile",
@@ -125,6 +137,9 @@ const GEN = {
           place: "Cabiao, Nueva Ecija",
           sex: "f",
           relation: "2nd great-grandmother",
+          classification: [
+            { term: "india", source: "per son Jacinto's baptism, Cabiao, 1887", year: 1887 }
+          ],
           notes: "Also recorded on FamilySearch as \"Epifania Tiangco\".",
           links: [
             {
@@ -185,6 +200,9 @@ const GEN = {
               sex: "m",
               relation: "4th great-grandfather",
               evidence: "Possible lead requiring verification",
+              classification: [
+                { term: "chino", source: "per baptism of son Tomás, Taguig, 25 Dec 1822", year: 1822 }
+              ],
               notes:
                 "Named only in the 1822 Taguig baptism above, which is a possible lead rather than " +
                 "a proven link to this family. Recorded as a Chinese immigrant (\"chino\"). In the " +
@@ -199,6 +217,9 @@ const GEN = {
               sex: "f",
               relation: "4th great-grandmother",
               evidence: "Possible lead requiring verification",
+              classification: [
+                { term: "mestiza de este Arzobispado", source: "per baptism of son Tomás, Taguig, 25 Dec 1822", year: 1822 }
+              ],
               notes:
                 "Named only in the 1822 Taguig baptism above, a possible lead rather than a proven " +
                 "link to this family. The record calls her a \"mestiza de este Arzobispado.\" In " +
@@ -446,6 +467,10 @@ const GEN = {
           sex: "m",
           relation: "2nd great-grandfather",
           evidence: "Record-supported",
+          classification: [
+            { term: "mestizo sangley", source: "per marriage to Silvestra Santos, Pulilan, 1889", year: 1889 },
+            { term: "indio", source: "per son Quintin's baptism, Pulilan, 1897", year: 1897 }
+          ],
           notes:
             "A single mestizo sangley of Pulilan, Bulacan (barangay No. 25 of D. Segundo Navarro), " +
             "son of Froilan Navarro and Justina Santos. On 10 January 1889 he married Silvestra " +
@@ -498,6 +523,9 @@ const GEN = {
             sex: "m",
             relation: "3rd great-grandfather",
             evidence: "Record-supported",
+            classification: [
+              { term: "del gremio de mestizos", source: "per son Eulogio's baptism, Pulilan, 1875", year: 1875 }
+            ],
             notes:
               "Named as a parent in two church records — the 1875 baptism of his son Eulogio and " +
               "the 1893 marriage of his son Bernardo. The records spell him \"Froylan Navarro\". " +
@@ -597,6 +625,9 @@ const GEN = {
           sex: "f",
           relation: "2nd great-grandmother",
           evidence: "Record-supported",
+          classification: [
+            { term: "india", source: "per marriage to Reducindo Navarro, Pulilan, 1889", year: 1889 }
+          ],
           notes:
             "An india of Pulilan, Bulacan, daughter of Basilio Santos and Quintina Villena. On " +
             "10 January 1889 she married Reducindo Navarro at Pulilan (of the barangay of " +
@@ -1315,6 +1346,9 @@ const PAOLO = {
         sex: "f",
         relation: "Great-grandmother",
         evidence: "Record-supported",
+        classification: [
+          { term: "mestiza", source: "per baptism, Gapan, 1874", year: 1874 }
+        ],
         notes:
           "Baptized 6 December 1874 at Gapan, Nueva Ecija, four days old — so born about 2 December " +
           "1874. Recorded as a mestiza (de sangley), daughter of Ciriaco Ramos and Joaquina " +
