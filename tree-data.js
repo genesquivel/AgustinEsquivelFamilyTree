@@ -154,7 +154,10 @@ const GEN = {
             {
               label: "FamilySearch profile",
               url: "https://www.familysearch.org/tree/person/details/PS4H-Q66"
-            }
+            },
+            { label: "Son Carlos's baptism, 1888 (scan)", url: "docs/carlos-agustin-baptism-1888.png" },
+            { label: "Son Cornelio's baptism, 1896 (scan)", url: "docs/cornelio-agustin-baptism-1896.png" },
+            { label: "Grandson Gabriel's baptism, 1884 — via daughter Jacinta (scan)", url: "docs/gabriel-baptism-1884-jacinta-agustin.png" }
           ],
           father: { name: "Domingo Agustin", sex: "m", relation: "3rd great-grandfather" },
           mother: { name: "Tomasa Caedo", sex: "f", relation: "3rd great-grandmother" }
@@ -787,7 +790,8 @@ const GEN = {
           {
             label: "Baptism, 1904 (Pulilan) — FamilySearch",
             url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSMN-HXG1?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A66XX-2Y5M&action=view&cc=2861657&lang=en&groupId=M9Z6-X32"
-          }
+          },
+          { label: "Baptism record, 1904 (scan)", url: "docs/engracia-tayao-baptism-1904.png" }
         ],
         father: {
           name: "Isidoro Tayao",
@@ -836,7 +840,12 @@ const GEN = {
               {
                 label: "Marriage to Francisca Pacheco, 1858 (Calumpit) — FamilySearch",
                 url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSMN-1SLX-L?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3AXWMF-M7LK&action=view&cc=5000340&lang=en&groupId=M9CZ-XBY"
-              }
+              },
+              { label: "Marriage record, 1858 (scan)", url: "docs/cenon-francisca-tayao-marriage-1858.png" },
+              { label: "Marriage record, 1858 — zoom + index (scan)", url: "docs/cenon-francisca-tayao-marriage-1858-zoom.png" },
+              { label: "Burial record, 1896 (scan)", url: "docs/cenon-tayao-burial-1896.png" },
+              { label: "Daughter Hilaria's burial, 1903 (scan)", url: "docs/hilaria-tayao-burial-1903.png" },
+              { label: "Son Mateo's marriage, 1902 (scan)", url: "docs/mateo-tayao-marriage-1902.png" }
             ],
             father: {
               name: "Balvino Tayao",
@@ -881,7 +890,13 @@ const GEN = {
               evidence: "Record-supported",
               notes:
                 "Recorded as Don Pedro Pacheco of Calumpit; named as Francisca's father in the " +
-                "1858 marriage, already deceased by then."
+                "1858 marriage, already deceased by then. A second record — the 7 September 1858 " +
+                "Calumpit marriage of a Jose Pacheco to Camila Manlapig — also names Pedro Pacheco " +
+                "and Raymunda Jose as the groom's parents, so Francisca appears to have had a " +
+                "brother, Jose (not yet added as a separate person here).",
+              links: [
+                { label: "Son Jose Pacheco's marriage, 1858 — names Pedro & Raymunda (scan)", url: "docs/pacheco-jose-marriage-1858-names-pedro-raymunda.jpg" }
+              ]
             },
             mother: {
               name: "Raymunda Jose",
