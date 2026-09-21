@@ -408,6 +408,17 @@ const GEN = {
           "Pedro. In 1923 he was issued a passport by the Governor-General of the Philippine " +
           "Islands to travel to Hong Kong on business, sailing from Manila aboard the SS President " +
           "McKinley. His passport photograph is shown here.",
+        classification: [
+          {
+            term: "indio",
+            source: "per his 1897 baptism, Pulilan",
+            year: 1897,
+            note:
+              "His elder siblings were recorded \"mestizo sangley\" in their 1891 and 1895 burials; " +
+              "the family's label had shifted to \"indio\" by this 1897 baptism (as it did for his " +
+              "father, Reducindo)."
+          }
+        ],
         siblings: [
           {
             name: "Priscila Navarro",

@@ -197,9 +197,12 @@ function cardClassPill(person) {
   const list = classList(person);
   if (!list.length) return "";
   const rep = repClassification(list);
-  // The card shows just the term; the full list (and any conflicts) is in the panel.
-  const title = rep.source ? rep.term + " — " + rep.source : rep.term;
-  return `<span class="tag-class" title="${title.replace(/"/g, "&quot;")}">${rep.term}</span>`;
+  // The card shows just the term (with a * when it carries a caveat note);
+  // the full list, sources, and any note are in the panel.
+  const star = rep.note ? "*" : "";
+  const title = [rep.source ? rep.term + " — " + rep.source : rep.term, rep.note]
+    .filter(Boolean).join(" · ");
+  return `<span class="tag-class" title="${title.replace(/"/g, "&quot;")}">${rep.term}${star}</span>`;
 }
 /* Detail view: list every recorded classification with its source + year. */
 function renderClassification(person) {
@@ -221,13 +224,19 @@ function renderClassification(person) {
     li.className = "class-item";
     const pill = document.createElement("span");
     pill.className = "tag-class";
-    pill.textContent = c.term;
+    pill.textContent = c.term + (c.note ? "*" : "");
     li.appendChild(pill);
     if (c.source) {
       const s = document.createElement("span");
       s.className = "class-src";
       s.textContent = c.source;
       li.appendChild(s);
+    }
+    if (c.note) {
+      const n = document.createElement("div");
+      n.className = "class-note";
+      n.textContent = "* " + c.note;
+      li.appendChild(n);
     }
     ul.appendChild(li);
   });
