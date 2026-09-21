@@ -101,14 +101,29 @@ const GEN = {
               "and Cecilia Lapuz. All are classed \"indios.\" (A \"25 de Agosto\" margin annotation " +
               "is unresolved.)"
           },
-          { name: "Carlos Agustin", life: "b. 1888", pid: "PXDV-QC4" },
+          {
+            name: "Carlos Agustin",
+            life: "b. 1888",
+            pid: "PXDV-QC4",
+            evidence: "Record-supported",
+            note:
+              "Baptized 4 October 1888 in Cabiao (born about 27 September 1888, seven days old), " +
+              "son of Apolonio Agustin and Estefania Tiangco; paternal grandparents Domingo " +
+              "Agustin and Tomasa Caido/Caedo, maternal grandparents Tomas Tiangco and " +
+              "Cecilia Lapus/Lapuz."
+          },
           { name: "Vito Agustin", life: "b. 1889", pid: "PXDV-KKR" },
           { name: "María Encarnación Agustin", life: "b. 1894", pid: "PXDV-BDF" },
           {
             name: "Cornelio Agustin",
             life: "b. 1896",
             pid: "PXDV-L5F",
-            note: "Christened 2 February 1896 in Cabiao, Nueva Ecija (born 25 January 1896); also recorded as Exenelio."
+            evidence: "Record-supported",
+            note:
+              "Christened 2 February 1896 in Cabiao, Nueva Ecija (born about 25 January 1896, eight " +
+              "days old); also recorded as Exenelio. The baptism names the same parents and " +
+              "grandparents as Carlos's — Apolonio Agustin and Estefania Tiangco; Domingo Agustin " +
+              "and Tomasa Caedo; Tomas Tiangco and Cecilia Lapuz."
           },
           { name: "Cornelia Agustin", life: "b. 1896", pid: "PXDV-R38" },
           { name: "Venancio Agustin", life: "b. 1899", pid: "PS44-R23" },
@@ -122,6 +137,18 @@ const GEN = {
           relation: "2nd great-grandfather",
           classification: [
             { term: "indio", source: "per son Jacinto's baptism, Cabiao, 1887", year: 1887 }
+          ],
+          siblings: [
+            {
+              name: "Jacinta Agustin",
+              evidence: "Record-supported",
+              note:
+                "Apolonio's sister — a daughter of Domingo Agustin and Tomasa Caedo, identified " +
+                "through her son Gabriel's baptism (Cabiao, 26 March 1884): Gabriel, two days old " +
+                "(born about 24 March 1884), son of Luciano (surname unclear — possibly Tiangco, " +
+                "unconfirmed) and Jacinta Agustin, with Domingo Agustin and Tomasa Caedo named as " +
+                "maternal grandparents. This rests on that single baptism's grandparent clause."
+            }
           ],
           links: [
             {
@@ -744,27 +771,153 @@ const GEN = {
       mother: {
         name: "Engracia Tayao",
         place: "Pulilan, Bulacan",
-        born: "1902",
+        born: "1904",
         sex: "f",
         relation: "Great-grandmother",
         evidence: "Record-supported",
         notes:
-          "Gen's great-grandmother; wife of Quintin Navarro. A 23 December 1926 marriage-" +
-          "dispensation petition names her parents as Isidoro Tayao and Felipa S. Pedro, gives her " +
-          "age as 21, and records her 29 December 1925 marriage to Quintin at Pulilan.",
+          "Gen's great-grandmother; wife of Quintin Navarro. Her baptism (San Isidro Labrador, " +
+          "Pulilan, 2 March 1904, aged four days) places her birth about 26 February 1904 — " +
+          "correcting an earlier 1902. Daughter of Isidoro Tayao and Felipa S. Pedro; the family " +
+          "lived in barrio Dampol 2.°, Pulilan. The baptism's margin notes her 29 December 1925 " +
+          "marriage to Quintin Navarro in this parish (a 23 December 1926 dispensation petition " +
+          "gives her age as 21). Her godmother was Maria Agustin(?) of Pulilan — unrelated to the " +
+          "Agustin family of Cabiao.",
+        links: [
+          {
+            label: "Baptism, 1904 (Pulilan) — FamilySearch",
+            url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSMN-HXG1?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A66XX-2Y5M&action=view&cc=2861657&lang=en&groupId=M9Z6-X32"
+          }
+        ],
         father: {
           name: "Isidoro Tayao",
+          place: "Pulilan, Bulacan",
           sex: "m",
           relation: "2nd great-grandfather",
-          father: { name: "Cenon Tayao", sex: "m", relation: "3rd great-grandfather" },
-          mother: { name: "Francisca Pacheco", sex: "f", relation: "3rd great-grandmother" }
+          evidence: "Record-supported",
+          notes:
+            "Son of Cenon Tayao and Francisca Pacheco; named as Engracia's father in her 1904 " +
+            "baptism and the 1926 marriage-dispensation petition.",
+          siblings: [
+            {
+              name: "Mateo Tayao",
+              evidence: "Record-supported",
+              note:
+                "Isidoro's brother, son of Cenon Tayao and Francisca Pacheco. On 9 January 1902 " +
+                "he married Micaela(?) de los Reyes(?) at Pulilan; she is recorded as daughter of " +
+                "Juan Reyes(?) and Damiana Aguilar(?) — those readings are uncertain."
+            },
+            {
+              name: "Hilaria Tayao",
+              life: "1885/86–1903",
+              evidence: "Record-supported",
+              url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSMN-81XP?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3AXWMP-ZJ5D&action=view&cc=5000340&lang=en&groupId=M9LD-JHK",
+              note:
+                "Isidoro's sister, daughter of Cenon Tayao and Francisca Pacheco. She died single " +
+                "of intermittent fever on 6 July 1903, aged 17 (so born about 1885–86), and was " +
+                "buried the next day in Pulilan's West Cemetery."
+            }
+          ],
+          father: {
+            name: "Cenon Tayao",
+            place: "Pulilan, Bulacan",
+            died: "1896",
+            sex: "m",
+            relation: "3rd great-grandfather",
+            evidence: "Record-supported",
+            notes:
+              "Of Pulilan, Bulacan. On 11 November 1858 he married Francisca Pacheco at Calumpit " +
+              "(officiant Fr. Antonio Llanos), bringing a certificate from Pulilan's parish " +
+              "priest. He died suddenly on 6 September 1896 and was buried at Pulilan the next day " +
+              "(no sacraments; the cause reads \"mal-aire\"(?)). The burial gives his age as 40, " +
+              "but that cannot be reconciled with his 1858 marriage, so the age is understated — " +
+              "his birth is estimated to the 1830s. He left Francisca a widow.",
+            links: [
+              {
+                label: "Marriage to Francisca Pacheco, 1858 (Calumpit) — FamilySearch",
+                url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSMN-1SLX-L?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3AXWMF-M7LK&action=view&cc=5000340&lang=en&groupId=M9CZ-XBY"
+              }
+            ],
+            father: {
+              name: "Balvino Tayao",
+              place: "Pulilan, Bulacan",
+              sex: "m",
+              relation: "4th great-grandfather",
+              evidence: "Record-supported",
+              notes:
+                "Named (with Felipa Tapang) as Cenon's parents in the 1858 Calumpit marriage; of " +
+                "Pulilan. FamilySearch's index spells the name \"Balvino.\""
+            },
+            mother: {
+              name: "Felipa Tapang",
+              place: "Pulilan, Bulacan",
+              sex: "f",
+              relation: "4th great-grandmother",
+              evidence: "Record-supported",
+              notes: "Named (with Balvino Tayao) as Cenon's mother in the 1858 Calumpit marriage; of Pulilan."
+            }
+          },
+          mother: {
+            name: "Francisca Pacheco",
+            place: "Calumpit, Bulacan",
+            sex: "f",
+            relation: "3rd great-grandmother",
+            evidence: "Record-supported",
+            notes:
+              "Of Calumpit, Bulacan; daughter of Don Pedro Pacheco and Doña Raymunda Jose (both " +
+              "already deceased by her 1858 marriage). She married Cenon Tayao at Calumpit on " +
+              "11 November 1858 and was widowed when he died in 1896.",
+            links: [
+              {
+                label: "Marriage to Cenon Tayao, 1858 (Calumpit) — FamilySearch",
+                url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSMN-1SLX-L?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3AXWMF-M7LK&action=view&cc=5000340&lang=en&groupId=M9CZ-XBY"
+              }
+            ],
+            father: {
+              name: "Pedro Pacheco",
+              place: "Calumpit, Bulacan",
+              sex: "m",
+              relation: "4th great-grandfather",
+              evidence: "Record-supported",
+              notes:
+                "Recorded as Don Pedro Pacheco of Calumpit; named as Francisca's father in the " +
+                "1858 marriage, already deceased by then."
+            },
+            mother: {
+              name: "Raymunda Jose",
+              place: "Calumpit, Bulacan",
+              sex: "f",
+              relation: "4th great-grandmother",
+              evidence: "Record-supported",
+              notes:
+                "Recorded as Doña Raymunda Jose of Calumpit; named as Francisca's mother in the " +
+                "1858 marriage, already deceased by then."
+            }
+          }
         },
         mother: {
           name: "Felipa S. Pedro",
+          place: "Pulilan, Bulacan",
           sex: "f",
           relation: "2nd great-grandmother",
-          father: { name: "Miguel Pedro", sex: "m", relation: "3rd great-grandfather" },
-          mother: { name: "Simeona Echavaria", sex: "f", relation: "3rd great-grandmother" }
+          father: {
+            name: "Miguel S. Pedro",
+            sex: "m",
+            relation: "3rd great-grandfather",
+            evidence: "Record-supported",
+            notes:
+              "Named (with Simeona Echavaria) as Felipa's parents — Engracia's maternal " +
+              "grandparents — in Engracia's 1904 baptism."
+          },
+          mother: {
+            name: "Simeona Echavaria",
+            sex: "f",
+            relation: "3rd great-grandmother",
+            evidence: "Record-supported",
+            notes:
+              "Named (with Miguel S. Pedro) as Felipa's mother — Engracia's maternal grandmother " +
+              "— in Engracia's 1904 baptism."
+          }
         }
       }
     }
