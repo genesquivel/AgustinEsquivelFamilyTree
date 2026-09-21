@@ -430,7 +430,7 @@ document.getElementById("bioClose").addEventListener("click", closeBio);
 
 /* Share / copy-link button */
 const shareBtn = document.getElementById("bioShare");
-const SHARE_LABEL = "Copy link to this person";
+const SHARE_LABEL = "Share this person";
 function resetShareButton() {
   shareBtn.textContent = SHARE_LABEL;
   shareBtn.classList.remove("done");
