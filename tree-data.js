@@ -876,6 +876,17 @@ const GEN = {
               "Of Calumpit, Bulacan; daughter of Don Pedro Pacheco and Doña Raymunda Jose (both " +
               "already deceased by her 1858 marriage). She married Cenon Tayao at Calumpit on " +
               "11 November 1858 and was widowed when he died in 1896.",
+            siblings: [
+              {
+                name: "Jose Pacheco",
+                evidence: "Record-supported",
+                url: "docs/pacheco-jose-marriage-1858-names-pedro-raymunda.jpg",
+                note:
+                  "Francisca's brother — on 7 September 1858 he married Camila Manlapig at " +
+                  "Calumpit, the record naming his parents as Pedro Pacheco and Raymunda Jose (the " +
+                  "same couple)."
+              }
+            ],
             links: [
               {
                 label: "Marriage to Cenon Tayao, 1858 (Calumpit) — FamilySearch",
@@ -891,9 +902,9 @@ const GEN = {
               notes:
                 "Recorded as Don Pedro Pacheco of Calumpit; named as Francisca's father in the " +
                 "1858 marriage, already deceased by then. A second record — the 7 September 1858 " +
-                "Calumpit marriage of a Jose Pacheco to Camila Manlapig — also names Pedro Pacheco " +
-                "and Raymunda Jose as the groom's parents, so Francisca appears to have had a " +
-                "brother, Jose (not yet added as a separate person here).",
+                "Calumpit marriage of his son Jose Pacheco to Camila Manlapig — also names Pedro " +
+                "Pacheco and Raymunda Jose as the groom's parents, confirming Jose as another of " +
+                "their children (Francisca's brother).",
               links: [
                 { label: "Son Jose Pacheco's marriage, 1858 — names Pedro & Raymunda (scan)", url: "docs/pacheco-jose-marriage-1858-names-pedro-raymunda.jpg" }
               ]
