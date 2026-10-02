@@ -89,6 +89,17 @@ const GEN = {
         siblings: [
           { name: "Andrés Agustin", life: "b. 1882", pid: "PXDJ-LV1" },
           {
+            name: "Ynes Agustin",
+            life: "b. 1884",
+            evidence: "Record-supported",
+            url: "https://www.familysearch.org/ark:/61903/1:1:62NW-37GF?lang=en&cid=fs_copy",
+            note:
+              "Baptized 23 January 1884 in Cabiao, three days old (born about 20 January 1884), " +
+              "daughter of Apolonio Agustin and Estefania Tiangco; paternal grandparents Domingo " +
+              "and Tomasa Caydo Domingo, maternal grandparents Tomas and Cecilia Lapus. " +
+              "Godmother: Barselisa Talens."
+          },
+          {
             name: "Jacinto Agustin",
             life: "b. 1887",
             pid: "PXDK-7J6",
@@ -113,6 +124,17 @@ const GEN = {
               "Cecilia Lapus/Lapuz."
           },
           { name: "Vito Agustin", life: "b. 1889", pid: "PXDV-KKR" },
+          {
+            name: "Monico Agustin",
+            life: "b. 1892",
+            evidence: "Record-supported",
+            url: "https://www.familysearch.org/ark:/61903/1:1:62NW-XHPZ?lang=en&cid=fs_copy",
+            note:
+              "Baptized 11 May 1892 in Cabiao, six days old (born about 5 May 1892), son of " +
+              "Apolonio Agustin and Estefania Tiangco; paternal grandparents Domingo and Tomasa " +
+              "Caido Domingo, maternal grandparents Tomas and Cecilia Lapus. Godfather: Hilarion " +
+              "Dayao(?), single."
+          },
           { name: "María Encarnación Agustin", life: "b. 1894", pid: "PXDV-BDF" },
           {
             name: "Cornelio Agustin",
@@ -127,7 +149,20 @@ const GEN = {
           },
           { name: "Cornelia Agustin", life: "b. 1896", pid: "PXDV-R38" },
           { name: "Venancio Agustin", life: "b. 1899", pid: "PS44-R23" },
-          { name: "Lazaro Agustin", life: "b. 1899", pid: "PXDV-ZRF" }
+          {
+            name: "Lazaro Agustin",
+            life: "b. 1899",
+            pid: "PXDV-ZRF",
+            evidence: "Record-supported",
+            links: [
+              { label: "Baptism, 1899 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:62NW-S9DL?lang=en&cid=fs_copy" }
+            ],
+            note:
+              "Baptized 17 December 1899 in Cabiao, three days old (born about 14 December 1899), " +
+              "son of Apolonio Agustin and Estefania Tiangco, recorded as \"Filipinos de este " +
+              "pueblo\"; paternal grandparents Domingo and Tomacina Domingo. His godfather was the " +
+              "sitting cabeza de barangay, D. Potenciano Romero."
+          }
         ],
         father: {
           name: "Apolonio Agustin",
@@ -136,18 +171,55 @@ const GEN = {
           sex: "m",
           relation: "2nd great-grandfather",
           classification: [
-            { term: "indio", source: "per son Jacinto's baptism, Cabiao, 1887", year: 1887 }
+            { term: "indio", source: "per son Jacinto's baptism, Cabiao, 1887", year: 1887 },
+            { term: "filipino", source: "per son Lazaro's baptism, Cabiao, 1899", year: 1899 }
           ],
           siblings: [
+            {
+              name: "Nicolas Agustin",
+              life: "b. 1848",
+              evidence: "Record-supported",
+              url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSM8-33MH-7?view=explore&action=view&cc=2861657&lang=en&groupId=M9LR-K36",
+              note:
+                "Apolonio's brother. Baptized 4 December 1848 in Cabiao, four days old (born about " +
+                "30 November 1848), son of Domingo Agustin and Tomasina Domingo, recorded \"indios " +
+                "tagalos\" of the barangay of D. Ysac Macapagal; godfather Gerasio(?) Echapare. No " +
+                "grandparents are named. The mother is very likely Tomasa/Tomasina Caedo, whom later " +
+                "records call \"Tomasina Caydo Domingo.\""
+            },
+            {
+              name: "Hilario (Heladio) Agustin",
+              evidence: "Record-supported",
+              note:
+                "Apolonio's brother. He married Bartola de Castro; the baptisms of their children " +
+                "Martina (14 November 1875, Cabiao) and Lucio (17 January 1877) both name Domingo " +
+                "and Tomasina (Caydo) Domingo as paternal grandparents. The father is written " +
+                "\"Hilario\" in 1875 and \"Heladio\" in 1877, and Bartola's father \"Silvestre\" " +
+                "then \"Manuel\"; with the same mother, grandmother (Agustina Nerit), grandparents " +
+                "and barangay (D. Fabian Sagun), they are treated as one family.",
+              links: [
+                { label: "Daughter Martina's baptism, 1875 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:666L-KX1B?lang=en&cid=fs_copy" },
+                { label: "Son Lucio's baptism, 1877 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:666G-SL5S?lang=en&cid=fs_copy" }
+              ]
+            },
             {
               name: "Jacinta Agustin",
               evidence: "Record-supported",
               note:
-                "Apolonio's sister — a daughter of Domingo Agustin and Tomasa Caedo, identified " +
-                "through her son Gabriel's baptism (Cabiao, 26 March 1884): Gabriel, two days old " +
-                "(born about 24 March 1884), son of Luciano (surname unclear — possibly Tiangco, " +
-                "unconfirmed) and Jacinta Agustin, with Domingo Agustin and Tomasa Caedo named as " +
-                "maternal grandparents. This rests on that single baptism's grandparent clause."
+                "Apolonio's sister. She married Luciano (surname Bigting, taken from the children's " +
+                "records — Luciano himself is written by first name only), who had died by March " +
+                "1884. Their children: Eduarda (baptized 8 April 1873, the father written " +
+                "\"Feliciano\"), Bernardo (baptized 21 August 1878, born about 19 August) and " +
+                "Gabriel Bigting (baptized 26 March 1884, born about 24 March; his father recorded " +
+                "\"ya difunto,\" already deceased). All three name Domingo Agustin and Tomasa/Tomasina " +
+                "Caedo (Caydo Domingo) as maternal grandparents and Agaton and Dominga Medina as " +
+                "paternal grandparents (Gabriel's entry writes \"Mariano\" for Agaton). The \"Tiangco\" " +
+                "in Gabriel's record is his godfather, Mariano Tiangco.",
+              links: [
+                { label: "Daughter Eduarda's baptism, 1873 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSM8-3392-1?view=explore&action=view&cc=2861657&lang=en&groupId=M9LR-K3X" },
+                { label: "Son Bernardo's baptism, 1878 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSM8-33MZ-9?view=explore&action=view&cc=2861657&lang=en&groupId=M9LR-K3X" },
+                { label: "Son Gabriel's baptism, 1884 (scan)", url: "docs/gabriel-baptism-1884-jacinta-agustin.png" }
+              ]
             }
           ],
           links: [
@@ -157,10 +229,26 @@ const GEN = {
             },
             { label: "Son Carlos's baptism, 1888 (scan)", url: "docs/carlos-agustin-baptism-1888.png" },
             { label: "Son Cornelio's baptism, 1896 (scan)", url: "docs/cornelio-agustin-baptism-1896.png" },
-            { label: "Grandson Gabriel's baptism, 1884 — via daughter Jacinta (scan)", url: "docs/gabriel-baptism-1884-jacinta-agustin.png" }
+            { label: "Nephew Gabriel Bigting's baptism, 1884 — son of sister Jacinta (scan)", url: "docs/gabriel-baptism-1884-jacinta-agustin.png" }
           ],
-          father: { name: "Domingo Agustin", sex: "m", relation: "3rd great-grandfather" },
-          mother: { name: "Tomasa Caedo", sex: "f", relation: "3rd great-grandmother" }
+          father: {
+            name: "Domingo Agustin",
+            sex: "m",
+            relation: "3rd great-grandfather",
+            evidence: "Record-supported",
+            notes:
+              "Named as grandfather in many Cabiao baptisms of his grandchildren (1873–1899), and as " +
+              "father in his son Nicolas's 1848 baptism."
+          },
+          mother: {
+            name: "Tomasa Caedo",
+            sex: "f",
+            relation: "3rd great-grandmother",
+            evidence: "Record-supported",
+            notes:
+              "Recorded variously as Tomasa Caedo, Tomasa/Tomasina Caido, Tomasina Caydo Domingo " +
+              "and Tomasina Domingo in Cabiao baptisms from 1848 to 1899."
+          }
         },
         mother: {
           name: "Estafania Tiangco",
@@ -168,7 +256,8 @@ const GEN = {
           sex: "f",
           relation: "2nd great-grandmother",
           classification: [
-            { term: "india", source: "per son Jacinto's baptism, Cabiao, 1887", year: 1887 }
+            { term: "india", source: "per son Jacinto's baptism, Cabiao, 1887", year: 1887 },
+            { term: "filipina", source: "per son Lazaro's baptism, Cabiao, 1899", year: 1899 }
           ],
           notes: "Also recorded on FamilySearch as \"Epifania Tiangco\".",
           links: [
@@ -414,12 +503,31 @@ const GEN = {
             source: "per his 1897 baptism, Pulilan",
             year: 1897,
             note:
-              "His elder siblings were recorded \"mestizo sangley\" in their 1891 and 1895 burials; " +
-              "the family's label had shifted to \"indio\" by this 1897 baptism (as it did for his " +
-              "father, Reducindo)."
+              "His elder siblings were recorded \"mestizo sangley\" in their 1891 and 1895 burials, " +
+              "and Pablo's (1893) and Jose's (1896) baptisms record the parents as \"mestizos " +
+              "sangley\"; the family's label had shifted to \"indio\" by this 1897 baptism (as it " +
+              "did for his father, Reducindo)."
           }
         ],
         siblings: [
+          {
+            name: "Paula Navarro (half-sister)",
+            life: "1880–1958",
+            evidence: "Record-supported",
+            note:
+              "Quintin's older half-sister: daughter of Reducindo Navarro and Cirila Batumbacal " +
+              "(not Silvestra Santos), born about 1880 in Pulilan — about nine years before " +
+              "Reducindo's 1889 marriage to Silvestra, at which he was recorded as single, so she " +
+              "was probably born outside marriage (her own baptism would confirm). She married " +
+              "Saturnino Buñing, son of Balbino Buñing and Pascuala San Pedro; their son Alfredo " +
+              "was baptized 31 March 1906, the family living in barrio Santo Cristo. She died a " +
+              "widow on 24 June 1958 in Pulilan; her death certificate (Bulacan Death Certificates " +
+              "1958, image 496) gives her birth year as 1880, her father as Reducindo Navarro and " +
+              "her mother as Cirila Batumbacal.",
+            links: [
+              { label: "Son Alfredo Buñing's baptism, 1906 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:66XX-4PMQ?lang=en&cid=fs_copy" }
+            ]
+          },
           {
             name: "Priscila Navarro",
             life: "1890–1891",
@@ -429,6 +537,17 @@ const GEN = {
               "Navarro and Silvestra Santos, recorded mestiza sangley, died of alferecía aged about 1."
           },
           {
+            name: "Pablo Navarro",
+            life: "b. 1893",
+            evidence: "Record-supported",
+            url: "https://www.familysearch.org/ark:/61903/1:1:66XX-PZS1?lang=en&cid=fs_copy",
+            note:
+              "Elder brother. Baptized 23 August 1893 in Pulilan, seven days old (born about 16 " +
+              "August 1893), son of Reducindo Navarro and Silvestra Santos, recorded \"mestizos " +
+              "sangley\"; grandparents Froilan Navarro and Justina Santos, Basilio Santos and " +
+              "Quintina Villena. Godfather: Felipe Cruz, single."
+          },
+          {
             name: "Vicente Navarro",
             life: "1895",
             evidence: "Record-supported",
@@ -436,6 +555,26 @@ const GEN = {
               "Elder brother who died an infant — born about 18 January 1895, buried 7 February " +
               "1895, son of Reducindo Navarro and Silvestra Santos, recorded mestizo sangley, died " +
               "of alferecía aged 20 days."
+          },
+          {
+            name: "Jose Navarro",
+            life: "b. 1896",
+            evidence: "Record-supported",
+            url: "https://www.familysearch.org/ark:/61903/1:1:66XF-XGHN?lang=en&cid=fs_copy",
+            note:
+              "Elder brother. Baptized 5 February 1896 in Pulilan, two days old (born about 3 " +
+              "February 1896), son of Reducindo Navarro and Silvestra Santos, recorded \"mestizos " +
+              "sangley\"; same four grandparents as Pablo. Godfather: Lucas Gonzales, married."
+          },
+          {
+            name: "Fermin Navarro",
+            evidence: "Record-supported",
+            url: "https://www.familysearch.org/ark:/61903/1:1:6JG8-MRMF?lang=en&cid=fs_copy",
+            note:
+              "Brother — a son of Reducindo Navarro and Silvestra Santos, who are named as paternal " +
+              "grandparents in the baptism of his son Jose (Pulilan, 25 December 1920, born about " +
+              "23 December). He married Clara Santos, daughter of Adriano Santos and Maria " +
+              "Valenzuela; birth date not yet found."
           }
         ],
         records: [
@@ -510,6 +649,7 @@ const GEN = {
           evidence: "Record-supported",
           classification: [
             { term: "mestizo sangley", source: "per marriage to Silvestra Santos, Pulilan, 1889", year: 1889 },
+            { term: "mestizo sangley", source: "per sons Pablo's (1893) and Jose's (1896) baptisms, Pulilan", year: 1893 },
             { term: "indio", source: "per son Quintin's baptism, Pulilan, 1897", year: 1897 }
           ],
           notes:
@@ -518,12 +658,20 @@ const GEN = {
             "Santos at Pulilan — the first record confirming both his parents and hers. He is " +
             "classed \"mestizo sangley\" and Silvestra \"india,\" so the Chinese-mestizo classification " +
             "carried by their grandchildren came down the Navarro line. (Labels shifted between " +
-            "records: Quintin's 1897 baptism calls both parents \"indios.\")",
+            "records: Quintin's 1897 baptism calls both parents \"indios.\") Baptisms of other " +
+            "families' children in 1886–1887 describe Pulilan's Barangay No. 61 as \"de D. " +
+            "Reducindo Navarro\" — these registers name a barangay after its head, so he appears " +
+            "to have served as cabeza de barangay. In 1885 the same barangay is \"de D. Froilan " +
+            "Navarro,\" his father; that the post passed from father to son is an inference. " +
+            "Before his marriage he had a daughter, Paula (born about 1880), with Cirila Batumbacal.",
           links: [
             {
               label: "Marriage to Silvestra Santos, 1889 — FamilySearch",
               url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSMN-JSCH-H?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3AXWML-VRCQ&action=view&lang=en&groupId=M9LD-DRL"
-            }
+            },
+            { label: "Barangay No. 61 \"de D. Reducindo Navarro\" — 1886–87 baptism (1 of 3), FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:66XF-9HH8?lang=en&cid=fs_copy" },
+            { label: "Barangay No. 61 \"de D. Reducindo Navarro\" — 1886–87 baptism (2 of 3), FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:66XF-M6N5?lang=en&cid=fs_copy" },
+            { label: "Barangay No. 61 \"de D. Reducindo Navarro\" — 1886–87 baptism (3 of 3), FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:66XX-Y2HF?lang=en&cid=fs_copy" }
           ],
           siblings: [
             {
@@ -571,8 +719,13 @@ const GEN = {
               "Named as a parent in two church records — the 1875 baptism of his son Eulogio and " +
               "the 1893 marriage of his son Bernardo. The records spell him \"Froylan Navarro\". " +
               "The 1875 baptism lists the family as \"del gremio de mestizos de este pueblo\" — the " +
-              "officially registered Chinese-mestizo (mestizo de sangley) guild of Pulilan, Bulacan.",
+              "officially registered Chinese-mestizo (mestizo de sangley) guild of Pulilan, Bulacan. " +
+              "A baptism of another family's child in 1885 describes Barangay No. 61 as \"de D. " +
+              "Froilan Navarro\" — registers named a barangay after its head, so he appears to have " +
+              "served as cabeza de barangay; by 1886–87 the same barangay is \"de D. Reducindo " +
+              "Navarro,\" his son.",
             links: [
+              { label: "Barangay No. 61 \"de D. Froilan Navarro\" — 1885 baptism, FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:66XF-N44R?lang=en&cid=fs_copy" },
               {
                 label: "Son Eulogio's baptism, 1875 — scan",
                 url: "docs/eulogio-navarro-baptism-1875.jpg"
@@ -667,7 +820,8 @@ const GEN = {
           relation: "2nd great-grandmother",
           evidence: "Record-supported",
           classification: [
-            { term: "india", source: "per marriage to Reducindo Navarro, Pulilan, 1889", year: 1889 }
+            { term: "india", source: "per marriage to Reducindo Navarro, Pulilan, 1889", year: 1889 },
+            { term: "mestiza sangley", source: "per sons Pablo's (1893) and Jose's (1896) baptisms, Pulilan", year: 1893 }
           ],
           notes:
             "An india of Pulilan, Bulacan, daughter of Basilio Santos and Quintina Villena. On " +
@@ -804,6 +958,21 @@ const GEN = {
           },
           { label: "Baptism record, 1904 (scan)", url: "docs/engracia-tayao-baptism-1904.png" }
         ],
+        siblings: [
+          {
+            name: "Feliza Tayao",
+            life: "b. 1892",
+            evidence: "Record-supported",
+            url: "https://www.familysearch.org/ark:/61903/1:1:66XF-V455?lang=en&cid=fs_copy",
+            note:
+              "Engracia's older sister. Baptized 20 November 1892 in Pulilan, one day old (born " +
+              "about 19 November 1892), daughter of Isidoro Tayao and Felipa S. Pedro, recorded " +
+              "\"indios\"; grandparents Cenon Tayao and Francisca Pacheco, Miguel S. Pedro and " +
+              "Simona Echavarria. Godmother: Gregoria Tayao, single. A margin note records her " +
+              "marriage in the parish of Calumpit, Bulacan, on 4 July 1935 (last digit of the year " +
+              "to be confirmed)."
+          }
+        ],
         father: {
           name: "Isidoro Tayao",
           place: "Pulilan, Bulacan",
@@ -812,7 +981,8 @@ const GEN = {
           evidence: "Record-supported",
           notes:
             "Son of Cenon Tayao and Francisca Pacheco; named as Engracia's father in her 1904 " +
-            "baptism and the 1926 marriage-dispensation petition.",
+            "baptism and the 1926 marriage-dispensation petition. He had died before December " +
+            "1928, when Felipa's death record lists her as a widow.",
           siblings: [
             {
               name: "Mateo Tayao",
@@ -935,8 +1105,18 @@ const GEN = {
         mother: {
           name: "Felipa S. Pedro",
           place: "Pulilan, Bulacan",
+          died: "1928",
           sex: "f",
           relation: "2nd great-grandmother",
+          evidence: "Record-supported",
+          notes:
+            "Wife of Isidoro Tayao; daughter of Miguel S. Pedro and Simeona Echavaria. She died " +
+            "on 17 December 1928 in barrio Dampol 2.°, Pulilan, aged 60 (so born about 1868), " +
+            "recorded as a widow.",
+          links: [
+            { label: "Death record, 1928 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:WFPD-TZ6Z?lang=en&cid=fs_copy" },
+            { label: "Daughter Feliza's baptism, 1892 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:66XF-V455?lang=en&cid=fs_copy" }
+          ],
           father: {
             name: "Miguel S. Pedro",
             sex: "m",

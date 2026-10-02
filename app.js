@@ -255,6 +255,8 @@ function renderClassification(person) {
     "often through the mestizo guild (<em>gremio de mestizos</em>).</li>" +
     "<li><em>chino</em> — recorded as Chinese.</li>" +
     "<li><em>mestizo / mestiza</em> — recorded as of mixed ancestry.</li>" +
+    "<li><em>filipino / filipina</em> — a term that appears in some records from the late " +
+    "1890s in place of the colonial categories.</li>" +
     "</ul>";
   el.appendChild(det);
 }
