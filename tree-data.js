@@ -1269,6 +1269,10 @@ const PAOLO = {
           url: "https://archive.org/details/acc6284.0001.007.umich.edu"
         },
         {
+          label: "\"Tagalog Songs\" (1916), H. Otley Beyer Collection — Philippine eLib",
+          url: "https://www.elib.gov.ph/results.php?f=author&q=Esquivel,+E"
+        },
+        {
           label: "Bulacan High School — Antolohiya ng Alaala (archive)",
           url: "https://shine.shift101.solutions/archive/bulacan-high-school-antolohiya-ng-alaala/"
         },
@@ -1305,6 +1309,20 @@ const PAOLO = {
             "belongs to him, and the name was reused for our Marcos. His 1968 death certificate " +
             "later gave the year as 1898.",
           url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSMD-BHSJ?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A666G-DNSB&action=view&cc=2861657&lang=en&groupId=M98M-4PJ"
+        },
+        {
+          date: "1916",
+          place: "Jaen, Nueva Ecija (H. Otley Beyer Collection)",
+          claim: "Compiled \"Tagalog Songs\" (1916) — a folk-song collection catalogued in the H. Otley Beyer Collection.",
+          excerpt:
+            "Philippine eLib catalogue: \"Tagalog songs. by Esquivel, Marcos R.; Masnila: 1916,\" " +
+            "in the H. Otley Beyer Collection microfiche; subjects Ethnology / Folklore / Tagalog / " +
+            "Jaen, province of Nueva Ecija.",
+          notes:
+            "A bibliographic (library-catalogue) record, not the item itself. Consistent with his " +
+            "UP student years (1916–1917), collecting folk songs from his home province; the " +
+            "catalogue entry names \"Marcos R.\" explicitly.",
+          url: "https://www.elib.gov.ph/results.php?f=author&q=Esquivel,+E"
         },
         {
           date: "1919",
@@ -1458,14 +1476,21 @@ const PAOLO = {
             pid: "9J7B-7DY",
             evidence: "Record-supported",
             note:
-              "Don Hilarion Esquivel (also spelled \"Hilario\" in the records) was a prominent " +
-              "principalía leader in Jaén, Nueva Ecija and a cabeza de barangay who headed " +
-              "Barangay No. 18. He built the historic ancestral mansion \"Casa Jaen I\" around 1890, " +
-              "preserved today as a heritage structure at Las Casas Filipinas de Acúzar. He married " +
-              "Leoncia Frias; their son Enrique Esquivel was baptized 2 June 1901 in Jaen (born about " +
-              "29 May 1901), with his uncle Apolinario Esquivel as godfather; Enrique later married in " +
-              "the Jaen church on 14 May 1927. (Some spouse and grandparent given names in these " +
-              "records are provisional.)"
+              "Don Hilarion Esquivel (also spelled \"Hilario\" in the records) was a cabeza de " +
+              "barangay who headed Barangay No. 18 in Jaén, Nueva Ecija. He designed and built the " +
+              "family's ancestral mansion \"Casa Jaen I\" — credited as its architect — which won " +
+              "the 1917 House Beautiful Award from the Sunday Tribune; the house is now a heritage " +
+              "structure at Las Casas Filipinas de Acúzar in Bagac, Bataan, and its walls still " +
+              "bear bullet holes. He married Leoncia Frias; their son Enrique Esquivel was baptized " +
+              "2 June 1901 in Jaen (born about 29 May 1901), with his uncle Apolinario Esquivel as " +
+              "godfather; Enrique later married in the Jaen church on 14 May 1927. A published " +
+              "house history also names a son, Emmanuel Frias Esquivel, who studied in the United " +
+              "States and was welcomed home at the house — the Frias middle name matches Leoncia " +
+              "Frias, supporting the identification. (Some spouse and grandparent given names in " +
+              "these records are provisional.)",
+            links: [
+              { label: "Casa Jaen I — Wikipedia", url: "https://en.wikipedia.org/wiki/Casa_Jaen_I" }
+            ]
           }
         ],
         links: [
@@ -1485,8 +1510,18 @@ const PAOLO = {
             "and Hilario — plus a daughter, Maria Salome (baptized 1856); the sons are each proven " +
             "by baptism records naming Prudencio and Antonia as the children's paternal " +
             "grandparents (1884–1901, Jaen and San Antonio, Nueva Ecija). He had died by " +
-            "5 January 1903, when Antonia was buried at Jaen as his widow.",
+            "5 January 1903, when Antonia was buried at Jaen as his widow. A local history " +
+            "(Wikipedia, citing the town's history) also credits him — as \"Kabesang Prudencio " +
+            "Esquivel\" — with the founding of Jaen: he and Kapitan Antonio Embuscado are named as " +
+            "the early leaders behind the residents' petition that partitioned Jaen from San " +
+            "Antonio on 18 June 1865, and, with Rev. Estanislao B. Moso, with establishing the " +
+            "town's Catholic parish church. This is a published secondary source, not a parish " +
+            "record — a possible lead to corroborate against Jaen municipal histories.",
           links: [
+            {
+              label: "Jaen, Nueva Ecija — Wikipedia (town history)",
+              url: "https://en.wikipedia.org/wiki/Jaen,_Nueva_Ecija"
+            },
             {
               label: "Granddaughter Mercedes Esquivel's baptism, 1884 — FamilySearch",
               url: "https://www.familysearch.org/ark:/61903/1:1:666G-KPZG?lang=en&cid=fs_copy"
@@ -1764,14 +1799,22 @@ const PAOLO = {
       sex: "m",
       relation: "Grandfather",
       notes:
-        "From Bacarra, Ilocos Norte; married Josefina Maloyo. " +
+        "From Bacarra, Ilocos Norte; married Josefina Maloyo. Held the rank of Colonel. " +
         "Worked with the Philippine Atomic Energy Commission (PAEC): he authored a " +
         "technical paper for the PAEC Research & Development Division in 1973, served " +
         "as PAEC Deputy Commissioner from March 1980 to September 1984 and was then " +
         "appointed Commissioner, and headed the Department of Nuclear Technology and " +
         "Engineering as listed in the PAEC's 1986 annual report — through the Bataan " +
-        "Nuclear Power Plant era. Other PAEC records note his coordination work with Atlas Mining.",
+        "Nuclear Power Plant era. When Commissioner Dr. Zoilo M. Bartolome died on " +
+        "6 July 1984, a U.S. Nuclear Regulatory Commission cable records that " +
+        "\"Col. Alejandro Ver Albano\" was designated concurrent Officer-in-Charge of PAEC " +
+        "alongside his Deputy Commissioner duties — the interregnum just before his own " +
+        "Commissioner appointment. Other PAEC records note his coordination work with Atlas Mining.",
       links: [
+        {
+          label: "U.S. NRC cable, July 1984 — Officer-in-Charge after Bartolome's death (NRC archive)",
+          url: "https://ww2.nrc.gov/docs/ML2013/ML20135G419.pdf"
+        },
         {
           label: "Technical paper PAEC(D)7333, 1973 — R&D Division (IAEA archive)",
           url: "https://inis.iaea.org/collection/NCLCollectionStore/_Public/06/160/6160946.pdf"

@@ -260,7 +260,8 @@ function renderClassification(person) {
 }
 
 /* Render a "Siblings"/"Children" list of relatives who aren't on the pedigree.
-   Each entry: { name, life, pid (FamilySearch id) or url, note, evidence }. */
+   Each entry: { name, life, pid (FamilySearch id) or url, note, evidence,
+   links: [{label, url}] (extra source links shown under the note) }. */
 function renderRelatives(container, heading, list) {
   if (!list || !list.length) return;
   const h = document.createElement("h3");
@@ -299,6 +300,21 @@ function renderRelatives(container, heading, list) {
       n.className = "rel-note";
       n.textContent = r.note;
       li.appendChild(n);
+    }
+    if (Array.isArray(r.links) && r.links.length) {
+      const ln = document.createElement("div");
+      ln.className = "rel-links";
+      r.links.forEach((l) => {
+        if (!l || !l.url) return;
+        const a = document.createElement("a");
+        a.className = "rel-src";
+        a.href = l.url;
+        a.target = "_blank";
+        a.rel = "noopener noreferrer";
+        a.textContent = l.label || "Source";
+        ln.appendChild(a);
+      });
+      li.appendChild(ln);
     }
     ul.appendChild(li);
   });
