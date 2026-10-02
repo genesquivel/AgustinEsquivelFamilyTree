@@ -1055,17 +1055,40 @@ const GEN = {
             evidence: "Record-supported",
             notes:
               "Of Calumpit, Bulacan; daughter of Don Pedro Pacheco and Doña Raymunda Jose (both " +
-              "already deceased by her 1858 marriage). She married Cenon Tayao at Calumpit on " +
+              "already deceased by her 1858 marriage — and by her brother Jose's in 1848). She married Cenon Tayao at Calumpit on " +
               "11 November 1858 and was widowed when he died in 1896.",
             siblings: [
               {
                 name: "Jose Pacheco",
                 evidence: "Record-supported",
-                url: "docs/pacheco-jose-marriage-1858-names-pedro-raymunda.jpg",
+                url: "docs/pacheco-jose-marriage-1848-names-pedro-raymunda.jpg",
                 note:
-                  "Francisca's brother — on 7 September 1858 he married Camila Manlapig at " +
-                  "Calumpit, the record naming his parents as Pedro Pacheco and Raymunda Jose (the " +
-                  "same couple)."
+                  "Francisca's brother. On 7 September 1848 he married Camila Manlapig at Calumpit " +
+                  "(Fr. Antonio Llanos, Augustinian). Jose, single, son of Don Pedro Pacheco and " +
+                  "Doña Raymunda Jose, both deceased, of the barangay of D. Fausto Llano(?); Camila, " +
+                  "single, daughter of Don Alfonso Manlapig and Doña Maria Molina, of the barangay of " +
+                  "D. Bernardino Manlapig — both recorded in the gremio de naturales. Sponsors: Juan de " +
+                  "los Reyes and his wife Lorenza Palermo. The manuscript writes the year as \"cuarenta " +
+                  "y ocho\" (1848), and the next entry on the page is also 1848; FamilySearch's index " +
+                  "gives 1858.",
+                links: [
+                  { label: "FamilySearch", url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSMN-1S2L-H?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3AXWMX-YQVY&action=view&cc=5000340&lang=en&groupId=M9CZ-XBT" }
+                ]
+              },
+              {
+                name: "Maria Pacheco",
+                life: "b. 1840",
+                evidence: "Record-supported",
+                url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSMN-6NDL?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A66XQ-166R&action=view&lang=en&groupId=M9L8-J2C",
+                note:
+                  "Francisca's sister. Baptized at Calumpit on 11 March 1840, three days old (born " +
+                  "about 8 March 1840), daughter of D. Pedro Pacheco and Raymunda Josef, of the " +
+                  "barangay of D. Pantaleón(?) Tenorio (margin: S. Miguel). Godmother: Theodoria " +
+                  "Regalado, unmarried; signed Fr. Andres Diaz. The year and month come from the " +
+                  "page headings and FamilySearch's index, not the entry line itself.",
+                links: [
+                  { label: "Baptism (scan)", url: "docs/maria-pacheco-baptism-1840.png" }
+                ]
               }
             ],
             links: [
@@ -1079,15 +1102,21 @@ const GEN = {
               place: "Calumpit, Bulacan",
               sex: "m",
               relation: "4th great-grandfather",
+              born: "c. 1795",
               evidence: "Record-supported",
               notes:
-                "Recorded as Don Pedro Pacheco of Calumpit; named as Francisca's father in the " +
-                "1858 marriage, already deceased by then. A second record — the 7 September 1858 " +
-                "Calumpit marriage of his son Jose Pacheco to Camila Manlapig — also names Pedro " +
-                "Pacheco and Raymunda Jose as the groom's parents, confirming Jose as another of " +
-                "their children (Francisca's brother).",
+                "Recorded as Don Pedro Pacheco of Calumpit. His 1828 premarital proceedings before " +
+                "the Manila church court (as read by the family's researcher; image not yet reviewed " +
+                "here) give him as about 33 — so born about 1795 — a Calumpit native, never " +
+                "previously married, with the bride listed as \"Raymunda Josefa.\" The opening page " +
+                "styles him \"Francisco Pedro Pacheco,\" but he signs \"Pedro Pacheco.\" He was " +
+                "alive at his daughter Maria's baptism in March 1840 and had died by his son Jose's " +
+                "marriage on 7 September 1848, which names Pedro Pacheco and Raymunda Jose as the " +
+                "groom's parents, both deceased. Named again as Francisca's (deceased) father in her " +
+                "1858 marriage.",
               links: [
-                { label: "Son Jose Pacheco's marriage, 1858 — names Pedro & Raymunda (scan)", url: "docs/pacheco-jose-marriage-1858-names-pedro-raymunda.jpg" }
+                { label: "Son Jose Pacheco's marriage, 1848 — names Pedro & Raymunda (scan)", url: "docs/pacheco-jose-marriage-1848-names-pedro-raymunda.jpg" },
+                { label: "Daughter Maria Pacheco's baptism, 1840 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSMN-6NDL?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A66XQ-166R&action=view&lang=en&groupId=M9L8-J2C" }
               ]
             },
             mother: {
@@ -1097,8 +1126,10 @@ const GEN = {
               relation: "4th great-grandmother",
               evidence: "Record-supported",
               notes:
-                "Recorded as Doña Raymunda Jose of Calumpit; named as Francisca's mother in the " +
-                "1858 marriage, already deceased by then."
+                "Recorded as Doña Raymunda Jose of Calumpit (also written Raymunda Josef, and " +
+                "\"Raymunda Josefa\" in the 1828 proceedings). Named as the mother at her daughter " +
+                "Maria's 1840 baptism; already deceased by her son Jose's 1848 marriage and her " +
+                "daughter Francisca's 1858 marriage."
             }
           }
         },
@@ -1779,7 +1810,16 @@ const PAOLO = {
             note:
               "Bibiana's brother. On 4–5 July 1869 at Gapan he married Mauricia Francisco; the " +
               "marriage record names him as the son of Don Ciriaco Ramos and Doña Joaquina Cunanan. " +
-              "Transcribed from image; no FamilySearch link yet."
+              "Two of their children's baptisms at Gapan name D. Mariano Ramos and Dª Mauricia " +
+              "Francisco, mestizos, with paternal grandparents Ciriaco Ramos and Joaquina Cunanan and " +
+              "maternal grandparents Inocencio and Apolinaria de la Cruz (the two records agree): " +
+              "Dominador, baptized 7 November 1875, two days old; and Simeon, baptized 19 February " +
+              "1883, one day old (godfather D. Pablo Padilla).",
+            links: [
+              { label: "Son Dominador's baptism, 1875 (scan)", url: "docs/dominador-ramos-baptism-1875.png" },
+              { label: "Son Simeon's baptism, 1883 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSM8-SQRS-1?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A666J-384W&action=view&cc=2861657&lang=en&groupId=M98Q-SRN" },
+              { label: "Son Simeon's baptism, 1883 (scan)", url: "docs/simeon-ramos-baptism-1883.png" }
+            ]
           },
           {
             name: "Leoncia Ramos",
@@ -1791,6 +1831,20 @@ const PAOLO = {
               "born about 29 December 1852 — daughter of Ciriaco Ramos and Joaquina Guzman. Here " +
               "the mother's surname is written \"Guzman\" (her father's surname) rather than " +
               "\"Cunanan,\" one of the records showing the two names were used for the same woman."
+          },
+          {
+            name: "Estefanio Ramos",
+            life: "b. 1869",
+            evidence: "Record-supported",
+            url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSM8-M397-K?lang=en&i=331&cc=2861657&groupId=2861657",
+            note:
+              "Bibiana's brother. Baptized at Gapan on 10 April(?) 1869, four days old (born about " +
+              "6 April), son of D. Ciriaco Ramos and Dª Joaquina Cunanan, mestizos, of the barangay " +
+              "of D. Tranquilino Rosario — the same barangay as Bibiana's 1874 baptism. Godfather: " +
+              "D. Romualdo Macia(s)(?).",
+            links: [
+              { label: "Baptism (scan)", url: "docs/estefanio-ramos-baptism-1869.png" }
+            ]
           }
         ],
         father: {
@@ -1856,13 +1910,17 @@ const PAOLO = {
     mother: {
       name: "Lolita Pineda Esquivel",
       id: "lolita-pineda-esquivel",
-      place: "San Fernando, Pampanga",
-      born: "1916",
-      died: "2006",
+      place: "Apalit, Pampanga",
+      born: "about 29 July 1916",
+      died: "5 October 2006",
       sex: "f",
       relation: "Grandmother",
+      evidence: "Record-supported",
       notes:
-        "Born in San Fernando, Pampanga, daughter of Narciso Pineda and Leonarda Umali. " +
+        "Baptized Lolita Regina at Apalit, Pampanga, on 1 November 1916, 95 days old — so born " +
+        "about 29 July 1916 — legitimate daughter of Narciso Pineda and Leonarda Umali, \"de este " +
+        "pueblo\" (of Apalit). A 1978 U.S. record gives 7 September 1916; the baptism, made at " +
+        "the time, is preferred. By her marriage she was living in San Fernando, Pampanga. " +
         "On 10 June 1935 she married Marcos R. Esquivel at the Church of Espíritu Santo in Manila.",
       siblings: [
         { name: "Marcial Umali Pineda", life: "1911–1967", pid: "PSDZ-JHW" },
@@ -1870,6 +1928,21 @@ const PAOLO = {
         { name: "Blanca Pineda", life: "b. 1913", pid: "PSZP-74J" }
       ],
       records: [
+        {
+          date: "1916",
+          place: "Apalit, Pampanga",
+          claim: "Baptized Lolita Regina on 1 November 1916, 95 days old.",
+          excerpt:
+            "En primero de Noviembre de mil novecientos diez y seis, yo el Presbítero D. Juan(?) D. " +
+            "Dizon, cura párroco de Apalit, Pampanga, bauticé solemnemente … a una niña de noventa " +
+            "y cinco días nacida, a quien se le ha puesto por nombre Lolita Regina, hija legítima y " +
+            "de legítimo matrimonio de Narciso Pineda y Leonarda Umali, de este pueblo. Abuelos " +
+            "paternos …",
+          notes:
+            "The priest's given name is hard to read (Juan?). The grandparents' names continue " +
+            "past the edge of the available image.",
+          url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSMJ-73QW-K?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A6ZL9-X1K6&action=view&lang=en&groupId=M98P-38M"
+        },
         {
           date: "1935",
           place: "Iglesia del Espíritu Santo, Manila",
@@ -1883,6 +1956,8 @@ const PAOLO = {
         }
       ],
       links: [
+        { label: "Baptism, 1916 (Apalit) — FamilySearch", url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSMJ-73QW-K?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A6ZL9-X1K6&action=view&lang=en&groupId=M98P-38M" },
+        { label: "Baptism, 1916 (scan)", url: "docs/lolita-pineda-baptism-1916.png" },
         {
           label: "Marriage contract with Marcos Esquivel, 1935 — FamilySearch",
           url: "https://www.familysearch.org/ark:/61903/1:1:8BNH-W1N2?lang=en"
@@ -1961,7 +2036,120 @@ const PAOLO = {
         name: "Leonarda Umali",
         born: "1890",
         sex: "f",
-        relation: "Great-grandmother"
+        relation: "Great-grandmother",
+        evidence: "Record-supported",
+        notes:
+          "Named as Lolita's mother in Lolita's 1916 Apalit baptism and 1935 marriage. Daughter " +
+          "of Benito Umali and Maria Cabigting (also Kabigting): their 1884 Arayat marriage " +
+          "proves the couple, and 1931 deeds show her as Leonarda K. Umali alongside her " +
+          "brother Antonio K. Umali. Her own baptism (about 1890) has not been found yet, so " +
+          "that final link is still pending. In 1931 she and Antonio were co-lessees of the " +
+          "Dayrit hacienda at Cuayan, Mexico, Pampanga; she was given sole authority to sign " +
+          "the promissory notes.",
+        siblings: [
+          {
+            name: "Antonio K. Umali",
+            evidence: "Record-supported",
+            note:
+              "Leonarda's brother — shown with her as co-lessee in a 30 March 1931 San Fernando " +
+              "deed and a 7 December 1931 special power of attorney; his wife is named as " +
+              "Eufrocina Canlas. Corroborated by the deeds, not yet by a parish record.",
+            links: [
+              { label: "1931 deed — FamilySearch", url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSZQ-79GL-R?view=fullText&keywords=Leonarda%2CUmali&searchForm=simple&lang=en&groupId=M9MT-6Z7" },
+              { label: "1931 power of attorney — FamilySearch", url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSZC-77CT-M?view=fullText&keywords=Leonarda%2CUmali&searchForm=simple&lang=en&groupId=M9MT-TY5" }
+            ]
+          }
+        ],
+        links: [
+          { label: "1931 deed naming Leonarda & Antonio K. Umali — FamilySearch", url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSZQ-79GL-R?view=fullText&keywords=Leonarda%2CUmali&searchForm=simple&lang=en&groupId=M9MT-6Z7" },
+          { label: "1931 power of attorney — FamilySearch", url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSZC-77CT-M?view=fullText&keywords=Leonarda%2CUmali&searchForm=simple&lang=en&groupId=M9MT-TY5" }
+        ],
+        father: {
+          name: "Benito Umali",
+          place: "San Rafael",
+          sex: "m",
+          relation: "2nd great-grandfather",
+          evidence: "Record-supported",
+          classification: [
+            { term: "indio", source: "per marriage, Arayat, 1884", year: 1884 }
+          ],
+          notes:
+            "Of the town of San Rafael. On 24 June 1884 at Arayat, Pampanga, he married Maria " +
+            "Cabigting; the record calls him single, son of Nicolas and Euleteria(?) Ramos. " +
+            "Witnesses: D. Mariano de Castro and Dª Alejandra(?) Paluyut(?).",
+          records: [
+            {
+              date: "1884",
+              place: "Arayat, Pampanga",
+              claim: "Married Maria Cabigting on 24 June 1884.",
+              excerpt:
+                "En veinte y cuatro de Junio de mil ochocientos ochenta y cuatro … [Benito Umali, " +
+                "indio, soltero, son of Nicolas and Euleteria(?) Ramos] … de San Rafael, con Maria " +
+                "Cabigting, india, soltera, hija de Juan y Francisca Dizon, de este pueblo … Fueron " +
+                "testigos D. Mariano de Castro y Dª Alejandra(?) Paluyut …",
+              notes:
+                "The fathers are given by first name only (Nicolas, Juan); their surnames are " +
+                "inferred from their children.",
+              url: "docs/umali-cabigting-marriage-1884.png"
+            }
+          ],
+          links: [
+            { label: "Marriage, 1884 (Arayat) — FamilySearch", url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSM8-9JVZ?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3AXWM6-L6MP&action=view&cc=5000340&lang=en&groupId=M98F-HVZ" },
+            { label: "Marriage, 1884 (scan)", url: "docs/umali-cabigting-marriage-1884.png" }
+          ],
+          father: {
+            name: "Nicolas Umali",
+            sex: "m",
+            relation: "3rd great-grandfather",
+            evidence: "Record-supported",
+            notes:
+              "Named as \"Nicolas\" (no surname written) in his son Benito's 1884 Arayat marriage; " +
+              "the family was of San Rafael."
+          },
+          mother: {
+            name: "Euleteria Ramos",
+            sex: "f",
+            relation: "3rd great-grandmother",
+            evidence: "Record-supported",
+            notes:
+              "Named as Benito Umali's mother in his 1884 Arayat marriage; the first name reads " +
+              "Euleteria(?)."
+          }
+        },
+        mother: {
+          name: "Maria Cabigting",
+          place: "Arayat, Pampanga",
+          born: "c. 1857",
+          sex: "f",
+          relation: "2nd great-grandmother",
+          evidence: "Record-supported",
+          classification: [
+            { term: "india", source: "per marriage, Arayat, 1884", year: 1884 }
+          ],
+          notes:
+            "Also written Kabigting; the 1884 marriage spells it Cabigting. Of Arayat, " +
+            "daughter of Juan and Francisca Dizon; married Benito Umali there on 24 June 1884. " +
+            "Per the family's researcher, she was baptized at Arayat about 27 March 1857, 11 " +
+            "days old (born about 16 March 1857), daughter of Don Juan Kabigting and Francisca " +
+            "Dizon — the father's smudged name there is resolved by the marriage record.",
+          father: {
+            name: "Juan Cabigting",
+            sex: "m",
+            relation: "3rd great-grandfather",
+            evidence: "Record-supported",
+            notes:
+              "Also Kabigting. Named as \"Juan\" in his daughter Maria's 1884 Arayat marriage, " +
+              "and as Don Juan Kabigting in her 1857 baptism."
+          },
+          mother: {
+            name: "Francisca Dizon",
+            place: "Arayat, Pampanga",
+            sex: "f",
+            relation: "3rd great-grandmother",
+            evidence: "Record-supported",
+            notes: "Named as Maria Cabigting's mother in her 1884 Arayat marriage and 1857 baptism."
+          }
+        }
       }
     }
   },
@@ -2030,60 +2218,112 @@ const PAOLO = {
       ],
       father: {
         name: "Vicente Albano",
+        place: "Bacarra, Ilocos Norte",
+        born: "c. 1881",
         sex: "m",
         relation: "Great-grandfather",
+        evidence: "Record-supported",
+        notes:
+          "Of Bacarra, Ilocos Norte. The 1917 Bacarra marriage register lists him as " +
+          "\"Presb.° Vicente Albano,\" 36 (so born about 1881), occupation sacerdote (priest), " +
+          "son of Pedro Albano and Modesta Parguian; his bride was Ambrosia Ver, 29. " +
+          "FamilySearch's index dates the marriage 20 August 1917 (the date is not on the " +
+          "register row itself). A married priest at this date may point to the Philippine " +
+          "Independent (Aglipayan) Church — an unconfirmed possibility, not a finding. " +
+          "Earlier versions of this tree listed Blas Albano and Barbara Pacis as his parents; " +
+          "that link came from an unsourced online tree and is impossible (Blas was born in " +
+          "1885, after Vicente), so it has been removed.",
+        records: [
+          {
+            date: "1917",
+            place: "Bacarra, Ilocos Norte",
+            claim: "Married Ambrosia Ver; the register names both sets of parents.",
+            excerpt:
+              "No. 157 — Husband: Presb.° Vicente Albano, 36, of Bacarra, Sacerdote; father " +
+              "Pedro Albano, mother Modesta Parguian. Wife: Ambrosia Ver, 29, of Bacarra, " +
+              "Costurera; father Antonio Ver, mother Francisca Parguian.",
+            notes:
+              "Both mothers are named Parguian; the record does not say whether they were " +
+              "related, and no relationship is assumed here.",
+            url: "docs/albano-ver-marriage-1917-register.png"
+          }
+        ],
+        links: [
+          { label: "Marriage register, 1917 (Bacarra) — FamilySearch", url: "https://www.familysearch.org/ark:/61903/3:1:3QS7-99LS-F9SC-D?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A6BQM-R7WX&action=view&lang=en" },
+          { label: "Marriage register, 1917 — parents' columns (scan)", url: "docs/albano-ver-marriage-1917-register.png" }
+        ],
         father: {
-          name: "Blas Albano",
-          id: "blas-albano",
-          born: "1885",
+          name: "Pedro Albano",
           sex: "m",
           relation: "2nd great-grandfather",
-          photo: "images/blas-albano.jpg",
-          notes: "Full name Blas Duque Albano — \"Duque\" from his mother, Rosa Duque.",
+          evidence: "Record-supported",
+          notes: "Named as Vicente Albano's father in the 1917 Bacarra marriage register.",
           links: [
-            {
-              label: "Photograph — FamilySearch memory",
-              url: "https://www.familysearch.org/memories/memory/197697332"
-            }
-          ],
-          siblings: [
-            { name: "Estefania Duque Albano", life: "1877–1957", pid: "GWS4-474" },
-            { name: "Antonio Duque Albano", pid: "LXV3-WWB" },
-            { name: "Aurelio Duque Albano", pid: "LXJR-FMK" },
-            { name: "Mariano Duque Albano", pid: "LXJR-GPZ" },
-            { name: "Victorino Duque Albano", pid: "LXJR-YKR" }
-          ],
-          father: {
-            name: "Mariano Pacis Albano",
-            born: "1860",
-            sex: "m",
-            relation: "3rd great-grandfather",
-            links: [
-              {
-                label: "FamilySearch profile",
-                url: "https://www.familysearch.org/tree/person/details/LCPZ-J3Z"
-              }
-            ]
-          },
-          mother: {
-            name: "Rosa Duque",
-            born: "1862",
-            sex: "f",
-            relation: "3rd great-grandmother",
-            links: [
-              {
-                label: "FamilySearch profile",
-                url: "https://www.familysearch.org/tree/person/details/LCPZ-J3J"
-              }
-            ]
-          }
+            { label: "Son Vicente's marriage register, 1917 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/3:1:3QS7-99LS-F9SC-D?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A6BQM-R7WX&action=view&lang=en" }
+          ]
         },
-        mother: { name: "Barbara Pacis", sex: "f", relation: "2nd great-grandmother" }
+        mother: {
+          name: "Modesta Parguian",
+          sex: "f",
+          relation: "2nd great-grandmother",
+          evidence: "Record-supported",
+          notes: "Named as Vicente Albano's mother in the 1917 Bacarra marriage register.",
+          links: [
+            { label: "Son Vicente's marriage register, 1917 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/3:1:3QS7-99LS-F9SC-D?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A6BQM-R7WX&action=view&lang=en" }
+          ]
+        }
       },
       mother: {
         name: "Ambrocia Ver",
+        place: "Bacarra, Ilocos Norte",
+        born: "c. 1888",
         sex: "f",
-        relation: "Great-grandmother"
+        relation: "Great-grandmother",
+        evidence: "Record-supported",
+        notes:
+          "Of Bacarra, Ilocos Norte; also written Ambrosia. In the 1917 Bacarra marriage " +
+          "register she is Ambrosia Ver, 29, costurera (seamstress), daughter of Antonio Ver " +
+          "and Francisca Parguian, marrying Vicente Albano. On 6 May 1908 the Bacarra register " +
+          "records the marriage of Tiburcio Reginaldo Cadiz, 25, to \"Ambrocia Ver Parguian,\" " +
+          "20 — very likely the same woman (her two surnames match her parents, and the ages " +
+          "agree, giving a birth about 1888). If so, she was widowed between 1908 and 1917; " +
+          "that is not yet confirmed by a death record or a \"viuda\" entry.",
+        records: [
+          {
+            date: "1908",
+            place: "Bacarra, Ilocos Norte",
+            claim: "Probable first marriage, to Tiburcio Reginaldo Cadiz.",
+            excerpt: "6 Mayo 1908 — Tiburcio Reginaldo Cadiz, 25 — Ambrocia Ver Parguian, 20.",
+            url: "docs/reginaldo-ver-marriage-1908.png"
+          }
+        ],
+        links: [
+          { label: "Marriage register, 1917 (Bacarra) — FamilySearch", url: "https://www.familysearch.org/ark:/61903/3:1:3QS7-99LS-F9SC-D?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A6BQM-R7WX&action=view&lang=en" },
+          { label: "Marriage register, 1908 (Bacarra) — scan", url: "docs/reginaldo-ver-marriage-1908.png" }
+        ],
+        father: {
+          name: "Antonio Ver",
+          sex: "m",
+          relation: "2nd great-grandfather",
+          evidence: "Record-supported",
+          notes: "Named as Ambrosia Ver's father in the 1917 Bacarra marriage register.",
+          links: [
+            { label: "Daughter Ambrosia's marriage register, 1917 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/3:1:3QS7-99LS-F9SC-D?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A6BQM-R7WX&action=view&lang=en" }
+          ]
+        },
+        mother: {
+          name: "Francisca Parguian",
+          sex: "f",
+          relation: "2nd great-grandmother",
+          evidence: "Record-supported",
+          notes:
+            "Named as Ambrosia Ver's mother in the 1917 Bacarra marriage register. Vicente " +
+            "Albano's mother, Modesta, was also a Parguian; no relationship between the two " +
+            "is stated in the record.",
+          links: [
+            { label: "Daughter Ambrosia's marriage register, 1917 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/3:1:3QS7-99LS-F9SC-D?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A6BQM-R7WX&action=view&lang=en" }
+          ]
+        }
       }
     },
     mother: {
