@@ -1183,6 +1183,10 @@ const GEN = {
       died: "1980",
       sex: "m",
       relation: "Grandfather",
+      photo: "images/vicente-catelo.jpg",
+      links: [
+        { label: "Family photograph — Vicente, Experia and three of their children", url: "images/catelo-arreza-family.jpg" }
+      ],
       siblings: [
         {
           name: "Perfecto Catelo",
@@ -1315,6 +1319,17 @@ const GEN = {
       died: "1965",
       sex: "f",
       relation: "Grandmother",
+      photo: "images/experia-arreza.jpg",
+      notes:
+        "Her school yearbook entry reads: \"Experia Arreza — Surigao, Surigao — C.I.C. — " +
+        "Distinction: Member, Sodality of Mary; Member, Seniors Sorority.\" The same page " +
+        "shows portraits of Roman Arreza and Juliana Sering Arreza. A handwritten note beside " +
+        "her portrait reads \"1920\"; what it refers to is not stated, and her birth year here " +
+        "stays 1919.",
+      links: [
+        { label: "Yearbook page — Roman Arreza, Juliana Sering Arreza and Experia Arreza", url: "images/arreza-yearbook-page.jpg" },
+        { label: "Family photograph — Vicente, Experia and three of their children", url: "images/catelo-arreza-family.jpg" }
+      ],
       siblings: [
         {
           name: "Priscela Arreza",
@@ -1332,6 +1347,10 @@ const GEN = {
         name: "Roman Arreza",
         sex: "m",
         relation: "Great-grandfather",
+        photo: "images/roman-arreza.jpg",
+        links: [
+          { label: "Yearbook page — Roman Arreza, Juliana Sering Arreza and Experia Arreza", url: "images/arreza-yearbook-page.jpg" }
+        ],
         evidence: "Record-supported",
         notes:
           "Confirmed as the husband of Juliana Sering by their daughter Priscela's 1950 Surigao " +
@@ -1357,6 +1376,10 @@ const GEN = {
         died: "1955",
         sex: "f",
         relation: "Great-grandmother",
+        photo: "images/juliana-sering.jpg",
+        links: [
+          { label: "Yearbook page — Roman Arreza, Juliana Sering Arreza and Experia Arreza", url: "images/arreza-yearbook-page.jpg" }
+        ],
         evidence: "Record-supported",
         notes:
           "Confirmed as the wife of Roman Arreza by their daughter Priscela's 1950 Surigao " +
