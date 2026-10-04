@@ -1919,10 +1919,10 @@ const PAOLO = {
             evidence: "Record-supported",
             url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSM8-MSVX-C?view=explore&action=view&lang=en&groupId=M9ZT-ZQH",
             note:
-              "Bibiana's older sister. Baptized 6 January 1853 at Gapan, about eight days old — so " +
-              "born about 29 December 1852 — daughter of Ciriaco Ramos and Joaquina Guzman. Here " +
-              "the mother's surname is written \"Guzman\" (her father's surname) rather than " +
-              "\"Cunanan,\" one of the records showing the two names were used for the same woman."
+              "Bibiana's older sister. Baptized 6 January 1853 at Gapan, about eight days " +
+              "old — so born about 29 December 1852 — daughter of Ciriaco Ramos and " +
+              "Joaquina Guzman. This is one of two records that write the mother's " +
+              "surname \"Guzman\" instead of \"Cunanan.\""
           },
           {
             name: "Estefanio Ramos",
@@ -1961,7 +1961,7 @@ const PAOLO = {
           ]
         },
         mother: {
-          name: "Joaquina Guzmán",
+          name: "Joaquina Cunanan",
           place: "Gapan, Nueva Ecija",
           died: "1874",
           sex: "f",
@@ -1975,35 +1975,19 @@ const PAOLO = {
           evidence: "Record-supported",
           notes:
             "Buried at Gapan on 2 December 1874 as \"Dª Joaquina Cunanan, india,\" wife of " +
-            "Don Ciriaco Ramos and, as the entry has been read, daughter of Don Alvaro(?) " +
-            "de Guzman. She had received the sacraments and was given a sung burial; " +
-            "priest: Fr. Antonio Cornejo. She died within days of Bibiana's birth, very " +
-            "likely in childbirth. The priests wrote her surname two ways: \"Joaquina " +
-            "Guzman\" in her daughter Leoncia's 1853 baptism and Francisca's 1887 baptism, " +
-            "and \"Joaquina Cunanan\" in Estefanio's 1869 and Bibiana's 1874 baptisms, the " +
-            "1885, 1892 and 1896 Jaen baptisms, and her burial.",
+            "Don Ciriaco Ramos, of the barangay of Don Alvaro(?) de Guzman. She had " +
+            "received the sacraments and was given a sung burial; priest: Fr. Antonio " +
+            "Cornejo. She died within days of Bibiana's birth, very likely in childbirth. " +
+            "Most records call her Joaquina Cunanan — Estefanio's 1869 and Bibiana's 1874 " +
+            "baptisms, the 1885, 1892 and 1896 Jaen baptisms, and her burial — but " +
+            "Leoncia's 1853 and Francisca's 1887 baptisms write \"Joaquina Guzman.\" Why is " +
+            "not known; her parents have not yet been identified.",
           links: [
             {
               label: "Burial record, 1874 (Gapan) — FamilySearch",
               url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSM8-7JF1?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3AX71V-6S2H&action=view&lang=en&groupId=M9ZR-2LG"
             }
-          ],
-          father: {
-            name: "Alvaro de Guzman",
-            place: "Gapan, Nueva Ecija",
-            sex: "m",
-            relation: "3rd great-grandfather",
-            evidence: "Record-supported",
-            notes:
-              "Recorded as Don Alvaro de Guzman, named as Doña Joaquina's father in her 1874 burial " +
-              "at Gapan, Nueva Ecija.",
-            links: [
-              {
-                label: "Daughter Joaquina's burial, 1874 — FamilySearch",
-                url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSM8-7JF1?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3AX71V-6S2H&action=view&lang=en&groupId=M9ZR-2LG"
-              }
-            ]
-          }
+          ]
         }
       }
     },
