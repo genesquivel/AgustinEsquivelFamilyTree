@@ -2321,7 +2321,8 @@ const PAOLO = {
           "\"Presb.° Vicente Albano,\" 36 (so born about 1881), occupation sacerdote (priest), " +
           "son of Pedro Albano and Modesta Parguian; his bride was Ambrosia Ver, 29. " +
           "FamilySearch's index dates the marriage 20 August 1917 (the date is not on the " +
-          "register row itself). A married priest at this date may point to the Philippine " +
+          "register row itself) and gives his name as \"Piesto Vicente Albano\" — a misreading " +
+          "of the abbreviation \"Presb.°\" (presbítero, priest); he is not \"Sixto.\" A married priest at this date may point to the Philippine " +
           "Independent (Aglipayan) Church — an unconfirmed possibility, not a finding. " +
           "Earlier versions of this tree listed Blas Albano and Barbara Pacis as his parents; " +
           "that link came from an unsourced online tree and is impossible (Blas was born in " +
@@ -2376,23 +2377,45 @@ const PAOLO = {
         notes:
           "Of Bacarra, Ilocos Norte; also written Ambrosia. In the 1917 Bacarra marriage " +
           "register she is Ambrosia Ver, 29, costurera (seamstress), daughter of Antonio Ver " +
-          "and Francisca Parguian, marrying Vicente Albano. On 6 May 1908 the Bacarra register " +
-          "records the marriage of Tiburcio Reginaldo Cadiz, 25, to \"Ambrocia Ver Parguian,\" " +
-          "20 — very likely the same woman (her two surnames match her parents, and the ages " +
-          "agree, giving a birth about 1888). If so, she was widowed between 1908 and 1917; " +
-          "that is not yet confirmed by a death record or a \"viuda\" entry.",
+          "and Francisca Parguian, marrying Vicente Albano. Nine years earlier, on 6 May 1908, " +
+          "she had married Tiburcio Reginaldo at Bacarra. Two register pages record that " +
+          "marriage: one gives \"Tiburcio Reginaldo Cadiz, 25\" and \"Ambrocia Ver Parguian, " +
+          "20\"; the other gives Tiburcio Reginaldo, 24, and Ambrocia Ver, 21, with the fathers " +
+          "Tranquilino Reginaldo and Antonio Ver — so she is the same woman, born about " +
+          "1887–88. She was presumably widowed before 1917, though no death record for Tiburcio " +
+          "has been found. FamilySearch indexes the 1908 marriage in one place as a \"death\" " +
+          "of \"Ambrocia Vea\" on 6 May 1908, and a FamilySearch tree profile repeats that " +
+          "death; it is a misindexed marriage, and she did not die in 1908. A FamilySearch " +
+          "index of a 7 November 1890 confirmation also names an Ambrocia Ver, daughter of " +
+          "D. Antonio and Francisca Pargian (image not reviewed here). Her mother's surname is " +
+          "spelled Parguian, Pargian, Parguion, or Pargeisan in different records.",
         records: [
           {
             date: "1908",
             place: "Bacarra, Ilocos Norte",
-            claim: "Probable first marriage, to Tiburcio Reginaldo Cadiz.",
+            claim: "First marriage, to Tiburcio Reginaldo — register page 1.",
             excerpt: "6 Mayo 1908 — Tiburcio Reginaldo Cadiz, 25 — Ambrocia Ver Parguian, 20.",
             url: "docs/reginaldo-ver-marriage-1908.png"
+          },
+          {
+            date: "1908",
+            place: "Bacarra, Ilocos Norte",
+            claim: "First marriage, to Tiburcio Reginaldo — register page 2 (Registro de Casamientos, image 72).",
+            excerpt:
+              "6 Mayo 1908 — Tiburcio Reginaldo, 24 — Ambrocia Ver, 21 — both of Bacarra, Ilocos " +
+              "Norte; fathers Tranquilino R[eginaldo] and Antonio Ver.",
+            notes:
+              "FamilySearch's index records Tiburcio's parents as Tranquilino Reginaldo and Sofia " +
+              "Cadiz, and Ambrocia's as Antonio Ver and Francisca Parguian.",
+            url: "docs/reginaldo-ver-marriage-1908-register-2.png"
           }
         ],
         links: [
           { label: "Marriage register, 1917 (Bacarra) — FamilySearch", url: "https://www.familysearch.org/ark:/61903/3:1:3QS7-99LS-F9SC-D?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A6BQM-R7WX&action=view&lang=en" },
-          { label: "Marriage register, 1908 (Bacarra) — scan", url: "docs/reginaldo-ver-marriage-1908.png" }
+          { label: "Marriage register, 1908 (Bacarra) — scan", url: "docs/reginaldo-ver-marriage-1908.png" },
+          { label: "Marriage register, 1908 — second page (scan)", url: "docs/reginaldo-ver-marriage-1908-register-2.png" },
+          { label: "Marriage, 1908 — FamilySearch index", url: "https://www.familysearch.org/ark:/61903/1:1:6BQM-FGFQ" },
+          { label: "Confirmation, 1890 — FamilySearch index", url: "https://www.familysearch.org/ark:/61903/1:1:XWMV-Y7BJ" }
         ],
         father: {
           name: "Antonio Ver",
@@ -2452,9 +2475,11 @@ const PAOLO = {
         sex: "m",
         relation: "Great-grandfather",
         notes:
-          "Born 26 December 1886 in Bacarra, Ilocos Norte; died 23 January 1983. A candidate 1895 " +
-          "Bauang marriage of his named parents (see Tomas Maloyo) conflicts with this 1886 birth " +
-          "and is unresolved pending his baptism.",
+          "Born 26 December 1886 in Bacarra, Ilocos Norte; died 23 January 1983. His middle " +
+          "name Cadiz and his Bacarra birth fit Tomas Maluyo and Casimira Cadiz, who married at " +
+          "Bacarra in November 1885 (see Tomas Maloyo); his own baptism, which would name his " +
+          "parents, has not been found yet. He is distinct from that older Tomas: in 1936 the " +
+          "older Tomas's wife was still Casimira, while this Thomas's wife was Agapita Andres.",
         links: [
           {
             label: "Social Security (NUMIDENT) record — FamilySearch",
@@ -2463,39 +2488,103 @@ const PAOLO = {
         ],
         father: {
           name: "Tomas Maloyo",
+          place: "Bacarra, Ilocos Norte",
+          born: "c. 1868",
           sex: "m",
           relation: "2nd great-grandfather",
           evidence: "Possible lead requiring verification",
+          classification: [
+            { term: "indio", source: "per marriage, Bacarra, 1885", year: 1885 }
+          ],
           notes:
-            "A candidate marriage record — Tomas Maloyo (17) to Casimira Cadiz (17), 23 November " +
-            "1895 at Bauang — names his parents as Hipolito Maloyo and Benigna Eder, with a second " +
-            "Tomas Maloyo and Marta Eder among the witnesses. It is flagged, not merged: both " +
-            "spouses are given as 17 in 1895 (births about 1878), which cannot be reconciled with " +
-            "their supposed son Thomas Cadiz Maloyo's 1886 birth, and the marriage is at Bauang " +
-            "(La Union) rather than the family's Bacarra (Ilocos Norte). Either the ages are " +
-            "understated or a date is wrong — to be resolved by Thomas Cadiz Maloyo's baptism.",
-          links: [
+            "Written Maluyo in his marriage. On 23 November 1885 at Bacarra (parish of St. Andrew " +
+            "the Apostle) he married Casimira Cadiz; both were 17 (so born about 1868). The " +
+            "record names his parents as Hipolito Maluyo and Remigia Jove, of the barangay of " +
+            "Don Santiago Abbas(?); the witnesses were a Tomas Maluyo and Marta Eder(?). An " +
+            "earlier reading of this entry as 1895 at Bauang, with his mother as \"Benigna " +
+            "Eder,\" was wrong: the volume is Bacarra's marriage book for 1856–1887. In a 1936 " +
+            "Bacarra notarial register his wife Casimira petitioned the Bureau of Pensions for " +
+            "half of the pension of her husband \"Tomas Maloyo, ex soldado Scout filipino\" " +
+            "(a former Philippine Scout); witnesses declared the couple had not divorced but had " +
+            "lived apart for more than 15 years. Still a lead, because no record yet names him " +
+            "as Thomas Cadiz Maloyo's father.",
+          records: [
             {
-              label: "Marriage to Casimira Cadiz, 1895 (Bauang) — FamilySearch",
-              url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSMV-H96D-9?lang=en&i=788&cc=5000330&groupId=5000330"
+              date: "1885",
+              place: "Bacarra, Ilocos Norte",
+              claim: "Married Casimira Cadiz on 23 November 1885.",
+              excerpt:
+                "En veinte y tres de Noviembre de mil ochocientos ochenta y cinco … a Tomas " +
+                "Maluyo, indio, soltero, de diez y siete años de edad, hijo de Hipolito Maluyo y " +
+                "de Remigia Jove, de este pueblo, del barangay de Don Santiago Abbas(?), con " +
+                "Casimira Cadiz, india, soltera, de diez y siete años de edad, hija de Juliana(?) " +
+                "Cadiz, casada con Ruperto Luis(?), ausente … Fueron testigos Tomas Maluyo y " +
+                "Marta Eder(?), naturales de este pueblo.",
+              notes:
+                "The last digit of the year is hard to read on the available image; 1885 follows " +
+                "FamilySearch's index and fits the volume (1856–1887).",
+              url: "docs/maluyo-cadiz-marriage-1885.png"
+            },
+            {
+              date: "1936",
+              place: "Bacarra, Ilocos Norte",
+              claim: "His wife petitioned for half of his pension as a former Philippine Scout.",
+              excerpt:
+                "29 — Casimira Cadiz solicitó del Bureau of Pensions, para que éste adjudique á " +
+                "aquella la mitad de la pensión de su marido, Tomas Maloyo, ex soldado Scout " +
+                "filipino. 30 — Adriano Galutera declaró que conoce personalmente á los esposos " +
+                "Tomas Maloyo y Casimira Cadiz y éstos no se han divorciado, sólo la separación " +
+                "corporal, desde hace más de 15 años á esta parte.",
+              url: "docs/casimira-cadiz-pension-petition-1936.png"
             }
+          ],
+          links: [
+            { label: "Marriage to Casimira Cadiz, 1885 (Bacarra) — FamilySearch", url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSMV-H96D-9?lang=en&i=788&cc=5000330&groupId=5000330" },
+            { label: "Marriage, 1885 — FamilySearch index", url: "https://www.familysearch.org/ark:/61903/1:1:XWMB-CF2N" },
+            { label: "Marriage, 1885 (scan)", url: "docs/maluyo-cadiz-marriage-1885.png" },
+            { label: "Notarial register, 1936 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSZS-9GFZ?view=fullText&keywords=Maloyo&searchForm=advanced&lang=en" },
+            { label: "Notarial register, 1936 (scan)", url: "docs/casimira-cadiz-pension-petition-1936.png" }
           ]
         },
         mother: {
           name: "Casimira Cadiz",
+          place: "Bacarra, Ilocos Norte",
+          born: "c. 1868",
           sex: "f",
           relation: "2nd great-grandmother",
           evidence: "Possible lead requiring verification",
+          classification: [
+            { term: "india", source: "per marriage, Bacarra, 1885", year: 1885 }
+          ],
           notes:
-            "In the flagged 1895 Bauang marriage she is given as 17 and daughter of Anastasia " +
-            "Cadiz (wife of the absent Ruperto Luis). See the chronological caution on Tomas " +
-            "Maloyo — the identification with this family is not yet verified."
+            "Married Tomas Maluyo at Bacarra on 23 November 1885, aged 17 (so born about 1868). " +
+            "The record calls her the daughter of Juliana(?) Cadiz, \"casada con Ruperto Luis(?), " +
+            "ausente\" — her mother was married to an absent Ruperto Luis; the record does not " +
+            "call him Casimira's father. FamilySearch's index gives the mother as Juliana Cadiz; " +
+            "an earlier reading gave Anastasia. She was still living in 1936, when she petitioned " +
+            "the Bureau of Pensions for half of her husband's pension; by then they had lived " +
+            "apart for more than 15 years without divorcing. Still a lead, because no record yet " +
+            "names her as Thomas Cadiz Maloyo's mother.",
+          links: [
+            { label: "Marriage, 1885 (scan)", url: "docs/maluyo-cadiz-marriage-1885.png" },
+            { label: "Notarial register, 1936 (scan)", url: "docs/casimira-cadiz-pension-petition-1936.png" }
+          ]
         }
       },
       mother: {
         name: "Agapita Andres",
         sex: "f",
-        relation: "Great-grandmother"
+        relation: "Great-grandmother",
+        evidence: "Record-supported",
+        notes:
+          "Named as Josefina Maloyo's mother, with Tomas Maloyo as her father, in Josefina's " +
+          "c. 1943 Bacarra marriage to Alejandro Albano. No other record of her has been found yet.",
+        links: [
+          {
+            label: "Daughter Josefina's marriage — FamilySearch",
+            url: "https://www.familysearch.org/ark:/61903/3:1:3QS7-8923-79LY-W?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A6B3P-54H9&action=view&cc=1410394&lang=en"
+          }
+        ]
       }
     }
   }
