@@ -483,7 +483,22 @@ const treeEl = document.getElementById("tree");
 const scroller = document.querySelector(".tree-scroll");
 const isDesktop = () => window.matchMedia("(min-width: 900px)").matches;
 
+// On wide screens the tree pans inside a fixed-height box. A fixed 74vh box
+// could run past the bottom of a short window (below the header), leaving the
+// lowest cards unreachable, so size the box to the space actually left.
+function fitScroller() {
+  if (!isDesktop()) {
+    scroller.style.height = "";
+    return;
+  }
+  const top = scroller.getBoundingClientRect().top + window.scrollY;
+  const room = window.innerHeight - top - 12;
+  scroller.style.height = Math.max(360, Math.min(780, room)) + "px";
+}
+window.addEventListener("resize", fitScroller);
+
 function renderFamily(key, focusId) {
+  fitScroller();
   treeEl.innerHTML = "";
   treeEl.appendChild(buildNode(FAMILIES[key].root));
   document.querySelectorAll(".tab").forEach((t) => {

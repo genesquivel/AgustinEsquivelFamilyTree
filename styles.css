@@ -288,7 +288,8 @@ body {
     cursor: grabbing;
     user-select: none;
   }
-  .tree { display: inline-flex; min-width: 100%; padding-right: 30px; }
+  /* extra room past the last cards so the edges can be dragged well into view */
+  .tree { display: inline-flex; min-width: 100%; padding: 40px 30px 90px 0; }
 
   .node { display: flex; flex-direction: row; align-items: center; }
   .row { gap: 0; }
