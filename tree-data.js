@@ -1179,24 +1179,91 @@ const GEN = {
     father: {
       name: "Vicente Catelo",
       place: "Surigao City",
-      born: "1915",
-      died: "1980",
+      born: "18 April 1915",
+      died: "19 October 1980",
       sex: "m",
       relation: "Grandfather",
+      evidence: "Record-supported",
       photo: "images/vicente-catelo.jpg",
+      notes:
+        "Vicente Dedal Catelo, born in Surigao, son of Ignacio Catelo and Valentina Dedal. A " +
+        "FamilySearch-indexed birth entry for a child of Ignacio and Valentina born 18 April " +
+        "1915 (indexed as \"Vicem Apolo\") is taken to be him — same parents and same " +
+        "birthday. His death certificate gives 18 April 1916, but the age it records (65) fits " +
+        "1915. He died on 19 October 1980 at Bethany Hospital, Tacloban City, Leyte, of an " +
+        "acute heart attack with maturity-onset diabetes as an underlying cause; he was then " +
+        "living at San Isidro St., Jaro, Leyte, and worked as a supervisor. Experia died in " +
+        "1965, and by 1980 he had married again: the certificate names his surviving wife as " +
+        "Enriqueta(?) A. Catelo, of Jaro, Leyte. The informant was his niece, Lucila(?) C. A—(?), of " +
+        "Tacloban City.",
+      records: [
+        {
+          date: "1980",
+          place: "Tacloban City, Leyte",
+          claim: "Death certificate — died 19 October 1980; names his parents and his second wife.",
+          excerpt:
+            "Name: Vicente Dedal Catelo. Died October 19, 1980, Bethany Hospital, Tacloban City, " +
+            "Leyte. Residence: San Isidro St., Jaro, Leyte. Male, married. Born April 18, 1916; " +
+            "age 65. Birthplace: Surigao, Surigao. Father: Ignacio Catelo — deceased. Mother: " +
+            "Valentina Dedal Catelo — deceased. Surviving spouse: Enriqueta(?) A. Catelo, Jaro, " +
+            "Leyte. Informant: Lucila(?) C. A—(?), niece. Cause: acute myocardial infarction; " +
+            "due to diabetes mellitus, maturity-onset.",
+          notes:
+            "The birth year (1916) and the age (65) disagree; a birth on 18 April 1915 matches " +
+            "the age and the indexed 1915 birth entry.",
+          url: "https://www.familysearch.org/ark:/61903/3:1:3QS7-89M7-XTRV?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A7DL3-PHPZ&action=view&cc=1852584&lang=en&groupId=M9CG-2VD"
+        }
+      ],
       links: [
+        { label: "Death certificate, 1980 (Tacloban) — FamilySearch", url: "https://www.familysearch.org/ark:/61903/3:1:3QS7-89M7-XTRV?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A7DL3-PHPZ&action=view&cc=1852584&lang=en&groupId=M9CG-2VD" },
+        { label: "Death certificate, 1980 (scan)", url: "docs/vicente-catelo-death-1980.png" },
+        { label: "Birth entry, 18 April 1915 (indexed \"Vicem Apolo\") — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:X71R-5PYQ" },
         { label: "Family photograph — Vicente, Experia and three of their children", url: "images/catelo-arreza-family.jpg" }
       ],
       siblings: [
         {
+          name: "Juanita Catelo",
+          life: "b. 1906",
+          evidence: "Record-supported",
+          url: "https://www.familysearch.org/ark:/61903/1:1:X71R-TJH3",
+          note:
+            "Born 23 June 1906, daughter of Ignacio Catelo and Valentina Dedal (FamilySearch " +
+            "index; the image has not been reviewed here)."
+        },
+        {
+          name: "Carzon(?) Catelo",
+          life: "b. 1908",
+          evidence: "Record-supported",
+          url: "https://www.familysearch.org/ark:/61903/1:1:X71R-TJCC",
+          note:
+            "Born 16 July 1908, child of Ignacio Catelo and Valentina Dedal. The name is given " +
+            "as FamilySearch indexes it (\"Carzon\") and may be a misreading; the image has not " +
+            "been reviewed here."
+        },
+        {
           name: "Perfecto Catelo",
+          life: "b. 1918",
           evidence: "Record-supported",
           url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS4L-63M2-L?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A6B7V-W4XJ&action=view&cc=1410394&lang=en&groupId=M9MP-WQD",
           note:
             "Vicente's brother (Gen's grand-uncle) — a voter list names him as the son of Ignacio " +
             "Catelo and Valentina Dedal. He married Estrella Bonilla at Surigao (marriage register " +
             "entry 104, registered 1943–46); he was 25 and she 20, both of Surigao. He was named " +
-            "for his grandfather, Ignacio's father Perfecto Catelo."
+            "for his grandfather, Ignacio's father Perfecto Catelo. A FamilySearch-indexed " +
+            "birth entry for a son of Ignacio and Valentina born 12 October 1918 (indexed as " +
+            "\"Perfec Romanl\") is very likely him — it fits his age at marriage.",
+          links: [
+            { label: "Birth entry, 12 October 1918 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:X71R-5PBK" }
+          ]
+        },
+        {
+          name: "Miguelina Catelo",
+          life: "b. c. 1920",
+          evidence: "Family-tree supplied",
+          url: "https://www.familysearch.org/tree/person/details/LJGH-8V7",
+          note:
+            "Listed as a daughter of Ignacio Catelo and Valentina Dedal in the FamilySearch " +
+            "family tree, born about 1920; no record has been seen yet."
         }
       ],
       father: {
@@ -1231,7 +1298,8 @@ const GEN = {
           {
             label: "Civil marriage register — parents entry (scan)",
             url: "docs/ignacio-catelo-valentina-dedal-civil-register.jpg"
-          }
+          },
+          { label: "Marriage of Ignacio Catelo and Valentina Dedal — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:X71R-TJWR" }
         ],
         records: [
           {
@@ -1309,7 +1377,9 @@ const GEN = {
           {
             label: "Civil marriage register — parents entry (scan)",
             url: "docs/ignacio-catelo-valentina-dedal-civil-register.jpg"
-          }
+          },
+          { label: "Marriage of Ignacio Catelo and Valentina Dedal — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:X71R-TJWR" },
+          { label: "Son Vicente's death certificate, 1980 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/3:1:3QS7-89M7-XTRV?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A7DL3-PHPZ&action=view&cc=1852584&lang=en&groupId=M9CG-2VD" }
         ]
       }
     },
