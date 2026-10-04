@@ -2544,7 +2544,37 @@ const PAOLO = {
             { label: "Marriage, 1885 (scan)", url: "docs/maluyo-cadiz-marriage-1885.png" },
             { label: "Notarial register, 1936 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSZS-9GFZ?view=fullText&keywords=Maloyo&searchForm=advanced&lang=en" },
             { label: "Notarial register, 1936 (scan)", url: "docs/casimira-cadiz-pension-petition-1936.png" }
-          ]
+          ],
+          father: {
+            name: "Hipolito Maluyo",
+            place: "Bacarra, Ilocos Norte",
+            sex: "m",
+            relation: "3rd great-grandfather",
+            evidence: "Record-supported",
+            notes:
+              "Named as Tomas Maluyo's father in his 23 November 1885 Bacarra marriage — \"hijo " +
+              "de Hipolito Maluyo y de Remigia Jove, de este pueblo,\" of the barangay of Don " +
+              "Santiago Abbas(?). His place in this tree depends on Tomas being Thomas Cadiz " +
+              "Maloyo's father, which is not yet proven.",
+            links: [
+              { label: "Son Tomas's marriage, 1885 (scan)", url: "docs/maluyo-cadiz-marriage-1885.png" }
+            ]
+          },
+          mother: {
+            name: "Remigia Jove",
+            place: "Bacarra, Ilocos Norte",
+            sex: "f",
+            relation: "3rd great-grandmother",
+            evidence: "Record-supported",
+            notes:
+              "Named as Tomas Maluyo's mother in his 23 November 1885 Bacarra marriage. An " +
+              "earlier reading of the same entry gave her as \"Benigna Eder\"; the manuscript " +
+              "reads Remigia Jove. Her place in this tree depends on Tomas being Thomas Cadiz " +
+              "Maloyo's father, which is not yet proven.",
+            links: [
+              { label: "Son Tomas's marriage, 1885 (scan)", url: "docs/maluyo-cadiz-marriage-1885.png" }
+            ]
+          }
         },
         mother: {
           name: "Casimira Cadiz",
@@ -2568,7 +2598,24 @@ const PAOLO = {
           links: [
             { label: "Marriage, 1885 (scan)", url: "docs/maluyo-cadiz-marriage-1885.png" },
             { label: "Notarial register, 1936 (scan)", url: "docs/casimira-cadiz-pension-petition-1936.png" }
-          ]
+          ],
+          mother: {
+            name: "Juliana(?) Cadiz",
+            place: "Bacarra, Ilocos Norte",
+            sex: "f",
+            relation: "3rd great-grandmother",
+            evidence: "Record-supported",
+            notes:
+              "Named as Casimira Cadiz's mother in her 23 November 1885 Bacarra marriage: \"hija " +
+              "de Juliana(?) Cadiz, casada con Ruperto Luis(?), ausente\" — so in 1885 she was " +
+              "married to a Ruperto Luis(?), who was away. The record does not name Casimira's " +
+              "father. The first name is faint: FamilySearch's index reads Juliana, and an earlier " +
+              "reading gave Anastasia. Her place in this tree depends on Casimira being Thomas " +
+              "Cadiz Maloyo's mother, which is not yet proven.",
+            links: [
+              { label: "Daughter Casimira's marriage, 1885 (scan)", url: "docs/maluyo-cadiz-marriage-1885.png" }
+            ]
+          }
         }
       },
       mother: {
