@@ -167,9 +167,13 @@ const GEN = {
         father: {
           name: "Apolonio Agustin",
           place: "Cabiao, Nueva Ecija",
-          born: "1874",
           sex: "m",
           relation: "2nd great-grandfather",
+          notes:
+            "Father of Segundo and his many brothers and sisters, whose Cabiao baptisms run " +
+            "from 1884 to 1899. Online trees give his birth year as 1874, which cannot be " +
+            "right — he would have been ten at his daughter Ynes's baptism — so no birth year " +
+            "is shown until a record gives one.",
           classification: [
             { term: "indio", source: "per son Jacinto's baptism, Cabiao, 1887", year: 1887 },
             { term: "filipino", source: "per son Lazaro's baptism, Cabiao, 1899", year: 1899 }
@@ -1444,7 +1448,6 @@ const GEN = {
       },
       mother: {
         name: "Juliana Sering",
-        born: "1866",
         died: "1955",
         sex: "f",
         relation: "Great-grandmother",
@@ -1456,7 +1459,9 @@ const GEN = {
         notes:
           "Wife of Roman Arreza, as their daughter Priscela's 1950 Surigao marriage " +
           "record shows. The yearbook page that pictures her names her \"Juliana Sering " +
-          "Arreza.\""
+          "Arreza.\" Online trees give her birth year as 1866, which cannot be right — she " +
+          "would have been 57 when Priscela was born, about 1923 — so no birth year is shown " +
+          "until a record gives one."
       }
     }
   }
@@ -1744,7 +1749,6 @@ const PAOLO = {
         name: "Apolinario Esquivel",
         place: "Jaen, Nueva Ecija",
         id: "apolinario-esquivel",
-        born: "1871",
         sex: "m",
         relation: "Great-grandfather",
         evidence: "Record-supported",
@@ -1756,7 +1760,9 @@ const PAOLO = {
           "of Prudencio Esquivel and Antonia Santiago (with Odon and Hilarion). The " +
           "town's history also records a Lt. Col. Delfin Esquivel leading forces in a " +
           "battle at Jaen on 4 September 1896; how he was related to the family is not " +
-          "known.",
+          "known. Online trees give Apolinario's birth year as 1871, which cannot be right — " +
+          "he would have been about 14 at his son Marcos's 1885 baptism — so no birth year is " +
+          "shown until a record gives one.",
         siblings: [
           {
             name: "Maria Salome Esquibel",
