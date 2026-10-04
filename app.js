@@ -168,8 +168,15 @@ const EVIDENCE_CLASS = {
   "Estimated": "ev-estimated",
   "Possible lead requiring verification": "ev-lead"
 };
+const EVIDENCE_HELP = {
+  "Record-supported": "A historical record names this person and the link shown.",
+  "Family-tree supplied": "From family knowledge or an online tree; not yet matched to a record.",
+  "Estimated": "Worked out from other dates (for example an age), not stated directly.",
+  "Possible lead requiring verification": "A promising match that still needs a record to prove it."
+};
 function applyEvidence(el, label) {
   el.className = "evidence";
+  el.title = EVIDENCE_HELP[label] || "";
   if (label) {
     el.textContent = label;
     el.classList.add(EVIDENCE_CLASS[label] || "ev-family");
@@ -295,6 +302,7 @@ function renderRelatives(container, heading, list) {
       const ev = document.createElement("span");
       ev.className = "evidence " + (EVIDENCE_CLASS[r.evidence] || "ev-family");
       ev.textContent = r.evidence;
+      ev.title = EVIDENCE_HELP[r.evidence] || "";
       li.appendChild(ev);
     }
     if (r.note) {

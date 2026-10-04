@@ -564,6 +564,12 @@ span.rel-name { color: var(--ink); }
   font-size: 13px;
   padding: 10px 20px 40px;
 }
+.footer-key {
+  max-width: 760px;
+  margin: 0 auto 12px;
+  font-size: 12.5px;
+  line-height: 1.55;
+}
 
 /* On phones the "drag sideways" hint doesn't apply — the tree is vertical. */
 @media (max-width: 620px) {

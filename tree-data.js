@@ -251,7 +251,7 @@ const GEN = {
           }
         },
         mother: {
-          name: "Estafania Tiangco",
+          name: "Estefania Tiangco",
           place: "Cabiao, Nueva Ecija",
           sex: "f",
           relation: "2nd great-grandmother",
@@ -282,14 +282,13 @@ const GEN = {
             relation: "3rd great-grandfather",
             evidence: "Record-supported",
             notes:
-              "Of Cabiao, Nueva Ecija; husband of Cecilia Lapuz and father of their six children, " +
-              "among them Estefania. His existence and this parentage are record-supported by his " +
-              "grandson Jacinto's 1887 Cabiao baptism, which names him as maternal grandfather. " +
-              "A baptism of a \"Tomas Tangco\" on 25 December 1822 in Taguig — legitimate son of " +
-              "Agustín Tangco and María Flores — is only a POSSIBLE LEAD for him: the shared 1822 " +
-              "birth year and the Tangco/Tiangco name variant are suggestive, but it has not been " +
-              "proven to be the same man, so the two are kept separate. FamilySearch lists him as " +
-              "1820–1905.",
+              "Of Cabiao, Nueva Ecija; husband of Cecilia Lapuz and father of six " +
+              "children, among them Estefania. His grandson Jacinto's 1887 Cabiao baptism " +
+              "names him as Estefania's father. FamilySearch gives his dates as " +
+              "1820–1905. A Taguig baptism of a \"Tomas Tangco\" on 25 December 1822 — son " +
+              "of Agustín Tangco and María Flores — may be his: the year is close and " +
+              "Tangco is a variant of Tiangco, but it has not been proven to be the same " +
+              "man.",
             records: [
               {
                 date: "1822",
@@ -323,13 +322,12 @@ const GEN = {
                 { term: "chino", source: "per baptism of son Tomás, Taguig, 25 Dec 1822", year: 1822 }
               ],
               notes:
-                "Named only in the 1822 Taguig baptism above, which is a possible lead rather than " +
-                "a proven link to this family. Recorded as a Chinese immigrant (\"chino\"). In the " +
-                "record his name reads \"Agustín Tangco " +
-                "Tangley\": Agustín was the Christian name given at his baptism, while \"Tangco " +
-                "Tangley\" was his original Chinese name. The Hokkien ending \"-co\" (哥, an " +
-                "honorific) is the root of many Filipino-Chinese surnames, and here it carried " +
-                "down as the family name Tiangco."
+                "Named only in the 1822 Taguig baptism, which may or may not belong to " +
+                "this family. The record calls him \"chino\" — a Chinese immigrant — and " +
+                "writes his name \"Agustín Tangco Tangley\": Agustín was probably his " +
+                "baptismal name and \"Tangco Tangley\" his Chinese name. If he is the " +
+                "family's ancestor, the surname Tiangco comes from \"Tangco\"; the ending " +
+                "\"-co\" (哥, an honorific) is behind many Filipino-Chinese surnames."
             },
             mother: {
               name: "María Flores",
@@ -384,11 +382,12 @@ const GEN = {
             evidence: "Record-supported",
             url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSMJ-PSHC-4?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A663G-V69M&action=view&lang=en&groupId=M9ZW-9QJ",
             note:
-              "Maxima's brother — the keystone record for this line. Baptized 11 February 1899 in " +
-              "Bauang (born about 6 February 1899), son of Fidel Obra and Monica Ordoña; paternal " +
-              "grandparents Dionisio Obra (deceased) and Fructuosa Jangreas; maternal grandparents " +
-              "Alfonso Calica (deceased) and Pascuala Ordoña; godmother Veronica Wenceslao of Caba. " +
-              "The record establishes that both grandfathers had died by February 1899."
+              "Maxima's brother. Baptized 11 February 1899 in Bauang (born about 6 " +
+              "February 1899), son of Fidel Obra and Monica Ordoña; paternal grandparents " +
+              "Dionisio Obra (deceased) and Fructuosa Jangreas; maternal grandparents " +
+              "Alfonso Calica (deceased) and Pascuala Ordoña; godmother Veronica " +
+              "Wenceslao of Caba. This is the record that names all four of Maxima's " +
+              "grandparents, and it shows both grandfathers had died by February 1899."
           }
         ],
         father: {
@@ -702,8 +701,10 @@ const GEN = {
               evidence: "Possible lead requiring verification",
               url: "https://www.familysearch.org/ark:/61903/1:1:66XS-ZYG1?lang=en&cid=fs_copy",
               note:
-                "A record first thought to be Segundo's baptism proved to be his brother Eulogio's; " +
-                "Segundo's own baptism has not yet been found."
+                "Possibly another brother; no record of him has been found. " +
+                "FamilySearch's index lists Eulogio's 1875 baptism under the name " +
+                "\"Segundo Navarro,\" and an 1889 record names Pulilan's barangay No. 25 " +
+                "after a D. Segundo Navarro."
             }
           ],
           father: {
@@ -944,13 +945,12 @@ const GEN = {
         relation: "Great-grandmother",
         evidence: "Record-supported",
         notes:
-          "Gen's great-grandmother; wife of Quintin Navarro. Her baptism (San Isidro Labrador, " +
-          "Pulilan, 2 March 1904, aged four days) places her birth about 26 February 1904 — " +
-          "correcting an earlier 1902. Daughter of Isidoro Tayao and Felipa S. Pedro; the family " +
-          "lived in barrio Dampol 2.°, Pulilan. The baptism's margin notes her 29 December 1925 " +
-          "marriage to Quintin Navarro in this parish (a 23 December 1926 dispensation petition " +
-          "gives her age as 21). Her godmother was Maria Agustin(?) of Pulilan — unrelated to the " +
-          "Agustin family of Cabiao.",
+          "Gen's great-grandmother; wife of Quintin Navarro. Baptized at San Isidro " +
+          "Labrador, Pulilan, on 2 March 1904, four days old — so born about 26 February " +
+          "1904 — daughter of Isidoro Tayao and Felipa S. Pedro, of barrio Dampol 2.°, " +
+          "Pulilan. A note in the baptism's margin records her marriage to Quintin " +
+          "Navarro in this parish on 29 December 1925. Her godmother was Maria Agustin(?) " +
+          "of Pulilan, who has no known connection to the Agustin family of Cabiao.",
         links: [
           {
             label: "Baptism, 1904 (Pulilan) — FamilySearch",
@@ -1035,8 +1035,8 @@ const GEN = {
               relation: "4th great-grandfather",
               evidence: "Record-supported",
               notes:
-                "Named (with Felipa Tapang) as Cenon's parents in the 1858 Calumpit marriage; of " +
-                "Pulilan. FamilySearch's index spells the name \"Balvino.\""
+                "Named with Felipa Tapang as Cenon's parents in his 1858 Calumpit " +
+                "marriage; of Pulilan."
             },
             mother: {
               name: "Felipa Tapang",
@@ -1227,8 +1227,8 @@ const GEN = {
           evidence: "Record-supported",
           url: "https://www.familysearch.org/ark:/61903/1:1:X71R-TJH3",
           note:
-            "Born 23 June 1906, daughter of Ignacio Catelo and Valentina Dedal (FamilySearch " +
-            "index; the image has not been reviewed here)."
+            "Vicente's sister. Born 23 June 1906, daughter of Ignacio Catelo and " +
+            "Valentina Dedal, according to FamilySearch's index of her birth record."
         },
         {
           name: "Carzon(?) Catelo",
@@ -1236,9 +1236,9 @@ const GEN = {
           evidence: "Record-supported",
           url: "https://www.familysearch.org/ark:/61903/1:1:X71R-TJCC",
           note:
-            "Born 16 July 1908, child of Ignacio Catelo and Valentina Dedal. The name is given " +
-            "as FamilySearch indexes it (\"Carzon\") and may be a misreading; the image has not " +
-            "been reviewed here."
+            "Vicente's brother or sister. Born 16 July 1908, child of Ignacio Catelo and " +
+            "Valentina Dedal, according to FamilySearch's index of the birth record. " +
+            "\"Carzon\" is the index's spelling and may be a misreading of the name."
         },
         {
           name: "Perfecto Catelo",
@@ -1275,17 +1275,16 @@ const GEN = {
         relation: "Great-grandfather",
         evidence: "Record-supported",
         notes:
-          "Ignacio L. Catelo (31 July 1878 – 9 February 1955, Surigao City). He was the weather " +
-          "observer at the official Surigao station of the Philippine Weather Bureau from about " +
-          "1902 to 1905 — a third-class station — filing the local crop and rainfall reports. In " +
-          "1904 he also accepted an appointment as inspector of customs; this was found to be " +
-          "\"directly in violation of the law,\" his salary was withheld for months, and after he " +
-          "relinquished the customs post his back pay was released. A civil marriage register " +
-          "later names Ignacio Catelo and Valentina Dedal as the parents of the marrying couple, " +
-          "confirming his link to Vicente Catelo. His birth and death dates come from his " +
-          "FamilySearch profile (9N3L-8V3); they are unsourced there but fit his 1902–05 career, " +
-          "when he would have been aged 24–27 — so the tree's earlier ~1896 birth year has been " +
-          "corrected to 1878.",
+          "Ignacio L. Catelo (31 July 1878 – 9 February 1955, Surigao City). He was the " +
+          "weather observer at the official Surigao station of the Philippine Weather " +
+          "Bureau from about 1902 to 1905 — a third-class station — filing the local crop " +
+          "and rainfall reports. In 1904 he also accepted an appointment as inspector of " +
+          "customs; this was found to be \"directly in violation of the law,\" his salary " +
+          "was withheld for months, and after he gave up the customs post his back pay " +
+          "was released. His son Vicente's death certificate and a civil marriage " +
+          "register both name Ignacio Catelo and Valentina Dedal as parents. His birth " +
+          "and death dates come from his FamilySearch profile (9N3L-8V3); they are " +
+          "unsourced there, but fit his 1902–05 career, when he was in his mid-twenties.",
         links: [
           {
             label: "FamilySearch profile (9N3L-8V3)",
@@ -1342,10 +1341,11 @@ const GEN = {
           name: "Perfecto Catelo",
           sex: "m",
           relation: "2nd great-grandfather",
+          evidence: "Family-tree supplied",
           notes:
-            "Ignacio's father — a tentative, as-yet unsourced entry. He is distinct from his " +
-            "grandson Perfecto Catelo (Vicente's brother), who was named after him and who married " +
-            "Estrella Bonilla."
+            "Listed as Ignacio's father in the family tree; no record of him has been " +
+            "found yet. He is a different person from his grandson Perfecto Catelo " +
+            "(Vicente's brother), who was probably named after him."
         },
         mother: {
           name: "Genoveva",
@@ -1360,11 +1360,11 @@ const GEN = {
         relation: "Great-grandmother",
         evidence: "Record-supported",
         notes:
-          "A schoolteacher: the 1904 Bureau of Education roster lists \"Valentina Dedal, teacher, " +
-          "third grade, Central School\" in the Division of Surigao. Vicente Catelo's death " +
-          "certificate names her as his mother, and a civil marriage register names her with " +
-          "Ignacio Catelo as parents of the marrying couple — together confirming the tree's " +
-          "Ignacio + Valentina → Vicente Catelo link.",
+          "A schoolteacher: the 1904 Bureau of Education roster lists \"Valentina Dedal, " +
+          "teacher, third grade, Central School\" in the Division of Surigao. Her son " +
+          "Vicente Catelo's death certificate names her as his mother, and a civil " +
+          "marriage register names her with Ignacio Catelo as parents of the marrying " +
+          "couple.",
         links: [
           {
             label: "1904 Bureau of Education roster — MyHeritage",
@@ -1393,9 +1393,9 @@ const GEN = {
       notes:
         "Her school yearbook entry reads: \"Experia Arreza — Surigao, Surigao — C.I.C. — " +
         "Distinction: Member, Sodality of Mary; Member, Seniors Sorority.\" The same page " +
-        "shows portraits of Roman Arreza and Juliana Sering Arreza. A handwritten note beside " +
-        "her portrait reads \"1920\"; what it refers to is not stated, and her birth year here " +
-        "stays 1919.",
+        "carries portraits of her parents, Roman Arreza and Juliana Sering Arreza. " +
+        "Someone has written \"1920\" in pencil beside her portrait; it is not clear what " +
+        "the date refers to.",
       links: [
         { label: "Yearbook page — Roman Arreza, Juliana Sering Arreza and Experia Arreza", url: "images/arreza-yearbook-page.jpg" },
         { label: "Family photograph — Vicente, Experia and three of their children", url: "images/catelo-arreza-family.jpg" }
@@ -1407,10 +1407,11 @@ const GEN = {
           evidence: "Record-supported",
           url: "https://www.familysearch.org/ark:/61903/1:1:6ZFV-LC9J?lang=en&cid=fs_copy",
           note:
-            "Married Simon Cedro on 27 May 1950 at the Cathedral of Surigao; that record names her " +
-            "(aged 26) as daughter of Roman Arreza and Juliana Sering, confirming the couple. She " +
-            "is Experia's sister — and a grand-aunt — if the tree's Experia → Roman + Juliana " +
-            "parentage (family-tree supplied) holds, which awaits a record naming Experia's parents."
+            "Experia's sister (Gen's grand-aunt). She married Simon Cedro on 27 May 1950 " +
+            "at the Cathedral of Surigao; that record gives her age as 26 and names her " +
+            "parents as Roman Arreza and Juliana Sering. A record naming Experia's own " +
+            "parents hasn't been found yet, but her yearbook page pictures her with Roman " +
+            "and Juliana, as the family has always understood."
         }
       ],
       father: {
@@ -1423,8 +1424,9 @@ const GEN = {
         ],
         evidence: "Record-supported",
         notes:
-          "Confirmed as the husband of Juliana Sering by their daughter Priscela's 1950 Surigao " +
-          "marriage record.",
+          "Husband of Juliana Sering, as their daughter Priscela's 1950 Surigao marriage " +
+          "record shows. His portrait appears with Juliana's and Experia's in Experia's " +
+          "school yearbook.",
         father: {
           name: "Wenceslao Arreza",
           sex: "m",
@@ -1452,8 +1454,9 @@ const GEN = {
         ],
         evidence: "Record-supported",
         notes:
-          "Confirmed as the wife of Roman Arreza by their daughter Priscela's 1950 Surigao " +
-          "marriage record."
+          "Wife of Roman Arreza, as their daughter Priscela's 1950 Surigao marriage " +
+          "record shows. The yearbook page that pictures her names her \"Juliana Sering " +
+          "Arreza.\""
       }
     }
   }
@@ -1489,16 +1492,16 @@ const PAOLO = {
       relation: "Grandfather",
       photo: "images/marcos-esquivel.jpg",
       notes:
-        "Born about 27 April 1896 in Jaen, Nueva Ecija and baptized 4 May 1896 — the same date " +
-        "of birth (28 April 1896) given on his 1919 passport; his 1968 death certificate later " +
-        "misstated the year as 1898. An older brother, also named Marcos, had been baptized in " +
-        "1885 and died young, so the name was reused for him. In 1919, as a young student, he sailed from Manila " +
-        "aboard the Tenyo Maru bound for the United States (by way of Hong Kong, China, " +
-        "and Japan). He is recorded in the University of the Philippines student registry " +
-        "(UP Bulletin No. 7, the Catalogue of 1916–1917), and by the late 1920s was teaching " +
-        "history — Modern Europe and Oriental History — at Bulacan High School in Malolos, " +
-        "holding A.B. and B.S. degrees. In 1935 he married Lolita Pineda in Manila. " +
-        "His 1919 passport photograph is shown here.",
+        "Born about 27 April 1896 in Jaen, Nueva Ecija, and baptized there on 4 May 1896; " +
+        "his 1919 passport gives 28 April 1896, and his 1968 death certificate misstates " +
+        "the year as 1898. An older brother, also named Marcos, had been baptized in 1885 " +
+        "and died young, so the name was given again. In 1919, as a young student, he " +
+        "sailed from Manila aboard the Tenyo Maru bound for the United States (by way of " +
+        "Hong Kong, China, and Japan). He is recorded in the University of the " +
+        "Philippines student registry (UP Bulletin No. 7, the Catalogue of 1916–1917), " +
+        "and by the late 1920s was teaching history — Modern Europe and Oriental History " +
+        "— at Bulacan High School in Malolos, holding A.B. and B.S. degrees. In 1935 he " +
+        "married Lolita Pineda in Manila. His 1919 passport photograph is shown here.",
       siblings: [
         {
           name: "Marcos Esquivel (I)",
@@ -1518,10 +1521,9 @@ const PAOLO = {
           evidence: "Record-supported",
           url: "https://www.familysearch.org/ark:/61903/1:1:666G-WS4P?lang=en&cid=fs_copy",
           note:
-            "Twin of Radegundes; baptized 15 November 1887 in Jaen — daughter of Apolinario " +
-            "Esquivel and Bibiana Ramos. Godmother: Felipa Ramos; priest: Fr. Florencio Rodríguez. " +
-            "(An earlier reading of the entry had given a late-January 1887 baptism; the record " +
-            "date is 15 November 1887.)"
+            "Twin of Radegundes; baptized 15 November 1887 in Jaen — daughter of " +
+            "Apolinario Esquivel and Bibiana Ramos. Godmother: Felipa Ramos; priest: Fr. " +
+            "Florencio Rodríguez."
         },
         {
           name: "Radegundes Esquivel",
@@ -1529,11 +1531,10 @@ const PAOLO = {
           evidence: "Record-supported",
           url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSM8-W7MW-8?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A6JCB-WMBP&action=view&cc=2861657&lang=en&groupId=M9LT-72S",
           note:
-            "Francisca's twin; baptized 15 November 1887 in Jaen (godmother María Ramos). She " +
-            "married Celedonio Velarde; their son Eliseo Velarde was baptized 31 December 1916 in " +
-            "Jaen (born about 7 July 1916) and married Candelaria Juez (surname uncertain) on " +
-            "17 June 1946. An earlier margin reading had tentatively given her husband as " +
-            "\"Felicisimo Rolando,\" now superseded by the record naming Celedonio Velarde."
+            "Francisca's twin; baptized 15 November 1887 in Jaen (godmother María Ramos). " +
+            "She married Celedonio Velarde; their son Eliseo Velarde was baptized 31 " +
+            "December 1916 in Jaen (born about 7 July 1916) and married Candelaria Juez " +
+            "(surname uncertain) on 17 June 1946."
         },
         {
           name: "Cecilio Apolinario Esquivel",
@@ -1721,6 +1722,7 @@ const PAOLO = {
             "Pampanga; father Apolinario Esquivel, mother Bibiana Ramos. Wife: Lolita Pineda, " +
             "18 yrs 8 months; father Narciso Pineda, mother Leonarda Umali. Married by Rev. P. " +
             "Antonio Ubrecht at the Church of Espíritu Santo, filed 19 June 1935.",
+          notes: "The contract gives his age as 34; by his 1896 baptism he was 39.",
           url: "https://www.familysearch.org/ark:/61903/1:1:8BNH-W1N2?lang=en"
         },
         {
@@ -1747,12 +1749,14 @@ const PAOLO = {
         relation: "Great-grandfather",
         evidence: "Record-supported",
         notes:
-          "His children's baptisms trace a rising public career: he was the sitting Cabeza de " +
-          "Barangay when his son Cecilio was baptized in 1892, and was employed in the Provincial " +
-          "Public Treasury of Nueva Ecija by 1896. He later served as Municipal President of " +
-          "Jaen, Nueva Ecija from 1902 to 1907. The town's history also records Lt. Col. Delfin " +
-          "Esquivel leading forces in a battle at Jaen on September 4, 1896. One of three sons of " +
-          "Prudencio Esquivel and Antonia Santiago (with Odon and Hilario/Hilarion).",
+          "His children's baptisms trace a rising public career: he was the sitting " +
+          "Cabeza de Barangay when his son Cecilio was baptized in 1892, and was employed " +
+          "in the Provincial Public Treasury of Nueva Ecija by 1896. He later served as " +
+          "Municipal President of Jaen, Nueva Ecija, from 1902 to 1907. One of three sons " +
+          "of Prudencio Esquivel and Antonia Santiago (with Odon and Hilarion). The " +
+          "town's history also records a Lt. Col. Delfin Esquivel leading forces in a " +
+          "battle at Jaen on 4 September 1896; how he was related to the family is not " +
+          "known.",
         siblings: [
           {
             name: "Maria Salome Esquibel",
@@ -1760,9 +1764,8 @@ const PAOLO = {
             evidence: "Record-supported",
             url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSM8-3V94?view=explore&action=view&cc=2861657&lang=en&groupId=M9ZT-B5H",
             note:
-              "Sister of Apolinario — a daughter of Prudencio Esquivel and Antonia Santiago. " +
-              "Baptized 9 January 1856 in Jaen (born about 2 January 1856). This is the record " +
-              "earlier mistaken for Antonia's own baptism."
+              "Apolinario's sister — a daughter of Prudencio Esquivel and Antonia " +
+              "Santiago. Baptized 9 January 1856 in Jaen (born about 2 January 1856)."
           },
           {
             name: "Odon Esquivel",
@@ -1780,18 +1783,18 @@ const PAOLO = {
             pid: "9J7B-7DY",
             evidence: "Record-supported",
             note:
-              "Don Hilarion Esquivel (also spelled \"Hilario\" in the records) was a cabeza de " +
-              "barangay who headed Barangay No. 18 in Jaén, Nueva Ecija. He designed and built the " +
-              "family's ancestral mansion \"Casa Jaen I\" — credited as its architect — which won " +
-              "the 1917 House Beautiful Award from the Sunday Tribune; the house is now a heritage " +
-              "structure at Las Casas Filipinas de Acúzar in Bagac, Bataan, and its walls still " +
-              "bear bullet holes. He married Leoncia Frias; their son Enrique Esquivel was baptized " +
-              "2 June 1901 in Jaen (born about 29 May 1901), with his uncle Apolinario Esquivel as " +
-              "godfather; Enrique later married in the Jaen church on 14 May 1927. A published " +
-              "house history also names a son, Emmanuel Frias Esquivel, who studied in the United " +
-              "States and was welcomed home at the house — the Frias middle name matches Leoncia " +
-              "Frias, supporting the identification. (Some spouse and grandparent given names in " +
-              "these records are provisional.)",
+              "Don Hilarion Esquivel (also written \"Hilario\" in the records), " +
+              "Apolinario's brother, was a cabeza de barangay who headed Barangay No. 18 " +
+              "in Jaén, Nueva Ecija. He is credited as the architect of the family's " +
+              "ancestral house, \"Casa Jaen I,\" which won the 1917 House Beautiful Award " +
+              "from the Sunday Tribune; the house now stands as a heritage structure at " +
+              "Las Casas Filipinas de Acúzar in Bagac, Bataan, its walls still marked by " +
+              "bullet holes. His wife is recorded as Leoncia Frias (the reading is " +
+              "provisional); their son Enrique Esquivel was baptized 2 June 1901 in Jaen " +
+              "(born about 29 May 1901), with his uncle Apolinario Esquivel as godfather, " +
+              "and married in the Jaen church on 14 May 1927. A published history of the " +
+              "house also names a son, Emmanuel Frias Esquivel, who studied in the United " +
+              "States and was welcomed home at the house.",
             links: [
               { label: "Casa Jaen I — Wikipedia", url: "https://en.wikipedia.org/wiki/Casa_Jaen_I" }
             ]
@@ -1810,17 +1813,17 @@ const PAOLO = {
           relation: "2nd great-grandfather",
           evidence: "Record-supported",
           notes:
-            "Don Prudencio Esquivel and Doña Antonia Santiago had three sons — Odon, Apolinario, " +
-            "and Hilario — plus a daughter, Maria Salome (baptized 1856); the sons are each proven " +
-            "by baptism records naming Prudencio and Antonia as the children's paternal " +
-            "grandparents (1884–1901, Jaen and San Antonio, Nueva Ecija). He had died by " +
-            "5 January 1903, when Antonia was buried at Jaen as his widow. A local history " +
-            "(Wikipedia, citing the town's history) also credits him — as \"Kabesang Prudencio " +
-            "Esquivel\" — with the founding of Jaen: he and Kapitan Antonio Embuscado are named as " +
-            "the early leaders behind the residents' petition that partitioned Jaen from San " +
-            "Antonio on 18 June 1865, and, with Rev. Estanislao B. Moso, with establishing the " +
-            "town's Catholic parish church. This is a published secondary source, not a parish " +
-            "record — a possible lead to corroborate against Jaen municipal histories.",
+            "Don Prudencio Esquivel and Doña Antonia Santiago had three sons — Odon, " +
+            "Apolinario, and Hilarion — and a daughter, Maria Salome (baptized 1856); " +
+            "each son is proven by baptisms of his children that name Prudencio and " +
+            "Antonia as paternal grandparents (1884–1901, Jaen and San Antonio, Nueva " +
+            "Ecija). He had died by 5 January 1903, when Antonia was buried at Jaen as " +
+            "his widow. A history of Jaen (summarized on Wikipedia) credits \"Kabesang " +
+            "Prudencio Esquivel\" with the town's founding: he and Kapitan Antonio " +
+            "Embuscado led the residents' petition that separated Jaen from San Antonio " +
+            "on 18 June 1865, and, with Rev. Estanislao B. Moso, helped establish the " +
+            "parish church. That account comes from a published history, not a parish " +
+            "record.",
           links: [
             {
               label: "Jaen, Nueva Ecija — Wikipedia (town history)",
@@ -1844,14 +1847,11 @@ const PAOLO = {
           relation: "2nd great-grandmother",
           evidence: "Record-supported",
           notes:
-            "Doña Antonia Santiago, a native of Jaen, Nueva Ecija. She was buried there on " +
-            "5 January 1903 as the widow of Don Prudencio Esquivel — which both proves Prudencio " +
-            "had died by then and, since she was a Jaen native, rules out the Magsingal, Malolos, " +
-            "and Manila baptism candidates once considered for her. She is confirmed as paternal " +
-            "grandmother in the baptisms of grandchildren through all three of her sons (Odon, " +
-            "Apolinario, Hilario), 1884–1901. Note: a 9 January 1856 Jaen baptism earlier taken to " +
-            "be hers is now identified as her daughter Maria Salome's, so Antonia's own birth date " +
-            "is not yet established.",
+            "Doña Antonia Santiago, a native of Jaen, Nueva Ecija. She was buried there " +
+            "on 5 January 1903 as the widow of Don Prudencio Esquivel. Baptisms of her " +
+            "grandchildren through all three of her sons (Odon, Apolinario, Hilarion), " +
+            "1884–1901, name her as paternal grandmother. Her own birth date is not yet " +
+            "known.",
           links: [
             {
               label: "Burial record — FamilySearch",
@@ -1879,17 +1879,16 @@ const PAOLO = {
           { term: "mestiza", source: "per baptism, Gapan, 1874", year: 1874 }
         ],
         notes:
-          "Baptized 6 December 1874 at Gapan, Nueva Ecija, four days old — so born about 2 December " +
-          "1874. Recorded as a mestiza (de sangley), daughter of Ciriaco Ramos and Joaquina " +
-          "Cunanan, of the barangay of Don Tranquilino Rosario. Godmother: Teodora Livag; " +
-          "officiating priest: Fr. Heliodoro Chico, Coadjutor of Gapan. Her mother, Doña Joaquina " +
-          "(Cunanan) Guzmán, was buried at Gapan on 2–3 December 1874 — within days of Bibiana's " +
-          "birth — indicating she died in childbirth. Note: FamilySearch's index for this baptism " +
-          "mis-reads the mother as \"Guzman\" and the godmother as \"Petra Suarez\"; the original " +
-          "entry transcribed here plainly reads Joaquina Cunanan and Teodora Livag, so the index " +
-          "should be treated as suspect for this record. A separately indexed 1835 Gapan " +
-          "confirmation of a \"Bibiana Ramos, daughter of Ciriaco Ramos and Joaquina Cunanan\" is " +
-          "an older generation carrying the same names — not this Bibiana; the two are kept apart.",
+          "Baptized 6 December 1874 at Gapan, Nueva Ecija, four days old — so born about " +
+          "2 December 1874 — daughter of Ciriaco Ramos and Joaquina Cunanan, recorded as " +
+          "\"mestizos\" of Gapan, of the barangay of Don Tranquilino Rosario. Godmother: " +
+          "Teodora Livag; priest: Fr. Heliodoro Chico, assistant priest of Gapan. Her " +
+          "mother was buried at Gapan on 2 December 1874, around the day Bibiana was " +
+          "born, so she very likely died in childbirth. FamilySearch's index for this " +
+          "baptism misreads the mother as \"Guzman\" and the godmother as \"Petra Suarez.\" " +
+          "An 1835 Gapan confirmation of a \"Bibiana Ramos, daughter of Ciriaco Ramos and " +
+          "Joaquina Cunanan\" belongs to an earlier family with the same names, not to " +
+          "this Bibiana.",
         links: [
           {
             label: "Baptism record, 1874 (Gapan) — FamilySearch",
@@ -1945,10 +1944,15 @@ const PAOLO = {
           place: "Gapan, Nueva Ecija",
           sex: "m",
           relation: "2nd great-grandfather",
+          classification: [
+            { term: "mestizo", source: "per son Estefanio's baptism, Gapan, 1869", year: 1869 },
+            { term: "mestizo", source: "per daughter Bibiana's baptism, Gapan, 1874", year: 1874 }
+          ],
           evidence: "Record-supported",
           notes:
-            "Of Gapan, Nueva Ecija; named as the living husband of Doña Joaquina (Cunanan) in her " +
-            "1874 burial record there.",
+            "Of Gapan, Nueva Ecija. Named as father in the baptisms of his children " +
+            "Leoncia (1853), Estefanio (1869) and Bibiana (1874), and as the husband of " +
+            "Doña Joaquina in her 1874 burial there.",
           links: [
             {
               label: "Wife Joaquina's burial, 1874 (Gapan) — FamilySearch",
@@ -1962,19 +1966,22 @@ const PAOLO = {
           died: "1874",
           sex: "f",
           relation: "2nd great-grandmother",
+          classification: [
+            { term: "mestiza", source: "per son Estefanio's baptism, Gapan, 1869", year: 1869 },
+            { term: "mestiza", source: "per daughter Bibiana's baptism, Gapan, 1874", year: 1874 },
+            { term: "india", source: "per her burial, Gapan, 1874", year: 1874,
+              note: "Her burial, days before Bibiana's baptism, calls her india; both baptisms call the parents mestizos." }
+          ],
           evidence: "Record-supported",
           notes:
-            "Her burial record (Gapan, Nueva Ecija — interred the 2nd, entry dated the 3rd of " +
-            "December 1874) names her \"Da. Joaquina Cunanan,\" wife of Don Ciriaco Ramos and " +
-            "daughter of Don Alvaro de Guzman — confirming that the surname read as " +
-            "\"Cimanan/Simanan\" in Marcos's 1885 baptism is \"Cunanan.\" She had received the " +
-            "sacraments and was given a sung burial with attendance; priest: Fr. Antonio Cornejo. " +
-            "The same woman appears as \"Joaquina Guzman\" in her daughter Leoncia's 1853 baptism " +
-            "and in Francisca's 1887 baptism, and as \"Joaquina Cunanan\" in Bibiana's 1874 " +
-            "baptism and the 1885, 1892 and 1896 Jaen baptisms — Cunanan and Guzman being used " +
-            "interchangeably by the priests for this one woman (Guzman being her father's " +
-            "surname). She died in or just after childbirth with Bibiana, whose baptism falls only " +
-            "days after this burial.",
+            "Buried at Gapan on 2 December 1874 as \"Dª Joaquina Cunanan, india,\" wife of " +
+            "Don Ciriaco Ramos and, as the entry has been read, daughter of Don Alvaro(?) " +
+            "de Guzman. She had received the sacraments and was given a sung burial; " +
+            "priest: Fr. Antonio Cornejo. She died within days of Bibiana's birth, very " +
+            "likely in childbirth. The priests wrote her surname two ways: \"Joaquina " +
+            "Guzman\" in her daughter Leoncia's 1853 baptism and Francisca's 1887 baptism, " +
+            "and \"Joaquina Cunanan\" in Estefanio's 1869 and Bibiana's 1874 baptisms, the " +
+            "1885, 1892 and 1896 Jaen baptisms, and her burial.",
           links: [
             {
               label: "Burial record, 1874 (Gapan) — FamilySearch",
@@ -2062,6 +2069,10 @@ const PAOLO = {
         died: "1978",
         sex: "m",
         relation: "Great-grandfather",
+        evidence: "Record-supported",
+        notes:
+          "Lolita's father. Named as Narciso Pineda in her 1916 Apalit baptism and her 1935 " +
+          "marriage contract, both of which name Leonarda Umali as her mother.",
         father: {
           name: "Lucas Pineda",
           place: "Cabiao, Nueva Ecija",
@@ -2069,13 +2080,13 @@ const PAOLO = {
           sex: "m",
           relation: "2nd great-grandfather",
           notes:
-            "Born about 14 October 1872 in Cabiao, Nueva Ecija, and baptized there on 19 October " +
-            "1872, five days old — correcting an earlier reading of 1876. A hijo natural (born " +
-            "out of wedlock) of Dionisio and María Juana, both widowed and natives of Cabiao. The " +
-            "baptism names the paternal grandparents as Agustín and María de Ocampo and the " +
-            "maternal grandparents as Guillermo and Eulalia del Castro. Note: the record gives no " +
-            "surname for either grandfather (Agustín, Guillermo), and the surname \"Pineda\" for " +
-            "Dionisio is inferred from Lucas — it is not written in the record.",
+            "Born about 14 October 1872 in Cabiao, Nueva Ecija, and baptized there on 19 " +
+            "October 1872, five days old. A hijo natural (born out of wedlock) of " +
+            "Dionisio and María Juana, both widowed and natives of Cabiao. The baptism " +
+            "names the paternal grandparents as Agustín and María de Ocampo and the " +
+            "maternal grandparents as Guillermo and Eulalia del Castro. The record gives " +
+            "no surname for either grandfather, and the surname \"Pineda\" for Dionisio is " +
+            "inferred from Lucas — it is not written in the record.",
           records: [
             {
               date: "1872",
@@ -2095,7 +2106,7 @@ const PAOLO = {
           ],
           links: [
             {
-              label: "Baptismal record, 1876 (Cabiao) — FamilySearch",
+              label: "Baptismal record, 1872 (Cabiao) — FamilySearch",
               url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSM8-339V-T?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A666G-Q2DK&action=view&cc=2861657&lang=en&groupId=M9LR-K3X"
             }
           ],
@@ -2221,10 +2232,11 @@ const PAOLO = {
           ],
           notes:
             "Also written Kabigting; the 1884 marriage spells it Cabigting. Of Arayat, " +
-            "daughter of Juan and Francisca Dizon; married Benito Umali there on 24 June 1884. " +
-            "Per the family's researcher, she was baptized at Arayat about 27 March 1857, 11 " +
-            "days old (born about 16 March 1857), daughter of Don Juan Kabigting and Francisca " +
-            "Dizon — the father's smudged name there is resolved by the marriage record.",
+            "daughter of Juan and Francisca Dizon; married Benito Umali there on 24 June " +
+            "1884. A baptism at Arayat about 27 March 1857 (11 days old, so born about 16 " +
+            "March 1857) of a daughter of Don Juan Kabigting and Francisca Dizon is very " +
+            "likely hers; it was read by the family's researcher and hasn't yet been " +
+            "checked here against the image.",
           father: {
             name: "Juan Cabigting",
             sex: "m",
@@ -2318,15 +2330,15 @@ const PAOLO = {
         evidence: "Record-supported",
         notes:
           "Of Bacarra, Ilocos Norte. The 1917 Bacarra marriage register lists him as " +
-          "\"Presb.° Vicente Albano,\" 36 (so born about 1881), occupation sacerdote (priest), " +
-          "son of Pedro Albano and Modesta Parguian; his bride was Ambrosia Ver, 29. " +
-          "FamilySearch's index dates the marriage 20 August 1917 (the date is not on the " +
-          "register row itself) and gives his name as \"Piesto Vicente Albano\" — a misreading " +
-          "of the abbreviation \"Presb.°\" (presbítero, priest); he is not \"Sixto.\" A married priest at this date may point to the Philippine " +
-          "Independent (Aglipayan) Church — an unconfirmed possibility, not a finding. " +
-          "Earlier versions of this tree listed Blas Albano and Barbara Pacis as his parents; " +
-          "that link came from an unsourced online tree and is impossible (Blas was born in " +
-          "1885, after Vicente), so it has been removed.",
+          "\"Presb.° Vicente Albano,\" 36 (so born about 1881), occupation sacerdote " +
+          "(priest), son of Pedro Albano and Modesta Parguian; his bride was Ambrosia " +
+          "Ver, 29. FamilySearch's index dates the marriage 20 August 1917 (the date is " +
+          "not on the register row itself) and reads his title \"Presb.°\" (presbítero, " +
+          "priest) as a name, \"Piesto.\" A married priest at this date may point to the " +
+          "Philippine Independent (Aglipayan) Church — a possibility, not a finding. Some " +
+          "online trees list Blas Albano and Barbara Pacis as his parents; that cannot be " +
+          "right — Blas was born in 1885, after Vicente — and this register names his " +
+          "parents directly.",
         records: [
           {
             date: "1917",
@@ -2387,7 +2399,7 @@ const PAOLO = {
           "of \"Ambrocia Vea\" on 6 May 1908, and a FamilySearch tree profile repeats that " +
           "death; it is a misindexed marriage, and she did not die in 1908. A FamilySearch " +
           "index of a 7 November 1890 confirmation also names an Ambrocia Ver, daughter of " +
-          "D. Antonio and Francisca Pargian (image not reviewed here). Her mother's surname is " +
+          "D. Antonio and Francisca Pargian. Her mother's surname is " +
           "spelled Parguian, Pargian, Parguion, or Pargeisan in different records.",
         records: [
           {
@@ -2497,17 +2509,17 @@ const PAOLO = {
             { term: "indio", source: "per marriage, Bacarra, 1885", year: 1885 }
           ],
           notes:
-            "Written Maluyo in his marriage. On 23 November 1885 at Bacarra (parish of St. Andrew " +
-            "the Apostle) he married Casimira Cadiz; both were 17 (so born about 1868). The " +
-            "record names his parents as Hipolito Maluyo and Remigia Jove, of the barangay of " +
-            "Don Santiago Abbas(?); the witnesses were a Tomas Maluyo and Marta Eder(?). An " +
-            "earlier reading of this entry as 1895 at Bauang, with his mother as \"Benigna " +
-            "Eder,\" was wrong: the volume is Bacarra's marriage book for 1856–1887. In a 1936 " +
-            "Bacarra notarial register his wife Casimira petitioned the Bureau of Pensions for " +
-            "half of the pension of her husband \"Tomas Maloyo, ex soldado Scout filipino\" " +
-            "(a former Philippine Scout); witnesses declared the couple had not divorced but had " +
-            "lived apart for more than 15 years. Still a lead, because no record yet names him " +
-            "as Thomas Cadiz Maloyo's father.",
+            "Written Maluyo in his marriage. On 23 November 1885 at Bacarra (parish of " +
+            "St. Andrew the Apostle) he married Casimira Cadiz; both were 17 (so born " +
+            "about 1868). The record names his parents as Hipolito Maluyo and Remigia " +
+            "Jove, of the barangay of Don Santiago Abbas(?); the witnesses were a Tomas " +
+            "Maluyo and Marta Eder(?). (Some online trees date this marriage to 1895 at " +
+            "Bauang; the register is Bacarra's marriage book for 1856–1887.) In a 1936 " +
+            "Bacarra notarial register his wife Casimira petitioned the Bureau of " +
+            "Pensions for half of the pension of her husband \"Tomas Maloyo, ex soldado " +
+            "Scout filipino\" (a former Philippine Scout); witnesses declared the couple " +
+            "had not divorced but had lived apart for more than 15 years. Still marked a " +
+            "lead, because no record yet names him as Thomas Cadiz Maloyo's father.",
           records: [
             {
               date: "1885",
@@ -2567,10 +2579,9 @@ const PAOLO = {
             relation: "3rd great-grandmother",
             evidence: "Record-supported",
             notes:
-              "Named as Tomas Maluyo's mother in his 23 November 1885 Bacarra marriage. An " +
-              "earlier reading of the same entry gave her as \"Benigna Eder\"; the manuscript " +
-              "reads Remigia Jove. Her place in this tree depends on Tomas being Thomas Cadiz " +
-              "Maloyo's father, which is not yet proven.",
+              "Named as Tomas Maluyo's mother in his 23 November 1885 Bacarra marriage. " +
+              "Her place in this tree depends on Tomas being Thomas Cadiz Maloyo's " +
+              "father, which is not yet proven.",
             links: [
               { label: "Son Tomas's marriage, 1885 (scan)", url: "docs/maluyo-cadiz-marriage-1885.png" }
             ]
