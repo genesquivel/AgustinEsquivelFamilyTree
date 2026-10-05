@@ -1534,6 +1534,7 @@ const PAOLO = {
             "Cunanan. Godmother: Felipa Ramos, single, of Gapan; priest: Fr. Florencio " +
             "Rodríguez, interim parish priest.",
           links: [
+            { label: "Baptisms of both twins, 30 January 1887 — FamilySearch (same page)", url: "https://www.familysearch.org/ark:/61903/1:1:666G-WS4P?lang=en&cid=fs_copy" },
             { label: "Baptism, 30 January 1887 (scan)", url: "docs/francisca-esquivel-baptism-1887.jpg" }
           ]
         },
@@ -1552,6 +1553,7 @@ const PAOLO = {
             "(born about 7 July 1916) and married Candelaria Juez (surname uncertain) on " +
             "17 June 1946.",
           links: [
+            { label: "Baptisms of both twins, 30 January 1887 — FamilySearch (same page)", url: "https://www.familysearch.org/ark:/61903/1:1:666G-WS4P?lang=en&cid=fs_copy" },
             { label: "Baptism, 30 January 1887 (scan)", url: "docs/radegundes-esquivel-baptism-1887.jpg" }
           ]
         },
