@@ -1526,9 +1526,14 @@ const PAOLO = {
           evidence: "Record-supported",
           url: "https://www.familysearch.org/ark:/61903/1:1:666G-WS4P?lang=en&cid=fs_copy",
           note:
-            "Twin of Radegundes; baptized 15 November 1887 in Jaen — daughter of " +
-            "Apolinario Esquivel and Bibiana Ramos. Godmother: Felipa Ramos; priest: Fr. " +
-            "Florencio Rodríguez."
+            "Baptized simply \"Francisca\" in Jaen on 30 January 1887, two days old — so " +
+            "born about 28 January 1887 — legitimate daughter of D. Apolinario Esquivel " +
+            "and Dª Bibiana Ramos, \"indios de este pueblo,\" of Barangay No. 18, headed by " +
+            "her uncle D. Hilarion Esquivel. Grandparents: D. Prudencio Esquivel and Dª " +
+            "Antonia Santiago; D. Ciriaco Ramos and Dª Joaquina Cunanan. Godmother: " +
+            "Felipa Ramos, single, of Gapan; priest: Fr. Florencio Rodríguez, interim " +
+            "parish priest. She has been described as Radegundes's twin, but Radegundes's " +
+            "baptism is dated 15 November 1887, so one of the two dates needs rechecking."
         },
         {
           name: "Radegundes Esquivel",
@@ -1536,10 +1541,11 @@ const PAOLO = {
           evidence: "Record-supported",
           url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSM8-W7MW-8?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A6JCB-WMBP&action=view&cc=2861657&lang=en&groupId=M9LT-72S",
           note:
-            "Francisca's twin; baptized 15 November 1887 in Jaen (godmother María Ramos). " +
-            "She married Celedonio Velarde; their son Eliseo Velarde was baptized 31 " +
-            "December 1916 in Jaen (born about 7 July 1916) and married Candelaria Juez " +
-            "(surname uncertain) on 17 June 1946."
+            "Francisca's sister; baptized 15 November 1887 in Jaen (godmother María " +
+            "Ramos). If both baptism dates are right, she and Francisca (baptized 30 " +
+            "January 1887) were not twins. She married Celedonio Velarde; their son " +
+            "Eliseo Velarde was baptized 31 December 1916 in Jaen (born about 7 July " +
+            "1916) and married Candelaria Juez (surname uncertain) on 17 June 1946."
         },
         {
           name: "Cecilio Apolinario Esquivel",
@@ -1752,6 +1758,9 @@ const PAOLO = {
         sex: "m",
         relation: "Great-grandfather",
         evidence: "Record-supported",
+        classification: [
+          { term: "indio", source: "per daughter Francisca's baptism, Jaen, 1887", year: 1887 }
+        ],
         notes:
           "His children's baptisms trace a rising public career: he was the sitting " +
           "Cabeza de Barangay when his son Cecilio was baptized in 1892, and was employed " +
@@ -1771,7 +1780,10 @@ const PAOLO = {
             url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSM8-3V94?view=explore&action=view&cc=2861657&lang=en&groupId=M9ZT-B5H",
             note:
               "Apolinario's sister — a daughter of Prudencio Esquivel and Antonia " +
-              "Santiago. Baptized 9 January 1856 in Jaen (born about 2 January 1856)."
+              "Santiago. Baptized 9 January 1856 in Jaen (born about 2 January 1856).",
+            links: [
+              { label: "Baptism, 30 January 1887 (scan)", url: "docs/francisca-esquivel-baptism-1887.jpg" }
+            ]
           },
           {
             name: "Odon Esquivel",
@@ -1880,11 +1892,14 @@ const PAOLO = {
         sex: "f",
         relation: "Great-grandmother",
         evidence: "Record-supported",
+        classification: [
+          { term: "india", source: "per daughter Francisca's baptism, Jaen, 1887", year: 1887 }
+        ],
         notes:
-          "Wife of Apolinario Esquivel and mother of Marcos (I) (1885), the twins " +
-          "Francisca and Radegundes (1887), Cecilio (1892) and Marcos (1896). Her " +
+          "Wife of Apolinario Esquivel and mother of Marcos (I) (1885), " +
+          "Francisca and Radegundes (both 1887), Cecilio (1892) and Marcos (1896). Her " +
           "children's Jaen baptisms name her parents as Don Ciriaco Ramos and Doña " +
-          "Joaquina Cunanan (once written \"Joaquina Guzman\"). Her own baptism has not " +
+          "Joaquina Cunanan. Her own baptism has not " +
           "been found; since she was a mother by 1885, she was born by the late 1860s. A " +
           "Gapan baptism of 6 December 1877 — \"Bibiana,\" four days old, daughter of " +
           "Ciriaco Ramos and Joaquina Cunanan, mestizos, of the barangay of D. " +
@@ -1927,8 +1942,7 @@ const PAOLO = {
             note:
               "Bibiana's older sister, if the parents named are hers. Baptized 6 January 1853 at Gapan, about eight days " +
               "old — so born about 29 December 1852 — daughter of Ciriaco Ramos and " +
-              "Joaquina Guzman. This is one of two records that write the mother's " +
-              "surname \"Guzman\" instead of \"Cunanan.\""
+              "Joaquina Guzman — the surname written \"Guzman\" instead of \"Cunanan.\""
           },
           {
             name: "Estefanio Ramos",
@@ -1982,16 +1996,16 @@ const PAOLO = {
           ],
           evidence: "Record-supported",
           notes:
-            "Named as Bibiana's mother — \"Doña Joaquina Cunanan,\" once \"Joaquina Guzman\" " +
-            "— in Bibiana's children's Jaen baptisms (1885–1896). A \"Dª Joaquina Cunanan, " +
-            "india,\" wife of Don Ciriaco Ramos, of the barangay of Don Alvaro(?) de " +
-            "Guzman, was buried at Gapan on 2 December 1874 (priest: Fr. Antonio " +
-            "Cornejo). But a Joaquina Cunanan, wife of a Ciriaco Ramos, also had a " +
-            "daughter baptized at Gapan in December 1877, three years after that burial — " +
-            "so there were at least two women of this name married to men named Ciriaco " +
-            "Ramos, or one of the records has been misread. Which one is Bibiana's " +
-            "mother, and so whether she died in 1874, is not yet settled. Records call " +
-            "her Cunanan more often than Guzman; why both names were used is not known.",
+            "Named as Bibiana's mother, \"Dª Joaquina Cunanan,\" in Bibiana's children's " +
+            "Jaen baptisms (1885–1896). A \"Dª Joaquina Cunanan, india,\" wife of Don " +
+            "Ciriaco Ramos, of the barangay of Don Alvaro(?) de Guzman, was buried at " +
+            "Gapan on 2 December 1874 (priest: Fr. Antonio Cornejo). But a Joaquina " +
+            "Cunanan, wife of a Ciriaco Ramos, also had a daughter baptized at Gapan in " +
+            "December 1877, three years after that burial — so there were at least two " +
+            "women of this name married to men named Ciriaco Ramos, or one of the records " +
+            "has been misread. Which one is Bibiana's mother, and so whether she died in " +
+            "1874, is not yet settled. An 1853 Gapan baptism of a Leoncia Ramos names the " +
+            "mother as \"Joaquina Guzman.\"",
           links: [
             {
               label: "Burial record, 1874 (Gapan) — FamilySearch",
