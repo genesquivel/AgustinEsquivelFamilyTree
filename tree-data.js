@@ -1936,11 +1936,7 @@ const PAOLO = {
           "She was the mother of Marcos (I) (1885), the twins Francisca and Radegundes " +
           "(1887), Cecilio (1892) and Marcos (1896), whose Jaen baptisms name the same " +
           "grandparents. The marriage gives no age, and her own baptism has not been " +
-          "found; since she married in 1884, she was probably born in the 1860s. A Gapan " +
-          "baptism of 6 December 1877 — \"Bibiana,\" daughter of Ciriaco Ramos and Joaquina " +
-          "Cunanan, of the barangay of D. Tranquilino Rosario — belongs to a younger girl " +
-          "of the same name, and an 1835 Gapan confirmation of a \"Bibiana Ramos\" to an " +
-          "earlier generation; neither is her.",
+          "found; since she married in 1884, she was probably born in the 1860s.",
         records: [
           {
             date: "1884",
@@ -1962,11 +1958,7 @@ const PAOLO = {
         ],
         links: [
           { label: "Marriage to Apolinario Esquivel, 1884 (Gapan) — FamilySearch", url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSM8-9Q3L-P?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3AXW3L-C1RW&action=view&cc=5000340&lang=en&groupId=M98P-B8T" },
-          { label: "Marriage, 1884 (scan)", url: "docs/esquivel-ramos-marriage-1884.png" },
-          {
-            label: "Not her: baptism of a younger Bibiana Ramos, 6 December 1877 (Gapan) — FamilySearch",
-            url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSM8-M3SQ-Z?lang=en&i=224&cc=2861657&groupId=2861657"
-          }
+          { label: "Marriage, 1884 (scan)", url: "docs/esquivel-ramos-marriage-1884.png" }
         ],
         siblings: [
           {
