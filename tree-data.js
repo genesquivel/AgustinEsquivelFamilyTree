@@ -1877,27 +1877,27 @@ const PAOLO = {
       mother: {
         name: "Bibiana Ramos",
         place: "Gapan, Nueva Ecija",
-        born: "1874",
         sex: "f",
         relation: "Great-grandmother",
         evidence: "Record-supported",
-        classification: [
-          { term: "mestiza", source: "per baptism, Gapan, 1874", year: 1874 }
-        ],
         notes:
-          "Baptized 6 December 1874 at Gapan, Nueva Ecija, four days old — so born about " +
-          "2 December 1874 — daughter of Ciriaco Ramos and Joaquina Cunanan, recorded as " +
-          "\"mestizos\" of Gapan, of the barangay of Don Tranquilino Rosario. Godmother: " +
-          "Teodora Livag; priest: Fr. Heliodoro Chico, assistant priest of Gapan. Her " +
-          "mother was buried at Gapan on 2 December 1874, around the day Bibiana was " +
-          "born, so she very likely died in childbirth. FamilySearch's index for this " +
-          "baptism misreads the mother as \"Guzman\" and the godmother as \"Petra Suarez.\" " +
-          "An 1835 Gapan confirmation of a \"Bibiana Ramos, daughter of Ciriaco Ramos and " +
-          "Joaquina Cunanan\" belongs to an earlier family with the same names, not to " +
-          "this Bibiana.",
+          "Wife of Apolinario Esquivel and mother of Marcos (I) (1885), the twins " +
+          "Francisca and Radegundes (1887), Cecilio (1892) and Marcos (1896). Her " +
+          "children's Jaen baptisms name her parents as Don Ciriaco Ramos and Doña " +
+          "Joaquina Cunanan (once written \"Joaquina Guzman\"). Her own baptism has not " +
+          "been found; since she was a mother by 1885, she was born by the late 1860s. A " +
+          "Gapan baptism of 6 December 1877 — \"Bibiana,\" four days old, daughter of " +
+          "Ciriaco Ramos and Joaquina Cunanan, mestizos, of the barangay of D. " +
+          "Tranquilino Rosario; godmother Teodora Livag — was once taken to be hers, but " +
+          "a child born in 1877 cannot be the mother of an 1885 baby, so it belongs to a " +
+          "younger girl of the same name and parents' names. An 1835 Gapan confirmation " +
+          "of a \"Bibiana Ramos, daughter of Ciriaco Ramos and Joaquina Cunanan\" is " +
+          "likewise from another generation. The same names recurring across these Gapan " +
+          "records mean her parents still need to be pinned down by a record that is " +
+          "unmistakably theirs.",
         links: [
           {
-            label: "Baptism record, 1874 (Gapan) — FamilySearch",
+            label: "Not her: baptism of a younger Bibiana Ramos, 6 December 1877 (Gapan) — FamilySearch",
             url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSM8-M3SQ-Z?lang=en&i=224&cc=2861657&groupId=2861657"
           }
         ],
@@ -1906,7 +1906,7 @@ const PAOLO = {
             name: "Mariano Ramos",
             evidence: "Record-supported",
             note:
-              "Bibiana's brother. On 4–5 July 1869 at Gapan he married Mauricia Francisco; the " +
+              "Bibiana's brother, if the parents named are hers. On 4–5 July 1869 at Gapan he married Mauricia Francisco; the " +
               "marriage record names him as the son of Don Ciriaco Ramos and Doña Joaquina Cunanan. " +
               "Two of their children's baptisms at Gapan name D. Mariano Ramos and Dª Mauricia " +
               "Francisco, mestizos, with paternal grandparents Ciriaco Ramos and Joaquina Cunanan and " +
@@ -1925,7 +1925,7 @@ const PAOLO = {
             evidence: "Record-supported",
             url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSM8-MSVX-C?view=explore&action=view&lang=en&groupId=M9ZT-ZQH",
             note:
-              "Bibiana's older sister. Baptized 6 January 1853 at Gapan, about eight days " +
+              "Bibiana's older sister, if the parents named are hers. Baptized 6 January 1853 at Gapan, about eight days " +
               "old — so born about 29 December 1852 — daughter of Ciriaco Ramos and " +
               "Joaquina Guzman. This is one of two records that write the mother's " +
               "surname \"Guzman\" instead of \"Cunanan.\""
@@ -1936,10 +1936,10 @@ const PAOLO = {
             evidence: "Record-supported",
             url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSM8-M397-K?lang=en&i=331&cc=2861657&groupId=2861657",
             note:
-              "Bibiana's brother. Baptized at Gapan on 10 April(?) 1869, four days old (born about " +
-              "6 April), son of D. Ciriaco Ramos and Dª Joaquina Cunanan, mestizos, of the barangay " +
-              "of D. Tranquilino Rosario — the same barangay as Bibiana's 1874 baptism. Godfather: " +
-              "D. Romualdo Macia(s)(?).",
+              "Bibiana's brother, if the parents named are hers. Baptized at Gapan on 10 " +
+              "April(?) 1869, four days old (born about 6 April), son of D. Ciriaco Ramos " +
+              "and Dª Joaquina Cunanan, mestizos, of the barangay of D. Tranquilino " +
+              "Rosario. Godfather: D. Romualdo Macia(s)(?).",
             links: [
               { label: "Baptism (scan)", url: "docs/estefanio-ramos-baptism-1869.png" }
             ]
@@ -1951,14 +1951,17 @@ const PAOLO = {
           sex: "m",
           relation: "2nd great-grandfather",
           classification: [
-            { term: "mestizo", source: "per son Estefanio's baptism, Gapan, 1869", year: 1869 },
-            { term: "mestizo", source: "per daughter Bibiana's baptism, Gapan, 1874", year: 1874 }
+            { term: "mestizo", source: "per son Estefanio's baptism, Gapan, 1869", year: 1869 }
           ],
           evidence: "Record-supported",
           notes:
-            "Of Gapan, Nueva Ecija. Named as father in the baptisms of his children " +
-            "Leoncia (1853), Estefanio (1869) and Bibiana (1874), and as the husband of " +
-            "Doña Joaquina in her 1874 burial there.",
+            "Of Gapan, Nueva Ecija. Named as Bibiana's father in her children's Jaen " +
+            "baptisms (1885–1896). A Ciriaco Ramos and Joaquina Cunanan (or Guzman) are " +
+            "named as parents in Gapan baptisms of 1853, 1869 and 1877 and in their son " +
+            "Mariano's 1869 marriage, and a Joaquina Cunanan, wife of Don Ciriaco Ramos, " +
+            "was buried there on 2 December 1874. Because a couple with these names was " +
+            "still having children in 1877 — after that burial — the records cannot all " +
+            "belong to one couple; which ones are Bibiana's parents is not yet settled.",
           links: [
             {
               label: "Wife Joaquina's burial, 1874 (Gapan) — FamilySearch",
@@ -1969,25 +1972,26 @@ const PAOLO = {
         mother: {
           name: "Joaquina Cunanan",
           place: "Gapan, Nueva Ecija",
-          died: "1874",
+          died: "1874(?)",
           sex: "f",
           relation: "2nd great-grandmother",
           classification: [
             { term: "mestiza", source: "per son Estefanio's baptism, Gapan, 1869", year: 1869 },
-            { term: "mestiza", source: "per daughter Bibiana's baptism, Gapan, 1874", year: 1874 },
-            { term: "india", source: "per her burial, Gapan, 1874", year: 1874,
-              note: "Her burial, days before Bibiana's baptism, calls her india; both baptisms call the parents mestizos." }
+            { term: "india", source: "per the 1874 burial of a Joaquina Cunanan, Gapan", year: 1874,
+              note: "The 1869 baptism calls the parents mestizos; the 1874 burial calls the deceased india. Whether both are the same woman is not yet settled." }
           ],
           evidence: "Record-supported",
           notes:
-            "Buried at Gapan on 2 December 1874 as \"Dª Joaquina Cunanan, india,\" wife of " +
-            "Don Ciriaco Ramos, of the barangay of Don Alvaro(?) de Guzman. She had " +
-            "received the sacraments and was given a sung burial; priest: Fr. Antonio " +
-            "Cornejo. She died within days of Bibiana's birth, very likely in childbirth. " +
-            "Most records call her Joaquina Cunanan — Estefanio's 1869 and Bibiana's 1874 " +
-            "baptisms, the 1885, 1892 and 1896 Jaen baptisms, and her burial — but " +
-            "Leoncia's 1853 and Francisca's 1887 baptisms write \"Joaquina Guzman.\" Why is " +
-            "not known; her parents have not yet been identified.",
+            "Named as Bibiana's mother — \"Doña Joaquina Cunanan,\" once \"Joaquina Guzman\" " +
+            "— in Bibiana's children's Jaen baptisms (1885–1896). A \"Dª Joaquina Cunanan, " +
+            "india,\" wife of Don Ciriaco Ramos, of the barangay of Don Alvaro(?) de " +
+            "Guzman, was buried at Gapan on 2 December 1874 (priest: Fr. Antonio " +
+            "Cornejo). But a Joaquina Cunanan, wife of a Ciriaco Ramos, also had a " +
+            "daughter baptized at Gapan in December 1877, three years after that burial — " +
+            "so there were at least two women of this name married to men named Ciriaco " +
+            "Ramos, or one of the records has been misread. Which one is Bibiana's " +
+            "mother, and so whether she died in 1874, is not yet settled. Records call " +
+            "her Cunanan more often than Guzman; why both names were used is not known.",
           links: [
             {
               label: "Burial record, 1874 (Gapan) — FamilySearch",
