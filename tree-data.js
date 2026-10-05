@@ -1769,19 +1769,42 @@ const PAOLO = {
         relation: "Great-grandfather",
         evidence: "Record-supported",
         classification: [
+          { term: "indio", source: "per marriage, Gapan, 1884", year: 1884,
+            note: "The word is partly unclear in the marriage entry; the 1887 baptisms clearly say indios." },
           { term: "indio", source: "per daughter Francisca's baptism, Jaen, 1887", year: 1887 }
         ],
         notes:
-          "His children's baptisms trace a rising public career: he was the sitting " +
-          "Cabeza de Barangay when his son Cecilio was baptized in 1892, and was employed " +
-          "in the Provincial Public Treasury of Nueva Ecija by 1896. He later served as " +
-          "Municipal President of Jaen, Nueva Ecija, from 1902 to 1907. One of three sons " +
-          "of Prudencio Esquivel and Antonia Santiago (with Odon and Hilarion). The " +
+          "Of Jaen, Nueva Ecija, son of D. Prudencio Esquivel and Doña Antonia Santiago, " +
+          "of the barangay of D. Ariston(?) de Guzman. On 18 June 1884 he married Biviana " +
+          "(Bibiana) Ramos at Gapan. His children's baptisms trace a rising public " +
+          "career: he was the sitting Cabeza de Barangay when his son Cecilio was " +
+          "baptized in 1892, and was employed in the Provincial Public Treasury of Nueva " +
+          "Ecija by 1896. He later served as Municipal President of Jaen from 1902 to " +
+          "1907. One of three sons of Prudencio and Antonia (with Odon and Hilarion). The " +
           "town's history also records a Lt. Col. Delfin Esquivel leading forces in a " +
           "battle at Jaen on 4 September 1896; how he was related to the family is not " +
-          "known. Online trees give Apolinario's birth year as 1871, which cannot be right — " +
-          "he would have been about 14 at his son Marcos's 1885 baptism — so no birth year is " +
-          "shown until a record gives one.",
+          "known. Online trees give Apolinario's birth year as 1871, which cannot be " +
+          "right — he was married by 1884 — so no birth year is shown until a record " +
+          "gives one.",
+        records: [
+          {
+            date: "1884",
+            place: "Gapan, Nueva Ecija",
+            claim: "Married Biviana (Bibiana) Ramos at Gapan on 18 June 1884.",
+            excerpt:
+              "En diez y ocho de Junio de mil ochocientos ochenta y cuatro años … el Presbítero D. " +
+              "Anacleto(?) Desiderio(?) con mi licencia casó por palabras de presente y veló en esta " +
+              "Iglesia … á Apolinario Esquibel, indio(?), soltero, hijo de D. Prudencio y Doña " +
+              "Antonia [Cm.?] Santiago, de Jaen, del barangay de D. Ariston(?) de Guzman, con " +
+              "Biviana Ramos, mestiza, soltera, hija de D. Ciriaco y Dª Joaquina Cunanan, de este " +
+              "pueblo, del barangay Nº 83 de D. Mariano Ramos. Fueron testigos D. Paulino(?) Garcia " +
+              "y Dª Fernanda(?) Galicia(?).",
+            notes:
+              "The entry gives no ages, and it does not mark either set of parents as deceased " +
+              "(registers did not always note this).",
+            url: "docs/esquivel-ramos-marriage-1884.png"
+          }
+        ],
         siblings: [
           {
             name: "Maria Salome Esquibel",
@@ -1826,6 +1849,8 @@ const PAOLO = {
           }
         ],
         links: [
+          { label: "Marriage to Bibiana Ramos, 1884 (Gapan) — FamilySearch", url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSM8-9Q3L-P?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3AXW3L-C1RW&action=view&cc=5000340&lang=en&groupId=M98P-B8T" },
+          { label: "Marriage, 1884 (scan)", url: "docs/esquivel-ramos-marriage-1884.png" },
           {
             label: "Jaen, Nueva Ecija — Wikipedia",
             url: "https://en.wikipedia.org/wiki/Jaen,_Nueva_Ecija"
@@ -1900,24 +1925,44 @@ const PAOLO = {
         relation: "Great-grandmother",
         evidence: "Record-supported",
         classification: [
+          { term: "mestiza", source: "per marriage, Gapan, 1884", year: 1884 },
           { term: "india", source: "per daughter Francisca's baptism, Jaen, 1887", year: 1887 }
         ],
         notes:
-          "Wife of Apolinario Esquivel and mother of Marcos (I) (1885), " +
-          "the twins Francisca and Radegundes (1887), Cecilio (1892) and Marcos (1896). Her " +
-          "children's Jaen baptisms name her parents as Don Ciriaco Ramos and Doña " +
-          "Joaquina Cunanan. Her own baptism has not " +
-          "been found; since she was a mother by 1885, she was born by the late 1860s. A " +
-          "Gapan baptism of 6 December 1877 — \"Bibiana,\" four days old, daughter of " +
-          "Ciriaco Ramos and Joaquina Cunanan, mestizos, of the barangay of D. " +
-          "Tranquilino Rosario; godmother Teodora Livag — was once taken to be hers, but " +
-          "a child born in 1877 cannot be the mother of an 1885 baby, so it belongs to a " +
-          "younger girl of the same name and parents' names. An 1835 Gapan confirmation " +
-          "of a \"Bibiana Ramos, daughter of Ciriaco Ramos and Joaquina Cunanan\" is " +
-          "likewise from another generation. The same names recurring across these Gapan " +
-          "records mean her parents still need to be pinned down by a record that is " +
-          "unmistakably theirs.",
+          "Biviana Ramos of Gapan, \"mestiza, soltera,\" married Apolinario Esquivel of " +
+          "Jaen at Gapan on 18 June 1884; the marriage names her parents as D. Ciriaco " +
+          "[Ramos] and Dª Joaquina Cunanan, of Gapan's barangay No. 83 of D. Mariano " +
+          "Ramos — very likely her brother Mariano, whose family lived in that barangay. " +
+          "She was the mother of Marcos (I) (1885), the twins Francisca and Radegundes " +
+          "(1887), Cecilio (1892) and Marcos (1896), whose Jaen baptisms name the same " +
+          "grandparents. The marriage gives no age, and her own baptism has not been " +
+          "found; since she married in 1884, she was probably born in the 1860s. A Gapan " +
+          "baptism of 6 December 1877 — \"Bibiana,\" daughter of Ciriaco Ramos and Joaquina " +
+          "Cunanan, of the barangay of D. Tranquilino Rosario — belongs to a younger girl " +
+          "of the same name, and an 1835 Gapan confirmation of a \"Bibiana Ramos\" to an " +
+          "earlier generation; neither is her.",
+        records: [
+          {
+            date: "1884",
+            place: "Gapan, Nueva Ecija",
+            claim: "Married Apolinario Esquivel at Gapan on 18 June 1884.",
+            excerpt:
+              "En diez y ocho de Junio de mil ochocientos ochenta y cuatro años … el Presbítero D. " +
+              "Anacleto(?) Desiderio(?) con mi licencia casó por palabras de presente y veló en esta " +
+              "Iglesia … á Apolinario Esquibel, indio(?), soltero, hijo de D. Prudencio y Doña " +
+              "Antonia [Cm.?] Santiago, de Jaen, del barangay de D. Ariston(?) de Guzman, con " +
+              "Biviana Ramos, mestiza, soltera, hija de D. Ciriaco y Dª Joaquina Cunanan, de este " +
+              "pueblo, del barangay Nº 83 de D. Mariano Ramos. Fueron testigos D. Paulino(?) Garcia " +
+              "y Dª Fernanda(?) Galicia(?).",
+            notes:
+              "The entry gives no ages, and it does not mark either set of parents as deceased " +
+              "(registers did not always note this).",
+            url: "docs/esquivel-ramos-marriage-1884.png"
+          }
+        ],
         links: [
+          { label: "Marriage to Apolinario Esquivel, 1884 (Gapan) — FamilySearch", url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSM8-9Q3L-P?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3AXW3L-C1RW&action=view&cc=5000340&lang=en&groupId=M98P-B8T" },
+          { label: "Marriage, 1884 (scan)", url: "docs/esquivel-ramos-marriage-1884.png" },
           {
             label: "Not her: baptism of a younger Bibiana Ramos, 6 December 1877 (Gapan) — FamilySearch",
             url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSM8-M3SQ-Z?lang=en&i=224&cc=2861657&groupId=2861657"
@@ -1928,13 +1973,17 @@ const PAOLO = {
             name: "Mariano Ramos",
             evidence: "Record-supported",
             note:
-              "Bibiana's brother, if the parents named are hers. On 4–5 July 1869 at Gapan he married Mauricia Francisco; the " +
-              "marriage record names him as the son of Don Ciriaco Ramos and Doña Joaquina Cunanan. " +
-              "Two of their children's baptisms at Gapan name D. Mariano Ramos and Dª Mauricia " +
-              "Francisco, mestizos, with paternal grandparents Ciriaco Ramos and Joaquina Cunanan and " +
-              "maternal grandparents Inocencio and Apolinaria de la Cruz (the two records agree): " +
-              "Dominador, baptized 7 November 1875, two days old; and Simeon, baptized 19 February " +
-              "1883, one day old (godfather D. Pablo Padilla).",
+              "Bibiana's brother. On 4–5 July 1869 at Gapan he married Mauricia " +
+              "Francisco; the marriage record names him as the son of Don Ciriaco Ramos " +
+              "and Doña Joaquina Cunanan. His family lived in Gapan's barangay No. 83 — " +
+              "his son Simeon was baptized there in 1883 — and when Bibiana married in " +
+              "1884 she was \"of barangay No. 83 of D. Mariano Ramos,\" evidently by then " +
+              "headed by him. Two of their children's baptisms at Gapan name D. Mariano " +
+              "Ramos and Dª Mauricia Francisco, mestizos, with paternal grandparents " +
+              "Ciriaco Ramos and Joaquina Cunanan and maternal grandparents Inocencio and " +
+              "Apolinaria de la Cruz: Dominador, baptized 7 November 1875, two days old; " +
+              "and Simeon, baptized 19 February 1883, one day old (godfather D. Pablo " +
+              "Padilla).",
             links: [
               { label: "Son Dominador's baptism, 1875 (scan)", url: "docs/dominador-ramos-baptism-1875.png" },
               { label: "Son Simeon's baptism, 1883 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSM8-SQRS-1?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A666J-384W&action=view&cc=2861657&lang=en&groupId=M98Q-SRN" },
