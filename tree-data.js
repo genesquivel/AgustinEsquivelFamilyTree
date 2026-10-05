@@ -1526,14 +1526,16 @@ const PAOLO = {
           evidence: "Record-supported",
           url: "https://www.familysearch.org/ark:/61903/1:1:666G-WS4P?lang=en&cid=fs_copy",
           note:
-            "Baptized simply \"Francisca\" in Jaen on 30 January 1887, two days old — so " +
-            "born about 28 January 1887 — legitimate daughter of D. Apolinario Esquivel " +
-            "and Dª Bibiana Ramos, \"indios de este pueblo,\" of Barangay No. 18, headed by " +
-            "her uncle D. Hilarion Esquivel. Grandparents: D. Prudencio Esquivel and Dª " +
-            "Antonia Santiago; D. Ciriaco Ramos and Dª Joaquina Cunanan. Godmother: " +
-            "Felipa Ramos, single, of Gapan; priest: Fr. Florencio Rodríguez, interim " +
-            "parish priest. She has been described as Radegundes's twin, but Radegundes's " +
-            "baptism is dated 15 November 1887, so one of the two dates needs rechecking."
+            "Radegundes's twin. Baptized simply \"Francisca\" in Jaen on 30 January 1887, " +
+            "two days old — so born about 28 January 1887 — legitimate daughter of D. " +
+            "Apolinario Esquivel and Dª Bibiana Ramos, \"indios de este pueblo,\" of " +
+            "Barangay No. 18, headed by her uncle D. Hilarion Esquivel. Grandparents: D. " +
+            "Prudencio Esquivel and Dª Antonia Santiago; D. Ciriaco Ramos and Dª Joaquina " +
+            "Cunanan. Godmother: Felipa Ramos, single, of Gapan; priest: Fr. Florencio " +
+            "Rodríguez, interim parish priest.",
+          links: [
+            { label: "Baptism, 30 January 1887 (scan)", url: "docs/francisca-esquivel-baptism-1887.jpg" }
+          ]
         },
         {
           name: "Radegundes Esquivel",
@@ -1541,11 +1543,17 @@ const PAOLO = {
           evidence: "Record-supported",
           url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSM8-W7MW-8?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A6JCB-WMBP&action=view&cc=2861657&lang=en&groupId=M9LT-72S",
           note:
-            "Francisca's sister; baptized 15 November 1887 in Jaen (godmother María " +
-            "Ramos). If both baptism dates are right, she and Francisca (baptized 30 " +
-            "January 1887) were not twins. She married Celedonio Velarde; their son " +
-            "Eliseo Velarde was baptized 31 December 1916 in Jaen (born about 7 July " +
-            "1916) and married Candelaria Juez (surname uncertain) on 17 June 1946."
+            "Francisca's twin; baptized with her in Jaen on 30 January 1887, two days old " +
+            "(born about 28 January 1887), with the same parents, barangay and " +
+            "grandparents. Godmother: Maria Ramos, married, of Gapan. A note in the " +
+            "margin records her marriage on 27 August 1908 to Celedonio (written " +
+            "Celidonio) Velarde, single, son of Graciano Velarde and Eugenia de " +
+            "Guzman(?). Their son Eliseo Velarde was baptized 31 December 1916 in Jaen " +
+            "(born about 7 July 1916) and married Candelaria Juez (surname uncertain) on " +
+            "17 June 1946.",
+          links: [
+            { label: "Baptism, 30 January 1887 (scan)", url: "docs/radegundes-esquivel-baptism-1887.jpg" }
+          ]
         },
         {
           name: "Cecilio Apolinario Esquivel",
@@ -1780,10 +1788,7 @@ const PAOLO = {
             url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSM8-3V94?view=explore&action=view&cc=2861657&lang=en&groupId=M9ZT-B5H",
             note:
               "Apolinario's sister — a daughter of Prudencio Esquivel and Antonia " +
-              "Santiago. Baptized 9 January 1856 in Jaen (born about 2 January 1856).",
-            links: [
-              { label: "Baptism, 30 January 1887 (scan)", url: "docs/francisca-esquivel-baptism-1887.jpg" }
-            ]
+              "Santiago. Baptized 9 January 1856 in Jaen (born about 2 January 1856)."
           },
           {
             name: "Odon Esquivel",
@@ -1897,7 +1902,7 @@ const PAOLO = {
         ],
         notes:
           "Wife of Apolinario Esquivel and mother of Marcos (I) (1885), " +
-          "Francisca and Radegundes (both 1887), Cecilio (1892) and Marcos (1896). Her " +
+          "the twins Francisca and Radegundes (1887), Cecilio (1892) and Marcos (1896). Her " +
           "children's Jaen baptisms name her parents as Don Ciriaco Ramos and Doña " +
           "Joaquina Cunanan. Her own baptism has not " +
           "been found; since she was a mother by 1885, she was born by the late 1860s. A " +
