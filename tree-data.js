@@ -2099,20 +2099,40 @@ const PAOLO = {
         sex: "f",
         relation: "Great-grandmother",
         evidence: "Record-supported",
+        born: "about 2 December 1857",
         classification: [
+          { term: "mestiza", source: "per baptism, Gapan, 1857 (parents recorded mestizos)", year: 1857 },
           { term: "mestiza", source: "per marriage, Gapan, 1884", year: 1884 },
           { term: "india", source: "per daughter Francisca's baptism, Jaen, 1887", year: 1887 }
         ],
         notes:
-          "Biviana Ramos of Gapan, \"mestiza, soltera,\" married Apolinario Esquivel of " +
-          "Jaen at Gapan on 18 June 1884; the marriage names her parents as D. Ciriaco " +
-          "[Ramos] and Dª Joaquina Cunanan, of Gapan's barangay No. 83 of D. Mariano " +
-          "Ramos — very likely her brother Mariano, whose family lived in that barangay. " +
-          "She was the mother of Marcos (I) (1885), the twins Francisca and Radegundes " +
-          "(1887), Cecilio (1892) and Marcos (1896), whose Jaen baptisms name the same " +
-          "grandparents. The marriage gives no age, and her own baptism has not been " +
-          "found; since she married in 1884, she was probably born in the 1860s.",
+          "Baptized at Gapan on 6 December 1857, four days old — so born about 2 December " +
+          "1857 — legitimate daughter of Ciriaco Ramos and Joaquina Cunanan, mestizos of " +
+          "Gapan, of the barangay of D. Tranquilino Rosario; godmother Teodora Livag; " +
+          "priest Fr. Heliodoro Chico, assistant priest of Gapan. On 18 June 1884, as " +
+          "\"Biviana Ramos, mestiza, soltera,\" she married Apolinario Esquivel of Jaen at " +
+          "Gapan; the marriage again names her parents, D. Ciriaco and Dª Joaquina " +
+          "Cunanan, of barangay No. 83 of D. Mariano Ramos — her brother. She was the " +
+          "mother of Marcos (I) (1885), the twins Francisca and Radegundes (1887), " +
+          "Cecilio (1892) and Marcos (1896), whose Jaen baptisms name the same " +
+          "grandparents. Her mother had died in 1874, ten years before her wedding.",
         records: [
+          {
+            date: "1857",
+            place: "Gapan, Nueva Ecija",
+            claim: "Baptized at Gapan on 6 December 1857, four days old.",
+            excerpt:
+              "En seis de Dic.e de mil ochocientos cincuenta y siete, yo el P. D. Heliodoro Chico, " +
+              "Coadjutor de este pueblo de Gapan … bauticé solemnemente y puse los santos óleos á " +
+              "Bibiana, niña de cuatro días nacida, hija legítima de Ciriaco Ramos y de Joaquina " +
+              "Cunanan, mestizos de este dicho pueblo, del barangay de D. Tranquilino Rosario; fue " +
+              "su madrina Teodora Livag …",
+            notes:
+              "Bautismos 1855–1865 (film 007769397, image 225, folio 223). The parish's own index " +
+              "to that book lists her as \"Biviana Ramos, h.a de Ciriaco y de Joaquina Cunanan — " +
+              "223,\" just before Biviana Romualdo, whose entry stands beside hers on the page.",
+            url: "docs/bibiana-ramos-baptism-1857.jpg"
+          },
           {
             date: "1884",
             place: "Gapan, Nueva Ecija",
@@ -2132,6 +2152,9 @@ const PAOLO = {
           }
         ],
         links: [
+          { label: "Baptism, 1857 (Gapan) — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:XWMY-N69L" },
+          { label: "Baptism, 1857 (scan)", url: "docs/bibiana-ramos-baptism-1857.jpg" },
+          { label: "Parish baptism index, 1855–1865 — Biviana Ramos, folio 223 (scan)", url: "docs/gapan-baptism-index-1855-1865-biviana.jpg" },
           { label: "Marriage to Apolinario Esquivel, 1884 (Gapan) — FamilySearch", url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSM8-9Q3L-P?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3AXW3L-C1RW&action=view&cc=5000340&lang=en&groupId=M98P-B8T" },
           { label: "Marriage, 1884 (scan)", url: "docs/esquivel-ramos-marriage-1884.png" }
         ],
@@ -2162,7 +2185,7 @@ const PAOLO = {
             life: "b. 1851",
             evidence: "Record-supported",
             note:
-              "Bibiana's older sister, if the parents named are hers. Baptized at Gapan on 9 " +
+              "Bibiana's older sister. Baptized at Gapan on 9 " +
               "February 1851, four days old (born about 5 February 1851), daughter of Ciriaco " +
               "Ramos and Joaquina Cunanan, mestizos, of the barangay of D. Francisco(?) de " +
               "Guzman. Godmother: Cornelia Lumba(?).",
@@ -2176,7 +2199,7 @@ const PAOLO = {
             evidence: "Record-supported",
             url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSM8-MSVX-C?view=explore&action=view&lang=en&groupId=M9ZT-ZQH",
             note:
-              "Bibiana's older sister, if the parents named are hers. Baptized 6 January 1853 at Gapan, about eight days " +
+              "Bibiana's older sister. Baptized 6 January 1853 at Gapan, about eight days " +
               "old — so born about 29 December 1852 — daughter of Ciriaco Ramos and " +
               "Joaquina Guzman — the surname written \"Guzman\" instead of \"Cunanan.\""
           },
@@ -2186,10 +2209,10 @@ const PAOLO = {
             evidence: "Record-supported",
             url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSM8-M397-K?lang=en&i=331&cc=2861657&groupId=2861657",
             note:
-              "Bibiana's brother, if the parents named are hers. Baptized at Gapan on 10 " +
+              "Bibiana's younger brother. Baptized at Gapan on 10 " +
               "April(?) 1869, four days old (born about 6 April), son of D. Ciriaco Ramos " +
               "and Dª Joaquina Cunanan, mestizos, of the barangay of D. Tranquilino " +
-              "Rosario. Godfather: D. Romualdo Macia(s)(?).",
+              "Rosario — the same barangay as Bibiana's 1857 baptism. Godfather: D. Romualdo Macia(s)(?).",
             links: [
               { label: "Baptism (scan)", url: "docs/estefanio-ramos-baptism-1869.png" }
             ]
@@ -2201,17 +2224,18 @@ const PAOLO = {
           sex: "m",
           relation: "2nd great-grandfather",
           classification: [
+            { term: "mestizo", source: "per daughter Bibiana's baptism, Gapan, 1857", year: 1857 },
             { term: "mestizo", source: "per son Estefanio's baptism, Gapan, 1869", year: 1869 }
           ],
           evidence: "Record-supported",
           notes:
-            "Of Gapan, Nueva Ecija. Named as Bibiana's father in her 1884 marriage and in her " +
-            "children's Jaen baptisms (1885–1896). A Ciriaco Ramos and Joaquina Cunanan (or Guzman) are " +
-            "named as parents in Gapan baptisms of 1851, 1853, 1869 and 1877 and in their son " +
-            "Mariano's 1869 marriage, and a Joaquina Cunanan, wife of Don Ciriaco Ramos, " +
-            "was buried there on 2 December 1874. Because a couple with these names was " +
-            "still having children in 1877 — after that burial — the records cannot all " +
-            "belong to one couple; which ones are Bibiana's parents is not yet settled.",
+            "Of Gapan, Nueva Ecija; husband of Joaquina Cunanan. Their children's Gapan " +
+            "baptisms run from 1851 to 1869 — Dorotea (1851), Leoncia (1853), Bibiana " +
+            "(1857) and Estefanio (1869) — and their son Mariano married there in 1869; " +
+            "the records call the family mestizos, of the barangay of D. Tranquilino " +
+            "Rosario. He was widowed when Joaquina was buried on 2 December 1874, and was " +
+            "named again in Bibiana's 1884 marriage and her children's Jaen baptisms " +
+            "(1885–1896).",
           links: [
             {
               label: "Wife Joaquina's burial, 1874 (Gapan) — FamilySearch",
@@ -2222,26 +2246,24 @@ const PAOLO = {
         mother: {
           name: "Joaquina Cunanan",
           place: "Gapan, Nueva Ecija",
-          died: "1874(?)",
+          died: "1874",
           sex: "f",
           relation: "2nd great-grandmother",
           classification: [
+            { term: "mestiza", source: "per daughter Bibiana's baptism, Gapan, 1857", year: 1857 },
             { term: "mestiza", source: "per son Estefanio's baptism, Gapan, 1869", year: 1869 },
-            { term: "india", source: "per the 1874 burial of a Joaquina Cunanan, Gapan", year: 1874,
-              note: "The 1869 baptism calls the parents mestizos; the 1874 burial calls the deceased india. Whether both are the same woman is not yet settled." }
+            { term: "india", source: "per her burial, Gapan, 1874", year: 1874,
+              note: "Her children's baptisms call the parents mestizos; her burial calls her india." }
           ],
           evidence: "Record-supported",
           notes:
-            "Named as Bibiana's mother, \"Dª Joaquina Cunanan,\" in Bibiana's children's " +
-            "Jaen baptisms (1885–1896). A \"Dª Joaquina Cunanan, india,\" wife of Don " +
-            "Ciriaco Ramos, of the barangay of Don Alvaro(?) de Guzman, was buried at " +
-            "Gapan on 2 December 1874 (priest: Fr. Antonio Cornejo). But a Joaquina " +
-            "Cunanan, wife of a Ciriaco Ramos, also had a daughter baptized at Gapan in " +
-            "December 1877, three years after that burial — so there were at least two " +
-            "women of this name married to men named Ciriaco Ramos, or one of the records " +
-            "has been misread. Which one is Bibiana's mother, and so whether she died in " +
-            "1874, is not yet settled. An 1853 Gapan baptism of a Leoncia Ramos names the " +
-            "mother as \"Joaquina Guzman.\"",
+            "Wife of Ciriaco Ramos and mother of Dorotea (1851), Leoncia (1853), Bibiana " +
+            "(1857), Mariano and Estefanio (1869). She was buried at Gapan on 2 December " +
+            "1874 as \"Dª Joaquina Cunanan, india,\" wife of Don Ciriaco Ramos, of the " +
+            "barangay of Don Alvaro(?) de Guzman; she had received the sacraments, and " +
+            "the priest was Fr. Antonio Cornejo. Leoncia's 1853 baptism writes her as " +
+            "\"Joaquina Guzman\"; every other record calls her Cunanan. Her own parents " +
+            "have not yet been identified.",
           links: [
             {
               label: "Burial record, 1874 (Gapan) — FamilySearch",
@@ -2758,14 +2780,31 @@ const PAOLO = {
             relation: "3rd great-grandfather",
             evidence: "Record-supported",
             notes:
-              "Recorded as Candido Ver de la Cruz when he married Paula Albano Ventura at " +
-              "Bacarra on 28 July 1856; the index names his parents as Leon Ver de la " +
-              "Cruz and Valeria Albano Buenaventura. Named as Antonio's father in " +
-              "Antonio's 1879 marriage. He was widowed when Paula was buried on 22 August " +
-              "1867.",
+              "Recorded as D. Candido Ver de la Cruz, soltero, when he married Paula Albano " +
+              "Ventura at Bacarra on 28 July 1856; the register names him as son of D. Leon " +
+              "Ver de la Cruz and Dª Valeria Albano Buenaventura, of the barangay of D. Felipe " +
+              "Albano Buenaventura. The priest was the coadjutor D. Cornelio Bustamante. Named " +
+              "as Antonio's father in Antonio's 1879 marriage. He was widowed when Paula was " +
+              "buried on 22 August 1867.",
+            siblings: [
+              {
+                name: "Petroniano Ver",
+                evidence: "Record-supported",
+                note:
+                  "Candido's brother. Married at Bacarra on 28 July 1856, the same day as Candido " +
+                  "(his entry is just above Candido's on the same page), as D. Petroniano Ver, " +
+                  "soltero, son of D. Leon Ver de la Cruz and Dª Valeria Albano Buenaventura, of " +
+                  "the barangay of D. Felipe Albano Buenaventura. His bride was Dª Eugenia Albano " +
+                  "Buenaventura, a widow, of the pueblo of S. Nicolas.",
+                links: [
+                  { label: "Marriage register page, 28 July 1856 (scan)", url: "docs/ver-albano-marriages-1856.jpg" }
+                ]
+              }
+            ],
             links: [
               { label: "Marriage to Paula Albano, 1856 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:XWMB-8HCT" },
-              { label: "Son Antonio's marriage, 1879 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:XWMB-5DZW" }
+              { label: "Son Antonio's marriage, 1879 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:XWMB-5DZW" },
+              { label: "Marriage register page, 28 July 1856 (scan)", url: "docs/ver-albano-marriages-1856.jpg" }
             ],
             father: {
               name: "Leon Ver de la Cruz",
@@ -2774,10 +2813,11 @@ const PAOLO = {
               relation: "4th great-grandfather",
               evidence: "Record-supported",
               notes:
-                "Named as Candido Ver de la Cruz's father in Candido's 28 July 1856 " +
-                "Bacarra marriage (FamilySearch index).",
+                "Named as D. Leon Ver de la Cruz, father of both Candido and Petroniano, in " +
+                "their marriages at Bacarra on 28 July 1856.",
               links: [
-                { label: "Son Candido's marriage, 1856 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:XWMB-8HCT" }
+                { label: "Son Candido's marriage, 1856 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:XWMB-8HCT" },
+                { label: "Sons' marriages, 28 July 1856 (scan)", url: "docs/ver-albano-marriages-1856.jpg" }
               ]
             },
             mother: {
@@ -2787,10 +2827,11 @@ const PAOLO = {
               relation: "4th great-grandmother",
               evidence: "Record-supported",
               notes:
-                "Named as Candido Ver de la Cruz's mother in Candido's 28 July 1856 " +
-                "Bacarra marriage (FamilySearch index).",
+                "Named as Dª Valeria Albano Buenaventura, mother of both Candido and " +
+                "Petroniano, in their marriages at Bacarra on 28 July 1856.",
               links: [
-                { label: "Son Candido's marriage, 1856 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:XWMB-8HCT" }
+                { label: "Son Candido's marriage, 1856 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:XWMB-8HCT" },
+                { label: "Sons' marriages, 28 July 1856 (scan)", url: "docs/ver-albano-marriages-1856.jpg" }
               ]
             }
           },
@@ -2803,11 +2844,15 @@ const PAOLO = {
             evidence: "Record-supported",
             notes:
               "Recorded as Paula Albano Ventura at her 28 July 1856 marriage to Candido " +
-              "Ver, and as Paula Alvano, Antonio's mother, in his 1879 marriage. She was " +
-              "buried on 22 August 1867, wife of Candido Ver (FamilySearch index).",
+              "Ver at Bacarra, where she is called soltera and \"huérfana de Padre y Madre\" " +
+              "(orphaned of both father and mother), of the barangay of D. Gregorio Albano " +
+              "Ventura; her parents are not named. Recorded as Paula Alvano, Antonio's " +
+              "mother, in his 1879 marriage. She was buried on 22 August 1867, wife of " +
+              "Candido Ver (FamilySearch index).",
             links: [
               { label: "Marriage to Candido Ver, 1856 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:XWMB-8HCT" },
-              { label: "Burial, 1867 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:XWMB-1FCQ" }
+              { label: "Burial, 1867 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:XWMB-1FCQ" },
+              { label: "Marriage register page, 28 July 1856 (scan)", url: "docs/ver-albano-marriages-1856.jpg" }
             ]
           }
         },
