@@ -436,6 +436,20 @@ const GEN = {
         ],
         siblings: [
           {
+            name: "Juliana Obra",
+            life: "b. 1885",
+            evidence: "Record-supported",
+            note:
+              "Fidel and Monica's eldest known child. Baptized at Bauang on 21 November 1885, two " +
+              "days old (born about 19 November 1885), legitimate daughter of Fidel Obra and " +
+              "Monica Calica, indios, of barangay No. 2 of Don Juan Lomboy(?); the entry names all " +
+              "four grandparents — Dionisio Obra and Fructuosa Yanguas, Alfonso Calica (deceased) " +
+              "and Pascuala Ordoña.",
+            links: [
+              { label: "Baptism, 1885 (scan)", url: "docs/juliana-obra-baptism-1885.jpg" }
+            ]
+          },
+          {
             name: "Francisca Obra",
             life: "b. 1888",
             evidence: "Record-supported",
@@ -517,17 +531,25 @@ const GEN = {
           sex: "m",
           relation: "2nd great-grandfather",
           evidence: "Record-supported",
+          classification: [
+            { term: "indio", source: "per marriage, Bauang, 1885", year: 1885 }
+          ],
           notes:
-            "Of Bauang, La Union; husband of Monica Calica (also written Ordoña). Their " +
-            "children's Bauang baptisms run from 1888 to 1901 — Francisca, Casimiro, " +
-            "Faustino, Ildefonso and Fabián — a newborn daughter, Fortunata, died in " +
-            "1907, and a son, Mariano, born about 1910–11, married at Camiling, Tarlac, " +
-            "in 1950. By 1936 Fidel and Monica were living in Camiling: on 28 January " +
-            "1936 Fidel, \"married to Monica Calica, and a resident of the municipality of " +
+            "Of the town of Caba when, on 9 February 1885, he married Monica Calica at " +
+            "Bauang: the register calls him \"soltero tributante\" (single, a taxpayer), son " +
+            "of Dionisio Obra, already deceased, and Fructuosa Yanguas, indios, of the " +
+            "barangay of D. Tranquilino Timario(?) in Caba. The couple settled in Bauang, " +
+            "where their children were baptized between 1885 and 1901 — Juliana, Francisca, " +
+            "Casimiro, Faustino, Ildefonso and Fabián; their daughter Maxima, Gen's " +
+            "great-grandmother, was born about 1897 — a newborn daughter, Fortunata, died in " +
+            "1907, and a son, Mariano, born about 1910–11, married at Camiling, Tarlac, in " +
+            "1950. By 1936 Fidel and Monica were living in Camiling: on 28 January 1936 " +
+            "Fidel, \"married to Monica Calica, and a resident of the municipality of " +
             "Camiling, Tarlac,\" mortgaged a parcel of land in barrio Urayong, Bauang, to " +
-            "Maria Picardal de Barnachea for ₱400. The witness names on that mortgage are " +
-            "not yet clearly read.",
+            "Maria Picardal de Barnachea for ₱400.",
           links: [
+            { label: "Marriage to Monica Calica, 9 February 1885 — FamilySearch (image)", url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSMJ-WSB9?i=60&lang=en&cc=5000330&groupId=5000330" },
+            { label: "Marriage, 1885 (scan)", url: "docs/obra-calica-marriage-1885.jpg" },
             {
               label: "Son Ildefonso's baptism, 1899 — FamilySearch",
               url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSMJ-PSHC-4?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A663G-V69M&action=view&lang=en&groupId=M9ZW-9QJ"
@@ -585,10 +607,16 @@ const GEN = {
           sex: "f",
           relation: "2nd great-grandmother",
           evidence: "Record-supported",
+          classification: [
+            { term: "india", source: "per marriage, Bauang, 1885", year: 1885 }
+          ],
           notes:
-            "Wife of Fidel Obra. Her son Ildefonso's 1899 baptism writes her surname \"Ordoña,\" " +
-            "while the 1936 mortgage and her children's other baptisms give \"Calica\" — the " +
-            "same woman; Calica is kept as the primary surname with Ordoña as a documented variant.",
+            "Of Bauang, daughter of Alfonso Calica, already deceased, and Pascuala " +
+            "Ordoña, indios, of the town's barangay No. 24 of D. Paulo Floresca. She " +
+            "married Fidel Obra at Bauang on 9 February 1885, single and \"no tributante.\" " +
+            "Some records write her surname Ordoña — her mother's surname — instead of " +
+            "Calica (her son Ildefonso's 1899 baptism, for one); others garble it as " +
+            "Celica or Palica.",
           father: {
             name: "Alfonso Calica",
             place: "Bauang, La Union",
@@ -596,8 +624,9 @@ const GEN = {
             relation: "3rd great-grandfather",
             evidence: "Record-supported",
             notes:
-              "Named as Monica's father in Ildefonso's 1899 baptism, where he is already recorded " +
-              "as deceased. (A younger Alfonso Calica on an 1890 San Fernando draft list, born " +
+              "Named as Monica's father, already deceased, in her 9 February 1885 " +
+              "marriage and in the baptisms of her children Juliana (1885) and Ildefonso " +
+              "(1899). (A younger Alfonso Calica on an 1890 San Fernando draft list, born " +
               "about 1870–71, is more likely Monica's brother than her father.)"
           },
           mother: {
@@ -2892,7 +2921,7 @@ const PAOLO = {
           "Born 26 December 1886 in Bacarra, Ilocos Norte; died 23 January 1983. His middle " +
           "name Cadiz and his Bacarra birth fit Tomas Maluyo and Casimira Cadiz, who married at " +
           "Bacarra in November 1885 (see Tomas Maloyo); his own baptism, which would name his " +
-          "parents, has not been found yet. He is distinct from that older Tomas: in 1936 the " +
+          "parents, is lost — Bacarra's surviving baptism books skip from 1873 to 1890. He is distinct from that older Tomas: in 1936 the " +
           "older Tomas's wife was still Casimira, while this Thomas's wife was Agapita Andres.",
         links: [
           {
