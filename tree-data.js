@@ -99,12 +99,21 @@ const GEN = {
       father: {
         name: "Segundo Agustin",
         place: "Cabiao, Nueva Ecija",
-        born: "1899",
+        born: "c. 1889",
         sex: "m",
         relation: "Great-grandfather",
         notes:
-          "Husband of Maxima Obra. By 1921 the couple were living in Camiling, Tarlac, where two " +
-          "of their young daughters, Visitación Estefanía and Evangelina, died that summer.",
+          "Son of Apolonio Agustin and Estefania. He married Maxima Obra at Bauang, La Union, on 22 " +
+          "February 1914; FamilySearch's index of the marriage gives his age as 25 (so born about " +
+          "1889 — online trees' 1899 cannot be right for a man married in 1914). The marriage " +
+          "settlement made the day before describes him as of Camiling, Tarlac, represented by his " +
+          "mother Estefania with Pablo and Paulo Agustin. By 1921 the couple were living in " +
+          "Camiling, where two of their young daughters, Visitación Estefanía and Evangelina, died " +
+          "that summer.",
+        links: [
+          { label: "Marriage to Maxima Obra, 22 February 1914 — FamilySearch index", url: "https://www.familysearch.org/ark:/61903/1:1:FNZ4-JXG" },
+          { label: "Marriage settlement, 21 February 1914 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSZC-7S86-8?view=fullText" }
+        ],
         siblings: [
           { name: "Andrés Agustin", life: "b. 1882", pid: "PXDJ-LV1" },
           {
@@ -391,17 +400,40 @@ const GEN = {
       mother: {
         name: "Maxima Obra",
         place: "Bauang, La Union",
-        born: "1897",
+        born: "c. 1897",
         sex: "f",
         relation: "Great-grandmother",
-        evidence: "Family-tree supplied",
+        evidence: "Record-supported",
         notes:
-          "Wife of Segundo Agustin; by 1921 they were living in Camiling, Tarlac, where two of their " +
-          "young daughters died. The family tree gives her as a daughter of Fidel Obra and Monica " +
-          "Calica of Bauang, La Union, born in 1897 — which fits the gap between their children " +
-          "Faustino (1895) and Ildefonso (1899), and Fidel and Monica were also living in Camiling " +
-          "by 1936 — but no record naming her parents has been found yet; her baptism (Bauang, " +
-          "about 1897) would confirm it.",
+          "Daughter of Fidel Obra and Monica Calica of Bauang, La Union. She married Segundo " +
+          "Agustin at Bauang on 22 February 1914; FamilySearch's index of the marriage gives her " +
+          "age as 17 (so born about 1897, between her brothers Faustino and Ildefonso). The day " +
+          "before, the two families made a marriage settlement (pagsabaongan) before a Bauang " +
+          "notary, at the house of Don Ramón Dumpit and Doña Leonarda Balagutin; it names \"Fidel " +
+          "Obra ken Monica Calica nga ama ken ina\" — the father and mother — of Máxima Obra, and " +
+          "sets out property in Camiling and Santa Ignacia, Tarlac. By 1921 she and Segundo were " +
+          "living in Camiling, where two of their young daughters died. Her own baptism has not " +
+          "been found.",
+        records: [
+          {
+            date: "1914",
+            place: "Bauang, La Union",
+            claim: "Marriage settlement made the day before her wedding, naming her parents.",
+            excerpt:
+              "… ken dacami met nga binabayan nga ni Fidel Obra ken Monica Calica nga ama ken ina " +
+              "ni naisao nga Máxima Obra … (… and we of the bride's side, Fidel Obra and Monica " +
+              "Calica, father and mother of the said Máxima Obra …)",
+            notes:
+              "Bauang notarial records 1913–1916, images 52–53, dated 21 February 1914; quoted " +
+              "from FamilySearch's computer transcription of the Ilocano text.",
+            url: "docs/obra-agustin-marriage-settlement-1914.png"
+          }
+        ],
+        links: [
+          { label: "Marriage to Segundo Agustin, 22 February 1914 — FamilySearch index", url: "https://www.familysearch.org/ark:/61903/1:1:FNZ4-JXG" },
+          { label: "Marriage settlement, 21 February 1914 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSZC-7S86-8?view=fullText" },
+          { label: "Marriage settlement transcript (scan)", url: "docs/obra-agustin-marriage-settlement-1914.png" }
+        ],
         siblings: [
           {
             name: "Francisca Obra",
