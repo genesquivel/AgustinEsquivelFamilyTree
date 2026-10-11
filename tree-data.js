@@ -2112,10 +2112,11 @@ const PAOLO = {
           "priest Fr. Heliodoro Chico, assistant priest of Gapan. On 18 June 1884, as " +
           "\"Biviana Ramos, mestiza, soltera,\" she married Apolinario Esquivel of Jaen at " +
           "Gapan; the marriage again names her parents, D. Ciriaco and Dª Joaquina " +
-          "Cunanan, of barangay No. 83 of D. Mariano Ramos — her brother. She was the " +
+          "Cunanan, of barangay No. 83 of D. Mariano Ramos — very likely her brother. She was the " +
           "mother of Marcos (I) (1885), the twins Francisca and Radegundes (1887), " +
           "Cecilio (1892) and Marcos (1896), whose Jaen baptisms name the same " +
-          "grandparents. Her mother had died in 1874, ten years before her wedding.",
+          "grandparents, and of Julio, whose birth date is not yet known. Her mother had " +
+          "died in 1874, ten years before her wedding.",
         records: [
           {
             date: "1857",
@@ -2231,9 +2232,9 @@ const PAOLO = {
           notes:
             "Of Gapan, Nueva Ecija; husband of Joaquina Cunanan. Their children's Gapan " +
             "baptisms run from 1851 to 1869 — Dorotea (1851), Leoncia (1853), Bibiana " +
-            "(1857) and Estefanio (1869) — and their son Mariano married there in 1869; " +
-            "the records call the family mestizos, of the barangay of D. Tranquilino " +
-            "Rosario. He was widowed when Joaquina was buried on 2 December 1874, and was " +
+            "(1857) and Estefanio (1869) — and their son Mariano married there in 1869. " +
+            "The baptisms call the parents mestizos, of the barangay of D. Francisco(?) " +
+            "de Guzman in 1851 and of D. Tranquilino Rosario in 1857 and 1869. He was widowed when Joaquina was buried on 2 December 1874, and was " +
             "named again in Bibiana's 1884 marriage and her children's Jaen baptisms " +
             "(1885–1896).",
           links: [
@@ -2258,11 +2259,11 @@ const PAOLO = {
           evidence: "Record-supported",
           notes:
             "Wife of Ciriaco Ramos and mother of Dorotea (1851), Leoncia (1853), Bibiana " +
-            "(1857), Mariano and Estefanio (1869). She was buried at Gapan on 2 December " +
+            "(1857) and Estefanio (1869), and of Mariano, who married in 1869. She was buried at Gapan on 2 December " +
             "1874 as \"Dª Joaquina Cunanan, india,\" wife of Don Ciriaco Ramos, of the " +
             "barangay of Don Alvaro(?) de Guzman; she had received the sacraments, and " +
             "the priest was Fr. Antonio Cornejo. Leoncia's 1853 baptism writes her as " +
-            "\"Joaquina Guzman\"; every other record calls her Cunanan. Her own parents " +
+            "\"Joaquina Guzman\"; every other record that gives her surname calls her Cunanan. Her own parents " +
             "have not yet been identified.",
           links: [
             {
