@@ -2511,10 +2511,7 @@ const PAOLO = {
           "(FamilySearch index). His mother Modesta and Ambrosia's mother Francisca were " +
           "sisters, daughters of Alejandro Parguian, so Vicente and Ambrosia were first " +
           "cousins. A married priest at this date may point to the Philippine Independent " +
-          "(Aglipayan) Church — a possibility, not a finding. Some online trees list Blas " +
-          "Albano and Barbara Pacis as his parents; that cannot be right — Blas was born " +
-          "in 1885, after Vicente, and a Blas Alvano confirmed in 1892 was the son of " +
-          "Mariano and Andrea Dugen, a different family.",
+          "(Aglipayan) Church — a possibility, not a finding.",
         records: [
           {
             date: "1917",
@@ -2534,8 +2531,7 @@ const PAOLO = {
           { label: "Marriage register, 1917 (Bacarra) — FamilySearch", url: "https://www.familysearch.org/ark:/61903/3:1:3QS7-99LS-F9SC-D?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A6BQM-R7WX&action=view&lang=en" },
           { label: "Marriage register, 1917 — parents' columns (scan)", url: "docs/albano-ver-marriage-1917-register.png" },
           { label: "Marriage, 1917 — FamilySearch civil index", url: "https://www.familysearch.org/ark:/61903/1:1:6BQM-R7W9" },
-          { label: "Confirmation, 1890 — FamilySearch index", url: "https://www.familysearch.org/ark:/61903/1:1:XWMK-9J24" },
-          { label: "Not his family: Blas Alvano's confirmation, 1892 — FamilySearch index", url: "https://www.familysearch.org/ark:/61903/1:1:XWMV-F5ZB" }
+          { label: "Confirmation, 1890 — FamilySearch index", url: "https://www.familysearch.org/ark:/61903/1:1:XWMK-9J24" }
         ],
         father: {
           name: "Pedro Albano",
