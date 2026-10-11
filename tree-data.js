@@ -85,14 +85,14 @@ const GEN = {
           name: "Visitación Estefanía Agustin",
           life: "c. 1918–1921",
           evidence: "Record-supported",
-          url: "https://www.familysearch.org/ark:/61903/1:1:WFP4-D8T2",
+          url: "https://www.familysearch.org/ark:/61903/1:1:WFP4-D82M",
           note: "Daughter of Segundo Agustin and Maxima Obra; died at Camiling, Tarlac, on 5 August 1921, aged 3."
         },
         {
           name: "Evangelina Agustin",
           life: "c. 1920–1921",
           evidence: "Record-supported",
-          url: "https://www.familysearch.org/ark:/61903/1:1:WFPH-K7ZM",
+          url: "https://www.familysearch.org/ark:/61903/1:1:WFPH-K73Z",
           note: "Daughter of Segundo Agustin and Maxima Obra; died at Camiling, Tarlac, on 1 July 1921, aged 1."
         }
       ],
@@ -407,7 +407,7 @@ const GEN = {
             name: "Francisca Obra",
             life: "b. 1888",
             evidence: "Record-supported",
-            url: "https://www.familysearch.org/ark:/61903/1:1:663B-9136",
+            url: "https://www.familysearch.org/ark:/61903/1:1:663B-913C",
             note:
               "Daughter of Fidel Obra and Monica Calica; born 23 September 1888 and " +
               "christened at Bauang on 29 September 1888, with Dionisio Obra named as her " +
@@ -417,16 +417,17 @@ const GEN = {
             name: "Casimiro Obra",
             life: "b. 1893",
             evidence: "Record-supported",
-            url: "https://www.familysearch.org/ark:/61903/1:1:663G-N73J",
+            url: "https://www.familysearch.org/ark:/61903/1:1:663G-N73D",
             note:
               "Son of Fidel Obra and Monica Calica; born 1 March 1893 and christened at " +
-              "Bauang on 4 March 1893, grandson of Dionisio Obra (FamilySearch index)."
+              "Bauang on 4 March 1893; the index names his grandparents as Dionisio Obra and " +
+              "Fructuosa Yanguas (written Ganguas) and Alfonso Calica and Pascuala Ordoña."
           },
           {
             name: "Faustino Obra",
             life: "b. 1895",
             evidence: "Record-supported",
-            url: "https://www.familysearch.org/ark:/61903/1:1:663G-DC6X",
+            url: "https://www.familysearch.org/ark:/61903/1:1:663G-DC66",
             note:
               "Son of Fidel Obra and Monica Calica; born 12 February 1895 and christened " +
               "at Bauang on 16 February 1895, of barangay No. 20; the index names Fidel's " +
@@ -449,7 +450,7 @@ const GEN = {
             name: "Fabián Obra",
             life: "b. 1901",
             evidence: "Record-supported",
-            url: "https://www.familysearch.org/ark:/61903/1:1:663P-H9TX",
+            url: "https://www.familysearch.org/ark:/61903/1:1:663P-H9TD",
             note:
               "Son of Fidel Obra and Monica Calica; born 13 January 1901 and christened " +
               "at Bauang on 16 January 1901; the index names Fidel's parents as Dionisio " +
@@ -459,22 +460,22 @@ const GEN = {
             name: "Fortunata Obra",
             life: "d. 1907",
             evidence: "Record-supported",
-            url: "https://www.familysearch.org/ark:/61903/1:1:WFYV-DC2M",
+            url: "https://www.familysearch.org/ark:/61903/1:1:WFYV-DC6Z",
             note:
-              "Daughter of Fidel Obra and Monica Calica; died on 16 October 1907 as a " +
+              "Daughter of Fidel Obra and Monica Calica; died at San Fernando, La Union, on 16 October 1907 as a " +
               "newborn (FamilySearch index)."
           },
           {
             name: "Mariano C. Obra",
             life: "b. c. 1911",
             evidence: "Record-supported",
-            url: "https://www.familysearch.org/ark:/61903/1:1:6ZQ7-KFTX",
+            url: "https://www.familysearch.org/ark:/61903/1:1:6ZQ7-KFT6",
             note:
               "Son of Fidel Obra and Monica Calica (indexed as both Mariano and Marino C. " +
               "Obra). He married Felipa Reyes at Camiling, Tarlac, on 27 April 1950 " +
               "(FamilySearch index); he was then 39, so born about 1910–11.",
             links: [
-              { label: "Second index entry (\"Marino C. Obra\"), 1950 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:6BQC-8GFN" }
+              { label: "Second index entry (\"Marino C. Obra\"), 1950 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:6BQC-8GFZ" }
             ]
           }
         ],
@@ -508,7 +509,7 @@ const GEN = {
             {
               name: "Teresa Obra",
               evidence: "Record-supported",
-              url: "https://www.familysearch.org/ark:/61903/1:1:663P-4CPJ",
+              url: "https://www.familysearch.org/ark:/61903/1:1:663P-4CP8",
               note:
                 "Fidel's sister, a daughter of Dionisio Obra. She married Leocadio " +
                 "Barnachea; their daughters were Melchora Dionisia, born 6 May 1897 and " +
@@ -516,7 +517,7 @@ const GEN = {
                 "June 1893 with Fructuosa Yanguas named as a grandparent (FamilySearch " +
                 "indexes).",
               links: [
-                { label: "Daughter Melchora Dionisia's baptism, 1897 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:663P-4CPJ" },
+                { label: "Daughter Melchora Dionisia's baptism, 1897 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:663P-4CP8" },
                 { label: "Daughter Leona's baptism, 1893 — FamilySearch (image 1)", url: "https://www.familysearch.org/ark:/61903/3:1:3QS7-89WN-FZ3Q?view=index&cc=2071967&lang=en" },
                 { label: "Daughter Leona's baptism, 1893 — FamilySearch (image 2)", url: "https://www.familysearch.org/ark:/61903/3:1:3QS7-99WN-FZ2D?view=index&cc=2071967&lang=en" }
               ]
@@ -2531,7 +2532,7 @@ const PAOLO = {
           { label: "Marriage register, 1917 (Bacarra) — FamilySearch", url: "https://www.familysearch.org/ark:/61903/3:1:3QS7-99LS-F9SC-D?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A6BQM-R7WX&action=view&lang=en" },
           { label: "Marriage register, 1917 — parents' columns (scan)", url: "docs/albano-ver-marriage-1917-register.png" },
           { label: "Marriage, 1917 — FamilySearch civil index", url: "https://www.familysearch.org/ark:/61903/1:1:6BQM-R7W9" },
-          { label: "Confirmation, 1890 — FamilySearch index", url: "https://www.familysearch.org/ark:/61903/1:1:XWMK-9J24" }
+          { label: "Confirmation, 1890 — FamilySearch index", url: "https://www.familysearch.org/ark:/61903/1:1:XWMK-9J2S" }
         ],
         father: {
           name: "Pedro Albano",
@@ -2559,7 +2560,7 @@ const PAOLO = {
             "cousin.",
           links: [
             { label: "Son Vicente's marriage register, 1917 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/3:1:3QS7-99LS-F9SC-D?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A6BQM-R7WX&action=view&lang=en" },
-            { label: "Son Vicente's confirmation, 1890 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:XWMK-9J24" },
+            { label: "Son Vicente's confirmation, 1890 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:XWMK-9J2S" },
             { label: "Her confirmation, 1866 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:XWMK-SC3W" }
           ],
           father: {
@@ -2575,15 +2576,17 @@ const PAOLO = {
               "February 1866 as daughters of Alejandro Parguian and Mariana Ramones " +
               "(FamilySearch index; one entry writes \"Parguiran\"). FamilySearch also " +
               "indexes the burial of an Alejandro Parguian, who died on 8 February 1882 " +
-              "and was buried the next day, husband of Marciana Ramones — very likely the " +
-              "same man; its stated age gives a birth about 1805. Indexed marriages of an " +
+              "and was buried the next day, aged 77, husband of Marciana Ramones — very " +
+              "likely the same man, born about 1805. Indexed marriages of an " +
               "Alejandro Parguian to Getrudis Macadañgdañg (24 May 1824) and to Marciana " +
               "Ramonez (29 June 1863) may also be his; whether Marciana and Mariana are " +
               "one woman is not settled.",
             links: [
               { label: "Daughter Modesta's confirmation, 1866 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:XWMK-SC3W" },
               { label: "Daughter Francisca's confirmation, 1866 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:XWMK-WKVL" },
-              { label: "Marriage to Marciana Ramonez, 1863 — FamilySearch index", url: "https://www.familysearch.org/ark:/61903/1:1:XWMB-N72T" }
+              { label: "Burial, 9 February 1882 — FamilySearch index", url: "https://www.familysearch.org/ark:/61903/1:1:XWM1-JZ5L" },
+              { label: "Marriage to Marciana Ramonez, 1863 — FamilySearch index", url: "https://www.familysearch.org/ark:/61903/1:1:XWMB-N72T" },
+              { label: "Marriage to Getrudis Macadañgdañg, 1824 — FamilySearch index", url: "https://www.familysearch.org/ark:/61903/1:1:XWMK-J9P8" }
             ]
           },
           mother: {
@@ -2669,7 +2672,7 @@ const PAOLO = {
             "(Albano), and her as 18. Named as Ambrosia's father in her 1917 marriage " +
             "register.",
           links: [
-            { label: "Marriage to Francisca Parguian, 1879 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:XWMB-5DZC" },
+            { label: "Marriage to Francisca Parguian, 1879 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:XWMB-5DZW" },
             { label: "Daughter Ambrosia's marriage register, 1917 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/3:1:3QS7-99LS-F9SC-D?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A6BQM-R7WX&action=view&lang=en" }
           ],
           father: {
@@ -2686,7 +2689,7 @@ const PAOLO = {
               "1867.",
             links: [
               { label: "Marriage to Paula Albano, 1856 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:XWMB-8HCT" },
-              { label: "Son Antonio's marriage, 1879 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:XWMB-5DZC" }
+              { label: "Son Antonio's marriage, 1879 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:XWMB-5DZW" }
             ],
             father: {
               name: "Leon Ver de la Cruz",
@@ -2728,7 +2731,7 @@ const PAOLO = {
               "buried on 22 August 1867, wife of Candido Ver (FamilySearch index).",
             links: [
               { label: "Marriage to Candido Ver, 1856 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:XWMB-8HCT" },
-              { label: "Burial, 1867 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:XWMB-1FCW" }
+              { label: "Burial, 1867 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:XWMB-1FCQ" }
             ]
           }
         },
@@ -2750,7 +2753,7 @@ const PAOLO = {
             "married her first cousin.",
           links: [
             { label: "Daughter Ambrosia's marriage register, 1917 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/3:1:3QS7-99LS-F9SC-D?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A6BQM-R7WX&action=view&lang=en" },
-            { label: "Marriage to Antonio Ver, 1879 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:XWMB-5DZC" },
+            { label: "Marriage to Antonio Ver, 1879 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:XWMB-5DZW" },
             { label: "Her confirmation, 1866 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:XWMK-WKVL" }
           ],
           father: {
@@ -2766,15 +2769,17 @@ const PAOLO = {
               "February 1866 as daughters of Alejandro Parguian and Mariana Ramones " +
               "(FamilySearch index; one entry writes \"Parguiran\"). FamilySearch also " +
               "indexes the burial of an Alejandro Parguian, who died on 8 February 1882 " +
-              "and was buried the next day, husband of Marciana Ramones — very likely the " +
-              "same man; its stated age gives a birth about 1805. Indexed marriages of an " +
+              "and was buried the next day, aged 77, husband of Marciana Ramones — very " +
+              "likely the same man, born about 1805. Indexed marriages of an " +
               "Alejandro Parguian to Getrudis Macadañgdañg (24 May 1824) and to Marciana " +
               "Ramonez (29 June 1863) may also be his; whether Marciana and Mariana are " +
               "one woman is not settled.",
             links: [
               { label: "Daughter Modesta's confirmation, 1866 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:XWMK-SC3W" },
               { label: "Daughter Francisca's confirmation, 1866 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:XWMK-WKVL" },
-              { label: "Marriage to Marciana Ramonez, 1863 — FamilySearch index", url: "https://www.familysearch.org/ark:/61903/1:1:XWMB-N72T" }
+              { label: "Burial, 9 February 1882 — FamilySearch index", url: "https://www.familysearch.org/ark:/61903/1:1:XWM1-JZ5L" },
+              { label: "Marriage to Marciana Ramonez, 1863 — FamilySearch index", url: "https://www.familysearch.org/ark:/61903/1:1:XWMB-N72T" },
+              { label: "Marriage to Getrudis Macadañgdañg, 1824 — FamilySearch index", url: "https://www.familysearch.org/ark:/61903/1:1:XWMK-J9P8" }
             ]
           },
           mother: {
