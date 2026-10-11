@@ -2712,10 +2712,12 @@ const PAOLO = {
           relation: "2nd great-grandfather",
           evidence: "Record-supported",
           notes:
-            "Married Francisca Parguian at Bacarra on 2 June 1879; the FamilySearch index " +
-            "gives him as 20 (so born about 1859), son of Candido Ver and Paula Alvano " +
-            "(Albano), and her as 18. Named as Ambrosia's father in her 1917 marriage " +
-            "register.",
+            "Married Francisca Parguian at Bacarra on 2 June 1879. The register gives him " +
+            "as 20 years old (so born about 1859), son of D. Candido Ver and Paula Alvano " +
+            "(Albano), natives of Bacarra, labradores (farmers), of the barangay of D. " +
+            "Feliciano Danguay(?); the entry adds \"ya difunto\" (already deceased) after " +
+            "his parents' names. Witnesses: D. Andres Danguay(?) and Dª Eulalia —(?). Named as " +
+            "Ambrosia's father in her 1917 marriage register.",
           links: [
             { label: "Marriage to Francisca Parguian, 1879 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:XWMB-5DZW" },
             { label: "Daughter Ambrosia's marriage register, 1917 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/3:1:3QS7-99LS-F9SC-D?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A6BQM-R7WX&action=view&lang=en" }
@@ -2790,15 +2792,18 @@ const PAOLO = {
           notes:
             "Confirmed on 16 February 1866 — the same day as her sister Modesta — as a " +
             "daughter of Alejandro Parguian and Mariana Ramones (FamilySearch index). On " +
-            "2 June 1879 she married Antonio Ver at Bacarra, aged 18 (so born about " +
-            "1861); that marriage's index names her parents as Alejandro and Manuela " +
-            "Dacuycuy instead — a disagreement not yet settled; the manuscript (film " +
-            "007776570, image 608) should resolve it. Named as Ambrosia's mother in the " +
-            "1917 register. Her sister Modesta was Vicente Albano's mother, so Ambrosia " +
-            "married her first cousin.",
+            "2 June 1879 she married Antonio Ver at Bacarra: the register calls her " +
+            "india, single, 18 years old (so born about 1861), \"hija de D. Alejandro y de " +
+            "Manuela Dacuycuy,\" of the barangay of D. Martin Macadangdang. That differs " +
+            "from the 1866 confirmations, which both name Mariana Ramones; Manuela may " +
+            "have been a later wife of Alejandro, recorded as the bride's mother — not " +
+            "yet confirmed. Named as Ambrosia's mother in the 1917 register. Her sister " +
+            "Modesta was Vicente Albano's mother, so Ambrosia married her first cousin.",
           links: [
             { label: "Daughter Ambrosia's marriage register, 1917 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/3:1:3QS7-99LS-F9SC-D?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A6BQM-R7WX&action=view&lang=en" },
             { label: "Marriage to Antonio Ver, 1879 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:XWMB-5DZW" },
+            { label: "Marriage register, 1879 (scan, left half)", url: "docs/ver-parguian-marriage-1879-left.jpg" },
+            { label: "Marriage register, 1879 (scan, right half)", url: "docs/ver-parguian-marriage-1879-right.jpg" },
             { label: "Her confirmation, 1866 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:XWMK-WKVL" }
           ],
           father: {
@@ -2838,8 +2843,8 @@ const PAOLO = {
               "Modesta and Francisca Parguian (FamilySearch index). The 1882 burial of " +
               "Alejandro Parguian names his wife as Marciana Ramones, probably the same " +
               "woman. Her marriage to Alejandro has not been found. Francisca's own 1879 " +
-              "marriage index names her mother as Manuela Dacuycuy instead; which is " +
-              "right is not yet settled.",
+              "marriage register names her mother as Manuela Dacuycuy instead — perhaps " +
+              "a later wife of Alejandro; not yet settled.",
             links: [
               { label: "Daughter Modesta's confirmation, 1866 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:XWMK-SC3W" },
               { label: "Daughter Francisca's confirmation, 1866 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:XWMK-WKVL" }
