@@ -411,8 +411,7 @@ const GEN = {
             note:
               "Daughter of Fidel Obra and Monica Calica; born 23 September 1888 and " +
               "christened at Bauang on 29 September 1888, with Dionisio Obra named as her " +
-              "grandfather; godmother Francisca Padilla (FamilySearch's computer index, " +
-              "which garbles some names)."
+              "grandfather (FamilySearch's computer index, which garbles some names)."
           },
           {
             name: "Casimiro Obra",
@@ -421,8 +420,7 @@ const GEN = {
             url: "https://www.familysearch.org/ark:/61903/1:1:663G-N73J",
             note:
               "Son of Fidel Obra and Monica Calica; born 1 March 1893 and christened at " +
-              "Bauang on 4 March 1893, grandson of Dionisio Obra; godfather indexed as " +
-              "Hermenegildo Calica."
+              "Bauang on 4 March 1893, grandson of Dionisio Obra (FamilySearch index)."
           },
           {
             name: "Faustino Obra",
@@ -463,8 +461,8 @@ const GEN = {
             evidence: "Record-supported",
             url: "https://www.familysearch.org/ark:/61903/1:1:WFYV-DC2M",
             note:
-              "Daughter of Fidel Obra and Monica Calica; died on 16 October 1907, the day " +
-              "she was born."
+              "Daughter of Fidel Obra and Monica Calica; died on 16 October 1907 as a " +
+              "newborn (FamilySearch index)."
           },
           {
             name: "Mariano C. Obra",
@@ -473,9 +471,8 @@ const GEN = {
             url: "https://www.familysearch.org/ark:/61903/1:1:6ZQ7-KFTX",
             note:
               "Son of Fidel Obra and Monica Calica (indexed as both Mariano and Marino C. " +
-              "Obra). He married Felipa Reyes, 22, daughter of Juan Reyes and Severa " +
-              "Inocencio, at Camiling, Tarlac, on 27 April 1950; he was then 39, so born " +
-              "about 1910–11.",
+              "Obra). He married Felipa Reyes at Camiling, Tarlac, on 27 April 1950 " +
+              "(FamilySearch index); he was then 39, so born about 1910–11.",
             links: [
               { label: "Second index entry (\"Marino C. Obra\"), 1950 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:6BQC-8GFN" }
             ]
@@ -494,10 +491,9 @@ const GEN = {
             "1907, and a son, Mariano, born about 1910–11, married at Camiling, Tarlac, " +
             "in 1950. By 1936 Fidel and Monica were living in Camiling: on 28 January " +
             "1936 Fidel, \"married to Monica Calica, and a resident of the municipality of " +
-            "Camiling, Tarlac,\" mortgaged about four hectares of land in barrio Urayong, " +
-            "Bauang, to Maria Picardal de Barnachea for ₱400 (Tax Declaration 28358); he " +
-            "was exempted from the cedula tax on account of his age. The witness names on " +
-            "that mortgage are not yet clearly read.",
+            "Camiling, Tarlac,\" mortgaged a parcel of land in barrio Urayong, Bauang, to " +
+            "Maria Picardal de Barnachea for ₱400. The witness names on that mortgage are " +
+            "not yet clearly read.",
           links: [
             {
               label: "Son Ildefonso's baptism, 1899 — FamilySearch",
@@ -515,10 +511,10 @@ const GEN = {
               url: "https://www.familysearch.org/ark:/61903/1:1:663P-4CPJ",
               note:
                 "Fidel's sister, a daughter of Dionisio Obra. She married Leocadio " +
-                "Barnachea; their daughters were Leona, baptized at Caba on 28 June 1893 " +
-                "(godmother Paula Andrada), and Melchora Dionisia, born 6 May 1897 and " +
-                "christened at Bauang on 8 May 1897 (godmother Melchora Mangaoang), whose " +
-                "baptism names all four grandparents.",
+                "Barnachea; their daughters were Melchora Dionisia, born 6 May 1897 and " +
+                "christened at Bauang on 8 May 1897, and Leona, baptized at Caba on 28 " +
+                "June 1893 with Fructuosa Yanguas named as a grandparent (FamilySearch " +
+                "indexes).",
               links: [
                 { label: "Daughter Melchora Dionisia's baptism, 1897 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:663P-4CPJ" },
                 { label: "Daughter Leona's baptism, 1893 — FamilySearch (image 1)", url: "https://www.familysearch.org/ark:/61903/3:1:3QS7-89WN-FZ3Q?view=index&cc=2071967&lang=en" },
