@@ -80,12 +80,31 @@ const GEN = {
       name: "Benjamin Agustin",
       sex: "m",
       relation: "Grandfather",
+      siblings: [
+        {
+          name: "Visitación Estefanía Agustin",
+          life: "c. 1918–1921",
+          evidence: "Record-supported",
+          url: "https://www.familysearch.org/ark:/61903/1:1:WFP4-D8T2",
+          note: "Daughter of Segundo Agustin and Maxima Obra; died at Camiling, Tarlac, on 5 August 1921, aged 3."
+        },
+        {
+          name: "Evangelina Agustin",
+          life: "c. 1920–1921",
+          evidence: "Record-supported",
+          url: "https://www.familysearch.org/ark:/61903/1:1:WFPH-K7ZM",
+          note: "Daughter of Segundo Agustin and Maxima Obra; died at Camiling, Tarlac, on 1 July 1921, aged 1."
+        }
+      ],
       father: {
         name: "Segundo Agustin",
         place: "Cabiao, Nueva Ecija",
         born: "1899",
         sex: "m",
         relation: "Great-grandfather",
+        notes:
+          "Husband of Maxima Obra. By 1921 the couple were living in Camiling, Tarlac, where two " +
+          "of their young daughters, Visitación Estefanía and Evangelina, died that summer.",
         siblings: [
           { name: "Andrés Agustin", life: "b. 1882", pid: "PXDJ-LV1" },
           {
@@ -375,11 +394,46 @@ const GEN = {
         born: "1897",
         sex: "f",
         relation: "Great-grandmother",
-        evidence: "Record-supported",
+        evidence: "Family-tree supplied",
         notes:
-          "Of Bauang, La Union, daughter of Fidel Obra and Monica Calica; she appears as a witness " +
-          "in her parents' 28 January 1936 mortgage.",
+          "Wife of Segundo Agustin; by 1921 they were living in Camiling, Tarlac, where two of their " +
+          "young daughters died. The family tree gives her as a daughter of Fidel Obra and Monica " +
+          "Calica of Bauang, La Union, born in 1897 — which fits the gap between their children " +
+          "Faustino (1895) and Ildefonso (1899), and Fidel and Monica were also living in Camiling " +
+          "by 1936 — but no record naming her parents has been found yet; her baptism (Bauang, " +
+          "about 1897) would confirm it.",
         siblings: [
+          {
+            name: "Francisca Obra",
+            life: "b. 1888",
+            evidence: "Record-supported",
+            url: "https://www.familysearch.org/ark:/61903/1:1:663B-9136",
+            note:
+              "Daughter of Fidel Obra and Monica Calica; born 23 September 1888 and " +
+              "christened at Bauang on 29 September 1888, with Dionisio Obra named as her " +
+              "grandfather; godmother Francisca Padilla (FamilySearch's computer index, " +
+              "which garbles some names)."
+          },
+          {
+            name: "Casimiro Obra",
+            life: "b. 1893",
+            evidence: "Record-supported",
+            url: "https://www.familysearch.org/ark:/61903/1:1:663G-N73J",
+            note:
+              "Son of Fidel Obra and Monica Calica; born 1 March 1893 and christened at " +
+              "Bauang on 4 March 1893, grandson of Dionisio Obra; godfather indexed as " +
+              "Hermenegildo Calica."
+          },
+          {
+            name: "Faustino Obra",
+            life: "b. 1895",
+            evidence: "Record-supported",
+            url: "https://www.familysearch.org/ark:/61903/1:1:663G-DC6X",
+            note:
+              "Son of Fidel Obra and Monica Calica; born 12 February 1895 and christened " +
+              "at Bauang on 16 February 1895, of barangay No. 20; the index names Fidel's " +
+              "parents as Dionisio and Fructuosa Yanguas."
+          },
           {
             name: "Ildefonso Obra",
             life: "b. 1899",
@@ -388,10 +442,43 @@ const GEN = {
             note:
               "Maxima's brother. Baptized 11 February 1899 in Bauang (born about 6 " +
               "February 1899), son of Fidel Obra and Monica Ordoña; paternal grandparents " +
-              "Dionisio Obra (deceased) and Fructuosa Jangreas; maternal grandparents " +
+              "Dionisio Obra (deceased) and Fructuosa Yanguas; maternal grandparents " +
               "Alfonso Calica (deceased) and Pascuala Ordoña; godmother Veronica " +
               "Wenceslao of Caba. This is the record that names all four of Maxima's " +
               "grandparents, and it shows both grandfathers had died by February 1899."
+          },
+          {
+            name: "Fabián Obra",
+            life: "b. 1901",
+            evidence: "Record-supported",
+            url: "https://www.familysearch.org/ark:/61903/1:1:663P-H9TX",
+            note:
+              "Son of Fidel Obra and Monica Calica; born 13 January 1901 and christened " +
+              "at Bauang on 16 January 1901; the index names Fidel's parents as Dionisio " +
+              "Obra and Fructuosa Yanguas."
+          },
+          {
+            name: "Fortunata Obra",
+            life: "d. 1907",
+            evidence: "Record-supported",
+            url: "https://www.familysearch.org/ark:/61903/1:1:WFYV-DC2M",
+            note:
+              "Daughter of Fidel Obra and Monica Calica; died on 16 October 1907, the day " +
+              "she was born."
+          },
+          {
+            name: "Mariano C. Obra",
+            life: "b. c. 1911",
+            evidence: "Record-supported",
+            url: "https://www.familysearch.org/ark:/61903/1:1:6ZQ7-KFTX",
+            note:
+              "Son of Fidel Obra and Monica Calica (indexed as both Mariano and Marino C. " +
+              "Obra). He married Felipa Reyes, 22, daughter of Juan Reyes and Severa " +
+              "Inocencio, at Camiling, Tarlac, on 27 April 1950; he was then 39, so born " +
+              "about 1910–11.",
+            links: [
+              { label: "Second index entry (\"Marino C. Obra\"), 1950 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:6BQC-8GFN" }
+            ]
           }
         ],
         father: {
@@ -401,17 +488,42 @@ const GEN = {
           relation: "2nd great-grandfather",
           evidence: "Record-supported",
           notes:
-            "Of Bauang, La Union; husband of Monica Calica (Ordoña). Named as father in his son " +
-            "Ildefonso's 1899 baptism and in a 28 January 1936 San Fernando mortgage with Monica, " +
-            "which also lists their daughter Maxima (b. 1897) as a witness.",
+            "Of Bauang, La Union; husband of Monica Calica (also written Ordoña). Their " +
+            "children's Bauang baptisms run from 1888 to 1901 — Francisca, Casimiro, " +
+            "Faustino, Ildefonso and Fabián — a newborn daughter, Fortunata, died in " +
+            "1907, and a son, Mariano, born about 1910–11, married at Camiling, Tarlac, " +
+            "in 1950. By 1936 Fidel and Monica were living in Camiling: on 28 January " +
+            "1936 Fidel, \"married to Monica Calica, and a resident of the municipality of " +
+            "Camiling, Tarlac,\" mortgaged about four hectares of land in barrio Urayong, " +
+            "Bauang, to Maria Picardal de Barnachea for ₱400 (Tax Declaration 28358); he " +
+            "was exempted from the cedula tax on account of his age. The witness names on " +
+            "that mortgage are not yet clearly read.",
           links: [
             {
               label: "Son Ildefonso's baptism, 1899 — FamilySearch",
               url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSMJ-PSHC-4?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A663G-V69M&action=view&lang=en&groupId=M9ZW-9QJ"
             },
             {
-              label: "Mortgage with Monica Calica, 1936 — FamilySearch",
+              label: "Mortgage of land in Urayong, Bauang, 1936 — FamilySearch",
               url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSCY-4HZF?view=fullText&keywords=MONICA+CALICA&searchForm=simple&lang=en&groupId=M9MR-1SH"
+            }
+          ],
+          siblings: [
+            {
+              name: "Teresa Obra",
+              evidence: "Record-supported",
+              url: "https://www.familysearch.org/ark:/61903/1:1:663P-4CPJ",
+              note:
+                "Fidel's sister, a daughter of Dionisio Obra. She married Leocadio " +
+                "Barnachea; their daughters were Leona, baptized at Caba on 28 June 1893 " +
+                "(godmother Paula Andrada), and Melchora Dionisia, born 6 May 1897 and " +
+                "christened at Bauang on 8 May 1897 (godmother Melchora Mangaoang), whose " +
+                "baptism names all four grandparents.",
+              links: [
+                { label: "Daughter Melchora Dionisia's baptism, 1897 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:663P-4CPJ" },
+                { label: "Daughter Leona's baptism, 1893 — FamilySearch (image 1)", url: "https://www.familysearch.org/ark:/61903/3:1:3QS7-89WN-FZ3Q?view=index&cc=2071967&lang=en" },
+                { label: "Daughter Leona's baptism, 1893 — FamilySearch (image 2)", url: "https://www.familysearch.org/ark:/61903/3:1:3QS7-99WN-FZ2D?view=index&cc=2071967&lang=en" }
+              ]
             }
           ],
           father: {
@@ -420,17 +532,22 @@ const GEN = {
             sex: "m",
             relation: "3rd great-grandfather",
             evidence: "Record-supported",
-            notes: "Named as Fidel's father in Ildefonso's 1899 baptism, where he is already recorded as deceased."
+            notes:
+              "Named as Fidel's father in Ildefonso's 1899 baptism, where he is already recorded " +
+              "as deceased, and as grandfather in the Bauang baptisms of Fidel's children Francisca " +
+              "(1888) and Casimiro (1893) and of his daughter Teresa's child Melchora Dionisia (1897)."
           },
           mother: {
-            name: "Fructuosa Jangreas",
+            name: "Fructuosa Yanguas",
             place: "Bauang, La Union",
             sex: "f",
             relation: "3rd great-grandmother",
             evidence: "Record-supported",
             notes:
-              "Named as Fidel's mother in Ildefonso's 1899 baptism; the surname reading is " +
-              "uncertain (an earlier reading gave \"Enestosa Jangaas\")."
+              "Named as Fidel's mother in Ildefonso's 1899 baptism. Her surname has been read " +
+              "\"Jangreas\" in that entry, but FamilySearch's indexes of her other grandchildren's " +
+              "baptisms read it Yanguas (written Fruetuosa, Pructuosa or Tuosa Yanguas), so " +
+              "Yanguas is the likelier reading."
           }
         },
         mother: {
@@ -441,7 +558,7 @@ const GEN = {
           evidence: "Record-supported",
           notes:
             "Wife of Fidel Obra. Her son Ildefonso's 1899 baptism writes her surname \"Ordoña,\" " +
-            "while the 1936 mortgage (a legal record, she a living party) gives \"Calica\" — the " +
+            "while the 1936 mortgage and her children's other baptisms give \"Calica\" — the " +
             "same woman; Calica is kept as the primary surname with Ordoña as a documented variant.",
           father: {
             name: "Alfonso Calica",
@@ -2363,17 +2480,20 @@ const PAOLO = {
         {
           label: "Marriage to Josefina Maloyo — FamilySearch",
           url: "https://www.familysearch.org/ark:/61903/3:1:3QS7-8923-79LY-W?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A6B3P-54H9&action=view&cc=1410394&lang=en"
-        }
+        },
+        { label: "Marriage, 2 January 1944 — FamilySearch civil index", url: "https://www.familysearch.org/ark:/61903/1:1:6B3P-5441" },
+        { label: "Marriage register, 1944, entry 210 (scan)", url: "docs/albano-maloyo-marriage-1944.png" }
       ],
       records: [
         {
-          date: "c. 1943",
+          date: "1944",
           place: "Bacarra, Ilocos Norte",
-          claim: "Marriage of Alejandro Albano and Josefina Maloyo, both aged 18.",
+          claim: "Married Josefina Maloyo at Bacarra on 2 January 1944, both aged 18.",
           excerpt:
             "Husband: Alejandro Albano, 18, Filipino, of Bacarra, Ilocos Norte; father Vicente " +
             "Albano, mother Ambrocia Ver. Wife: Josefina Maloyo, 18; father Tomas Maloyo, mother " +
             "Agapita Andres.",
+          notes: "Civil register entry No. 210 (Record No. 854, page 92); the date is written \"1-2-44\" (month-day-year).",
           url: "https://www.familysearch.org/ark:/61903/3:1:3QS7-8923-79LY-W?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A6B3P-54H9&action=view&cc=1410394&lang=en"
         }
       ],
@@ -2388,13 +2508,17 @@ const PAOLO = {
           "Of Bacarra, Ilocos Norte. The 1917 Bacarra marriage register lists him as " +
           "\"Presb.° Vicente Albano,\" 36 (so born about 1881), occupation sacerdote " +
           "(priest), son of Pedro Albano and Modesta Parguian; his bride was Ambrosia " +
-          "Ver, 29. FamilySearch's index dates the marriage 20 August 1917 (the date is " +
-          "not on the register row itself) and reads his title \"Presb.°\" (presbítero, " +
-          "priest) as a name, \"Piesto.\" A married priest at this date may point to the " +
-          "Philippine Independent (Aglipayan) Church — a possibility, not a finding. Some " +
-          "online trees list Blas Albano and Barbara Pacis as his parents; that cannot be " +
-          "right — Blas was born in 1885, after Vicente — and this register names his " +
-          "parents directly.",
+          "Ver, 29. The civil index dates the marriage 20 August 1917 (Record No. 3775, " +
+          "page 7, Registration No. 157) and reads his title \"Presb.°\" (presbítero, " +
+          "priest) as a name, \"Piesto.\" His confirmation on 7 November 1890 — the same " +
+          "day as Ambrosia's — also names his parents as Pedro and Modesta Pargrian " +
+          "(FamilySearch index). His mother Modesta and Ambrosia's mother Francisca were " +
+          "sisters, daughters of Alejandro Parguian, so Vicente and Ambrosia were first " +
+          "cousins. A married priest at this date may point to the Philippine Independent " +
+          "(Aglipayan) Church — a possibility, not a finding. Some online trees list Blas " +
+          "Albano and Barbara Pacis as his parents; that cannot be right — Blas was born " +
+          "in 1885, after Vicente, and a Blas Alvano confirmed in 1892 was the son of " +
+          "Mariano and Andrea Dugen, a different family.",
         records: [
           {
             date: "1917",
@@ -2412,14 +2536,19 @@ const PAOLO = {
         ],
         links: [
           { label: "Marriage register, 1917 (Bacarra) — FamilySearch", url: "https://www.familysearch.org/ark:/61903/3:1:3QS7-99LS-F9SC-D?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A6BQM-R7WX&action=view&lang=en" },
-          { label: "Marriage register, 1917 — parents' columns (scan)", url: "docs/albano-ver-marriage-1917-register.png" }
+          { label: "Marriage register, 1917 — parents' columns (scan)", url: "docs/albano-ver-marriage-1917-register.png" },
+          { label: "Marriage, 1917 — FamilySearch civil index", url: "https://www.familysearch.org/ark:/61903/1:1:6BQM-R7W9" },
+          { label: "Confirmation, 1890 — FamilySearch index", url: "https://www.familysearch.org/ark:/61903/1:1:XWMK-9J24" },
+          { label: "Not his family: Blas Alvano's confirmation, 1892 — FamilySearch index", url: "https://www.familysearch.org/ark:/61903/1:1:XWMV-F5ZB" }
         ],
         father: {
           name: "Pedro Albano",
           sex: "m",
           relation: "2nd great-grandfather",
           evidence: "Record-supported",
-          notes: "Named as Vicente Albano's father in the 1917 Bacarra marriage register.",
+          notes:
+            "Named as Vicente Albano's father in the 1917 Bacarra marriage register and, as " +
+            "\"Pedro,\" in Vicente's 7 November 1890 confirmation.",
           links: [
             { label: "Son Vicente's marriage register, 1917 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/3:1:3QS7-99LS-F9SC-D?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A6BQM-R7WX&action=view&lang=en" }
           ]
@@ -2429,10 +2558,58 @@ const PAOLO = {
           sex: "f",
           relation: "2nd great-grandmother",
           evidence: "Record-supported",
-          notes: "Named as Vicente Albano's mother in the 1917 Bacarra marriage register.",
+          notes:
+            "Named as Vicente Albano's mother in the 1917 Bacarra marriage register and, " +
+            "as \"Modesta Pargrian,\" in his 7 November 1890 confirmation. She was herself " +
+            "confirmed on 16 February 1866 — the same day as her sister Francisca — as a " +
+            "daughter of Alejandro Parguian and Mariana Ramones (FamilySearch index). " +
+            "Francisca's daughter Ambrosia married Modesta's son Vicente, her first " +
+            "cousin.",
           links: [
-            { label: "Son Vicente's marriage register, 1917 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/3:1:3QS7-99LS-F9SC-D?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A6BQM-R7WX&action=view&lang=en" }
-          ]
+            { label: "Son Vicente's marriage register, 1917 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/3:1:3QS7-99LS-F9SC-D?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A6BQM-R7WX&action=view&lang=en" },
+            { label: "Son Vicente's confirmation, 1890 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:XWMK-9J24" },
+            { label: "Her confirmation, 1866 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:XWMK-SC3W" }
+          ],
+          father: {
+            name: "Alejandro Parguian",
+            place: "Bacarra, Ilocos Norte",
+            born: "c. 1805",
+            died: "1882",
+            sex: "m",
+            relation: "3rd great-grandfather",
+            evidence: "Record-supported",
+            notes:
+              "Father of the sisters Modesta and Francisca Parguian, both confirmed on 16 " +
+              "February 1866 as daughters of Alejandro Parguian and Mariana Ramones " +
+              "(FamilySearch index; one entry writes \"Parguiran\"). FamilySearch also " +
+              "indexes the burial of an Alejandro Parguian, who died on 8 February 1882 " +
+              "and was buried the next day, husband of Marciana Ramones — very likely the " +
+              "same man; its stated age gives a birth about 1805. Indexed marriages of an " +
+              "Alejandro Parguian to Getrudis Macadañgdañg (24 May 1824) and to Marciana " +
+              "Ramonez (29 June 1863) may also be his; whether Marciana and Mariana are " +
+              "one woman is not settled.",
+            links: [
+              { label: "Daughter Modesta's confirmation, 1866 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:XWMK-SC3W" },
+              { label: "Daughter Francisca's confirmation, 1866 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:XWMK-WKVL" },
+              { label: "Marriage to Marciana Ramonez, 1863 — FamilySearch index", url: "https://www.familysearch.org/ark:/61903/1:1:XWMB-N72T" }
+            ]
+          },
+          mother: {
+            name: "Mariana Ramones",
+            place: "Bacarra, Ilocos Norte",
+            sex: "f",
+            relation: "3rd great-grandmother",
+            evidence: "Record-supported",
+            notes:
+              "Named as the mother in the 16 February 1866 confirmations of her daughters " +
+              "Modesta and Francisca Parguian (FamilySearch index). The 1882 burial of " +
+              "Alejandro Parguian names his wife as Marciana Ramones, probably the same " +
+              "woman. Her marriage to Alejandro has not been found.",
+            links: [
+              { label: "Daughter Modesta's confirmation, 1866 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:XWMK-SC3W" },
+              { label: "Daughter Francisca's confirmation, 1866 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:XWMK-WKVL" }
+            ]
+          }
         }
       },
       mother: {
@@ -2455,7 +2632,9 @@ const PAOLO = {
           "of \"Ambrocia Vea\" on 6 May 1908, and a FamilySearch tree profile repeats that " +
           "death; it is a misindexed marriage, and she did not die in 1908. A FamilySearch " +
           "index of a 7 November 1890 confirmation also names an Ambrocia Ver, daughter of " +
-          "D. Antonio and Francisca Pargian. Her mother's surname is " +
+          "D. Antonio and Francisca Pargian — the same day Vicente Albano was confirmed. " +
+          "Her mother Francisca and Vicente's mother Modesta were sisters, so she and Vicente " +
+          "were first cousins. Her mother's surname is " +
           "spelled Parguian, Pargian, Parguion, or Pargeisan in different records.",
         records: [
           {
@@ -2487,26 +2666,143 @@ const PAOLO = {
         ],
         father: {
           name: "Antonio Ver",
+          place: "Bacarra, Ilocos Norte",
+          born: "c. 1859",
           sex: "m",
           relation: "2nd great-grandfather",
           evidence: "Record-supported",
-          notes: "Named as Ambrosia Ver's father in the 1917 Bacarra marriage register.",
+          notes:
+            "Married Francisca Parguian at Bacarra on 2 June 1879; the FamilySearch index " +
+            "gives him as 20 (so born about 1859), son of Candido Ver and Paula Alvano " +
+            "(Albano), and her as 18. Named as Ambrosia's father in her 1917 marriage " +
+            "register.",
           links: [
+            { label: "Marriage to Francisca Parguian, 1879 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:XWMB-5DZC" },
             { label: "Daughter Ambrosia's marriage register, 1917 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/3:1:3QS7-99LS-F9SC-D?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A6BQM-R7WX&action=view&lang=en" }
-          ]
+          ],
+          father: {
+            name: "Candido Ver",
+            place: "Bacarra, Ilocos Norte",
+            sex: "m",
+            relation: "3rd great-grandfather",
+            evidence: "Record-supported",
+            notes:
+              "Recorded as Candido Ver de la Cruz when he married Paula Albano Ventura at " +
+              "Bacarra on 28 July 1856; the index names his parents as Leon Ver de la " +
+              "Cruz and Valeria Albano Buenaventura. Named as Antonio's father in " +
+              "Antonio's 1879 marriage. He was widowed when Paula was buried on 22 August " +
+              "1867.",
+            links: [
+              { label: "Marriage to Paula Albano, 1856 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:XWMB-8HCT" },
+              { label: "Son Antonio's marriage, 1879 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:XWMB-5DZC" }
+            ],
+            father: {
+              name: "Leon Ver de la Cruz",
+              place: "Bacarra, Ilocos Norte",
+              sex: "m",
+              relation: "4th great-grandfather",
+              evidence: "Record-supported",
+              notes:
+                "Named as Candido Ver de la Cruz's father in Candido's 28 July 1856 " +
+                "Bacarra marriage (FamilySearch index).",
+              links: [
+                { label: "Son Candido's marriage, 1856 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:XWMB-8HCT" }
+              ]
+            },
+            mother: {
+              name: "Valeria Albano Buenaventura",
+              place: "Bacarra, Ilocos Norte",
+              sex: "f",
+              relation: "4th great-grandmother",
+              evidence: "Record-supported",
+              notes:
+                "Named as Candido Ver de la Cruz's mother in Candido's 28 July 1856 " +
+                "Bacarra marriage (FamilySearch index).",
+              links: [
+                { label: "Son Candido's marriage, 1856 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:XWMB-8HCT" }
+              ]
+            }
+          },
+          mother: {
+            name: "Paula Albano",
+            place: "Bacarra, Ilocos Norte",
+            died: "1867",
+            sex: "f",
+            relation: "3rd great-grandmother",
+            evidence: "Record-supported",
+            notes:
+              "Recorded as Paula Albano Ventura at her 28 July 1856 marriage to Candido " +
+              "Ver, and as Paula Alvano, Antonio's mother, in his 1879 marriage. She was " +
+              "buried on 22 August 1867, wife of Candido Ver (FamilySearch index).",
+            links: [
+              { label: "Marriage to Candido Ver, 1856 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:XWMB-8HCT" },
+              { label: "Burial, 1867 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:XWMB-1FCW" }
+            ]
+          }
         },
         mother: {
           name: "Francisca Parguian",
+          place: "Bacarra, Ilocos Norte",
+          born: "c. 1861",
           sex: "f",
           relation: "2nd great-grandmother",
           evidence: "Record-supported",
           notes:
-            "Named as Ambrosia Ver's mother in the 1917 Bacarra marriage register. Vicente " +
-            "Albano's mother, Modesta, was also a Parguian; no relationship between the two " +
-            "is stated in the record.",
+            "Confirmed on 16 February 1866 — the same day as her sister Modesta — as a " +
+            "daughter of Alejandro Parguian and Mariana Ramones (FamilySearch index). On " +
+            "2 June 1879 she married Antonio Ver at Bacarra, aged 18 (so born about " +
+            "1861); that marriage's index names her parents as Alejandro and Manuela " +
+            "Dacuycuy instead — a disagreement not yet settled; the manuscript (film " +
+            "007776570, image 608) should resolve it. Named as Ambrosia's mother in the " +
+            "1917 register. Her sister Modesta was Vicente Albano's mother, so Ambrosia " +
+            "married her first cousin.",
           links: [
-            { label: "Daughter Ambrosia's marriage register, 1917 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/3:1:3QS7-99LS-F9SC-D?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A6BQM-R7WX&action=view&lang=en" }
-          ]
+            { label: "Daughter Ambrosia's marriage register, 1917 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/3:1:3QS7-99LS-F9SC-D?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A6BQM-R7WX&action=view&lang=en" },
+            { label: "Marriage to Antonio Ver, 1879 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:XWMB-5DZC" },
+            { label: "Her confirmation, 1866 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:XWMK-WKVL" }
+          ],
+          father: {
+            name: "Alejandro Parguian",
+            place: "Bacarra, Ilocos Norte",
+            born: "c. 1805",
+            died: "1882",
+            sex: "m",
+            relation: "3rd great-grandfather",
+            evidence: "Record-supported",
+            notes:
+              "Father of the sisters Modesta and Francisca Parguian, both confirmed on 16 " +
+              "February 1866 as daughters of Alejandro Parguian and Mariana Ramones " +
+              "(FamilySearch index; one entry writes \"Parguiran\"). FamilySearch also " +
+              "indexes the burial of an Alejandro Parguian, who died on 8 February 1882 " +
+              "and was buried the next day, husband of Marciana Ramones — very likely the " +
+              "same man; its stated age gives a birth about 1805. Indexed marriages of an " +
+              "Alejandro Parguian to Getrudis Macadañgdañg (24 May 1824) and to Marciana " +
+              "Ramonez (29 June 1863) may also be his; whether Marciana and Mariana are " +
+              "one woman is not settled.",
+            links: [
+              { label: "Daughter Modesta's confirmation, 1866 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:XWMK-SC3W" },
+              { label: "Daughter Francisca's confirmation, 1866 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:XWMK-WKVL" },
+              { label: "Marriage to Marciana Ramonez, 1863 — FamilySearch index", url: "https://www.familysearch.org/ark:/61903/1:1:XWMB-N72T" }
+            ]
+          },
+          mother: {
+            name: "Mariana Ramones",
+            place: "Bacarra, Ilocos Norte",
+            sex: "f",
+            relation: "3rd great-grandmother",
+            evidence: "Record-supported",
+            notes:
+              "Named as the mother in the 16 February 1866 confirmations of her daughters " +
+              "Modesta and Francisca Parguian (FamilySearch index). The 1882 burial of " +
+              "Alejandro Parguian names his wife as Marciana Ramones, probably the same " +
+              "woman. Her marriage to Alejandro has not been found. Francisca's own 1879 " +
+              "marriage index names her mother as Manuela Dacuycuy instead; which is " +
+              "right is not yet settled.",
+            links: [
+              { label: "Daughter Modesta's confirmation, 1866 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:XWMK-SC3W" },
+              { label: "Daughter Francisca's confirmation, 1866 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:XWMK-WKVL" }
+            ]
+          }
         }
       }
     },
@@ -2519,13 +2815,14 @@ const PAOLO = {
       notes: "From Bacarra, Ilocos Norte; married Alejandro Ver Albano.",
       records: [
         {
-          date: "c. 1943",
+          date: "1944",
           place: "Bacarra, Ilocos Norte",
-          claim: "Marriage of Josefina Maloyo and Alejandro Albano, both aged 18.",
+          claim: "Married Alejandro Albano at Bacarra on 2 January 1944, both aged 18.",
           excerpt:
             "Wife: Josefina Maloyo, 18; father Tomas Maloyo, mother Agapita Andres. Husband: " +
             "Alejandro Albano, 18, Filipino, of Bacarra, Ilocos Norte; father Vicente Albano, " +
             "mother Ambrocia Ver.",
+          notes: "Civil register entry No. 210 (Record No. 854, page 92); the date is written \"1-2-44\" (month-day-year).",
           url: "https://www.familysearch.org/ark:/61903/3:1:3QS7-8923-79LY-W?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A6B3P-54H9&action=view&cc=1410394&lang=en"
         }
       ],
@@ -2533,7 +2830,9 @@ const PAOLO = {
         {
           label: "Marriage to Alejandro Albano — FamilySearch",
           url: "https://www.familysearch.org/ark:/61903/3:1:3QS7-8923-79LY-W?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A6B3P-54H9&action=view&cc=1410394&lang=en"
-        }
+        },
+        { label: "Marriage, 2 January 1944 — FamilySearch civil index", url: "https://www.familysearch.org/ark:/61903/1:1:6B3P-5441" },
+        { label: "Marriage register, 1944, entry 210 (scan)", url: "docs/albano-maloyo-marriage-1944.png" }
       ],
       father: {
         name: "Thomas Cadiz Maloyo",
