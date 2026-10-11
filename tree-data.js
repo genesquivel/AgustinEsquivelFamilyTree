@@ -2097,6 +2097,19 @@ const PAOLO = {
             ]
           },
           {
+            name: "Dorotea Ramos",
+            life: "b. 1851",
+            evidence: "Record-supported",
+            note:
+              "Bibiana's older sister, if the parents named are hers. Baptized at Gapan on 9 " +
+              "February 1851, four days old (born about 5 February 1851), daughter of Ciriaco " +
+              "Ramos and Joaquina Cunanan, mestizos, of the barangay of D. Francisco(?) de " +
+              "Guzman. Godmother: Cornelia Lumba(?).",
+            links: [
+              { label: "Baptism, 1851 (scan)", url: "docs/dorotea-ramos-baptism-1851.png" }
+            ]
+          },
+          {
             name: "Leoncia Ramos",
             life: "b. 1852",
             evidence: "Record-supported",
@@ -2131,9 +2144,9 @@ const PAOLO = {
           ],
           evidence: "Record-supported",
           notes:
-            "Of Gapan, Nueva Ecija. Named as Bibiana's father in her children's Jaen " +
-            "baptisms (1885–1896). A Ciriaco Ramos and Joaquina Cunanan (or Guzman) are " +
-            "named as parents in Gapan baptisms of 1853, 1869 and 1877 and in their son " +
+            "Of Gapan, Nueva Ecija. Named as Bibiana's father in her 1884 marriage and in her " +
+            "children's Jaen baptisms (1885–1896). A Ciriaco Ramos and Joaquina Cunanan (or Guzman) are " +
+            "named as parents in Gapan baptisms of 1851, 1853, 1869 and 1877 and in their son " +
             "Mariano's 1869 marriage, and a Joaquina Cunanan, wife of Don Ciriaco Ramos, " +
             "was buried there on 2 December 1874. Because a couple with these names was " +
             "still having children in 1877 — after that burial — the records cannot all " +
