@@ -197,14 +197,33 @@ const GEN = {
           place: "Cabiao, Nueva Ecija",
           sex: "m",
           relation: "2nd great-grandfather",
+          evidence: "Record-supported",
           notes:
-            "Father of Segundo and his many brothers and sisters, whose Cabiao baptisms run " +
-            "from 1884 to 1899. Online trees give his birth year as 1874, which cannot be " +
+            "Of Cabiao, Nueva Ecija. On 10 February 1880 he married Estefania Tiangco there; " +
+            "the record calls him single, son of Domingo and Tomasina Caydo, natives of " +
+            "Cabiao, of the barangay of D. Maximo Ramos. Father of Segundo and his many " +
+            "brothers and sisters, whose Cabiao baptisms run from 1884 to 1899. Online trees give his birth year as 1874, which cannot be " +
             "right — he would have been ten at his daughter Ynes's baptism — so no birth year " +
             "is shown until a record gives one.",
           classification: [
             { term: "indio", source: "per son Jacinto's baptism, Cabiao, 1887", year: 1887 },
             { term: "filipino", source: "per son Lazaro's baptism, Cabiao, 1899", year: 1899 }
+          ],
+          records: [
+            {
+              date: "1880",
+              place: "Cabiao, Nueva Ecija",
+              claim: "Married Estefania Tiangco at Cabiao on 10 February 1880.",
+              excerpt:
+              "En diez de Febrero de mil ochocientos y ochenta años. Yo D.n Florencio Rodriguez, " +
+              "Cura interino de este pueblo de Cabiao, hago constar que el Presbítero D.n Francisco " +
+              "Alcantra … casó por palabras de presente y veló en esta Iglesia … á Apolonio " +
+              "Agustin, soltero, hijo de Domingo y de Tomasina Caydo, naturales de este pueblo, del " +
+              "Barangay de D.n Maximo Ramos, con Estepania Tiangco, soltera, hija de Tomas y de " +
+              "Cecilia Lapus, naturales de este pueblo, del Barangay de D.n Lorenso Tiangco; " +
+              "fueron sus testigos Tomas Tuazon(?) y Liberata Galang …",
+              url: "docs/agustin-tiangco-marriage-1880.png"
+            }
           ],
           siblings: [
             {
@@ -259,6 +278,8 @@ const GEN = {
               label: "FamilySearch profile",
               url: "https://www.familysearch.org/tree/person/details/PS4H-Q66"
             },
+            { label: "Marriage to Estefania Tiangco, 1880 (scan)", url: "docs/agustin-tiangco-marriage-1880.png" },
+            { label: "Marriage, 1880 — FamilySearch (image)", url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSM8-3B2P" },
             { label: "Son Carlos's baptism, 1888 (scan)", url: "docs/carlos-agustin-baptism-1888.png" },
             { label: "Son Cornelio's baptism, 1896 (scan)", url: "docs/cornelio-agustin-baptism-1896.png" },
             { label: "Nephew Gabriel Bigting's baptism, 1884 — son of sister Jacinta (scan)", url: "docs/gabriel-baptism-1884-jacinta-agustin.png" }
@@ -269,8 +290,9 @@ const GEN = {
             relation: "3rd great-grandfather",
             evidence: "Record-supported",
             notes:
-              "Named as grandfather in many Cabiao baptisms of his grandchildren (1873–1899), and as " +
-              "father in his son Nicolas's 1848 baptism."
+              "Named as grandfather in many Cabiao baptisms of his grandchildren (1873–1899), as " +
+              "father in his son Nicolas's 1848 baptism, and as Apolonio's father in Apolonio's " +
+              "1880 Cabiao marriage."
           },
           mother: {
             name: "Tomasa Caedo",
@@ -279,7 +301,8 @@ const GEN = {
             evidence: "Record-supported",
             notes:
               "Recorded variously as Tomasa Caedo, Tomasa/Tomasina Caido, Tomasina Caydo Domingo " +
-              "and Tomasina Domingo in Cabiao baptisms from 1848 to 1899."
+              "and Tomasina Domingo in Cabiao baptisms from 1848 to 1899, and as Tomasina Caydo, " +
+              "Apolonio's mother, in his 1880 Cabiao marriage."
           }
         },
         mother: {
@@ -287,12 +310,18 @@ const GEN = {
           place: "Cabiao, Nueva Ecija",
           sex: "f",
           relation: "2nd great-grandmother",
+          evidence: "Record-supported",
           classification: [
             { term: "india", source: "per son Jacinto's baptism, Cabiao, 1887", year: 1887 },
             { term: "filipina", source: "per son Lazaro's baptism, Cabiao, 1899", year: 1899 }
           ],
-          notes: "Also recorded on FamilySearch as \"Epifania Tiangco\".",
+          notes:
+            "Of Cabiao, Nueva Ecija. On 10 February 1880, written \"Estepania Tiangco,\" she " +
+            "married Apolonio Agustin there; the record calls her single, daughter of Tomas " +
+            "and Cecilia Lapus, natives of Cabiao, of the barangay of D. Lorenso Tiangco. Also " +
+            "recorded on FamilySearch as \"Epifania Tiangco\".",
           links: [
+            { label: "Marriage to Apolonio Agustin, 1880 (scan)", url: "docs/agustin-tiangco-marriage-1880.png" },
             {
               label: "FamilySearch profile",
               url: "https://www.familysearch.org/tree/person/details/PS44-T47"
@@ -315,8 +344,9 @@ const GEN = {
             evidence: "Record-supported",
             notes:
               "Of Cabiao, Nueva Ecija; husband of Cecilia Lapuz and father of six " +
-              "children, among them Estefania. His grandson Jacinto's 1887 Cabiao baptism " +
-              "names him as Estefania's father. FamilySearch gives his dates as " +
+              "children, among them Estefania. Estefania's 1880 Cabiao marriage names her " +
+              "parents as Tomas and Cecilia Lapus, and his grandson Jacinto's 1887 Cabiao " +
+              "baptism also names him as Estefania's father. FamilySearch gives his dates as " +
               "1820–1905. A Taguig baptism of a \"Tomas Tangco\" on 25 December 1822 — son " +
               "of Agustín Tangco and María Flores — may be his: the year is close and " +
               "Tangco is a variant of Tiangco, but it has not been proven to be the same " +
@@ -383,10 +413,12 @@ const GEN = {
             died: "1910",
             sex: "f",
             relation: "3rd great-grandmother",
-            evidence: "Family-tree supplied",
+            evidence: "Record-supported",
             notes:
-              "Wife of Tomas Tiangco, of Cabiao, Nueva Ecija (3 June 1822 – 6 May 1910 per her " +
-              "FamilySearch profile). The couple had six children — three sons and three daughters " +
+              "Wife of Tomas Tiangco, of Cabiao, Nueva Ecija. Named as Cecilia Lapus, " +
+              "Estefania's mother, in Estefania's 1880 Cabiao marriage, and as maternal " +
+              "grandmother in her grandchildren's Cabiao baptisms. Her dates (3 June 1822 – 6 " +
+              "May 1910) come from her FamilySearch profile. The couple had six children — three sons and three daughters " +
               "— all born in Cabiao.",
             links: [
               {
@@ -1987,8 +2019,13 @@ const PAOLO = {
             evidence: "Record-supported",
             url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSM8-3V94?view=explore&action=view&cc=2861657&lang=en&groupId=M9ZT-B5H",
             note:
-              "Apolinario's sister — a daughter of Prudencio Esquivel and Antonia " +
-              "Santiago. Baptized 9 January 1856 in Jaen (born about 2 January 1856)."
+              "Apolinario's sister. Baptized at San Isidro, Nueva Ecija, on 9 January 1856, " +
+              "seven days old (born about 2 January 1856), daughter of D. Prudencio Esquibel " +
+              "and Dª Antonia Lus(?) Sant[iago], natives of San Isidro, of the barangay of D. " +
+              "Felipe Celaia(?) Domingo.",
+            links: [
+              { label: "Baptism, 1856 (scan)", url: "docs/maria-salome-esquibel-baptism-1856.png" }
+            ]
           },
           {
             name: "Odon Esquivel",
@@ -2002,12 +2039,16 @@ const PAOLO = {
           },
           {
             name: "Hilarion Esquivel",
-            life: "b. 1862",
+            life: "b. 1857",
             pid: "9J7B-7DY",
             evidence: "Record-supported",
             note:
               "Don Hilarion Esquivel (also written \"Hilario\" in the records), " +
-              "Apolinario's brother, was a cabeza de barangay who headed Barangay No. 18 " +
+              "Apolinario's brother. He was baptized at San Isidro, Nueva Ecija, on 24 " +
+              "October 1857, four days old (born about 20 October 1857), legitimate son of " +
+              "D. Prudencio Esquibel and Dª Antonia Lus(?) Santiago, natives of San Isidro, " +
+              "of the barangay of D. Victor Galang; godfather D. Rufino Omo(?). (His " +
+              "FamilySearch profile gives his birth year as 1862.) He was a cabeza de barangay who headed Barangay No. 18 " +
               "in Jaén, Nueva Ecija. He is credited as the architect of the family's " +
               "ancestral house, \"Casa Jaen I,\" which won the 1917 House Beautiful Award " +
               "from the Sunday Tribune; the house now stands as a heritage structure at " +
@@ -2019,6 +2060,8 @@ const PAOLO = {
               "house also names a son, Emmanuel Frias Esquivel, who studied in the United " +
               "States and was welcomed home at the house.",
             links: [
+              { label: "Baptism, 1857 (scan)", url: "docs/hilarion-esquivel-baptism-1857.png" },
+              { label: "Baptism, 1857 — FamilySearch index", url: "https://www.familysearch.org/ark:/61903/1:1:666P-J9BZ" },
               { label: "Casa Jaen I — Wikipedia", url: "https://en.wikipedia.org/wiki/Casa_Jaen_I" }
             ]
           }
@@ -2034,22 +2077,31 @@ const PAOLO = {
         father: {
           name: "Prudencio Esquivel",
           place: "Jaen, Nueva Ecija",
+          died: "1899",
           sex: "m",
           relation: "2nd great-grandfather",
           evidence: "Record-supported",
           notes:
-            "Don Prudencio Esquivel and Doña Antonia Santiago had three sons — Odon, " +
-            "Apolinario, and Hilarion — and a daughter, Maria Salome (baptized 1856); " +
-            "each son is proven by baptisms of his children that name Prudencio and " +
-            "Antonia as paternal grandparents (1884–1901, Jaen and San Antonio, Nueva " +
-            "Ecija). He had died by 5 January 1903, when Antonia was buried at Jaen as " +
-            "his widow. A history of Jaen (summarized on Wikipedia) credits \"Kabesang " +
+            "Don Prudencio Esquivel and Doña Antonia Santiago lived at San Isidro, Nueva " +
+            "Ecija, in the 1850s, where their children Maria Salome (1856) and Hilarion " +
+            "(1857) were baptized; both baptisms call the parents natives of San Isidro. Their sons Odon, Apolinario and Hilarion are " +
+            "also proven by baptisms of their own children that name Prudencio and Antonia " +
+            "as paternal grandparents (1884–1901, Jaen and San Antonio, Nueva Ecija). He " +
+            "was buried at Jaen on 27 July 1899 as D. Prudencio Esquivel, married to Dª " +
+            "Antonia Santiago, of the barangay of D. Pedro Hagonoy(?) Ycuazon(?); he had " +
+            "received confession and extreme unction, and was given a sung burial with a " +
+            "coffin. No age or parents are given. The priest who buried him was D. Gonzalo " +
+            "Esquivel, the secular priest in charge of Jaen — very likely the Don Gonzalo " +
+            "Esquivel who was godfather to Prudencio's grandson Marcos in 1896; how they were " +
+            "related is not known. A history of Jaen (summarized on Wikipedia) credits \"Kabesang " +
             "Prudencio Esquivel\" with the town's founding: he and Kapitan Antonio " +
             "Embuscado led the residents' petition that separated Jaen from San Antonio " +
             "on 18 June 1865, and, with Rev. Estanislao B. Moso, helped establish the " +
             "parish church. That account comes from a published history, not a parish " +
             "record.",
           links: [
+            { label: "Burial, 27 July 1899 (scan)", url: "docs/prudencio-esquivel-burial-1899.png" },
+            { label: "Burial, 1899 — FamilySearch (image)", url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSM8-7Q6L-M" },
             {
               label: "Jaen, Nueva Ecija — Wikipedia (town history)",
               url: "https://en.wikipedia.org/wiki/Jaen,_Nueva_Ecija"
@@ -2072,9 +2124,11 @@ const PAOLO = {
           relation: "2nd great-grandmother",
           evidence: "Record-supported",
           notes:
-            "Doña Antonia Santiago, a native of Jaen, Nueva Ecija. She was buried there " +
-            "on 5 January 1903 as the widow of Don Prudencio Esquivel. Baptisms of her " +
-            "grandchildren through all three of her sons (Odon, Apolinario, Hilarion), " +
+            "Doña Antonia Santiago. She was buried at Jaen, Nueva Ecija, on 5 January 1903 " +
+            "as the widow of Don Prudencio Esquivel and a native of Jaen; the baptisms of " +
+            "her children at San Isidro in 1856 and 1857 instead call her and Prudencio " +
+            "natives of San Isidro, and write her name Antonia Lus(?) Santiago. Baptisms of " +
+            "her grandchildren through three of her sons (Odon, Apolinario, Hilarion), " +
             "1884–1901, name her as paternal grandmother. Her own birth date is not yet " +
             "known.",
           links: [
@@ -2188,8 +2242,9 @@ const PAOLO = {
             note:
               "Bibiana's older sister. Baptized at Gapan on 9 " +
               "February 1851, four days old (born about 5 February 1851), daughter of Ciriaco " +
-              "Ramos and Joaquina Cunanan, mestizos, of the barangay of D. Francisco(?) de " +
-              "Guzman. Godmother: Cornelia Lumba(?).",
+              "Ramos and Joaquina Cunanan — followed by an abbreviation, \"M. S.\"(?), that " +
+              "may stand for mestizos — of the barangay of D. Francisco de Guzman. " +
+              "Godmother: Cornelia Lumba(?).",
             links: [
               { label: "Baptism, 1851 (scan)", url: "docs/dorotea-ramos-baptism-1851.png" }
             ]
@@ -2203,6 +2258,22 @@ const PAOLO = {
               "Bibiana's older sister. Baptized 6 January 1853 at Gapan, about eight days " +
               "old — so born about 29 December 1852 — daughter of Ciriaco Ramos and " +
               "Joaquina Guzman — the surname written \"Guzman\" instead of \"Cunanan.\""
+          },
+          {
+            name: "Mamerto Ramos",
+            life: "d. 1889",
+            evidence: "Record-supported",
+            note:
+              "Bibiana's brother. Confirmed on 5 February 1856 as Mamerto, son of Ciriaco " +
+              "Ramos and Joaquina Cunanan. He was buried at Gapan on 7 January 1889 as D. " +
+              "Mamerto Ramos, mestizo, adult, single, son of D. Ciriaco and Dª Joaquina " +
+              "Cunanan, of barangay No. 24 of D. Miguel de Mendoza; he had received the " +
+              "sacraments and was given a sung burial with a coffin. (FamilySearch indexes " +
+              "his burial under \"Manerto.\")",
+            links: [
+              { label: "Burial, 1889 (scan)", url: "docs/mamerto-ramos-burial-1889.png" },
+              { label: "Burial, 1889 — FamilySearch (image)", url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSM8-SQFP-R" }
+            ]
           },
           {
             name: "Estefanio Ramos",
@@ -2232,9 +2303,10 @@ const PAOLO = {
           notes:
             "Of Gapan, Nueva Ecija; husband of Joaquina Cunanan. Their children's Gapan " +
             "baptisms run from 1851 to 1869 — Dorotea (1851), Leoncia (1853), Bibiana " +
-            "(1857) and Estefanio (1869) — and their son Mariano married there in 1869. " +
-            "The baptisms call the parents mestizos, of the barangay of D. Francisco(?) " +
-            "de Guzman in 1851 and of D. Tranquilino Rosario in 1857 and 1869. He was widowed when Joaquina was buried on 2 December 1874, and was " +
+            "(1857) and Estefanio (1869); their son Mamerto was confirmed in 1856, and " +
+            "their son Mariano married there in 1869. The 1857 and 1869 baptisms call the " +
+            "parents mestizos, of the barangay of D. Tranquilino Rosario; Dorotea's 1851 " +
+            "baptism places them in the barangay of D. Francisco de Guzman. He was widowed when Joaquina was buried on 2 December 1874, and was " +
             "named again in Bibiana's 1884 marriage and her children's Jaen baptisms " +
             "(1885–1896).",
           links: [
@@ -2259,7 +2331,8 @@ const PAOLO = {
           evidence: "Record-supported",
           notes:
             "Wife of Ciriaco Ramos and mother of Dorotea (1851), Leoncia (1853), Bibiana " +
-            "(1857) and Estefanio (1869), and of Mariano, who married in 1869. She was buried at Gapan on 2 December " +
+            "(1857) and Estefanio (1869), of Mamerto (confirmed 1856, buried 1889), and of " +
+            "Mariano, who married in 1869. She was buried at Gapan on 2 December " +
             "1874 as \"Dª Joaquina Cunanan, india,\" wife of Don Ciriaco Ramos, of the " +
             "barangay of Don Alvaro(?) de Guzman; she had received the sacraments, and " +
             "the priest was Fr. Antonio Cornejo. Leoncia's 1853 baptism writes her as " +
@@ -2671,13 +2744,15 @@ const PAOLO = {
             notes:
               "Father of the sisters Modesta and Francisca Parguian, both confirmed on 16 " +
               "February 1866 as daughters of Alejandro Parguian and Mariana Ramones " +
-              "(FamilySearch index; one entry writes \"Parguiran\"). FamilySearch also " +
-              "indexes the burial of an Alejandro Parguian, who died on 8 February 1882 " +
-              "and was buried the next day, aged 77, husband of Marciana Ramones — very " +
-              "likely the same man, born about 1805. Indexed marriages of an " +
-              "Alejandro Parguian to Getrudis Macadañgdañg (24 May 1824) and to Marciana " +
-              "Ramonez (29 June 1863) may also be his; whether Marciana and Mariana are " +
-              "one woman is not settled.",
+              "(FamilySearch index; one entry writes \"Parguiran\"). On 29 June 1863 an " +
+              "Alejandro Parguian married Marciana Ramonez at Bacarra (FamilySearch index), " +
+              "and on 22 January 1880 Marciana Ramones, wife of Alejandro Parguian, was " +
+              "buried there — of the barangay of D. Martin Macadangdang, where Francisca " +
+              "was living when she married in 1879. FamilySearch also indexes the burial " +
+              "of an Alejandro Parguian, who died on 8 February 1882 and was buried the " +
+              "next day, aged 77, husband of Marciana Ramones — very likely the same man, " +
+              "born about 1805. An indexed marriage of an Alejandro Parguian to Getrudis " +
+              "Macadañgdañg (24 May 1824) may also be his.",
             links: [
               { label: "Daughter Modesta's confirmation, 1866 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:XWMK-SC3W" },
               { label: "Daughter Francisca's confirmation, 1866 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:XWMK-WKVL" },
@@ -2694,12 +2769,16 @@ const PAOLO = {
             evidence: "Record-supported",
             notes:
               "Named as the mother in the 16 February 1866 confirmations of her daughters " +
-              "Modesta and Francisca Parguian (FamilySearch index). The 1882 burial of " +
-              "Alejandro Parguian names his wife as Marciana Ramones, probably the same " +
-              "woman. Her marriage to Alejandro has not been found.",
+              "Modesta and Francisca Parguian (FamilySearch index). Very likely the same " +
+              "woman as Marciana Ramonez (or Ramones), who married Alejandro Parguian at " +
+              "Bacarra on 29 June 1863 (FamilySearch index) and was buried there on 22 " +
+              "January 1880 as his wife, of the barangay of D. Martin Macadangdang; " +
+              "Alejandro's 1882 burial also names his wife as Marciana Ramones.",
             links: [
               { label: "Daughter Modesta's confirmation, 1866 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:XWMK-SC3W" },
-              { label: "Daughter Francisca's confirmation, 1866 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:XWMK-WKVL" }
+              { label: "Daughter Francisca's confirmation, 1866 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:XWMK-WKVL" },
+              { label: "Marciana Ramones's burial, 1880 (scan)", url: "docs/marciana-ramones-burial-1880.png" },
+              { label: "Marciana Ramones's burial, 1880 — FamilySearch (image)", url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSMJ-49R3-1" }
             ]
           }
         }
@@ -2870,9 +2949,11 @@ const PAOLO = {
             "2 June 1879 she married Antonio Ver at Bacarra: the register calls her " +
             "india, single, 18 years old (so born about 1861), \"hija de D. Alejandro y de " +
             "Manuela Dacuycuy,\" of the barangay of D. Martin Macadangdang. That differs " +
-            "from the 1866 confirmations, which both name Mariana Ramones; Manuela may " +
-            "have been a later wife of Alejandro, recorded as the bride's mother — not " +
-            "yet confirmed. Named as Ambrosia's mother in the 1917 register. Her sister " +
+            "from the 1866 confirmations, which both name Mariana Ramones. Alejandro was " +
+            "married to Marciana Ramonez from 1863 until her death in 1880, so if Manuela " +
+            "was also his wife she came before that marriage — and Francisca's stated age " +
+            "would put her birth about 1861, two years before it. Which woman was her " +
+            "mother is not yet settled. Named as Ambrosia's mother in the 1917 register. Her sister " +
             "Modesta was Vicente Albano's mother, so Ambrosia married her first cousin.",
           links: [
             { label: "Daughter Ambrosia's marriage register, 1917 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/3:1:3QS7-99LS-F9SC-D?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A6BQM-R7WX&action=view&lang=en" },
@@ -2892,13 +2973,15 @@ const PAOLO = {
             notes:
               "Father of the sisters Modesta and Francisca Parguian, both confirmed on 16 " +
               "February 1866 as daughters of Alejandro Parguian and Mariana Ramones " +
-              "(FamilySearch index; one entry writes \"Parguiran\"). FamilySearch also " +
-              "indexes the burial of an Alejandro Parguian, who died on 8 February 1882 " +
-              "and was buried the next day, aged 77, husband of Marciana Ramones — very " +
-              "likely the same man, born about 1805. Indexed marriages of an " +
-              "Alejandro Parguian to Getrudis Macadañgdañg (24 May 1824) and to Marciana " +
-              "Ramonez (29 June 1863) may also be his; whether Marciana and Mariana are " +
-              "one woman is not settled.",
+              "(FamilySearch index; one entry writes \"Parguiran\"). On 29 June 1863 an " +
+              "Alejandro Parguian married Marciana Ramonez at Bacarra (FamilySearch index), " +
+              "and on 22 January 1880 Marciana Ramones, wife of Alejandro Parguian, was " +
+              "buried there — of the barangay of D. Martin Macadangdang, where Francisca " +
+              "was living when she married in 1879. FamilySearch also indexes the burial " +
+              "of an Alejandro Parguian, who died on 8 February 1882 and was buried the " +
+              "next day, aged 77, husband of Marciana Ramones — very likely the same man, " +
+              "born about 1805. An indexed marriage of an Alejandro Parguian to Getrudis " +
+              "Macadañgdañg (24 May 1824) may also be his.",
             links: [
               { label: "Daughter Modesta's confirmation, 1866 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:XWMK-SC3W" },
               { label: "Daughter Francisca's confirmation, 1866 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:XWMK-WKVL" },
@@ -2915,14 +2998,18 @@ const PAOLO = {
             evidence: "Record-supported",
             notes:
               "Named as the mother in the 16 February 1866 confirmations of her daughters " +
-              "Modesta and Francisca Parguian (FamilySearch index). The 1882 burial of " +
-              "Alejandro Parguian names his wife as Marciana Ramones, probably the same " +
-              "woman. Her marriage to Alejandro has not been found. Francisca's own 1879 " +
-              "marriage register names her mother as Manuela Dacuycuy instead — perhaps " +
-              "a later wife of Alejandro; not yet settled.",
+              "Modesta and Francisca Parguian (FamilySearch index). Very likely the same " +
+              "woman as Marciana Ramonez (or Ramones), who married Alejandro Parguian at " +
+              "Bacarra on 29 June 1863 (FamilySearch index) and was buried there on 22 " +
+              "January 1880 as his wife, of the barangay of D. Martin Macadangdang; " +
+              "Alejandro's 1882 burial also names his wife as Marciana Ramones. " +
+              "Francisca's own 1879 marriage register names her mother as Manuela " +
+              "Dacuycuy instead; not yet settled.",
             links: [
               { label: "Daughter Modesta's confirmation, 1866 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:XWMK-SC3W" },
-              { label: "Daughter Francisca's confirmation, 1866 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:XWMK-WKVL" }
+              { label: "Daughter Francisca's confirmation, 1866 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:XWMK-WKVL" },
+              { label: "Marciana Ramones's burial, 1880 (scan)", url: "docs/marciana-ramones-burial-1880.png" },
+              { label: "Marciana Ramones's burial, 1880 — FamilySearch (image)", url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSMJ-49R3-1" }
             ]
           }
         }
