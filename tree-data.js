@@ -64,7 +64,6 @@ const GEN = {
   died: "Living",
   sex: "f",
   relation: "Root of this tree",
-  notes: "Married to Paolo Esquivel.",
   spouse: { name: "Paolo Esquivel", sex: "m" },
   // Photo slot ready — drop images/gen-agustin.jpg in and it shows automatically.
   // Add links here too, e.g.
@@ -337,17 +336,18 @@ const GEN = {
           father: {
             name: "Tomas Tiangco",
             place: "Cabiao, Nueva Ecija",
-            born: "1822",
+            born: "c. 1820",
             died: "1905",
             sex: "m",
             relation: "3rd great-grandfather",
             evidence: "Record-supported",
             notes:
               "Of Cabiao, Nueva Ecija; husband of Cecilia Lapuz and father of six " +
-              "children, among them Estefania. Estefania's 1880 Cabiao marriage names her " +
+              "children, among them Estefania (see her card for her brothers and sisters). " +
+              "Estefania's 1880 Cabiao marriage names her " +
               "parents as Tomas and Cecilia Lapus, and his grandson Jacinto's 1887 Cabiao " +
-              "baptism also names him as Estefania's father. FamilySearch gives his dates as " +
-              "1820–1905. A Taguig baptism of a \"Tomas Tangco\" on 25 December 1822 — son " +
+              "baptism also names him as Estefania's father. His dates, about 1820–1905, " +
+              "come from his FamilySearch profile. A Taguig baptism of a \"Tomas Tangco\" on 25 December 1822 — son " +
               "of Agustín Tangco and María Flores — may be his: the year is close and " +
               "Tangco is a variant of Tiangco, but it has not been proven to be the same " +
               "man.",
@@ -389,7 +389,10 @@ const GEN = {
                 "writes his name \"Agustín Tangco Tangley\": Agustín was probably his " +
                 "baptismal name and \"Tangco Tangley\" his Chinese name. If he is the " +
                 "family's ancestor, the surname Tiangco comes from \"Tangco\"; the ending " +
-                "\"-co\" (哥, an honorific) is behind many Filipino-Chinese surnames."
+                "\"-co\" (哥, an honorific) is behind many Filipino-Chinese surnames.",
+              links: [
+                { label: "Possible son Tomás's baptism, Taguig, 1822 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSMJ-HSQN-R?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A66XK-D6HZ&action=view&cc=2861657&lang=en&groupId=M9C1-ZDM" }
+              ]
             },
             mother: {
               name: "María Flores",
@@ -403,7 +406,10 @@ const GEN = {
                 "Named only in the 1822 Taguig baptism above, a possible lead rather than a proven " +
                 "link to this family. The record calls her a \"mestiza de este Arzobispado.\" In " +
                 "Spanish-colonial Philippine records \"mestiza/mestizo\" marked mixed ancestry — a " +
-                "recognized legal and tax class — and is not by itself evidence of Chinese descent."
+                "recognized legal and tax class — and is not by itself evidence of Chinese descent.",
+              links: [
+                { label: "Possible son Tomás's baptism, Taguig, 1822 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSMJ-HSQN-R?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A66XK-D6HZ&action=view&cc=2861657&lang=en&groupId=M9C1-ZDM" }
+              ]
             }
           },
           mother: {
@@ -649,6 +655,10 @@ const GEN = {
             "Some records write her surname Ordoña — her mother's surname — instead of " +
             "Calica (her son Ildefonso's 1899 baptism, for one); others garble it as " +
             "Celica or Palica.",
+          links: [
+            { label: "Marriage to Fidel Obra, 1885 (scan)", url: "docs/obra-calica-marriage-1885.jpg" },
+            { label: "Daughter Juliana's baptism, 1885 (scan)", url: "docs/juliana-obra-baptism-1885.jpg" }
+          ],
           father: {
             name: "Alfonso Calica",
             place: "Bauang, La Union",
@@ -1459,8 +1469,9 @@ const GEN = {
           note:
             "Vicente's brother (Gen's grand-uncle) — a voter list names him as the son of Ignacio " +
             "Catelo and Valentina Dedal. He married Estrella Bonilla at Surigao (marriage register " +
-            "entry 104, registered 1943–46); he was 25 and she 20, both of Surigao. He was named " +
-            "for his grandfather, Ignacio's father Perfecto Catelo. A FamilySearch-indexed " +
+            "entry 104, registered 1943–46); he was 25 and she 20, both of Surigao. The family " +
+            "tree gives Ignacio's father as a Perfecto Catelo, so he may have been named for his " +
+            "grandfather. A FamilySearch-indexed " +
             "birth entry for a son of Ignacio and Valentina born 12 October 1918 (indexed as " +
             "\"Perfec Romanl\") is very likely him — it fits his age at marriage.",
           links: [
@@ -1681,7 +1692,6 @@ const PAOLO = {
   died: "Living",
   sex: "m",
   relation: "Root of this tree",
-  notes: "Married to Gen Agustin.",
   spouse: { name: "Gen Agustin", sex: "f" },
   // Photo slot ready — drop images/paolo-esquivel.jpg in and it shows automatically.
   photo: "images/paolo-esquivel.jpg",
@@ -2266,8 +2276,8 @@ const PAOLO = {
             life: "d. 1889",
             evidence: "Record-supported",
             note:
-              "Bibiana's brother. Confirmed on 5 February 1856 as Mamerto, son of Ciriaco " +
-              "Ramos and Joaquina Cunanan. He was buried at Gapan on 7 January 1889 as D. " +
+              "Bibiana's brother. Confirmed as Mamerto, son of Ciriaco Ramos and Joaquina " +
+              "Cunanan (the year of the confirmation is not yet confirmed). He was buried at Gapan on 7 January 1889 as D. " +
               "Mamerto Ramos, mestizo, adult, single, son of D. Ciriaco and Dª Joaquina " +
               "Cunanan, of barangay No. 24 of D. Miguel de Mendoza; he had received the " +
               "sacraments and was given a sung burial with a coffin. (FamilySearch indexes " +
@@ -2305,7 +2315,7 @@ const PAOLO = {
           notes:
             "Of Gapan, Nueva Ecija; husband of Joaquina Cunanan. Their children's Gapan " +
             "baptisms run from 1851 to 1869 — Dorotea (1851), Leoncia (1853), Bibiana " +
-            "(1857) and Estefanio (1869); their son Mamerto was confirmed in 1856, and " +
+            "(1857) and Estefanio (1869); their son Mamerto was confirmed there, and " +
             "their son Mariano married there in 1869. The 1857 and 1869 baptisms call the " +
             "parents mestizos, of the barangay of D. Tranquilino Rosario; Dorotea's 1851 " +
             "baptism places them in the barangay of D. Francisco de Guzman. He was widowed when Joaquina was buried on 2 December 1874, and was " +
@@ -2333,7 +2343,7 @@ const PAOLO = {
           evidence: "Record-supported",
           notes:
             "Wife of Ciriaco Ramos and mother of Dorotea (1851), Leoncia (1853), Bibiana " +
-            "(1857) and Estefanio (1869), of Mamerto (confirmed 1856, buried 1889), and of " +
+            "(1857) and Estefanio (1869), of Mamerto (buried 1889), and of " +
             "Mariano, who married in 1869. She was buried at Gapan on 2 December " +
             "1874 as \"Dª Joaquina Cunanan, india,\" wife of Don Ciriaco Ramos, of the " +
             "barangay of Don Alvaro(?) de Guzman; she had received the sacraments, and " +
@@ -2414,7 +2424,13 @@ const PAOLO = {
         evidence: "Record-supported",
         notes:
           "Lolita's father. Named as Narciso Pineda in her 1916 Apalit baptism and her 1935 " +
-          "marriage contract, both of which name Leonarda Umali as her mother.",
+          "marriage contract, both of which name Leonarda Umali as her mother. His middle " +
+          "name, Dicon, and his dates (1889–1978) come from the family tree and have not yet " +
+          "been matched to a record.",
+        links: [
+          { label: "Daughter Lolita's baptism, 1916 (scan)", url: "docs/lolita-pineda-baptism-1916.png" },
+          { label: "Daughter Lolita's marriage contract, 1935 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:8BNH-W1N2?lang=en" }
+        ],
         father: {
           name: "Lucas Pineda",
           place: "Cabiao, Nueva Ecija",
@@ -2428,7 +2444,10 @@ const PAOLO = {
             "names the paternal grandparents as Agustín and María de Ocampo and the " +
             "maternal grandparents as Guillermo and Eulalia del Castro. The record gives " +
             "no surname for either grandfather, and the surname \"Pineda\" for Dionisio is " +
-            "inferred from Lucas — it is not written in the record.",
+            "inferred from Lucas — it is not written in the record. This entry is being " +
+            "re-read against the register: the index gives the year as 1873 and \"de Campo\" " +
+            "and \"de Castro\" for the surnames, and does not say which grandparents belong " +
+            "to which parent.",
           records: [
             {
               date: "1872",
@@ -2579,6 +2598,10 @@ const PAOLO = {
             "March 1857) of a daughter of Don Juan Kabigting and Francisca Dizon is very " +
             "likely hers; it was read by the family's researcher and hasn't yet been " +
             "checked here against the image.",
+          links: [
+            { label: "Marriage to Benito Umali, 1884 (Arayat) — FamilySearch", url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSM8-9JVZ?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3AXWM6-L6MP&action=view&cc=5000340&lang=en&groupId=M98F-HVZ" },
+            { label: "Marriage, 1884 (scan)", url: "docs/umali-cabigting-marriage-1884.png" }
+          ],
           father: {
             name: "Juan Cabigting",
             sex: "m",
