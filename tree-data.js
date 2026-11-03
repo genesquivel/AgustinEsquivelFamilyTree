@@ -1782,7 +1782,8 @@ const PAOLO = {
           note:
             "Baptized 26 November 1892 in Jaen (born about 22 November 1892), son of Apolinario " +
             "Esquivel and Bibiana Ramos. In this record Apolinario is noted as the sitting Cabeza " +
-            "de Barangay."
+            "de Barangay. The caption of a family photograph of his father's burial calls him " +
+            "Judge Cecilio Ramos Esquivel."
         },
         {
           name: "Julio Esquivel",
@@ -1792,6 +1793,13 @@ const PAOLO = {
             "Confirmed son of Apolinario Esquivel and Bibiana Ramos; birth date not yet found. He " +
             "married Anastasia Frias; their son Jose Trinidad Esquivel was baptized 26 June 1917 " +
             "in Jaen (born about 3 June 1917)."
+        },
+        {
+          name: "Simeon Ramos Esquivel",
+          evidence: "Family-tree supplied",
+          note:
+            "Named as a son of Apolinario and Bibiana in the caption of a family photograph of " +
+            "Apolinario's burial (Biyaheng Nueva Ecija); his baptism has not been found yet."
         }
       ],
       links: [
@@ -1974,8 +1982,20 @@ const PAOLO = {
           notes:
             "The death certificate gives his birth as 28 April 1898 — two years later than the " +
             "27 April 1896 shown here, which is supported by both his 1896 baptism and his 1919 " +
-            "passport. Such small year discrepancies are common in later civil records.",
+            "passport. Such small year discrepancies are common in later civil records. His " +
+            "grave marker gives a different death date, 25 February 1968 (and his birth as 28 " +
+            "April 1896); which day is right is not yet settled.",
           url: "https://www.familysearch.org/ark:/61903/3:1:33S7-9RTF-96G4?view=index&action=view&cc=1852584&lang=en&groupId=M9C2-P9D"
+        },
+        {
+          date: "1968",
+          place: "Grave marker",
+          claim: "Grave marker — \"April 28, 1896 – February 25, 1968.\"",
+          excerpt:
+            "Marcos R. Esquivel, Jaen, Nueva Ecija. Proud Parents: Apolinario S. Esquivel, Bibiana " +
+            "Ramos. Loving Wife: Lolita P. Pineda … April 28, 1896 – February 25, 1968. Teacher …",
+          notes: "The death certificate gives 22 February 1968.",
+          url: "docs/grave-markers-marcos-lolita-esquivel.png"
         }
       ],
       father: {
@@ -1997,7 +2017,10 @@ const PAOLO = {
           "career: he was the sitting Cabeza de Barangay when his son Cecilio was " +
           "baptized in 1892, and was employed in the Provincial Public Treasury of Nueva " +
           "Ecija by 1896. He later served as Municipal President of Jaen from 1902 to " +
-          "1907. One of three sons of Prudencio and Antonia (with Odon and Hilarion). The " +
+          "1907; a captioned photograph of his burial, published by Biyaheng Nueva Ecija, " +
+          "calls him \"Jaen's first Mayor Apolinario Esquivel\" and \"Apolinario S. " +
+          "Esquivel,\" and shows his widow Bibiana with their children Cecilio (a judge), " +
+          "Julio, Simeon, the twins Radegundes and Francisca, and Marcos, the youngest. One of three sons of Prudencio and Antonia (with Odon and Hilarion). The " +
           "town's history also records a Lt. Col. Delfin Esquivel leading forces in a " +
           "battle at Jaen on 4 September 1896; how he was related to the family is not " +
           "known. Online trees give Apolinario's birth year as 1871, which cannot be " +
@@ -2372,7 +2395,10 @@ const PAOLO = {
         "Baptized Lolita Regina at Apalit, Pampanga, on 1 November 1916, 95 days old — so born " +
         "about 29 July 1916 — legitimate daughter of Narciso Pineda and Leonarda Umali, \"de este " +
         "pueblo\" (of Apalit). A 1978 U.S. record gives 7 September 1916; the baptism, made at " +
-        "the time, is preferred. By her marriage she was living in San Fernando, Pampanga. " +
+        "the time, is preferred; her grave marker also gives 7 September 1916. Her grave " +
+        "marker associates her with Santa Ana and San Fernando, Pampanga; Jaen, Nueva Ecija; " +
+        "and Houston, Texas, and names her parents as Narciso S. Pineda and Leonarda K. " +
+        "Umali. By her marriage she was living in San Fernando, Pampanga. " +
         "On 10 June 1935 she married Marcos R. Esquivel at the Church of Espíritu Santo in Manila.",
       siblings: [
         { name: "Marcial Umali Pineda", life: "1911–1967", pid: "PSDZ-JHW" },
@@ -2413,7 +2439,8 @@ const PAOLO = {
         {
           label: "Marriage contract with Marcos Esquivel, 1935 — FamilySearch",
           url: "https://www.familysearch.org/ark:/61903/1:1:8BNH-W1N2?lang=en"
-        }
+        },
+        { label: "Grave markers of Marcos and Lolita Esquivel (photo)", url: "docs/grave-markers-marcos-lolita-esquivel.png" }
       ],
       father: {
         name: "Narciso Dicon Pineda",
@@ -2426,7 +2453,7 @@ const PAOLO = {
           "Lolita's father. Named as Narciso Pineda in her 1916 Apalit baptism and her 1935 " +
           "marriage contract, both of which name Leonarda Umali as her mother. His middle " +
           "name, Dicon, and his dates (1889–1978) come from the family tree and have not yet " +
-          "been matched to a record.",
+          "been matched to a record; Lolita's grave marker calls him Narciso S. Pineda.",
         links: [
           { label: "Daughter Lolita's baptism, 1916 (scan)", url: "docs/lolita-pineda-baptism-1916.png" },
           { label: "Daughter Lolita's marriage contract, 1935 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:8BNH-W1N2?lang=en" }
@@ -2434,40 +2461,39 @@ const PAOLO = {
         father: {
           name: "Lucas Pineda",
           place: "Cabiao, Nueva Ecija",
-          born: "1872",
+          born: "1873",
           sex: "m",
           relation: "2nd great-grandfather",
           notes:
-            "Born about 14 October 1872 in Cabiao, Nueva Ecija, and baptized there on 19 " +
-            "October 1872, five days old. A hijo natural (born out of wedlock) of " +
-            "Dionisio and María Juana, both widowed and natives of Cabiao. The baptism " +
-            "names the paternal grandparents as Agustín and María de Ocampo and the " +
-            "maternal grandparents as Guillermo and Eulalia del Castro. The record gives " +
-            "no surname for either grandfather, and the surname \"Pineda\" for Dionisio is " +
-            "inferred from Lucas — it is not written in the record. This entry is being " +
-            "re-read against the register: the index gives the year as 1873 and \"de Campo\" " +
-            "and \"de Castro\" for the surnames, and does not say which grandparents belong " +
-            "to which parent.",
+            "Born about 14 October 1873 in Cabiao, Nueva Ecija, and baptized there on 19 " +
+            "October 1873, five days old. A hijo natural (born out of wedlock) of " +
+            "Dionicio and María Juana, both widowed and natives of Cabiao. The baptism " +
+            "names the paternal grandparents as Agustín and María de Campo(?) (the surname " +
+            "can also be read \"de Ocampo\") and the maternal grandparents as Guillermo and " +
+            "Eulalia de Castro. The record gives no surname for either grandfather, and the " +
+            "surname \"Pineda\" for Dionisio is inferred from Lucas — it is not written in " +
+            "the record.",
           records: [
             {
-              date: "1872",
+              date: "1873",
               place: "Cabiao, Nueva Ecija",
-              claim: "Baptized on 19 October 1872 in Cabiao — hijo natural of Dionisio and María Juana.",
+              claim: "Baptized on 19 October 1873 in Cabiao — hijo natural of Dionicio and María Juana.",
               excerpt:
-                "En diez y nueve de Octubre de mil ochocientos setenta y dos … bauticé solemnemente … " +
-                "á Lucas Pineda, niño de cinco días nacido, hijo natural de Dionisio y de María Juana, " +
-                "ambos viudos y naturales de este pueblo … abuelos paternos Agustín y María de Ocampo, " +
-                "y maternos Guillermo y Eulalia del Castro.",
+                "En diez y nueve de Octubre de mil ochocientos setenta y tres … bauticé solemnemente … " +
+                "á Lucas Pineda, niño de cinco días nacido, hijo natural de Dionicio y de María Juana, " +
+                "viudos y naturales de este pueblo … siendo sus abuelos paternos Agustín y María de " +
+                "Campo(?), y maternos Guillermo y Eulalia de Castro.",
               notes:
-                "The record gives his birth as about 14 October 1872, with baptism five days later. " +
-                "Both parents were widowed. No surnames are recorded for the grandfathers Agustín " +
-                "and Guillermo.",
+                "Bautismos, film 007769662, image 536. The record gives his birth as about 14 October " +
+                "1873, with baptism five days later. Both parents were widowed. No surnames are " +
+                "recorded for the grandfathers Agustín and Guillermo; María's surname can be read " +
+                "\"de Campo\" or \"de Ocampo.\"",
               url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSM8-339V-T?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A666G-Q2DK&action=view&cc=2861657&lang=en&groupId=M9LR-K3X"
             }
           ],
           links: [
             {
-              label: "Baptismal record, 1872 (Cabiao) — FamilySearch",
+              label: "Baptismal record, 1873 (Cabiao) — FamilySearch",
               url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSM8-339V-T?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A666G-Q2DK&action=view&cc=2861657&lang=en&groupId=M9LR-K3X"
             }
           ],
@@ -2476,23 +2502,66 @@ const PAOLO = {
             place: "Cabiao, Nueva Ecija",
             sex: "m",
             relation: "3rd great-grandfather",
-            evidence: "Possible lead requiring verification",
+            evidence: "Record-supported",
             notes:
-              "Of Cabiao, Nueva Ecija; widowed at the time of Lucas's 1872 baptism, which records " +
-              "him only as \"Dionisio\" — the surname \"Pineda\" is inferred from his son Lucas and " +
-              "is not in the record. His parents (Lucas's paternal grandparents) are named as " +
-              "Agustín (no surname recorded) and María de Ocampo."
+              "Of Cabiao, Nueva Ecija; widowed at the time of Lucas's 1873 baptism, which records " +
+              "him only as \"Dionicio\" — the surname \"Pineda\" is inferred from his son Lucas and " +
+              "is not in the record. The same baptism names his parents, Lucas's paternal " +
+              "grandparents, as Agustín and María de Campo(?). His own baptism has not been found; " +
+              "Cabiao's surviving baptism books begin in 1847.",
+            father: {
+              name: "Agustín Pineda",
+              place: "Cabiao, Nueva Ecija",
+              sex: "m",
+              relation: "4th great-grandfather",
+              evidence: "Record-supported",
+              notes:
+                "Named as \"Agustín\" (no surname written) among the paternal grandparents in his " +
+                "grandson Lucas's 1873 Cabiao baptism; the surname Pineda is inferred from his son " +
+                "Dionisio and grandson Lucas. His own parents are not known."
+            },
+            mother: {
+              name: "María de Campo(?)",
+              place: "Cabiao, Nueva Ecija",
+              sex: "f",
+              relation: "4th great-grandmother",
+              evidence: "Record-supported",
+              notes:
+                "Named among the paternal grandparents in her grandson Lucas's 1873 Cabiao " +
+                "baptism. The surname is hard to read: \"de Campo,\" as FamilySearch indexes it, " +
+                "or \"de Ocampo.\""
+            }
           },
           mother: {
             name: "Maria Juana",
             place: "Cabiao, Nueva Ecija",
             sex: "f",
             relation: "3rd great-grandmother",
+            evidence: "Record-supported",
             notes:
-              "Of Cabiao, Nueva Ecija; widowed at the time of Lucas's 1872 baptism. Her parents " +
-              "(Lucas's maternal grandparents) are named as Guillermo (no surname recorded) and " +
-              "Eulalia del Castro. A possible baptism of an \"Eulalia del Castro\" on 14 December " +
-              "1823 (parish association Gapan) is an unverified lead needing a full read."
+              "Of Cabiao, Nueva Ecija; widowed at the time of Lucas's 1873 baptism, which names " +
+              "her parents, Lucas's maternal grandparents, as Guillermo and Eulalia de Castro.",
+            father: {
+              name: "Guillermo",
+              place: "Cabiao, Nueva Ecija",
+              sex: "m",
+              relation: "4th great-grandfather",
+              evidence: "Record-supported",
+              notes:
+                "Named only as \"Guillermo\" (no surname written) among the maternal grandparents in " +
+                "his grandson Lucas's 1873 Cabiao baptism."
+            },
+            mother: {
+              name: "Eulalia de Castro",
+              place: "Cabiao, Nueva Ecija",
+              sex: "f",
+              relation: "4th great-grandmother",
+              evidence: "Record-supported",
+              notes:
+                "Named among the maternal grandparents in her grandson Lucas's 1873 Cabiao baptism. " +
+                "A possible baptism of an \"Eulalia del Castro\" on 14 December 1823 (parish " +
+                "association Gapan) is an unverified lead needing a full read."
+            }
           }
         },
         mother: { name: "Filomena Dizon", sex: "f", relation: "2nd great-grandmother" }
