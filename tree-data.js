@@ -2021,7 +2021,7 @@ const PAOLO = {
             note:
               "Apolinario's sister. Baptized at San Isidro, Nueva Ecija, on 9 January 1856, " +
               "seven days old (born about 2 January 1856), daughter of D. Prudencio Esquibel " +
-              "and Dª Antonia Lus(?) Sant[iago], natives of San Isidro, of the barangay of D. " +
+              "and Dª Antonia Lus Sant[iago], natives of San Isidro, of the barangay of D. " +
               "Felipe Celaia(?) Domingo.",
             links: [
               { label: "Baptism, 1856 (scan)", url: "docs/maria-salome-esquibel-baptism-1856.png" }
@@ -2046,7 +2046,7 @@ const PAOLO = {
               "Don Hilarion Esquivel (also written \"Hilario\" in the records), " +
               "Apolinario's brother. He was baptized at San Isidro, Nueva Ecija, on 24 " +
               "October 1857, four days old (born about 20 October 1857), legitimate son of " +
-              "D. Prudencio Esquibel and Dª Antonia Lus(?) Santiago, natives of San Isidro, " +
+              "D. Prudencio Esquibel and Dª Antonia Lus Santiago, natives of San Isidro, " +
               "of the barangay of D. Victor Galang; godfather D. Rufino Omo(?). (His " +
               "FamilySearch profile gives his birth year as 1862.) He was a cabeza de barangay who headed Barangay No. 18 " +
               "in Jaén, Nueva Ecija. He is credited as the architect of the family's " +
@@ -2127,7 +2127,9 @@ const PAOLO = {
             "Doña Antonia Santiago. She was buried at Jaen, Nueva Ecija, on 5 January 1903 " +
             "as the widow of Don Prudencio Esquivel and a native of Jaen; the baptisms of " +
             "her children at San Isidro in 1856 and 1857 instead call her and Prudencio " +
-            "natives of San Isidro, and write her name Antonia Lus(?) Santiago. Baptisms of " +
+            "natives of San Isidro, and write her name Antonia Lus Santiago. Jaen became a " +
+            "separate town only in 1865, so the burial's \"native of Jaen\" need not " +
+            "contradict the baptisms. Baptisms of " +
             "her grandchildren through three of her sons (Odon, Apolinario, Hilarion), " +
             "1884–1901, name her as paternal grandmother. Her own birth date is not yet " +
             "known.",
