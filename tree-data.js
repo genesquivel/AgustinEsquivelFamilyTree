@@ -1676,7 +1676,10 @@ const GEN = {
           "Arreza, who is shown here. But a 1912 notarial register at Cantilan records a sworn " +
           "statement by a Roman Areza that a cow carabao belonging to \"su padre Tomas Areza\" " +
           "had grown too old to work and was slaughtered; if this is the same Roman, it names " +
-          "his father as Tomás.",
+          "his father as Tomás. Later notarial records, read by the family's researcher, follow " +
+          "a Roman Arreza from Cantilan and Gigaquit (1925, as a witness and in a sworn " +
+          "statement he signed himself) and Cantilan again (1937, a contractor's bond with Juan " +
+          "Ferrer) to Butuan, where on 30 July 1952 he acted as Acting Branch Manager of PRISCO.",
         records: [
           {
             date: "1912",
@@ -2052,6 +2055,7 @@ const PAOLO = {
         name: "Apolinario Esquivel",
         place: "Jaen, Nueva Ecija",
         id: "apolinario-esquivel",
+        born: "probably 1848",
         sex: "m",
         relation: "Great-grandfather",
         evidence: "Record-supported",
@@ -2070,12 +2074,19 @@ const PAOLO = {
           "1907; a captioned photograph of his burial, published by Biyaheng Nueva Ecija, " +
           "calls him \"Jaen's first Mayor Apolinario Esquivel\" and \"Apolinario S. " +
           "Esquivel,\" and shows his widow Bibiana with their children Cecilio (a judge), " +
-          "Julio, Simeon, the twins Radegundes and Francisca, and Marcos, the youngest. One of three sons of Prudencio and Antonia (with Odon and Hilarion). The " +
+          "Julio, Simeon, the twins Radegundes and Francisca, and Marcos, the youngest. He was " +
+          "probably the eldest child of Prudencio and Antonia; his brothers were Domingo, " +
+          "Odon, Hilarion and Victoriano. The " +
           "town's history also records a Lt. Col. Delfin Esquivel leading forces in a " +
           "battle at Jaen on 4 September 1896; how he was related to the family is not " +
-          "known. Online trees give Apolinario's birth year as 1871, which cannot be " +
-          "right — he was married by 1884 — so no birth year is shown until a record " +
-          "gives one.",
+          "known. His baptism is very probably that of Francisco Apolinario Esquibel at San " +
+          "Isidro, Nueva Ecija, on 15 October 1848, seven days old (born about 8 October " +
+          "1848), son of Prudencio Esquibel and Antonia Santiago, of the barangay of D. " +
+          "Agustín Santiago de la Cruz (as read by the family's researcher from the register; the image is not on this site). No other Apolinario " +
+          "was baptized at San Isidro between 1843 and 1863, and the date fits his marriage " +
+          "in 1884 and his years as municipal president; \"Apolinario S.\" would then stand " +
+          "for Santiago. The identification is probable, not proven. Online trees give his " +
+          "birth year as 1871, which cannot be right — he was married by 1884.",
         records: [
           {
             date: "1884",
@@ -2096,6 +2107,16 @@ const PAOLO = {
           }
         ],
         siblings: [
+          {
+            name: "Domingo Esquibel",
+            life: "b. 1851",
+            evidence: "Record-supported",
+            note:
+              "Apolinario's brother. Baptized at San Isidro, Nueva Ecija, on 23 February 1851, " +
+              "four days old (born about 19 February 1851), legitimate son of D. Prudencio " +
+              "Esquibel and Doña Antonia Santiago, natives of San Isidro, of Prudencio's own " +
+              "barangay; godfather D. Vicente (surname illegible) — as read by the family's researcher from the register; the image is not on this site."
+          },
           {
             name: "Maria Salome Esquibel",
             life: "b. 1856",
@@ -2147,6 +2168,28 @@ const PAOLO = {
               { label: "Baptism, 1857 — FamilySearch index", url: "https://www.familysearch.org/ark:/61903/1:1:666P-J9BZ" },
               { label: "Casa Jaen I — Wikipedia", url: "https://en.wikipedia.org/wiki/Casa_Jaen_I" }
             ]
+          },
+          {
+            name: "Antonia Esquibel",
+            life: "b. 1859",
+            evidence: "Record-supported",
+            url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSM8-3JVZ",
+            note:
+              "Apolinario's sister. Baptized at San Isidro, Nueva Ecija, on 14 May 1859, five " +
+              "days old (born about 9 May 1859), legitimate daughter of Prudencio Esquibel and " +
+              "Antonia Santiago, indios of the barangay of Don Esteban Esquibel; godmother " +
+              "Enriqueta (surname illegible); priest Fr. Benito Perez — as read by the family's researcher from the register; the image is not on this site."
+          },
+          {
+            name: "Victoriano Esquivel",
+            life: "b. 1864",
+            evidence: "Record-supported",
+            url: "https://www.familysearch.org/ark:/61903/1:1:666L-H9Y6",
+            note:
+              "Apolinario's brother. Baptized at San Isidro, Nueva Ecija, on 13 March 1864, a " +
+              "legitimate son of D. Prudencio and Antonia Santiago; godfather Don José Jiménez. " +
+              "The page is badly faded; this is the FamilySearch index and the family's " +
+              "researcher's reading of it."
           }
         ],
         links: [
@@ -2166,8 +2209,15 @@ const PAOLO = {
           evidence: "Record-supported",
           notes:
             "Don Prudencio Esquivel and Doña Antonia Santiago lived at San Isidro, Nueva " +
-            "Ecija, in the 1850s, where their children Maria Salome (1856) and Hilarion " +
-            "(1857) were baptized; both baptisms call the parents natives of San Isidro. Their sons Odon, Apolinario and Hilarion are " +
+            "Ecija, where six of their children were baptized: Francisco Apolinario (1848, " +
+            "very probably Apolinario), Domingo (1851), Maria Salome (1856), Hilarion (1857), " +
+            "Antonia (1859) and Victoriano (1864); the baptisms call the parents natives of San " +
+            "Isidro. San Isidro's registers, as read by the family's researcher, also trace " +
+            "Prudencio's standing there: godfather while still single in 1844 and 1845; " +
+            "\"Bachiller\" and cabeza de barangay from 1850 to 1854, his own barangay named in " +
+            "Domingo's 1851 baptism; and still head of the Barrio de Calaba in November 1864. " +
+            "He therefore married Antonia between 1845 and 1848; the marriage is not in the San " +
+            "Isidro or San Antonio marriage books. Their sons Odon, Apolinario and Hilarion are " +
             "also proven by baptisms of their own children that name Prudencio and Antonia " +
             "as paternal grandparents (1884–1901, Jaen and San Antonio, Nueva Ecija). He " +
             "was buried at Jaen on 27 July 1899 as D. Prudencio Esquivel, married to Dª " +
