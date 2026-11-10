@@ -1412,7 +1412,10 @@ const GEN = {
         note:
           "Elizabeth's brother (Gen's uncle), the third of the eight children, according to " +
           "the family. A Philippine civil-registration index entry gives his birth in 1950 in " +
-          "Surigao del Norte; the entry itself does not name his parents."
+          "Surigao del Norte; the entry itself does not name his parents.",
+        links: [
+          { label: "Birth, 1950 — FamilySearch index", url: "https://www.familysearch.org/ark:/61903/1:1:6D6K-1H1N" }
+        ]
       }
     ],
     father: {
@@ -1665,9 +1668,6 @@ const GEN = {
         sex: "m",
         relation: "Great-grandfather",
         photo: "images/roman-arreza.jpg",
-        links: [
-          { label: "Yearbook page — Roman Arreza, Juliana Sering Arreza and Experia Arreza", url: "images/arreza-yearbook-page.jpg" }
-        ],
         evidence: "Record-supported",
         notes:
           "Husband of Juliana Sering, as their daughter Priscela's 1950 Surigao marriage " +
@@ -1694,6 +1694,13 @@ const GEN = {
             url: "docs/roman-areza-declaration-1912.png"
           }
         ],
+        links: [
+          { label: "Yearbook page — Roman Arreza, Juliana Sering Arreza and Experia Arreza", url: "images/arreza-yearbook-page.jpg" },
+          { label: "1912 Cantilan notarial register (scan)", url: "docs/roman-areza-declaration-1912.png" },
+          { label: "1912 Cantilan notarial register — FamilySearch film 007936162", url: "https://www.familysearch.org/search/film/007936162" },
+          { label: "PRISCO mortgage release, Butuan, 1952 — FamilySearch film 007918231, image 167", url: "https://www.familysearch.org/search/film/007918231?i=166" },
+          { label: "Daughter Priscela's marriage, 1950 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:6ZFV-LC9J?lang=en&cid=fs_copy" }
+        ],
         father: {
           name: "Wenceslao Arreza",
           sex: "m",
@@ -1719,7 +1726,8 @@ const GEN = {
         relation: "Great-grandmother",
         photo: "images/juliana-sering.jpg",
         links: [
-          { label: "Yearbook page — Roman Arreza, Juliana Sering Arreza and Experia Arreza", url: "images/arreza-yearbook-page.jpg" }
+          { label: "Yearbook page — Roman Arreza, Juliana Sering Arreza and Experia Arreza", url: "images/arreza-yearbook-page.jpg" },
+          { label: "Daughter Priscela's marriage, 1950 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:6ZFV-LC9J?lang=en&cid=fs_copy" }
         ],
         evidence: "Record-supported",
         notes:
@@ -2115,7 +2123,10 @@ const PAOLO = {
               "Apolinario's brother. Baptized at San Isidro, Nueva Ecija, on 23 February 1851, " +
               "four days old (born about 19 February 1851), legitimate son of D. Prudencio " +
               "Esquibel and Doña Antonia Santiago, natives of San Isidro, of Prudencio's own " +
-              "barangay; godfather D. Vicente (surname illegible) — as read by the family's researcher from the register; the image is not on this site."
+              "barangay; godfather D. Vicente (surname illegible) — as read by the family's researcher from the register; the image is not on this site.",
+            links: [
+              { label: "Baptism, 1851 — FamilySearch film 007769699, image 300", url: "https://www.familysearch.org/search/film/007769699?i=299" }
+            ]
           },
           {
             name: "Maria Salome Esquibel",
@@ -2178,7 +2189,10 @@ const PAOLO = {
               "Apolinario's sister. Baptized at San Isidro, Nueva Ecija, on 14 May 1859, five " +
               "days old (born about 9 May 1859), legitimate daughter of Prudencio Esquibel and " +
               "Antonia Santiago, indios of the barangay of Don Esteban Esquibel; godmother " +
-              "Enriqueta (surname illegible); priest Fr. Benito Perez — as read by the family's researcher from the register; the image is not on this site."
+              "Enriqueta (surname illegible); priest Fr. Benito Perez — as read by the family's researcher from the register; the image is not on this site.",
+            links: [
+              { label: "Baptism, 1859 — FamilySearch (image)", url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSM8-3JVZ" }
+            ]
           },
           {
             name: "Victoriano Esquivel",
@@ -2189,10 +2203,15 @@ const PAOLO = {
               "Apolinario's brother. Baptized at San Isidro, Nueva Ecija, on 13 March 1864, a " +
               "legitimate son of D. Prudencio and Antonia Santiago; godfather Don José Jiménez. " +
               "The page is badly faded; this is the FamilySearch index and the family's " +
-              "researcher's reading of it."
+              "researcher's reading of it.",
+            links: [
+              { label: "Baptism, 1864 — FamilySearch index", url: "https://www.familysearch.org/ark:/61903/1:1:666L-H9Y6" },
+              { label: "Baptism, 1864 — FamilySearch (image)", url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSM8-79R2" }
+            ]
           }
         ],
         links: [
+          { label: "Probable baptism, 1848 (San Isidro) — FamilySearch film 007769699, image 211", url: "https://www.familysearch.org/search/film/007769699?i=210" },
           { label: "Marriage to Bibiana Ramos, 1884 (Gapan) — FamilySearch", url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSM8-9Q3L-P?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3AXW3L-C1RW&action=view&cc=5000340&lang=en&groupId=M98P-B8T" },
           { label: "Marriage, 1884 (scan)", url: "docs/esquivel-ramos-marriage-1884.png" },
           {
@@ -2234,6 +2253,9 @@ const PAOLO = {
             "record.",
           links: [
             { label: "Burial, 27 July 1899 (scan)", url: "docs/prudencio-esquivel-burial-1899.png" },
+            { label: "Godfather while single, 1844 — FamilySearch film 007769699, image 55", url: "https://www.familysearch.org/search/film/007769699?i=54" },
+            { label: "Son Domingo's baptism, 1851, in his own barangay — FamilySearch film 007769699, image 300", url: "https://www.familysearch.org/search/film/007769699?i=299" },
+            { label: "Head of the Barrio de Calaba, 1864 — FamilySearch film 007769700, image 148", url: "https://www.familysearch.org/search/film/007769700?i=147" },
             { label: "Burial, 1899 — FamilySearch (image)", url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSM8-7Q6L-M" },
             {
               label: "Jaen, Nueva Ecija — Wikipedia (town history)",
@@ -2407,7 +2429,8 @@ const PAOLO = {
               "his burial under \"Manerto.\")",
             links: [
               { label: "Burial, 1889 (scan)", url: "docs/mamerto-ramos-burial-1889.png" },
-              { label: "Burial, 1889 — FamilySearch (image)", url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSM8-SQFP-R" }
+              { label: "Burial, 1889 — FamilySearch (image)", url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSM8-SQFP-R" },
+              { label: "Burial, 1889 — FamilySearch index", url: "https://www.familysearch.org/ark:/61903/1:1:XWMF-TN1Z" }
             ]
           },
           {
