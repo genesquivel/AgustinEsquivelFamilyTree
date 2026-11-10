@@ -1397,6 +1397,24 @@ const GEN = {
     died: "2001",
     sex: "f",
     relation: "Mother",
+    siblings: [
+      {
+        name: "Valentina Catelo",
+        evidence: "Family-tree supplied",
+        note:
+          "Elizabeth's sister, the eldest of Vicente and Experia's eight children, according " +
+          "to the family."
+      },
+      {
+        name: "Felino Vicente Arreza Catelo",
+        life: "b. 1950",
+        evidence: "Family-tree supplied",
+        note:
+          "Elizabeth's brother (Gen's uncle), the third of the eight children, according to " +
+          "the family. A Philippine civil-registration index entry gives his birth in 1950 in " +
+          "Surigao del Norte; the entry itself does not name his parents."
+      }
+    ],
     father: {
       name: "Vicente Catelo",
       place: "Surigao City",
@@ -1413,8 +1431,10 @@ const GEN = {
         "birthday. His death certificate gives 18 April 1916, but the age it records (65) fits " +
         "1915. He died on 19 October 1980 at Bethany Hospital, Tacloban City, Leyte, of an " +
         "acute heart attack with maturity-onset diabetes as an underlying cause; he was then " +
-        "living at San Isidro St., Jaro, Leyte, and worked as a supervisor. Experia died in " +
-        "1965, and by 1980 he had married again: the certificate names his surviving wife as " +
+        "living at San Isidro St., Jaro, Leyte, and worked as a supervisor. He and Experia " +
+        "had eight children, according to the family: Valentina, the eldest; Felino, born " +
+        "1950; Elizabeth, the seventh, born 1957; and a younger son. Experia died before 1968, " +
+        "and by 1980 he had married again: the certificate names his surviving wife as " +
         "Enriqueta(?) A. Catelo, of Jaro, Leyte. The informant was his niece, Lucila(?) C. A—(?), of " +
         "Tacloban City.",
       records: [
@@ -1608,7 +1628,7 @@ const GEN = {
     mother: {
       name: "Experia Arreza",
       born: "1919",
-      died: "1965",
+      died: "before 1968",
       sex: "f",
       relation: "Grandmother",
       photo: "images/experia-arreza.jpg",
@@ -1617,7 +1637,11 @@ const GEN = {
         "Distinction: Member, Sodality of Mary; Member, Seniors Sorority.\" The same page " +
         "carries portraits of her parents, Roman Arreza and Juliana Sering Arreza. " +
         "Someone has written \"1920\" in pencil beside her portrait; it is not clear what " +
-        "the date refers to.",
+        "the date refers to. According to the family she had eight children with Vicente " +
+        "Catelo, the youngest a son born after Elizabeth (November 1957), and she died before " +
+        "Elizabeth turned ten — so between about 1958 and 1967. Where she died is not known; " +
+        "she does not appear in the Tacloban City death certificates of 1957–1967 or in " +
+        "Surigao's death registers of those years. Her birth year comes from the family tree.",
       links: [
         { label: "Yearbook page — Roman Arreza, Juliana Sering Arreza and Experia Arreza", url: "images/arreza-yearbook-page.jpg" },
         { label: "Family photograph — Vicente, Experia and three of their children", url: "images/catelo-arreza-family.jpg" }
@@ -1648,11 +1672,33 @@ const GEN = {
         notes:
           "Husband of Juliana Sering, as their daughter Priscela's 1950 Surigao marriage " +
           "record shows. His portrait appears with Juliana's and Experia's in Experia's " +
-          "school yearbook.",
+          "school yearbook. His father is not yet settled. The family knows him as Wenceslao " +
+          "Arreza, who is shown here. But a 1912 notarial register at Cantilan records a sworn " +
+          "statement by a Roman Areza that a cow carabao belonging to \"su padre Tomas Areza\" " +
+          "had grown too old to work and was slaughtered; if this is the same Roman, it names " +
+          "his father as Tomás.",
+        records: [
+          {
+            date: "1912",
+            place: "Cantilan, Surigao",
+            claim: "Sworn statement by Roman Areza naming \"su padre Tomas Areza.\"",
+            excerpt:
+              "Nº 56. Declaración jurada de Roman Areza por ser inútil el carabao hembra de su " +
+              "padre Tomas Areza para el trabajo de labor, por ser ya muy vieja, y fue sacrificada.",
+            notes:
+              "Notarial register of Simeon Cedro, Cantilan (film 007936162, item 3). Whether this " +
+              "Roman Areza is Roman Arreza of Surigao is not proven.",
+            url: "docs/roman-areza-declaration-1912.png"
+          }
+        ],
         father: {
           name: "Wenceslao Arreza",
           sex: "m",
           relation: "2nd great-grandfather",
+          evidence: "Family-tree supplied",
+          notes:
+            "Roman's father according to the family. A 1912 Cantilan record names a Tomás " +
+            "instead (see Roman's card); not yet settled.",
           father: { name: "Santiago Arreza", sex: "m", relation: "3rd great-grandfather" },
           mother: { name: "Guillen", sex: "f", relation: "3rd great-grandmother" }
         },
@@ -1666,7 +1712,6 @@ const GEN = {
       },
       mother: {
         name: "Juliana Sering",
-        died: "1955",
         sex: "f",
         relation: "Great-grandmother",
         photo: "images/juliana-sering.jpg",
@@ -1677,9 +1722,11 @@ const GEN = {
         notes:
           "Wife of Roman Arreza, as their daughter Priscela's 1950 Surigao marriage " +
           "record shows. The yearbook page that pictures her names her \"Juliana Sering " +
-          "Arreza.\" Online trees give her birth year as 1866, which cannot be right — she " +
-          "would have been 57 when Priscela was born, about 1923 — so no birth year is shown " +
-          "until a record gives one."
+          "Arreza.\" Online trees give her dates as 1866–1955/56, but those appear to come " +
+          "from the 1956 death certificate of a different Juliana Sering of General Luna — a " +
+          "90-year-old widow of a man named Yparraguire, resident there for 80 years — who " +
+          "would have been 57 when Priscela was born, about 1923. No dates are shown until a " +
+          "record of our Juliana gives them."
       }
     }
   }
@@ -1721,7 +1768,9 @@ const PAOLO = {
         "sailed from Manila aboard the Tenyo Maru bound for the United States (by way of " +
         "Hong Kong, China, and Japan). He is recorded in the University of the " +
         "Philippines student registry (UP Bulletin No. 7, the Catalogue of 1916–1917), " +
-        "and by the late 1920s was teaching history — Modern Europe and Oriental History " +
+        "and graduated from Columbia University's School of Business with a B.S. on 7 June " +
+        "1922, listed in the commencement program as \"Marcos Ramos Esquivel, A.B. Philippines " +
+        "1917.\" By the late 1920s he was teaching history — Modern Europe and Oriental History " +
         "— at Bulacan High School in Malolos, holding A.B. and B.S. degrees. In 1935 he " +
         "married Lolita Pineda in Manila. His 1919 passport photograph is shown here.",
       siblings: [
@@ -1827,6 +1876,7 @@ const PAOLO = {
           label: "Bulacan High School — Antolohiya ng Alaala (archive)",
           url: "https://shine.shift101.solutions/archive/bulacan-high-school-antolohiya-ng-alaala/"
         },
+        { label: "Columbia commencement program, 7 June 1922 (scan)", url: "docs/columbia-commencement-1922.png" },
         {
           label: "Columbia University Libraries record — mentions Marcos Esquivel (archive.org)",
           url: "https://archive.org/details/ldpd_11382183_000/page/n31/mode/2up?q=Marcos+Esquivel"
