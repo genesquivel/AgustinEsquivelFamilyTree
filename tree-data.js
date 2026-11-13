@@ -1835,6 +1835,38 @@ const PAOLO = {
           ]
         },
         {
+          name: "Julio Esquivel",
+          life: "b. 1888",
+          evidence: "Record-supported",
+          url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSM8-W7M3-N?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A6JCB-J7H7&action=view&cc=2861657&lang=en&groupId=M9LT-72S",
+          note:
+            "Baptized at Jaen on 11 July 1888 as Julio Apolinario Ramón Ysabelo Esquivel, son of " +
+            "Apolinario Esquivel and Viviana Ramos, of Barangay No. 18 of Hilarión Esquivel; " +
+            "godfather Juan Fernández de Bortolla. The entry names all four grandparents — " +
+            "Prudencio Esquivel and Antonia Santiago, Ciriaco Ramos and Joaquina \"Cumanan\" — and " +
+            "a note in its margin records a marriage on 25 June 1921 (as read by the family's researcher from the register). He " +
+            "married Anastasia Frias; their son Jose Trinidad Esquivel was baptized 26 June 1917 " +
+            "in Jaen (born about 3 June 1917).",
+          links: [
+            { label: "Baptism, 1888 — FamilySearch film 007770254, image 651", url: "https://www.familysearch.org/search/film/007770254?i=650" },
+            { label: "Son Jose Trinidad's baptism, 1917 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSM8-W7M3-N?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A6JCB-J7H7&action=view&cc=2861657&lang=en&groupId=M9LT-72S" }
+          ]
+        },
+        {
+          name: "Juan Esquivel",
+          life: "b. 1890",
+          evidence: "Record-supported",
+          url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSMD-B4DH",
+          note:
+            "Baptized at Jaen on 29 January 1890, three days old (born about 26 January 1890), " +
+            "legitimate son of Apolinario Esquivel and Bibiana Ramos, of Barangay No. 16 of Don " +
+            "Hilario Esquivel; godfather his uncle Odon Esquivel. The entry names all four " +
+            "grandparents, writing Joaquina's surname \"Carranan\" (as read by the family's researcher from the register).",
+          links: [
+            { label: "Baptism, 1890 — FamilySearch (image)", url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSMD-B4DH" }
+          ]
+        },
+        {
           name: "Cecilio Apolinario Esquivel",
           life: "b. 1892",
           evidence: "Record-supported",
@@ -1846,20 +1878,25 @@ const PAOLO = {
             "Judge Cecilio Ramos Esquivel."
         },
         {
-          name: "Julio Esquivel",
+          name: "Rosa Esquivel",
+          life: "b. 1894",
           evidence: "Record-supported",
-          url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSM8-W7M3-N?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A6JCB-J7H7&action=view&cc=2861657&lang=en&groupId=M9LT-72S",
           note:
-            "Confirmed son of Apolinario Esquivel and Bibiana Ramos; birth date not yet found. He " +
-            "married Anastasia Frias; their son Jose Trinidad Esquivel was baptized 26 June 1917 " +
-            "in Jaen (born about 3 June 1917)."
+            "Baptized at Jaen on 2 November 1894, daughter of Don Apolinario Esquivel and Doña " +
+            "Biviana Ramos; godparents Doña Leoncia Frías (her aunt, Hilario's wife) and Don " +
+            "Ariston Aguilar (as read by the family's researcher from the register). She is not named in the caption of her father's " +
+            "burial photograph.",
+          links: [
+            { label: "Baptism, 1894 — FamilySearch film 007770254, image 868", url: "https://www.familysearch.org/search/film/007770254?i=867" }
+          ]
         },
         {
           name: "Simeon Ramos Esquivel",
           evidence: "Family-tree supplied",
           note:
             "Named as a son of Apolinario and Bibiana in the caption of a family photograph of " +
-            "Apolinario's burial (Biyaheng Nueva Ecija); his baptism has not been found yet."
+            "Apolinario's burial (Biyaheng Nueva Ecija). He does not appear in Jaen's baptism " +
+            "books."
         }
       ],
       links: [
@@ -2148,9 +2185,17 @@ const PAOLO = {
             url: "https://www.familysearch.org/ark:/61903/1:1:666G-KPZG?lang=en&cid=fs_copy",
             note:
               "Brother of Apolinario; married Casiana Maningas. Their daughter Mercedes Carolina " +
-              "Emilia Esquivel was baptized 27 March 1884 in San Antonio, Nueva Ecija (born about " +
-              "21 March 1884) — that record names Prudencio Esquivel and Antonia Santiago as her " +
-              "paternal grandparents, and Alejandro Maningas and Concepción de Guzmán as maternal."
+              "Emilia Esquivel was baptized at Jaen on 27 March 1884 (born about 21 March 1884) — " +
+              "that record names Prudencio Esquivel and Antonia Santiago as her paternal " +
+              "grandparents, and Alejandro Maningas and Concepción de Guzmán as maternal. Their son " +
+              "Gregorio was baptized at Jaen early in 1887, within days of his cousins the twins; " +
+              "the entry writes his mother \"Caciana Marinas,\" names Prudencio and Antonia as his " +
+              "paternal grandparents, and gives his godfather as Gonzalo Esquivel (as read by the family's researcher from the register). " +
+              "Odon's own baptism and his marriage have not been found.",
+            links: [
+              { label: "Daughter Mercedes's baptism, 1884 — FamilySearch", url: "https://www.familysearch.org/ark:/61903/1:1:666G-KPZG?lang=en&cid=fs_copy" },
+              { label: "Son Gregorio's baptism, 1887 — FamilySearch film 007770254, image 582", url: "https://www.familysearch.org/search/film/007770254?i=581" }
+            ]
           },
           {
             name: "Hilarion Esquivel",
@@ -2234,11 +2279,12 @@ const PAOLO = {
             "Isidro. San Isidro's registers, as read by the family's researcher, also trace " +
             "Prudencio's standing there: godfather while still single in 1844 and 1845; " +
             "\"Bachiller\" and cabeza de barangay from 1850 to 1854, his own barangay named in " +
-            "Domingo's 1851 baptism; and still head of the Barrio de Calaba in November 1864. " +
+            "Domingo's 1851 baptism; still head of the Barrio de Calaba in November 1864; and " +
+            "godfather there again in 1869 and 1870. " +
             "He therefore married Antonia between 1845 and 1848; the marriage is not in the San " +
             "Isidro or San Antonio marriage books. Their sons Odon, Apolinario and Hilarion are " +
             "also proven by baptisms of their own children that name Prudencio and Antonia " +
-            "as paternal grandparents (1884–1901, Jaen and San Antonio, Nueva Ecija). He " +
+            "as paternal grandparents (1884–1901, Jaen, Nueva Ecija). He " +
             "was buried at Jaen on 27 July 1899 as D. Prudencio Esquivel, married to Dª " +
             "Antonia Santiago, of the barangay of D. Pedro Hagonoy(?) Ycuazon(?); he had " +
             "received confession and extreme unction, and was given a sung burial with a " +
@@ -2691,16 +2737,16 @@ const PAOLO = {
       },
       mother: {
         name: "Leonarda Umali",
-        born: "1890",
+        born: "10 April 1888",
         sex: "f",
         relation: "Great-grandmother",
         evidence: "Record-supported",
         notes:
-          "Named as Lolita's mother in Lolita's 1916 Apalit baptism and 1935 marriage. Daughter " +
-          "of Benito Umali and Maria Cabigting (also Kabigting): their 1884 Arayat marriage " +
-          "proves the couple, and 1931 deeds show her as Leonarda K. Umali alongside her " +
-          "brother Antonio K. Umali. Her own baptism (about 1890) has not been found yet, so " +
-          "that final link is still pending. In 1931 she and Antonio were co-lessees of the " +
+          "Named as Lolita's mother in Lolita's 1916 Apalit baptism and 1935 marriage. Born 10 " +
+          "April 1888 and baptized 15 April 1888 at Arayat, Pampanga, daughter of Benito Umali " +
+          "and María Cabistino — the Cabigting surname as this priest wrote it (as read by the family's researcher from the register). " +
+          "Her parents had married at Arayat in 1884, and 1931 deeds show her as Leonarda K. " +
+          "Umali alongside her brother Antonio K. Umali. In 1931 she and Antonio were co-lessees of the " +
           "Dayrit hacienda at Cuayan, Mexico, Pampanga; she was given sole authority to sign " +
           "the promissory notes.",
         siblings: [
@@ -2718,6 +2764,7 @@ const PAOLO = {
           }
         ],
         links: [
+          { label: "Baptism, 1888 (Arayat) — FamilySearch film 007769375, image 786", url: "https://www.familysearch.org/search/film/007769375?i=785" },
           { label: "1931 deed naming Leonarda & Antonio K. Umali — FamilySearch", url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSZQ-79GL-R?view=fullText&keywords=Leonarda%2CUmali&searchForm=simple&lang=en&groupId=M9MT-6Z7" },
           { label: "1931 power of attorney — FamilySearch", url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSZC-77CT-M?view=fullText&keywords=Leonarda%2CUmali&searchForm=simple&lang=en&groupId=M9MT-TY5" }
         ],
