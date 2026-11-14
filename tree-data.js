@@ -1895,8 +1895,10 @@ const PAOLO = {
           evidence: "Family-tree supplied",
           note:
             "Named as a son of Apolinario and Bibiana in the caption of a family photograph of " +
-            "Apolinario's burial (Biyaheng Nueva Ecija). He does not appear in Jaen's baptism " +
-            "books."
+            "Apolinario's burial (Biyaheng Nueva Ecija), which calls him \"Simeon Ramos " +
+            "Esquivel\"; no record of him has been found, and he does not appear in Jaen's " +
+            "baptism books. He is not the Simeon Ramos baptized at Gapan in 1883, Bibiana's " +
+            "nephew (see her brother Mariano)."
         }
       ],
       links: [
