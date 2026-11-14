@@ -2756,8 +2756,14 @@ const PAOLO = {
             note:
               "Leonarda's brother — shown with her as co-lessee in a 30 March 1931 San Fernando " +
               "deed and a 7 December 1931 special power of attorney; his wife is named as " +
-              "Eufrocina Canlas. Corroborated by the deeds, not yet by a parish record.",
+              "Eufrocina Canlas. He had married her on 6 August 1916 at Santa Catalina de " +
+              "Alexandria parish, Arayat: the entry names him as the son of Benito Umali and " +
+              "Maria Cabigting, and her as the daughter of Esteban Canlas and Juana Susarra, both " +
+              "of Arayat; priest Alipio Lansangan (as read by the family's researcher from the " +
+              "register).",
             links: [
+              { label: "Marriage, 1916 (Arayat) — FamilySearch film 007769383, image 380", url: "https://www.familysearch.org/search/film/007769383?i=379" },
+              { label: "Marriage, 1916 — FamilySearch index", url: "https://www.familysearch.org/ark:/61903/1:1:XWM6-L6WS" },
               { label: "1931 deed — FamilySearch", url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSZQ-79GL-R?view=fullText&keywords=Leonarda%2CUmali&searchForm=simple&lang=en&groupId=M9MT-6Z7" },
               { label: "1931 power of attorney — FamilySearch", url: "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSZC-77CT-M?view=fullText&keywords=Leonarda%2CUmali&searchForm=simple&lang=en&groupId=M9MT-TY5" }
             ]
